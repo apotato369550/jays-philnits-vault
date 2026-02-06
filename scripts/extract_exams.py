@@ -21,7 +21,7 @@ class ExamExtractor:
         self.base_dir = Path(base_dir)
         self.questions_dir = self.base_dir / "exams_and_answers" / "questions"
         self.answers_dir = self.base_dir / "exams_and_answers" / "answers"
-        self.output_dir = self.base_dir / "exams_and_answers" / "extracted_json"
+        self.output_dir = self.base_dir / "data" / "extracted_json"
         self.logs_dir = self.base_dir / "logs"
         self.verbose = verbose
 
@@ -130,6 +130,11 @@ class ExamExtractor:
                     if text:
                         full_text += text + "\n"
 
+                # Pre-filter: Remove page markers (– \d+ –) that interfere with boundary detection
+                full_text, marker_count = self._remove_page_markers(full_text)
+                if marker_count > 0:
+                    self.log(f"  RAW: Removed {marker_count} page markers")
+
                 # Split by Q# boundary: Q\d+\. matches "Q1. ", "Q2. ", etc.
                 q_blocks = self._split_by_question_boundaries(full_text)
 
@@ -183,6 +188,11 @@ class ExamExtractor:
                     if text:
                         full_text += text + "\n"
 
+                # Pre-filter: Remove page markers (– \d+ –) that interfere with boundary detection
+                full_text, marker_count = self._remove_page_markers(full_text)
+                if marker_count > 0:
+                    self.log(f"  INTERMEDIARY: Removed {marker_count} page markers")
+
                 # Normalize whitespace and line endings
                 full_text = re.sub(r'\r\n', '\n', full_text)
                 full_text = re.sub(r'\n{3,}', '\n\n', full_text)
@@ -224,19 +234,56 @@ class ExamExtractor:
 
         return questions
 
+    def _remove_page_markers(self, text: str) -> Tuple[str, int]:
+        """
+        Remove page markers (– \d+ –) from text before processing.
+        These markers interfere with Q# and option boundary detection.
+        Returns tuple of (cleaned_text, marker_count).
+        """
+        pattern = r'–\s*\d+\s*–'
+        cleaned = re.sub(pattern, '', text)
+        marker_count = len(re.findall(pattern, text))
+        return cleaned, marker_count
+
     def _split_by_question_boundaries(self, text: str) -> Dict[int, str]:
         """
-        Split text by Q# boundaries (Q\d+\.).
+        Split text by Q# boundaries.
         Returns dict mapping question number to the text block for that question.
 
-        Splits on pattern "Q1. ", "Q2. ", etc. and isolates text from Q[n] to Q[n+1].
+        Uses multiple patterns for robustness:
+        - Primary: Q\d+\. (Q followed by digits and literal period)
+        - Fallback: Q\d+\) (Q followed by digits and closing paren)
+        - Fallback: Q\d+\: (Q followed by digits and colon)
+
+        Splits on these patterns and isolates text from Q[n] to Q[n+1].
         Skips everything before Q1 (sample questions, instructions).
         """
         q_blocks = {}
 
-        # Find all Q# markers: Q1., Q2., etc.
-        pattern = r"Q\s*(\d+)\s*[.):\s]+"
-        matches = list(re.finditer(pattern, text))
+        # Find all Q# markers with improved regex patterns
+        # Try primary pattern first (Q\d+\.), then fallback to other formats
+        primary_pattern = r"Q\s*(\d+)\."
+        fallback_patterns = [
+            r"Q\s*(\d+)\)",
+            r"Q\s*(\d+)\:"
+        ]
+
+        # Collect all matches from all patterns
+        all_matches = list(re.finditer(primary_pattern, text))
+
+        # Add fallback matches only if primary pattern didn't find enough
+        if len(all_matches) < 50:  # If primary pattern finds fewer than 50 questions
+            for pattern in fallback_patterns:
+                fallback_matches = list(re.finditer(pattern, text))
+                # Merge, avoiding duplicates (by position)
+                match_positions = {m.start() for m in all_matches}
+                for m in fallback_matches:
+                    if m.start() not in match_positions:
+                        all_matches.append(m)
+            # Sort by position after merging
+            all_matches.sort(key=lambda m: m.start())
+
+        matches = all_matches
 
         if not matches:
             return {}
@@ -270,6 +317,7 @@ class ExamExtractor:
         """
         Extract options a, b, c, d from a question block.
         Finds [a-d]) or [a-d]. patterns and captures text until next option.
+        Validates options are non-empty and handles edge cases near page breaks.
         Returns list of 4 option texts in order [a_text, b_text, c_text, d_text].
         Returns shorter list if fewer than 4 options found.
         """
@@ -300,6 +348,19 @@ class ExamExtractor:
 
             # Extract and clean option text
             opt_text = block_text[opt_start:opt_end].strip()
+
+            # Validate: option text should not be empty
+            if not opt_text:
+                # Log potential malformed option and break
+                if self.verbose:
+                    self.log(f"    WARNING: Option {option_letter} is empty (potential truncation)")
+                break
+
+            # Check if option text is suspiciously short (< 5 chars) - likely truncated
+            if len(opt_text) < 5 and i < 3:  # Allow short last option
+                if self.verbose:
+                    self.log(f"    WARNING: Option {option_letter} is very short ({len(opt_text)} chars), may be truncated")
+
             options.append(opt_text)
 
         return options
@@ -404,6 +465,32 @@ class ExamExtractor:
                         filled += 1
                 if filled > 0:
                     self.log(f"Filled {filled} missing questions from {other_pass} pass")
+
+            # Validate: Check for gaps in Q# sequence and log diagnostics
+            extracted_q_nums = sorted(best_questions.keys())
+            if extracted_q_nums:
+                gaps = []
+                for i in range(1, 101):
+                    if i not in best_questions:
+                        gaps.append(i)
+
+                if gaps:
+                    # Find contiguous ranges of missing questions
+                    gap_ranges = []
+                    start = gaps[0]
+                    end = gaps[0]
+                    for q in gaps[1:]:
+                        if q == end + 1:
+                            end = q
+                        else:
+                            gap_ranges.append((start, end))
+                            start = q
+                            end = q
+                    gap_ranges.append((start, end))
+
+                    gap_summary = ", ".join([f"Q{s}-Q{e}" if s != e else f"Q{s}" for s, e in gap_ranges])
+                    self.log(f"Missing questions (extraction boundary issue): {gap_summary}")
+                    self.log(f"Extraction rate: {len(best_questions)}/100 ({len(best_questions)}%)")
 
             # Build output structure
             year, month = self.parse_exam_name(exam_name)
