@@ -1,8 +1,25 @@
-cffi==2.0.0
-charset-normalizer==3.4.4
-cryptography==46.0.4
-pdfminer.six==20251230
-pdfplumber==0.11.9
-pillow==12.1.0
-pycparser==3.0
-pypdfium2==5.3.0
+# PDF Processing
+pdfplumber>=0.9.0
+pdfminer.six>=20221105
+pypdfium2>=4.10.0
+
+# Data Processing & ML
+numpy>=1.26.0
+pandas>=2.0.0
+scipy>=1.14.0
+scikit-learn>=1.5.0
+
+# NLP & Embeddings
+sentence-transformers>=3.0.0
+transformers>=4.41.0
+torch>=2.0.0
+
+# Visualization
+matplotlib>=3.9.0
+seaborn>=0.13.0
+
+# Utilities
+pyyaml>=6.0
+tqdm>=4.67.0
+packaging>=26.0
+certifi>=2026.1.0
