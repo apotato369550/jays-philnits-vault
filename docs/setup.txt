@@ -1,0 +1,1 @@
+source /home/jay/philnits-venv/bin/activate
