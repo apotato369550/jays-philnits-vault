@@ -1,0 +1,102 @@
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv
+philnits-venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+
+# Data & Models
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.npy
+*.npz
+models/
+checkpoints/
+*.pth
+*.onnx
+
+# Large Data Files
+data/vectorized/vectors.npz
+data/vectorized/vectors.pickle
+*.csv
+*.tsv
+*.parquet
+large_data/
+
+# Logs & Outputs
+logs/*.log
+*.log
+logs/extraction_*.log
+logs/analysis.log
+logs/vectorization_*.log
+logs/cleaning_report.txt
+
+# Temporary Files
+.tmp/
+tmp/
+temp/
+*.tmp
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project Specific
+analysis/exam_analysis_agent.json
+analysis/exam_study_guide.md
+visualizations/
+*.bak
+archived/
+*.zip
