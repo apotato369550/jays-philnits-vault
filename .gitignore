@@ -100,3 +100,5 @@ visualizations/
 *.bak
 archived/
 *.zip
+
+venv
