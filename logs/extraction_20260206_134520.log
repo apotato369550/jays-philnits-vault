@@ -1,0 +1,354 @@
+[2026-02-06 13:45:20] Found 20 exam(s) to process.
+[2026-02-06 13:45:20] Verbose mode: False
+[2026-02-06 13:45:20] Output directory: /home/jay/Desktop/Coding Stuff/jays-philnits-vault/exams_and_answers/extracted_json
+[2026-02-06 13:45:20] 
+============================================================
+[2026-02-06 13:45:20] Processing exam: 2013_april
+[2026-02-06 13:45:20] ============================================================
+[2026-02-06 13:45:20] Answers extracted: 99 found
+[2026-02-06 13:45:22]   RAW: Removed 49 page markers
+[2026-02-06 13:45:22] PASS 1 (RAW PDF): 74 questions extracted
+[2026-02-06 13:45:25]   INTERMEDIARY: Removed 49 page markers
+[2026-02-06 13:45:25] PASS 2 (INTERMEDIARY): 74 questions extracted
+[2026-02-06 13:45:25] Selected RAW pass (74 questions)
+[2026-02-06 13:45:25] Missing questions (extraction boundary issue): Q3, Q6, Q21, Q24, Q30, Q32-Q35, Q37-Q39, Q48, Q56, Q59, Q64, Q69-Q70, Q72, Q76, Q79, Q84, Q95, Q97-Q98, Q100
+[2026-02-06 13:45:25] Extraction rate: 74/100 (74%)
+[2026-02-06 13:45:25] Written: 2013_april_raw_pdf.json (74 questions)
+[2026-02-06 13:45:25] Written: 2013_april_intermediary.json (74 questions)
+[2026-02-06 13:45:25] OK (74 raw, 74 intermediary)
+[2026-02-06 13:45:25] 
+============================================================
+[2026-02-06 13:45:25] Processing exam: 2013_april_variant
+[2026-02-06 13:45:25] ============================================================
+[2026-02-06 13:45:25] Answers extracted: 100 found
+[2026-02-06 13:45:28]   RAW: Removed 51 page markers
+[2026-02-06 13:45:28] PASS 1 (RAW PDF): 76 questions extracted
+[2026-02-06 13:45:30]   INTERMEDIARY: Removed 51 page markers
+[2026-02-06 13:45:30] PASS 2 (INTERMEDIARY): 76 questions extracted
+[2026-02-06 13:45:30] Selected RAW pass (76 questions)
+[2026-02-06 13:45:30] Missing questions (extraction boundary issue): Q6, Q8, Q10, Q14-Q15, Q20, Q23, Q30, Q42, Q47, Q55, Q57-Q58, Q60-Q61, Q63, Q71, Q78-Q79, Q82, Q91, Q93-Q94, Q99
+[2026-02-06 13:45:30] Extraction rate: 76/100 (76%)
+[2026-02-06 13:45:30] Written: 2013_april_variant_raw_pdf.json (76 questions)
+[2026-02-06 13:45:30] Written: 2013_april_variant_intermediary.json (76 questions)
+[2026-02-06 13:45:30] OK (76 raw, 76 intermediary)
+[2026-02-06 13:45:30] 
+============================================================
+[2026-02-06 13:45:30] Processing exam: 2014_october
+[2026-02-06 13:45:30] ============================================================
+[2026-02-06 13:45:30] Answers extracted: 100 found
+[2026-02-06 13:45:33] PASS 1 (RAW PDF): 71 questions extracted
+[2026-02-06 13:45:36] PASS 2 (INTERMEDIARY): 71 questions extracted
+[2026-02-06 13:45:36] Selected RAW pass (71 questions)
+[2026-02-06 13:45:36] Missing questions (extraction boundary issue): Q5, Q7, Q11-Q12, Q16, Q18, Q20-Q21, Q24, Q26, Q29-Q31, Q48, Q54, Q59-Q60, Q63-Q64, Q71, Q78-Q79, Q88-Q89, Q92, Q95-Q96, Q98-Q99
+[2026-02-06 13:45:36] Extraction rate: 71/100 (71%)
+[2026-02-06 13:45:36] Written: 2014_october_raw_pdf.json (71 questions)
+[2026-02-06 13:45:36] Written: 2014_october_intermediary.json (71 questions)
+[2026-02-06 13:45:36] OK (71 raw, 71 intermediary)
+[2026-02-06 13:45:36] 
+============================================================
+[2026-02-06 13:45:36] Processing exam: 2015_april
+[2026-02-06 13:45:36] ============================================================
+[2026-02-06 13:45:36] Answers extracted: 100 found
+[2026-02-06 13:45:38]   RAW: Removed 43 page markers
+[2026-02-06 13:45:38] PASS 1 (RAW PDF): 74 questions extracted
+[2026-02-06 13:45:41]   INTERMEDIARY: Removed 43 page markers
+[2026-02-06 13:45:41] PASS 2 (INTERMEDIARY): 74 questions extracted
+[2026-02-06 13:45:41] Selected RAW pass (74 questions)
+[2026-02-06 13:45:41] Missing questions (extraction boundary issue): Q6-Q7, Q12-Q15, Q18, Q24, Q27, Q29-Q31, Q39, Q42, Q47-Q48, Q54, Q57, Q64, Q77-Q79, Q86, Q90, Q93, Q96
+[2026-02-06 13:45:41] Extraction rate: 74/100 (74%)
+[2026-02-06 13:45:41] Written: 2015_april_raw_pdf.json (74 questions)
+[2026-02-06 13:45:41] Written: 2015_april_intermediary.json (74 questions)
+[2026-02-06 13:45:41] OK (74 raw, 74 intermediary)
+[2026-02-06 13:45:41] 
+============================================================
+[2026-02-06 13:45:41] Processing exam: 2015_may
+[2026-02-06 13:45:41] ============================================================
+[2026-02-06 13:45:41] Answers extracted: 100 found
+[2026-02-06 13:45:44]   RAW: Removed 56 page markers
+[2026-02-06 13:45:44] PASS 1 (RAW PDF): 72 questions extracted
+[2026-02-06 13:45:48]   INTERMEDIARY: Removed 56 page markers
+[2026-02-06 13:45:48] PASS 2 (INTERMEDIARY): 72 questions extracted
+[2026-02-06 13:45:48] Selected RAW pass (72 questions)
+[2026-02-06 13:45:48] Missing questions (extraction boundary issue): Q1-Q3, Q6, Q15, Q19, Q29, Q31, Q35-Q36, Q38, Q41-Q42, Q46, Q53, Q58-Q59, Q62, Q64, Q66-Q67, Q71, Q77, Q84, Q87, Q94, Q98, Q100
+[2026-02-06 13:45:48] Extraction rate: 72/100 (72%)
+[2026-02-06 13:45:48] Written: 2015_may_raw_pdf.json (72 questions)
+[2026-02-06 13:45:48] Written: 2015_may_intermediary.json (72 questions)
+[2026-02-06 13:45:48] OK (72 raw, 72 intermediary)
+[2026-02-06 13:45:48] 
+============================================================
+[2026-02-06 13:45:48] Processing exam: 2016_april
+[2026-02-06 13:45:48] ============================================================
+[2026-02-06 13:45:48] Answers extracted: 100 found
+[2026-02-06 13:45:51]   RAW: Removed 46 page markers
+[2026-02-06 13:45:51] PASS 1 (RAW PDF): 75 questions extracted
+[2026-02-06 13:45:53]   INTERMEDIARY: Removed 46 page markers
+[2026-02-06 13:45:53] PASS 2 (INTERMEDIARY): 75 questions extracted
+[2026-02-06 13:45:53] Selected RAW pass (75 questions)
+[2026-02-06 13:45:53] Missing questions (extraction boundary issue): Q7-Q8, Q11, Q13, Q17-Q18, Q24, Q28, Q51, Q55, Q57-Q58, Q61-Q62, Q78-Q79, Q81, Q89-Q93, Q95, Q97-Q98
+[2026-02-06 13:45:53] Extraction rate: 75/100 (75%)
+[2026-02-06 13:45:53] Written: 2016_april_raw_pdf.json (75 questions)
+[2026-02-06 13:45:53] Written: 2016_april_intermediary.json (75 questions)
+[2026-02-06 13:45:53] OK (75 raw, 75 intermediary)
+[2026-02-06 13:45:53] 
+============================================================
+[2026-02-06 13:45:53] Processing exam: 2016_october
+[2026-02-06 13:45:53] ============================================================
+[2026-02-06 13:45:53] Answers extracted: 100 found
+[2026-02-06 13:45:56]   RAW: Removed 43 page markers
+[2026-02-06 13:45:56] PASS 1 (RAW PDF): 77 questions extracted
+[2026-02-06 13:45:58]   INTERMEDIARY: Removed 43 page markers
+[2026-02-06 13:45:58] PASS 2 (INTERMEDIARY): 77 questions extracted
+[2026-02-06 13:45:58] Selected RAW pass (77 questions)
+[2026-02-06 13:45:58] Missing questions (extraction boundary issue): Q5, Q10, Q16, Q19, Q23-Q25, Q30, Q37, Q42, Q57-Q59, Q68-Q69, Q75-Q76, Q79, Q83, Q88, Q91, Q94-Q95
+[2026-02-06 13:45:58] Extraction rate: 77/100 (77%)
+[2026-02-06 13:45:58] Written: 2016_october_raw_pdf.json (77 questions)
+[2026-02-06 13:45:58] Written: 2016_october_intermediary.json (77 questions)
+[2026-02-06 13:45:58] OK (77 raw, 77 intermediary)
+[2026-02-06 13:45:58] 
+============================================================
+[2026-02-06 13:45:58] Processing exam: 2017_april
+[2026-02-06 13:45:58] ============================================================
+[2026-02-06 13:45:58] Answers extracted: 100 found
+[2026-02-06 13:46:01]   RAW: Removed 36 page markers
+[2026-02-06 13:46:01] PASS 1 (RAW PDF): 72 questions extracted
+[2026-02-06 13:46:03]   INTERMEDIARY: Removed 36 page markers
+[2026-02-06 13:46:03] PASS 2 (INTERMEDIARY): 72 questions extracted
+[2026-02-06 13:46:03] Selected RAW pass (72 questions)
+[2026-02-06 13:46:03] Missing questions (extraction boundary issue): Q2, Q7, Q9, Q11, Q14, Q16, Q18, Q22, Q25, Q28-Q29, Q38, Q41, Q46, Q49-Q50, Q53-Q54, Q56, Q69, Q77, Q85-Q86, Q93-Q94, Q96, Q98, Q100
+[2026-02-06 13:46:03] Extraction rate: 72/100 (72%)
+[2026-02-06 13:46:03] Written: 2017_april_raw_pdf.json (72 questions)
+[2026-02-06 13:46:03] Written: 2017_april_intermediary.json (72 questions)
+[2026-02-06 13:46:03] OK (72 raw, 72 intermediary)
+[2026-02-06 13:46:03] 
+============================================================
+[2026-02-06 13:46:03] Processing exam: 2017_october
+[2026-02-06 13:46:03] ============================================================
+[2026-02-06 13:46:03] Answers extracted: 100 found
+[2026-02-06 13:46:05]   RAW: Removed 38 page markers
+[2026-02-06 13:46:05] PASS 1 (RAW PDF): 76 questions extracted
+[2026-02-06 13:46:07]   INTERMEDIARY: Removed 38 page markers
+[2026-02-06 13:46:07] PASS 2 (INTERMEDIARY): 76 questions extracted
+[2026-02-06 13:46:07] Selected RAW pass (76 questions)
+[2026-02-06 13:46:07] Missing questions (extraction boundary issue): Q1-Q2, Q4-Q5, Q9, Q19, Q22-Q23, Q36, Q38, Q41, Q45-Q46, Q51, Q55, Q58, Q62, Q65, Q72-Q73, Q85, Q91, Q98-Q99
+[2026-02-06 13:46:07] Extraction rate: 76/100 (76%)
+[2026-02-06 13:46:07] Written: 2017_october_raw_pdf.json (76 questions)
+[2026-02-06 13:46:07] Written: 2017_october_intermediary.json (76 questions)
+[2026-02-06 13:46:07] OK (76 raw, 76 intermediary)
+[2026-02-06 13:46:07] 
+============================================================
+[2026-02-06 13:46:07] Processing exam: 2018_april
+[2026-02-06 13:46:07] ============================================================
+[2026-02-06 13:46:07] Answers extracted: 100 found
+[2026-02-06 13:46:10]   RAW: Removed 38 page markers
+[2026-02-06 13:46:10] PASS 1 (RAW PDF): 71 questions extracted
+[2026-02-06 13:46:12]   INTERMEDIARY: Removed 38 page markers
+[2026-02-06 13:46:12] PASS 2 (INTERMEDIARY): 71 questions extracted
+[2026-02-06 13:46:12] Selected RAW pass (71 questions)
+[2026-02-06 13:46:12] Missing questions (extraction boundary issue): Q7, Q12, Q15, Q17-Q18, Q21-Q23, Q33-Q36, Q39-Q42, Q44, Q49-Q50, Q58-Q59, Q61, Q74, Q85, Q87, Q89-Q90, Q92, Q100
+[2026-02-06 13:46:12] Extraction rate: 71/100 (71%)
+[2026-02-06 13:46:12] Written: 2018_april_raw_pdf.json (71 questions)
+[2026-02-06 13:46:12] Written: 2018_april_intermediary.json (71 questions)
+[2026-02-06 13:46:12] OK (71 raw, 71 intermediary)
+[2026-02-06 13:46:12] 
+============================================================
+[2026-02-06 13:46:12] Processing exam: 2018_october
+[2026-02-06 13:46:12] ============================================================
+[2026-02-06 13:46:12] Answers extracted: 100 found
+[2026-02-06 13:46:14]   RAW: Removed 36 page markers
+[2026-02-06 13:46:14] PASS 1 (RAW PDF): 68 questions extracted
+[2026-02-06 13:46:16]   INTERMEDIARY: Removed 36 page markers
+[2026-02-06 13:46:16] PASS 2 (INTERMEDIARY): 68 questions extracted
+[2026-02-06 13:46:16] Selected RAW pass (68 questions)
+[2026-02-06 13:46:16] Missing questions (extraction boundary issue): Q3, Q5, Q8, Q11, Q14, Q17, Q20, Q22, Q25, Q30, Q32-Q33, Q36, Q41, Q46, Q49-Q50, Q58-Q60, Q63-Q64, Q66, Q69, Q71, Q73, Q78, Q83, Q87, Q92, Q98, Q100
+[2026-02-06 13:46:16] Extraction rate: 68/100 (68%)
+[2026-02-06 13:46:16] Written: 2018_october_raw_pdf.json (68 questions)
+[2026-02-06 13:46:16] Written: 2018_october_intermediary.json (68 questions)
+[2026-02-06 13:46:16] OK (68 raw, 68 intermediary)
+[2026-02-06 13:46:16] 
+============================================================
+[2026-02-06 13:46:16] Processing exam: 2019_april
+[2026-02-06 13:46:16] ============================================================
+[2026-02-06 13:46:17] Answers extracted: 100 found
+[2026-02-06 13:46:19]   RAW: Removed 46 page markers
+[2026-02-06 13:46:19] PASS 1 (RAW PDF): 74 questions extracted
+[2026-02-06 13:46:22]   INTERMEDIARY: Removed 46 page markers
+[2026-02-06 13:46:22] PASS 2 (INTERMEDIARY): 74 questions extracted
+[2026-02-06 13:46:22] Selected RAW pass (74 questions)
+[2026-02-06 13:46:22] Missing questions (extraction boundary issue): Q1-Q3, Q8, Q11-Q12, Q15, Q17-Q18, Q26-Q27, Q35, Q38, Q41, Q43, Q50, Q55, Q59, Q62, Q67-Q68, Q80, Q83-Q84, Q89, Q100
+[2026-02-06 13:46:22] Extraction rate: 74/100 (74%)
+[2026-02-06 13:46:22] Written: 2019_april_raw_pdf.json (74 questions)
+[2026-02-06 13:46:22] Written: 2019_april_intermediary.json (74 questions)
+[2026-02-06 13:46:22] OK (74 raw, 74 intermediary)
+[2026-02-06 13:46:22] 
+============================================================
+[2026-02-06 13:46:22] Processing exam: 2019_october
+[2026-02-06 13:46:22] ============================================================
+[2026-02-06 13:46:22] Answers extracted: 100 found
+[2026-02-06 13:46:24]   RAW: Removed 40 page markers
+[2026-02-06 13:46:24] PASS 1 (RAW PDF): 75 questions extracted
+[2026-02-06 13:46:26]   INTERMEDIARY: Removed 40 page markers
+[2026-02-06 13:46:26] PASS 2 (INTERMEDIARY): 75 questions extracted
+[2026-02-06 13:46:26] Selected RAW pass (75 questions)
+[2026-02-06 13:46:26] Missing questions (extraction boundary issue): Q5, Q9, Q11, Q14, Q17-Q18, Q25, Q30, Q38, Q42-Q43, Q45, Q49-Q51, Q55, Q63, Q65, Q69, Q73, Q77, Q86-Q87, Q94, Q98
+[2026-02-06 13:46:26] Extraction rate: 75/100 (75%)
+[2026-02-06 13:46:26] Written: 2019_october_raw_pdf.json (75 questions)
+[2026-02-06 13:46:26] Written: 2019_october_intermediary.json (75 questions)
+[2026-02-06 13:46:26] OK (75 raw, 75 intermediary)
+[2026-02-06 13:46:26] 
+============================================================
+[2026-02-06 13:46:26] Processing exam: 2020_april
+[2026-02-06 13:46:26] ============================================================
+[2026-02-06 13:46:26] Answers extracted: 100 found
+[2026-02-06 13:46:28]   RAW: Removed 39 page markers
+[2026-02-06 13:46:28] PASS 1 (RAW PDF): 83 questions extracted
+[2026-02-06 13:46:30]   INTERMEDIARY: Removed 39 page markers
+[2026-02-06 13:46:30] PASS 2 (INTERMEDIARY): 83 questions extracted
+[2026-02-06 13:46:30] Selected RAW pass (83 questions)
+[2026-02-06 13:46:30] Missing questions (extraction boundary issue): Q5, Q10, Q12, Q18-Q20, Q23-Q24, Q31-Q32, Q37, Q49, Q52, Q61, Q67, Q71-Q72
+[2026-02-06 13:46:30] Extraction rate: 83/100 (83%)
+[2026-02-06 13:46:30] Written: 2020_april_raw_pdf.json (83 questions)
+[2026-02-06 13:46:30] Written: 2020_april_intermediary.json (83 questions)
+[2026-02-06 13:46:30] OK (83 raw, 83 intermediary)
+[2026-02-06 13:46:30] 
+============================================================
+[2026-02-06 13:46:30] Processing exam: 2021_april
+[2026-02-06 13:46:30] ============================================================
+[2026-02-06 13:46:30] Answers extracted: 100 found
+[2026-02-06 13:46:32]   RAW: Removed 36 page markers
+[2026-02-06 13:46:32] PASS 1 (RAW PDF): 76 questions extracted
+[2026-02-06 13:46:34]   INTERMEDIARY: Removed 36 page markers
+[2026-02-06 13:46:34] PASS 2 (INTERMEDIARY): 76 questions extracted
+[2026-02-06 13:46:34] Selected RAW pass (76 questions)
+[2026-02-06 13:46:34] Missing questions (extraction boundary issue): Q3, Q8, Q11, Q14-Q15, Q17-Q19, Q33, Q37, Q41-Q42, Q45-Q46, Q50, Q56, Q59-Q60, Q66, Q76, Q78, Q85, Q87, Q90
+[2026-02-06 13:46:34] Extraction rate: 76/100 (76%)
+[2026-02-06 13:46:34] Written: 2021_april_raw_pdf.json (76 questions)
+[2026-02-06 13:46:34] Written: 2021_april_intermediary.json (76 questions)
+[2026-02-06 13:46:34] OK (76 raw, 76 intermediary)
+[2026-02-06 13:46:34] 
+============================================================
+[2026-02-06 13:46:34] Processing exam: 2021_october
+[2026-02-06 13:46:34] ============================================================
+[2026-02-06 13:46:34] Answers extracted: 100 found
+[2026-02-06 13:46:36]   RAW: Removed 43 page markers
+[2026-02-06 13:46:36] PASS 1 (RAW PDF): 72 questions extracted
+[2026-02-06 13:46:38]   INTERMEDIARY: Removed 43 page markers
+[2026-02-06 13:46:38] PASS 2 (INTERMEDIARY): 72 questions extracted
+[2026-02-06 13:46:38] Selected RAW pass (72 questions)
+[2026-02-06 13:46:38] Missing questions (extraction boundary issue): Q1, Q4, Q6, Q8-Q9, Q12-Q13, Q19, Q21, Q23, Q25, Q30-Q31, Q35, Q37, Q44-Q45, Q48, Q51, Q53, Q58, Q62, Q68-Q69, Q72, Q87, Q90, Q98
+[2026-02-06 13:46:38] Extraction rate: 72/100 (72%)
+[2026-02-06 13:46:38] Written: 2021_october_raw_pdf.json (72 questions)
+[2026-02-06 13:46:38] Written: 2021_october_intermediary.json (72 questions)
+[2026-02-06 13:46:38] OK (72 raw, 72 intermediary)
+[2026-02-06 13:46:38] 
+============================================================
+[2026-02-06 13:46:38] Processing exam: 2022_october
+[2026-02-06 13:46:38] ============================================================
+[2026-02-06 13:46:38] Answers extracted: 100 found
+[2026-02-06 13:46:40]   RAW: Removed 39 page markers
+[2026-02-06 13:46:40] PASS 1 (RAW PDF): 73 questions extracted
+[2026-02-06 13:46:42]   INTERMEDIARY: Removed 39 page markers
+[2026-02-06 13:46:42] PASS 2 (INTERMEDIARY): 73 questions extracted
+[2026-02-06 13:46:42] Selected RAW pass (73 questions)
+[2026-02-06 13:46:42] Missing questions (extraction boundary issue): Q5, Q8-Q10, Q12, Q15, Q17, Q19-Q21, Q23, Q26-Q27, Q34, Q37-Q39, Q45-Q47, Q54, Q57, Q65, Q75, Q78, Q81, Q89
+[2026-02-06 13:46:42] Extraction rate: 73/100 (73%)
+[2026-02-06 13:46:42] Written: 2022_october_raw_pdf.json (73 questions)
+[2026-02-06 13:46:42] Written: 2022_october_intermediary.json (73 questions)
+[2026-02-06 13:46:42] OK (73 raw, 73 intermediary)
+[2026-02-06 13:46:42] 
+============================================================
+[2026-02-06 13:46:42] Processing exam: 2023_april
+[2026-02-06 13:46:42] ============================================================
+[2026-02-06 13:46:42] Answers extracted: 100 found
+[2026-02-06 13:46:44]   RAW: Removed 38 page markers
+[2026-02-06 13:46:44] PASS 1 (RAW PDF): 73 questions extracted
+[2026-02-06 13:46:46]   INTERMEDIARY: Removed 38 page markers
+[2026-02-06 13:46:46] PASS 2 (INTERMEDIARY): 73 questions extracted
+[2026-02-06 13:46:46] Selected RAW pass (73 questions)
+[2026-02-06 13:46:46] Missing questions (extraction boundary issue): Q2-Q3, Q6, Q13, Q24-Q25, Q27, Q30, Q35, Q41, Q43, Q50-Q51, Q54, Q56, Q59, Q63, Q65, Q68, Q70-Q71, Q76, Q85-Q86, Q91, Q96-Q97
+[2026-02-06 13:46:46] Extraction rate: 73/100 (73%)
+[2026-02-06 13:46:46] Written: 2023_april_raw_pdf.json (73 questions)
+[2026-02-06 13:46:46] Written: 2023_april_intermediary.json (73 questions)
+[2026-02-06 13:46:46] OK (73 raw, 73 intermediary)
+[2026-02-06 13:46:46] 
+============================================================
+[2026-02-06 13:46:46] Processing exam: 2024_october
+[2026-02-06 13:46:46] ============================================================
+[2026-02-06 13:46:46] Answers extracted: 100 found
+[2026-02-06 13:46:48]   RAW: Removed 40 page markers
+[2026-02-06 13:46:48] PASS 1 (RAW PDF): 81 questions extracted
+[2026-02-06 13:46:50]   INTERMEDIARY: Removed 40 page markers
+[2026-02-06 13:46:50] PASS 2 (INTERMEDIARY): 81 questions extracted
+[2026-02-06 13:46:50] Selected RAW pass (81 questions)
+[2026-02-06 13:46:50] Missing questions (extraction boundary issue): Q1, Q12, Q17-Q18, Q20, Q23-Q25, Q29, Q32-Q33, Q35, Q43-Q44, Q48-Q49, Q63, Q86-Q87
+[2026-02-06 13:46:50] Extraction rate: 81/100 (81%)
+[2026-02-06 13:46:50] Written: 2024_october_raw_pdf.json (81 questions)
+[2026-02-06 13:46:50] Written: 2024_october_intermediary.json (81 questions)
+[2026-02-06 13:46:50] OK (81 raw, 81 intermediary)
+[2026-02-06 13:46:50] 
+============================================================
+[2026-02-06 13:46:50] Processing exam: 2025_april
+[2026-02-06 13:46:50] ============================================================
+[2026-02-06 13:46:50] Answers extracted: 100 found
+[2026-02-06 13:46:52]   RAW: Removed 36 page markers
+[2026-02-06 13:46:52] PASS 1 (RAW PDF): 71 questions extracted
+[2026-02-06 13:46:54]   INTERMEDIARY: Removed 36 page markers
+[2026-02-06 13:46:54] PASS 2 (INTERMEDIARY): 71 questions extracted
+[2026-02-06 13:46:54] Selected RAW pass (71 questions)
+[2026-02-06 13:46:54] Missing questions (extraction boundary issue): Q5, Q11-Q13, Q17-Q18, Q20-Q21, Q25, Q28, Q32, Q35, Q37-Q39, Q41, Q45, Q47, Q50-Q51, Q57, Q59, Q62, Q66, Q69-Q70, Q82, Q85, Q96
+[2026-02-06 13:46:54] Extraction rate: 71/100 (71%)
+[2026-02-06 13:46:54] Written: 2025_april_raw_pdf.json (71 questions)
+[2026-02-06 13:46:54] Written: 2025_april_intermediary.json (71 questions)
+[2026-02-06 13:46:54] OK (71 raw, 71 intermediary)
+[2026-02-06 13:46:54] 
+[2026-02-06 13:46:54] ============================================================
+[2026-02-06 13:46:54] SUMMARY
+[2026-02-06 13:46:54] ============================================================
+[2026-02-06 13:46:54] Total exams: 20
+[2026-02-06 13:46:54] Successfully processed: 20
+[2026-02-06 13:46:54] Failed: 0
+[2026-02-06 13:46:54] JSON files created: 40
+[2026-02-06 13:46:54] 
+[2026-02-06 13:46:54] Output directory: /home/jay/Desktop/Coding Stuff/jays-philnits-vault/exams_and_answers/extracted_json
+[2026-02-06 13:46:54] Files created:
+[2026-02-06 13:46:54]   - 2013_april_intermediary.json
+[2026-02-06 13:46:54]   - 2013_april_raw_pdf.json
+[2026-02-06 13:46:54]   - 2013_april_variant_intermediary.json
+[2026-02-06 13:46:54]   - 2013_april_variant_raw_pdf.json
+[2026-02-06 13:46:54]   - 2014_october_intermediary.json
+[2026-02-06 13:46:54]   - 2014_october_raw_pdf.json
+[2026-02-06 13:46:54]   - 2015_april_intermediary.json
+[2026-02-06 13:46:54]   - 2015_april_raw_pdf.json
+[2026-02-06 13:46:54]   - 2015_may_intermediary.json
+[2026-02-06 13:46:54]   - 2015_may_raw_pdf.json
+[2026-02-06 13:46:54]   - 2016_april_intermediary.json
+[2026-02-06 13:46:54]   - 2016_april_raw_pdf.json
+[2026-02-06 13:46:54]   - 2016_october_intermediary.json
+[2026-02-06 13:46:54]   - 2016_october_raw_pdf.json
+[2026-02-06 13:46:54]   - 2017_april_intermediary.json
+[2026-02-06 13:46:54]   - 2017_april_raw_pdf.json
+[2026-02-06 13:46:54]   - 2017_october_intermediary.json
+[2026-02-06 13:46:54]   - 2017_october_raw_pdf.json
+[2026-02-06 13:46:54]   - 2018_april_intermediary.json
+[2026-02-06 13:46:54]   - 2018_april_raw_pdf.json
+[2026-02-06 13:46:54]   - 2018_october_intermediary.json
+[2026-02-06 13:46:54]   - 2018_october_raw_pdf.json
+[2026-02-06 13:46:54]   - 2019_april_intermediary.json
+[2026-02-06 13:46:54]   - 2019_april_raw_pdf.json
+[2026-02-06 13:46:54]   - 2019_october_intermediary.json
+[2026-02-06 13:46:54]   - 2019_october_raw_pdf.json
+[2026-02-06 13:46:54]   - 2020_april_intermediary.json
+[2026-02-06 13:46:54]   - 2020_april_raw_pdf.json
+[2026-02-06 13:46:54]   - 2021_april_intermediary.json
+[2026-02-06 13:46:54]   - 2021_april_raw_pdf.json
+[2026-02-06 13:46:54]   - 2021_october_intermediary.json
+[2026-02-06 13:46:54]   - 2021_october_raw_pdf.json
+[2026-02-06 13:46:54]   - 2022_october_intermediary.json
+[2026-02-06 13:46:54]   - 2022_october_raw_pdf.json
+[2026-02-06 13:46:54]   - 2023_april_intermediary.json
+[2026-02-06 13:46:54]   - 2023_april_raw_pdf.json
+[2026-02-06 13:46:54]   - 2024_october_intermediary.json
+[2026-02-06 13:46:54]   - 2024_october_raw_pdf.json
+[2026-02-06 13:46:54]   - 2025_april_intermediary.json
+[2026-02-06 13:46:54]   - 2025_april_raw_pdf.json
+[2026-02-06 13:46:54] 
+[2026-02-06 13:46:54] Logs written to: /home/jay/Desktop/Coding Stuff/jays-philnits-vault/logs/extraction_20260206_134520.log
