@@ -1,0 +1,903 @@
+{
+  "metadata": {
+    "exam_name": "2024_october",
+    "year": 2024,
+    "month": "october",
+    "extraction_method": "raw_pdf",
+    "extraction_date": "2026-02-06",
+    "total_questions_extracted": 81
+  },
+  "questions": [
+    {
+      "q_num": 2,
+      "text": "Which of the following is the logical operation that is equivalent to the truth table below? Input A Input B Output 0 0 0 0 1 0 1 0 0 1 1 1",
+      "options": {
+        "a": "AND",
+        "b": "NOT",
+        "c": "OR",
+        "d": "XOR"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 3,
+      "text": "Which of the following is a standard encoding system that is widely used for handling multilingual text and symbols around the world as a single character set?",
+      "options": {
+        "a": "ASCII",
+        "b": "EBCDIC",
+        "c": "EUC",
+        "d": "Unicode"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 4,
+      "text": "When a chairperson and a secretary are selected from three (3) candidates with a method that allows dual roles, there are three (3) ways for the selection of a single chairperson and three (3) ways for the selection of a secretary, so in total, there are nine (9) combinations for the selection of a chairperson and a secretary. When a chairperson and a secretary are selected from five (5) candidates with a method that allows dual roles, how many combinations for the selection are there?",
+      "options": {
+        "a": "5",
+        "b": "10",
+        "c": "20",
+        "d": "25"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 5,
+      "text": "The function calGrade receives the student’s score and returns the grade. The score is an integer. If the score is greater than or equal to 80, the function calGrade returns “A”; if the score is between 65 and 79, it returns “B”; between 50 and 64, it returns “C”; and otherwise, it returns “Fail.” Which of the following is an appropriate piece of code to be inserted in _______ in the program? [Program] ○ string: calGrade(integer: score) string: grade if (score ≥ 80) grade ← \"A\" elseif (_______) grade ← \"B\" elseif (score ≥ 50) grade ← \"C\" else grade ← \"Fail\" endif return grade",
+      "options": {
+        "a": "score ≥ 65",
+        "b": "score ≥ 65 or score ≤ 79",
+        "c": "score ≤ 65 and score ≥ 79",
+        "d": "score ≤ 79"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 6,
+      "text": "The procedure described below is sequentially performed for two (2) variables x and y, starting with step (1). When the procedure is completed, what is the resulting value of x? [Procedure] (1) Assign 2 to x and 3 to y. (2) Subtract 1 from the value of y, and assign the resulting value to y. (3) Add the values of x and y, and assign the resulting value to x. (4) If the value of y is 1, complete the procedure. Otherwise, return to step (2).",
+      "options": {
+        "a": "4",
+        "b": "5",
+        "c": "7",
+        "d": "8"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 7,
+      "text": "There exist four (4) states numbered 1 through 4. The four (4) states are connected as shown in the figure below, and the state transition occurs in a clockwise or counter- clockwise direction. If the current state is 1, which of the following is the state that is reached after the procedure below is performed twice? [Procedure] The number of the current state is multiplied by 11, and the result is divided by 3. The process below is performed based on the remainder of the division. • When the remainder is 0, a transition to the next state occurs in the clockwise direction. • When the remainder is 1, a transition to the next state occurs in the counter-clockwise direction. • When the remainder is 2, a transition to the second state occurs in the clockwise direction.",
+      "options": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 8,
+      "text": "There is a device that stacks products from the bottom to the top, and removes the products sequentially from the top. There are only two (2) operations for this device. PUSH x: Stacks one (1) product x. POP: Removes one (1) product from the top. PUSH POP Nothing is stacked at the start, and three (3) products arrive in the order A, B, then C. If only one (1) device is used, when the products are removed with POP operations, which of the following is an impossible order of removal?",
+      "options": {
+        "a": "A, B, C",
+        "b": "B, A, C",
+        "c": "C, A, B",
+        "d": "C, B, A"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 9,
+      "text": "The program performs circular left shifting on the array elements. For example, after circular left shifting, the initial array {1, 2, 3, 4, 5} becomes {2, 3, 4, 5, 1}. Which of the following is an appropriate combination of pieces of code to be inserted in ___A___ and ___B___ in the program? [Program] integer []: array ← {1, 2, 3, 4, 5} integer: i integer: tmp tmp ← array[1] for (increase i from 2 to the number of elements in the array by 1) array[___A___] ← array[i] endfor ___B___ ← tmp A B",
+      "options": {
+        "a": "i + 1 array[the number of elements of array - 1]",
+        "b": "i + 1 array[the number of elements of array]",
+        "c": "i - 1 array[the number of elements of array - 1]",
+        "d": "i - 1 array[the number of elements of array]"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 10,
+      "text": "Which of the following is the unique value that is sequentially assigned to a memory location in order to identify the location of instructions or data stored in the main memory of a computer?",
+      "options": {
+        "a": "Address",
+        "b": "Counter",
+        "c": "Index",
+        "d": "Pointer"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 11,
+      "text": "Which of the following is an appropriate explanation of HDMI?",
+      "options": {
+        "a": "It is an interface for an AV device that handles the input and output of video, audio, and control signals through a single cable.",
+        "b": "It is an interface that makes use of the infrared rays used in the exchange of information between cell phones.",
+        "c": "It is a serial interface that connects an external hard disk or such other devices through a cable.",
+        "d": "It is a wireless interface that makes use of radio waves and can perform communication even when there is a slight shielding."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 13,
+      "text": "If a process from when a PC is powered on to when it becomes ready to use is divided into four (4) stages, which of the following is the stage that is performed first?",
+      "options": {
+        "a": "Loading a BIOS",
+        "b": "Loading an OS",
+        "c": "Loading resident application software such as antivirus software",
+        "d": "Loading device drivers"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 14,
+      "text": "Which of the following is an appropriate description concerning the reliability of a system or a device?",
+      "options": {
+        "a": "Controlling a system in a safe state in order to minimize damage when a fault occurs in a device is called foolproof.",
+        "b": "Reducing the probability of occurrence of a fault in a device by using high-quality and high-reliability parts and elements is called fail-safe.",
+        "c": "Enabling continuation of system processing when a fault occurs in a system due to an error is called fault tolerance.",
+        "d": "Taking measures in the design stage so that humans do not make mistakes in system operation, or no faults or failures occur even if they make mistakes is called fail soft."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 15,
+      "text": "Among the costs below concerning a sales management system, which of the following is the list that contains all costs that are included in TCO? (i) The purchase cost for products handled by the sales management system (ii) The shipment cost for products handled by the sales management system (iii) The software maintenance cost for the sales management system (iv) The hardware maintenance cost for the sales management system",
+      "options": {
+        "a": "(i), (ii)",
+        "b": "(i), (iv)",
+        "c": "(ii), (iii)",
+        "d": "(iii), (iv)"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 16,
+      "text": "In a web service and other services, in order to increase reliability and process a large volume of accesses from users, which of the following is a technique that links multiple computers and makes them work as if they were a single computer?",
+      "options": {
+        "a": "Clustering",
+        "b": "Spooling",
+        "c": "Buffering",
+        "d": "Mirroring"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 19,
+      "text": "Which of the following is a term that means the validation of a software license by using the product ID and the user’s hardware information, in order to prevent unauthorized use of the software?",
+      "options": {
+        "a": "Activation",
+        "b": "Cloud computing",
+        "c": "Streaming",
+        "d": "Fragmentation"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 21,
+      "text": "Which of the following is an appropriate description about the function keys of a PC?",
+      "options": {
+        "a": "They are the keys where specific functions are assigned for each application and OS.",
+        "b": "They display a keyboard shape on a screen and enable input processing with software.",
+        "c": "They have a security role and are keys for performing encryption and decryption.",
+        "d": "They are information to identify specific lines uniquely in a database."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 22,
+      "text": "Which of the following is a technology that is also used in measures against tampering of software in IoT devices and verifies the digital signature of the OS, firmware, or other such software when it is started, and only executes the software if the verification is successful?",
+      "options": {
+        "a": "GPU",
+        "b": "RAID",
+        "c": "Secure boot",
+        "d": "Reboot"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 26,
+      "text": "There are “Sales”, “Customer” and “Product” tables in a relational database. Among lists A through C, which of the following contains all and only the lists that can be created from the data in these tables? Here, a solid underlined part represents a primary key, and a dashed underlined column represents a foreign key. Sales SalesNumber CustomerNumber ProductNumber SalesDate SalesAmount Customer CustomerNumber CustomerName Product ProductNumber ProductCategoryName ProductName A The list of customers who bought more than a certain amount of money during a certain period in the past B The list of products that were out of stock in the previous month C The ranking list for sales amount by product in the previous month",
+      "options": {
+        "a": "A, B",
+        "b": "A, B, C",
+        "c": "A, C",
+        "d": "B, C"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 27,
+      "text": "In the description below concerning the design process of a relational database, which of the following is an appropriate combination of terms to be inserted into blanks A through C? Analyze the target business operations, identify the data which is used there, and create , consisting of entities and . On the basis of the created, design . A B C",
+      "options": {
+        "a": "instances E-R diagram functions",
+        "b": "instances flowchart tables",
+        "c": "relationships E-R diagram tables",
+        "d": "relationships flowchart functions"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 28,
+      "text": "Which of the following is an appropriate combination of relational database manipulations I through III and relational operations? I Extracting the specified field (column) II Extracting the specified record (row) III Combining multiple tables into one (1) table I II III",
+      "options": {
+        "a": "Join Projection Selection",
+        "b": "Projection Join Selection",
+        "c": "Projection Selection Join",
+        "d": "Selection Projection Join"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 30,
+      "text": "When an e-mail is sent to multiple recipients, there are cases that no recipient of the e-mail should know the e-mail addresses of other recipients. In such cases, which of the following is an appropriate place where the e-mail addresses of the multiple recipients are entered?",
+      "options": {
+        "a": "Bcc",
+        "b": "Cc",
+        "c": "To",
+        "d": "Both To and Bcc"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 31,
+      "text": "Which of the following is not an appropriate description of online storage?",
+      "options": {
+        "a": "It can be used not only from a computer, but also from a smartphone or a tablet, if the device is connected to the Internet.",
+        "b": "There is a free service that can be used with limited capacity and functionalities.",
+        "c": "There is a service that allows multiple registered users to share and edit the same file.",
+        "d": "If the capacity of the auxiliary storage unit built into the user’s computer or tablet is increased, the capacity of online storage will also increase automatically."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 34,
+      "text": "A large number of IP addresses are required in order to connect a massive number of IoT devices to the Internet, so the decision was made to use the Internet Protocol with IP addresses that have a length of 128 bits. Which of the following is this protocol?",
+      "options": {
+        "a": "IPv4",
+        "b": "IPv5",
+        "c": "IPv6",
+        "d": "IPv8"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 36,
+      "text": "Which of the following is an appropriate action for the secure use of a smartphone?",
+      "options": {
+        "a": "Using it without updating OS and using the same version of the OS as at the time of purchase",
+        "b": "Enhancing the functions by making alterations such as jailbreak",
+        "c": "Setting up a feature that locks the screen with a password",
+        "d": "Downloading applications that are considered to be useful from any web site"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 37,
+      "text": "Security risk treatment in ISMS includes risk transfer, risk avoidance, risk acceptance, and risk reduction. Which of the following is an example of risk avoidance?",
+      "options": {
+        "a": "A security measure was taken, which lowered the possibility of problems arising.",
+        "b": "The company took out insurance in case a problem arises and causes damage.",
+        "c": "The risk was confirmed to be small, and it was decided that damage would be borne by the company when a problem arises.",
+        "d": "The company withdrew from the services that carried high risk."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 38,
+      "text": "Which of the following is an appropriate description of the beginning of a URL indicating that TLS is used for communication between a web browser and a web server?",
+      "options": {
+        "a": "http://",
+        "b": "https://",
+        "c": "shttp://",
+        "d": "ssl://"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 39,
+      "text": "Which of the following is a technique that is used to detect that the received data has been tampered with?",
+      "options": {
+        "a": "Compression",
+        "b": "Digital signature",
+        "c": "Password authentication",
+        "d": "Filtering"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 40,
+      "text": "Among I through III below, which of the following lists all and only the appropriate measures for preventing a PC from getting infected with viruses? I Applying a security patch to software II Striping across hard disks III Educating users about security",
+      "options": {
+        "a": "I",
+        "b": "I, II",
+        "c": "I, III",
+        "d": "II, III"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 41,
+      "text": "Which of the following is an appropriate example of phishing?",
+      "options": {
+        "a": "An attacker’s act of sending a command via network to a virus-infected PC and having it execute an illegal program",
+        "b": "Sending an e-mail that pretends to be from a financial institution, directing a user to a false web site, and acquiring a password",
+        "c": "Identifying a password by using a dictionary data that enumerates strings that are likely to be used as a password",
+        "d": "Sending a large number of packets from multiple computers to a target server and disabling the function of the server"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 42,
+      "text": "Which of the following is an appropriate description concerning behavioral detection technology for protecting systems from unknown threats such as zero-day attacks?",
+      "options": {
+        "a": "It detects that a PC has not been used for a certain period of time, darkens the screen automatically, and displays a changing image.",
+        "b": "It suspends use of an account when it detects that an incorrect password is entered on a web site more than a set number of times.",
+        "c": "It continually monitors the activity of programs and stops any program with any suspicious activity, such as unusual communication to an outside destination.",
+        "d": "It changes users’ input on a web site into safe character strings when it detects any harmful character string that could cause malfunction."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 45,
+      "text": "When an attacker makes an unauthorized intrusion into a computer, the attacker sometimes changes a program or settings in the computer in order to make further intrusions into the computer easier. Which of the following is the most appropriate term to express the method used by the attacker for further intrusions into the computer?",
+      "options": {
+        "a": "Tapping",
+        "b": "Backdoor",
+        "c": "Phishing",
+        "d": "Port scan"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 46,
+      "text": "In order to achieve a non-stop system, which of the following is an appropriate item to be considered during the design of the system architecture?",
+      "options": {
+        "a": "Partitioning of software into components",
+        "b": "Encryption of data",
+        "c": "Reduction in power consumption of hardware",
+        "d": "Dual redundancy of hardware"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 47,
+      "text": "A detailed design document of software is created as an output of software detailed design. Which of the following is the person who takes charge of the next process of development upon receipt of this output?",
+      "options": {
+        "a": "System auditor",
+        "b": "System operator in-charge",
+        "c": "System user",
+        "d": "Programmer"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 50,
+      "text": "Which of the following is the most appropriate term expressing initiatives to improve the services where the development side and the operations side of the system cooperate to proactively automate operations of the system and transition to the new production system, and release new functions?",
+      "options": {
+        "a": "DevOps",
+        "b": "RAD",
+        "c": "Object-oriented development",
+        "d": "Test-driven development"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 51,
+      "text": "Which of the following is an appropriate description concerning project scope management?",
+      "options": {
+        "a": "It defines and manages deliverables such as the products and services to be created by a project, as well as the activities necessary for their completion.",
+        "b": "It manages the activity path that requires the longest time through the entire project.",
+        "c": "It manages the events that may be advantageous or disadvantageous for the results of the project.",
+        "d": "It coordinates the stakeholders of the implementation and results of the project."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 52,
+      "text": "Which of the following is an appropriate description concerning the water fall model known as one of software development models?",
+      "options": {
+        "a": "It is a technique in object-oriented development for making improvements through trial and error by repeatedly going back and forth between design and programming.",
+        "b": "It is a technique for making improvements by repeating the development process for each subsystem while responding to requests from users.",
+        "c": "It is a technique that divides the processes of system development into stages, and based upon the output of previous processes, performs later processes in order.",
+        "d": "It is a technique that creates a prototype at an early stage of system development, and defines requirements and specifications with input from user comments."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 53,
+      "text": "Which of the following is an appropriate metrics for program quality in a software development project?",
+      "options": {
+        "a": "Budget at planning",
+        "b": "Return on investment",
+        "c": "Delivery date",
+        "d": "Number of identified bugs"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 54,
+      "text": "When the outsourced development project of a system has passed beyond its halfway mark, there is a request from the outsourcer for adding a function to the system. Which of the following is the most appropriate action of the project manager?",
+      "options": {
+        "a": "Accepting the request and securing the budget and staff members",
+        "b": "Declining the request by explaining that changes after halfway mark are generally not accepted",
+        "c": "Taking into account the impact on the cost and schedule, and following the procedure of change management",
+        "d": "Quickly updating the baseline of scope since only the project scope will be affected"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 55,
+      "text": "Which of the following is the appropriate explanation of a master schedule in a system development project where processes from requirements definition to installation are performed?",
+      "options": {
+        "a": "A schedule that describes in detail the activities of one (1) week",
+        "b": "A schedule that describes the activities of one (1) day, the start and end time of the activities, and the persons in charge",
+        "c": "A schedule that describes in detail the activities of the main processes",
+        "d": "A schedule that aggregates the main deliverables and activities of the entire project"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 56,
+      "text": "Which of the following is the appropriate description concerning WBS created in a project?",
+      "options": {
+        "a": "A WBS defines the details of activities to be implemented in a project and the deliverables, and can therefore be used as a basis for estimating the number of person- days.",
+        "b": "Activities outside the scope of the project are also examined and included in the WBS.",
+        "c": "The WBS breaks down the deliverables and the details of activities up to the same hierarchy in all projects.",
+        "d": "When a project member performs similar activities within the scope, the activities need not be described in the WBS."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 57,
+      "text": "Company A orders the development of a system to Company B and starts a system development project. Among (i) through (iv) below who are concerned with the project, which of the following lists all and only the stakeholders of the project? (i) Company A’s management executives (ii) Company A’s user department (iii) Company B’s project manager (iv) Company B’s business partner that provides technical support",
+      "options": {
+        "a": "(i), (ii), (iv)",
+        "b": "(i), (ii), (iii), (iv)",
+        "c": "(ii), (iii), (iv)",
+        "d": "(ii), (iv)"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 58,
+      "text": "Which of the following is an appropriate description concerning the IT service management activity?",
+      "options": {
+        "a": "It defines the maturity level of a process in a system development organization on a level of one (1) to five (5), and supports improvement.",
+        "b": "It defines roles and responsibilities and creates a procurement plan for staff members in order to complete a system development project.",
+        "c": "It defines an index concerning system availability, acquires the availability record, and performs planning, measurements, and improvement in order to achieve an objective.",
+        "d": "It clarifies the deliverables that are required for a new system to be developed and the activities that are required for the creation of the deliverables."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 59,
+      "text": "Which of the following activities aims at the maintenance and improvement of the service level through monitoring and reviewing the service status in order to implement the terms of agreement of an SLA?",
+      "options": {
+        "a": "CSR",
+        "b": "ERP",
+        "c": "SLM",
+        "d": "SWOT"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 60,
+      "text": "Which of the following is an appropriate measure of facility management that maintains and protects facilities and equipment of information systems?",
+      "options": {
+        "a": "Reviewing the fuel replenishment plan in order to maintain the appropriate duration that power can be generated with a private power generation system",
+        "b": "Introducing asset management software in order to manage all the company’s software centrally",
+        "c": "Standardizing how to set a screen saver in order to prevent unauthorized use of the PCs",
+        "d": "Reviewing the network firewall settings in order to enhance the prevention of unauthorized network access to the information systems"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 61,
+      "text": "Which of the following is the most appropriate example concerning a chatbot that uses AI?",
+      "options": {
+        "a": "By connecting everything over the Internet, the switch of the air conditioner in one’s house can be turned on by a smart device from the outside of the house.",
+        "b": "By recognizing and learning a large number of images of various animals, a computer can differentiate between the images of a dog and a cat.",
+        "c": "If questions on how to use a product are entered, a person who has detailed knowledge submits a reply or advise.",
+        "d": "If a user enters the desired functions of a product on a sales site of products, the computer introduces recommended products in an interactive manner."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 62,
+      "text": "In order to improve the value of an IT service to be provided, it is necessary to consider the balance of three (3) items, namely the offer price of the service, the functions of the service, that is, what the service can offer, and a guarantee of the service with maintained availability. Which of the following is a description that corresponds to guarantee of the service of an instant messenger?",
+      "options": {
+        "a": "The service is usable for 24 hours a day, 365 days a year.",
+        "b": "The service is linkable with other software such as games.",
+        "c": "The service is usable for free.",
+        "d": "The service is usable with icons created by one’s own self rather than characters."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 64,
+      "text": "Which of the following is the term for the assignment of employees’ role that applies mutual checks among employees for the purpose of reducing the risk of misconduct or errors in work from the standpoint of internal control?",
+      "options": {
+        "a": "Delegation of authority",
+        "b": "Segregation of duties",
+        "c": "Monitoring",
+        "d": "Diversification of risk"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 65,
+      "text": "The information system department implements the development and operation of the order entry system and the accounting system. The user of the order entry system is the sales department and the user of the accounting system is the accounting department. Which of the following is the appropriate description concerning internal control of financial reports?",
+      "options": {
+        "a": "Internal control is a matter of the accounting system, and therefore, the sales department does not participate in internal control, but the accounting department and the information system department do.",
+        "b": "Internal control is a matter concerning accounting activities, and therefore, only the accounting department participates in internal control.",
+        "c": "Internal control is a matter concerning activities that impact external reports such as financial statements, and therefore, the sales department, the accounting department and the information system department participate in internal control.",
+        "d": "Internal control is a matter concerning activities that involve manual operation, and therefore, the information system department does not participate in internal control, but the sales department and the accounting department do."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 66,
+      "text": "Which of the following is the scope that the CFO, one of the positions involved in corporate management, bears responsibility for?",
+      "options": {
+        "a": "Technology",
+        "b": "Finance",
+        "c": "Information",
+        "d": "Personnel"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 67,
+      "text": "There are activities A, B, and C that use machines X and Y, and it is required in each activity that the machines are used in the sequence of machine X, machine Y. When the use times of machines X and Y in each activity are as shown in the table below, which of the following is the sequence of the activities where the total time required to complete the three (3) activities becomes minimum? Here, machines X and Y can be used in parallel as shown in the figure below, but two (2) or more tasks cannot be performed simultaneously with any machine and the sequence of activities must be the same for both machines. Table Use times of machines X and Y in each activity Use time of machine X Use time of machine Y Activity A 8 minutes 10 minutes Activity B 10 minutes 5 minutes Activity C 6 minutes 8 minutes Machine X Activity A (8 minutes) Activity B (10 minutes) Activity C (6 minutes) Machine Y Activity A (10 minutes) Activity B (5 minutes) Activity C (8 minutes) Figure Schedule of using the machines (Example of when activities are performed in the sequence A → B → C)",
+      "options": {
+        "a": "A → B → C",
+        "b": "A → C → B",
+        "c": "C → A → B",
+        "d": "C → B → A"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 68,
+      "text": "The table below is a part of the ingredients table of a steamed meat dumplings lunch box. How many grams of meat is necessary to prepare 100 steamed meat dumplings lunch boxes? Here, the steamed meat dumplings lunch boxes do not contain any dish that uses meat other than the steamed meat dumplings, and there is no loss of ingredients in the preparing process. Product Quantity Unit of Ingredients Quantity of Unit of to be quantity to ingredients quantity of prepared be prepared ingredients Steamed 1 unit Steamed meat 5 units meat dumplings dumplings Rice 300 grams lunch box … Steamed 1 unit Dumplings 1 sheet meat wrapper dumplings Dumplings 20 grams stuffing … Dumplings 100 grams Meat 60 grams stuffing Onion 30 grams … …",
+      "options": {
+        "a": "1,200",
+        "b": "3,000",
+        "c": "6,000",
+        "d": "30,000"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 69,
+      "text": "Which of the following represents the “E” in ROE that is an index for the measurement of a company’s profitability?",
+      "options": {
+        "a": "Earnings",
+        "b": "Employee",
+        "c": "Enterprise",
+        "d": "Equity"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 70,
+      "text": "Which of the following is the most appropriate terminology for referring to a method that uses AI, IoT, and other such IT for personnel-related work such as personnel evaluations and recruitment with aims including the improvement of a company’s personnel functions and achieving reform in working styles?",
+      "options": {
+        "a": "e-Learning",
+        "b": "Fintech",
+        "c": "HR Tech",
+        "d": "Competency"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 71,
+      "text": "Which of the following is most appropriate as the person with responsibility for an information systems strategy that is created on the basis of a business strategy?",
+      "options": {
+        "a": "The CIO",
+        "b": "The head of the user department of mission-critical systems",
+        "c": "The project manager for system development",
+        "d": "The head of system planning"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 72,
+      "text": "Which of the following is an index that indicates the efficiency of capital utilization?",
+      "options": {
+        "a": "Ratio of operating profit to net sales",
+        "b": "Equity to total assets",
+        "c": "Total capital turnover",
+        "d": "Break-even point ratio"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 73,
+      "text": "Which of the following is an example of a Non-Disclosure Agreement (NDA)?",
+      "options": {
+        "a": "A contract specifying the service content to be provided, which is agreed between the service provider and the customer before the provision of the IT service",
+        "b": "A contract specifying that the vendor of computer equipment bears the responsibility of transferring the property right, and that the buyer bears the responsibility of paying the charges",
+        "c": "A contract specifying the obligation of the outsourcer and outsourcee to maintain confidentiality of the secret information of a party that becomes known to the other party during system development",
+        "d": "A contract specifying that an outsourcee to whom the installation of a general-purpose software package has been outsourced performs the task at the outsourcee’s own discretion and responsibility, and receives payment upon the completion of the task"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 74,
+      "text": "From the viewpoint of corporate governance, which of the following is the most appropriate method of strengthening the functions of monitoring and supervising the decision-making process of the management?",
+      "options": {
+        "a": "Installing a camera for monitoring the entry and exit of the president’s office",
+        "b": "Periodically requesting a private detective to investigate the conduct of the management",
+        "c": "Appointing some outside directors",
+        "d": "Employing law school graduates as members of the internal audit department"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 75,
+      "text": "Which of the following is an international standard for environmental management systems developed by ISO?",
+      "options": {
+        "a": "ISO 9000",
+        "b": "ISO 14001",
+        "c": "ISO/IEC 20000",
+        "d": "ISO/IEC 27000"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 76,
+      "text": "Which of the following examples of the sending of e-mail is inappropriate from the standpoint of the protection of personal information?",
+      "options": {
+        "a": "In responding to an e-mail asking questions about a product, you placed the e-mail addresses of multiple customers in the “CC” field as you want these customers to read the response.",
+        "b": "You created one (1) e-mail message for each of your top 10 customers with the largest amount of mail-order purchases, in order to inform each customer of a corresponding prize.",
+        "c": "You sent an e-mail message with information on an alumni meeting, and addressed the message to the e-mail addresses of all members listed in the alumni association directory that is distributed to all members.",
+        "d": "When you were arranging a special spring exhibition, you placed the e-mail addresses of selected members in the “BCC” field of an e-mail message and sent the message soliciting exhibits."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 77,
+      "text": "Which of the following is the most appropriate as an example of an enhancement activity for compliance?",
+      "options": {
+        "a": "Expansion of a program to support the community service activities of employees",
+        "b": "Education for employees concerning laws and rules that must be followed",
+        "c": "Acquisition of another company’s business for swift business deployment",
+        "d": "Withdrawal from businesses where it is difficult to make profit"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 78,
+      "text": "Which of the following is the appropriate description concerning an international organization for standardization?",
+      "options": {
+        "a": "ICANN is an international organization for standardization in the fields of industry, science, and technology.",
+        "b": "IEC is an international organization for standardization in the field of e-commerce.",
+        "c": "IEEE is an international organization for standardization in the field of accounting.",
+        "d": "ITU is an international organization for standardization in the field of telecommunications."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 79,
+      "text": "In product portfolio management, where products and business to be analyzed are classified into cash cows, stars, dogs, and question marks, which of the following is the appropriate combination of indexes used in the vertical axis and horizontal axis? A: Customer retention rate B: Market size C: Market growth rate D: Market share",
+      "options": {
+        "a": "A, B",
+        "b": "A, C",
+        "c": "B, D",
+        "d": "C, D"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 80,
+      "text": "In Company X, the experience and know-how of employees who have managed drainage treatment in the facility over a long period of time is documented and accumulated, and the accumulated experience and know-how is utilized on daily drainage treatment activities and design of new processing equipment. Which of the following is appropriate as a concept of this example?",
+      "options": {
+        "a": "ERP",
+        "b": "SFA",
+        "c": "Supply chain management",
+        "d": "Knowledge management"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 81,
+      "text": "Which of the following information is necessary for CRM?",
+      "options": {
+        "a": "Customer data and customer purchasing history",
+        "b": "Blueprint data",
+        "c": "Data of experts' knowledge",
+        "d": "Day and time of sales, shop, product sold, and quantity sold"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 82,
+      "text": "Which of the following is a technique that analyzes the value of a product or service through the relationship between functionality and cost, and enhances that value through reduction in cost and increase in functionality and quality?",
+      "options": {
+        "a": "Supply chain management",
+        "b": "Knowledge management",
+        "c": "Value engineering",
+        "d": "Reverse engineering"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 83,
+      "text": "Which of the following is the appropriate explanation of benchmarking used for corporate management?",
+      "options": {
+        "a": "It refers to the promotion of continual improvement of business processes by applying the PDCA cycle.",
+        "b": "It refers to the best case study for comparison and analysis when improvements are to be made.",
+        "c": "It refers to the unique skills and technologies for securing superiority over competitors.",
+        "d": "It refers to the measurement of the products and services of one’s company, and their comparison with other superior competitors."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 84,
+      "text": "With the purpose of increasing the number of contracts concluded, salespersons in Company A’s sales department began an activity to make proposals for plans to customers. A key goal indicator (KGI) and key performance indicator (KPI) are to be set as indexes for achievement of sales activities. Which of the following is the most appropriate combination of KGI and KPI in this activity? KGI KPI",
+      "options": {
+        "a": "No. of contracts concluded Sales amount",
+        "b": "No. of contracts concluded No. of proposals",
+        "c": "No. of proposals Sales amount",
+        "d": "No. of proposals No. of contracts concluded"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 85,
+      "text": "Which of the following is an appropriate description of a “patent portfolio” that is important for establishing the patent strategy?",
+      "options": {
+        "a": "It is a compilation of patents owned and filed by a company to analyze their contribution to business, the synergy among them, and the expected fields of their applications.",
+        "b": "At the beginning of a technological innovation, patent applications tend to increase, but because of the emergence of dominant products in the market, there is a shift to process innovation, and patent applications decrease.",
+        "c": "It is a matrix with the share of the products of one’s company and the growth rate of the market as the axes, showing the positioning of the company and its competitors in the market.",
+        "d": "Multiple patent holders mutually grant their patent licenses."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 88,
+      "text": "A company wishes to create digital files from paper documents and paper blueprints, and make these available company-wide. Which of the following is appropriate equipment to be used?",
+      "options": {
+        "a": "GPS receiver",
+        "b": "Scanner",
+        "c": "Digitizer",
+        "d": "Plotter"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 89,
+      "text": "Which of the following is an appropriate explanation of CAD?",
+      "options": {
+        "a": "It is a circuit that converts an analog signal into a digital signal.",
+        "b": "It refers to the use of computers in the design of buildings and industrial products.",
+        "c": "It is an imaging element that converts light to an electrical signal.",
+        "d": "It refers to the creation of a single piece of content by combining characters, images, audio, and other dat"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 90,
+      "text": "Which of the following is the most appropriate example of a use of a wearable device?",
+      "options": {
+        "a": "Using a PC or tablet computer, and receiving diagnosis from a doctor over a network",
+        "b": "Acquiring blood pressure, body temperature, and other such measurement data with a smartwatch, and detecting abnormalities at an early stage",
+        "c": "Managing and sharing the computerized data of patient records from multiple hospitals in a cloud service",
+        "d": "Installing a human presence sensor in a bed, and sending a notification if the sensor does not respond for a certain length of time"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 91,
+      "text": "An EC site handles a wide range of user inquiries via chat with a mechanism where operators provide a response. It decides to use a new mechanism where software learns from the content of users’ past chats, infers an appropriate response from the flow of the conversation and provides an automatic response. Which of the following is the most appropriate technology that is used in the new mechanism?",
+      "options": {
+        "a": "AI",
+        "b": "AR",
+        "c": "CRM",
+        "d": "ERP"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 92,
+      "text": "Which of the following is the most appropriate term to express the initiatives that are implemented by a financial institution or other such institution in order to prevent acts where funds obtained illegally are disguised as being obtained by legitimate means?",
+      "options": {
+        "a": "Anti-money laundering (AML)",
+        "b": "Insider trading regulations",
+        "c": "Skimming",
+        "d": "Phishing"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 93,
+      "text": "Which of the following is an appropriate description concerning groupware?",
+      "options": {
+        "a": "It is software that has an animation or audio function and is useful when making presentations effective by incorporating the output of spreadsheet software or database software.",
+        "b": "It is software that has functions, such as setting print layout or changing and editing texts, and is used for creating documents.",
+        "c": "It is software that has functions, such as communication via e-mail and electronic bulletin boards, data sharing, and schedule management, and supports collaborative work.",
+        "d": "It is software that is used to enter data into cells of a worksheet, create tables, and tabulate dat"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 94,
+      "text": "Which of the following is a modeling technique that is used for analyzing business operations and system from the viewpoint of the flow of data which is exchanged between processes?",
+      "options": {
+        "a": "BPR",
+        "b": "DFD",
+        "c": "MRP",
+        "d": "WBS"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 95,
+      "text": "Training on how to use a sales forecast system is planned for the persons in charge of business across the country. Which of the following is a merit that is obtained by using e- learning in training?",
+      "options": {
+        "a": "The person in charge of business can be directly lectured about the system from the person in charge of design, and raise questions then and there.",
+        "b": "The person in charge of business can use his/her own free time and undergo training at any suitable time.",
+        "c": "Several persons in charge of business can participate together and exchange their opinions on how to use the system.",
+        "d": "The persons in charge of business can be asked to assemble together in a room and training can be given simultaneously."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 96,
+      "text": "Attempts are being made to streamline the functions and services of cities and regions and make them more advanced with the use of ICT in order to solve regional problems, and vitalize regions. Which of the following is the most appropriate term to describe such a solution for community development?",
+      "options": {
+        "a": "Capacity",
+        "b": "Smart city",
+        "c": "Diversity",
+        "d": "University"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 97,
+      "text": "In system development, which of the following is a process that clarifies the business functions to be newly constructed or reconstructed, and on the basis of the business functions, specifies the scope of computerization and the functions?",
+      "options": {
+        "a": "External design",
+        "b": "Internal design",
+        "c": "Programming",
+        "d": "Requirements definition"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 98,
+      "text": "Which of the following is the most appropriate description of IoT?",
+      "options": {
+        "a": "It is a learning mechanism in artificial intelligence.",
+        "b": "It is a mechanism where devices or control units equipped with a sensor connect to the Internet and exchange a variety of information via the Internet.",
+        "c": "It is a group of functions and procedures that are made public in order to enable some of the features of a piece of software to be used by other programs.",
+        "d": "It is a tool that uses a software robot to streamline routine work."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 99,
+      "text": "Which of the following is the most appropriate word to indicate the use of IoT, AI, and other IT in order to strategically overhaul a business model and produce new added value?",
+      "options": {
+        "a": "Digital signage",
+        "b": "Digital divide",
+        "c": "Digital transformation",
+        "d": "Digital native"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 100,
+      "text": "Which of the following is the most appropriate explanation of an RFP that is created by a company, government organization, or other such organization that is planning the introduction of a new system?",
+      "options": {
+        "a": "It is a document created for collecting information from vendors and determining a system’s technical issues and feasibility.",
+        "b": "It is a definition of matters such as the performance requirements for a new system by the vendor and the ordering party.",
+        "c": "It sets out the agreed matters concerning the level of service quality between the vendor and the ordering party.",
+        "d": "It provides vendors with the objective of introduction and a functional overview of the system, and solicit a bi"
+      },
+      "correct_answer": "d"
+    }
+  ]
+}

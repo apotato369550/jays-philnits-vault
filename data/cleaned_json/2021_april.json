@@ -1,0 +1,848 @@
+{
+  "metadata": {
+    "exam_name": "2021_april",
+    "year": 2021,
+    "month": "april",
+    "extraction_method": "raw_pdf",
+    "extraction_date": "2026-02-06",
+    "total_questions_extracted": 76
+  },
+  "questions": [
+    {
+      "q_num": 1,
+      "text": "When three balls are picked out consecutively from a box containing three white balls and four black balls, which of the following is the lowest probability? a) Probability of picking out the balls in order of black, black, black b) Probability of picking out the balls in order of black, black, white c) Probability of picking out the balls in order of black, white, black d) Probability of picking out the balls in order of white, black, black",
+      "options": {
+        "a": "Probability of picking out the balls in order of black, black, black",
+        "b": "Probability of picking out the balls in order of black, black, white",
+        "c": "Probability of picking out the balls in order of black, white, black",
+        "d": "Probability of picking out the balls in order of white, black, black"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 2,
+      "text": "Which of the following is an appropriate description concerning the characteristics of EUC (End User Computing)? a) EUC enables users to directly access, reference, and manipulate data that they need for business operations. b) EUC gives priority to system operation and maintenance, so it causes backlogs to increase in the information systems department. c) EUC requires more development staff members in the information systems department, so it often leads to an increase in the operating costs of the department. d) EUC allows the information systems department to take a leadership role in application development, so it can reduce the workload of users.",
+      "options": {
+        "a": "EUC enables users to directly access, reference, and manipulate data that they need for business operations.",
+        "b": "EUC gives priority to system operation and maintenance, so it causes backlogs to increase in the information systems department.",
+        "c": "EUC requires more development staff members in the information systems department, so it often leads to an increase in the operating costs of the department.",
+        "d": "EUC allows the information systems department to take a leadership role in application development, so it can reduce the workload of users."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 4,
+      "text": "Which of the following represents the decimal number 155 in binary? a) 10011011 b) 10110011 c) 11001101 d) 11011001",
+      "options": {
+        "a": "10011011",
+        "b": "10110011",
+        "c": "11001101",
+        "d": "11011001"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 5,
+      "text": "On a desk that is only large enough to place 4 files at the same time, 6 files, A through F, are used to perform a task. When 4 files are already placed on the desk, the least recently used file must be placed back into the drawer before the fifth file can be placed on the desk. When the files are used in the sequence A, B, C, D, B, A, E, A, B, F, which of the following is the last file placed back into the drawer? a) A b) B c) D d) E",
+      "options": {
+        "a": "A",
+        "b": "B",
+        "c": "D",
+        "d": "E"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 6,
+      "text": "Which of the following is a term for a list of instructions to a computer that are written in a human-readable programming language? a) PIN code b) Source code c) Binary code d) Character code",
+      "options": {
+        "a": "PIN code",
+        "b": "Source code",
+        "c": "Binary code",
+        "d": "Character code"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 7,
+      "text": "In the data structure called a queue that is suitable for performing first-in first-out (FIFO) processing, values are stored in the order of “8”, “1”, “6”, and “3”, and then two (2) values are removed consecutively. Which of the following is the last value that is removed? a) 1 b) 3 c) 6 d) 8",
+      "options": {
+        "a": "1",
+        "b": "3",
+        "c": "6",
+        "d": "8"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 9,
+      "text": "In a markup language, with the purpose of displaying on a screen and printing, it is possible to directly embed not only the document content, but also the document structure and layout information, and the character font and size information. Which of the following is classified into such a markup language? a) C b) HTML c) SQL d) URL",
+      "options": {
+        "a": "C",
+        "b": "HTML",
+        "c": "SQL",
+        "d": "URL"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 10,
+      "text": "Which of the following is designed to virtually reduce the time for the CPU to access the main memory, in order to improve the processing efficiency of a PC? a) SSD b) Virtual memory c) Cache memory d) Defragmentation",
+      "options": {
+        "a": "SSD",
+        "b": "Virtual memory",
+        "c": "Cache memory",
+        "d": "Defragmentation"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 12,
+      "text": "Which of the following is an appropriate description about a device driver? a) Software for controlling and operating peripherals that are connected to a PC b) Software that is started immediately after a PC is turned on, and enables basic input/output to the hard disk and the keyboard before the OS starts c) Software to be embedded in a web browser for displaying pages that contain video d) Software that combines files into one (1) file and restores the original files from the file",
+      "options": {
+        "a": "Software for controlling and operating peripherals that are connected to a PC",
+        "b": "Software that is started immediately after a PC is turned on, and enables basic input/output to the hard disk and the keyboard before the OS starts",
+        "c": "Software to be embedded in a web browser for displaying pages that contain video",
+        "d": "Software that combines files into one (1) file and restores the original files from the file"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 13,
+      "text": "Volatile memory loses its content when the power supply is lost. Among (i) through (iv) below, which of the following is the list of all volatile memory? (i) DRAM (ii) ROM (iii) SRAM (iv) SSD a) (i), (ii) b) (i), (iii) c) (ii), (iv) d) (iii), (iv)",
+      "options": {
+        "a": "(i), (ii)",
+        "b": "(i), (iii)",
+        "c": "(ii), (iv)",
+        "d": "(iii), (iv)"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 16,
+      "text": "Among the descriptions A through D concerning measures for reducing the response time in a client/server system, which of the following is the list that contains all and only the appropriate items? A: Establishing a high-speed line between the client and the server, and reducing the time taken to transmit data B: Increasing the number of clients, and reducing the waiting time for users before using clients C: Reducing the time taken for data entry by users on the client’s input screen D: Making the server high-performance, and reducing the server’s processing time a) A, B, C b) A, D c) B, C d) C, D",
+      "options": {
+        "a": "A, B, C",
+        "b": "A, D",
+        "c": "B, C",
+        "d": "C, D"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 20,
+      "text": "Which of the following is an appropriate description concerning OSs used for PCs? a) Since the interface between an OS and application programs is standardized, the application programs can be developed without regard to the type of OS. b) An OS allocates the computer resources, such as the CPU, memory, and auxiliary storage device, to application programs. c) Since an OS has the function of automatically converting character set of a file, application programs can access the file without regard to the character set. d) The source code of an OS is required to be disclosed so that application programs can be free to use the various functions of the OS.",
+      "options": {
+        "a": "Since the interface between an OS and application programs is standardized, the application programs can be developed without regard to the type of OS.",
+        "b": "An OS allocates the computer resources, such as the CPU, memory, and auxiliary storage device, to application programs.",
+        "c": "Since an OS has the function of automatically converting character set of a file, application programs can access the file without regard to the character set.",
+        "d": "The source code of an OS is required to be disclosed so that application programs can be free to use the various functions of the OS."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 21,
+      "text": "Which of the following is an appropriate description about the function keys of a PC? a) They are the keys where specific functions are assigned for each application and OS. b) They display a keyboard shape on a screen and enable input processing with software. c) They have a security role and are keys for performing encryption and decryption. d) They are information to identify specific lines uniquely in a database.",
+      "options": {
+        "a": "They are the keys where specific functions are assigned for each application and OS.",
+        "b": "They display a keyboard shape on a screen and enable input processing with software.",
+        "c": "They have a security role and are keys for performing encryption and decryption.",
+        "d": "They are information to identify specific lines uniquely in a database."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 22,
+      "text": "Spreadsheet software is to be used to perform a calculation with the monthly sales data for each product shown in the worksheet below. When the expression “COUNTIF(B2:D2,>15000)” is entered in cell E2 and then copied to cell E3 and cell E4, which of the following is the value that is displayed in cell E4? A B C D E Product January February March Conditional 1 name sales sales sales count 2 Product A 10,000 15,000 20,000 3 Product B 5,000 10,000 5,000 4 Product C 10,000 20,000 30,000 a) 0 b) 1 c) 2 d) 3",
+      "options": {
+        "a": "0",
+        "b": "1",
+        "c": "2",
+        "d": "3"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 23,
+      "text": "Which of the following is a computer that is used for tasks such as global scale environmental simulations and DNA analysis, and was developed with the objective of processing a large amount of calculations at ultra high speed? a) Virtual computer b) Super computer c) General purpose computer d) Microcomputer",
+      "options": {
+        "a": "Virtual computer",
+        "b": "Super computer",
+        "c": "General purpose computer",
+        "d": "Microcomputer"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 24,
+      "text": "Which of the following is the term for the design that is intended to provide comfortable usability to as many people as possible, regardless of their culture, language, age, gender, presence or absence of disability, or capability? a) Barrier-free design b) Fail-safe c) Foolproof d) Universal design",
+      "options": {
+        "a": "Barrier-free design",
+        "b": "Fail-safe",
+        "c": "Foolproof",
+        "d": "Universal design"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 25,
+      "text": "Which of the following is the most appropriate explanation of virtual reality? a) Improving the GUI not by displaying an image gradually from top to bottom, but by first displaying a coarse mosaic-like image, and then by gradually increasing the sharpness of the image b) Enabling computer-simulated objects and spaces to be perceived like the real world by using computer graphics or other techniques c) Conducting computer simulations instead of, among others, the wind-tunnel test used for the design of cars and airplanes d) Combining images of separately shot scenery and people to create an image that is different from the real world",
+      "options": {
+        "a": "Improving the GUI not by displaying an image gradually from top to bottom, but by first displaying a coarse mosaic-like image, and then by gradually increasing the sharpness of the image",
+        "b": "Enabling computer-simulated objects and spaces to be perceived like the real world by using computer graphics or other techniques",
+        "c": "Conducting computer simulations instead of, among others, the wind-tunnel test used for the design of cars and airplanes",
+        "d": "Combining images of separately shot scenery and people to create an image that is different from the real world"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 26,
+      "text": "Which of the following is a service that provides disk space on a server connected to the Internet for storing files and allows users to read and write data from anywhere inside or outside their homes? a) Archive b) Authoring c) Online storage d) Flash memory",
+      "options": {
+        "a": "Archive",
+        "b": "Authoring",
+        "c": "Online storage",
+        "d": "Flash memory"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 27,
+      "text": "Which of the following is an appropriate effect obtained through the normalization of data in a relational database? a) Securing of data compatibility between different types of computers b) Improvement of storage efficiency through data compression c) Elimination of redundancy and inconsistency of data d) Elimination of the need for backups that are necessary in preparation for the failure of devices storing data",
+      "options": {
+        "a": "Securing of data compatibility between different types of computers",
+        "b": "Improvement of storage efficiency through data compression",
+        "c": "Elimination of redundancy and inconsistency of data",
+        "d": "Elimination of the need for backups that are necessary in preparation for the failure of devices storing data"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 28,
+      "text": "In the description below concerning a relational database, which of the following is an appropriate combination of terms to be inserted into blanks A through C? Analyze the target business operations, identify the data which is used there, and create , consisting of entities and . On the basis of the created, design . A B C a) instances E-R diagram functions b) instances flowchart tables c) relationships E-R diagram tables d) relationships flowchart functions",
+      "options": {
+        "a": "instances E-R diagram functions",
+        "b": "instances flowchart tables",
+        "c": "relationships E-R diagram tables",
+        "d": "relationships flowchart functions"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 29,
+      "text": "When character strings are searched by using wildcard characters, which of the following lists all and only the character strings that match the search expression “*A*.te??” among the character strings I through IV? Here, the wildcard character “?” represents any one (1) character and “*” represents a character string that consists of zero (0) or more of any characters. I A.text II AA.tex III B.Atex IV BA.Btext a) I b) I, II c) II, III, IV d) III, IV",
+      "options": {
+        "a": "I",
+        "b": "I, II",
+        "c": "II, III, IV",
+        "d": "III, IV"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 30,
+      "text": "When another network such as the Internet is accessed from a network in an office or a household, which of the following fulfills the role of an entrance or an exit to the other network? a) Splitter b) Default gateway c) Hub d) Repeater",
+      "options": {
+        "a": "Splitter",
+        "b": "Default gateway",
+        "c": "Hub",
+        "d": "Repeater"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 31,
+      "text": "Among the cases of communication between PCs, servers, communication devices, printers, and other devices, which of the following needs a WAN? a) Multiple PCs and a file server are connected to a LAN in Osaka branch office, and files stored in the file server are made to be accessible from any PC connected to the LAN. b) Inside a house, a PC and a printer are connected with Bluetooth, and documents created on the PC are printed on the printer. c) Inside a server room, a PC and a web server are connected to a hub, and the web server is maintained from the PC. d) A PC connected to the LAN in Kyoto-City sales office accesses the server in Tokyo head office and uploads sales information.",
+      "options": {
+        "a": "Multiple PCs and a file server are connected to a LAN in Osaka branch office, and files stored in the file server are made to be accessible from any PC connected to the LAN.",
+        "b": "Inside a house, a PC and a printer are connected with Bluetooth, and documents created on the PC are printed on the printer.",
+        "c": "Inside a server room, a PC and a web server are connected to a hub, and the web server is maintained from the PC.",
+        "d": "A PC connected to the LAN in Kyoto-City sales office accesses the server in Tokyo head office and uploads sales information."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 32,
+      "text": "Which of the following is an appropriate explanation of SSID that is used in wireless LANs? a) The MAC address of an access point b) The channel number of radio waves in use c) The IP address of an access point that is used as the default gateway d) A character string used to identify the wireless network",
+      "options": {
+        "a": "The MAC address of an access point",
+        "b": "The channel number of radio waves in use",
+        "c": "The IP address of an access point that is used as the default gateway",
+        "d": "A character string used to identify the wireless network"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 34,
+      "text": "When Mr. A sent an e-mail to Mr. X, he decided to also send it to Mr. Y and Mr. Z for reference. However, Mr. A did not want Mr. X nor Mr. Y to know that it was sent to Mr. Z. In such a case, which of the following is the appropriate combination of recipients to specify? To CC BCC a) X Y Z b) X Y, Z Z c) X Z Y d) X, Y, Z Y Z",
+      "options": {
+        "a": "X Y Z",
+        "b": "X Y, Z Z",
+        "c": "X Z Y",
+        "d": "X, Y, Z Y Z"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 35,
+      "text": "Which of the following is an appropriate explanation of the keylogger that is a threat to information security? a) Stealing information by watching the keyboard input and the display output from behind a PC user b) Monitoring and recording the keyboard input on a user’s PC c) Analyzing a password by using dictionary of all the words that are likely to be used as passwords d) Searching for a free access point by moving around a town with a PC that can detect the electromagnetic waves of a wireless LAN",
+      "options": {
+        "a": "Stealing information by watching the keyboard input and the display output from behind a PC user",
+        "b": "Monitoring and recording the keyboard input on a user’s PC",
+        "c": "Analyzing a password by using dictionary of all the words that are likely to be used as passwords",
+        "d": "Searching for a free access point by moving around a town with a PC that can detect the electromagnetic waves of a wireless LAN"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 36,
+      "text": "Which of the following is a DoS attack? a) Interrupting a network service by sending a large number of requests b) Spying on the data of other people on a communication path c) Trying various combinations of letters or numbers to unlock an account d) Using a service on a network illegally by pretending to be another person",
+      "options": {
+        "a": "Interrupting a network service by sending a large number of requests",
+        "b": "Spying on the data of other people on a communication path",
+        "c": "Trying various combinations of letters or numbers to unlock an account",
+        "d": "Using a service on a network illegally by pretending to be another person"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 38,
+      "text": "Among the countermeasures A through D concerning information security, which of the following is the list that contains all and only the appropriate countermeasures for preventing a virus infection? A: Installing antivirus software B: Applying a security patch (i.e., update module) C: Setting a password for the hard disk D: Encrypting files a) A, B b) A, B, C c) A, D d) B, C",
+      "options": {
+        "a": "A, B",
+        "b": "A, B, C",
+        "c": "A, D",
+        "d": "B, C"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 39,
+      "text": "Which of the following is a protocol that is used for encrypted communication between a web server and a web browser that are connected through HTTPS? a) SEO b) SPEC c) SQL d) TLS",
+      "options": {
+        "a": "SEO",
+        "b": "SPEC",
+        "c": "SQL",
+        "d": "TLS"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 40,
+      "text": "Among I through IV used for authentication, which of the following lists all and only biometrics? I PIN (Personal Identification Number) II Iris III Fingerprint IV Vein a) I, II, III b) II, III c) II, III, IV d) IV",
+      "options": {
+        "a": "I, II, III",
+        "b": "II, III",
+        "c": "II, III, IV",
+        "d": "IV"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 43,
+      "text": "When a document file attached to a received e-mail is opened, a PC begins to behave abnormally. Which of the following is an appropriate suspected attack? a) SQL injection b) Cross-site scripting c) Shoulder hacking d) Macro virus",
+      "options": {
+        "a": "SQL injection",
+        "b": "Cross-site scripting",
+        "c": "Shoulder hacking",
+        "d": "Macro virus"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 44,
+      "text": "Which of the following is a physical countermeasure for information security where depending on the importance of the information that is handled, an office or other such space is physically divided and separated into areas such as an open area, a security area, and a handover area? a) Sanitizing b) Social engineering c) Zoning d) Hacking",
+      "options": {
+        "a": "Sanitizing",
+        "b": "Social engineering",
+        "c": "Zoning",
+        "d": "Hacking"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 47,
+      "text": "Among the descriptions A through D below, which of the following is the list that contains all items that are to be considered in the design of screens for easy-to-use for system users? A: The time to recover from a failure B: The ease of learning of operation C: The layout of pushbuttons D: The size and color of text a) A, B, C b) A, B, D c) A, C, D d) B, C, D",
+      "options": {
+        "a": "A, B, C",
+        "b": "A, B, D",
+        "c": "A, C, D",
+        "d": "B, C, D"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 48,
+      "text": "In the process of system requirements definition, which of the following is an appropriate evaluation criteria for system requirements? a) Consistency with results of system integration test b) Consistency with needs of the customer c) Appropriateness of the design method used d) Coverage of test cases",
+      "options": {
+        "a": "Consistency with results of system integration test",
+        "b": "Consistency with needs of the customer",
+        "c": "Appropriateness of the design method used",
+        "d": "Coverage of test cases"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 49,
+      "text": "Among a series of tests of software, which of the following is implemented mainly by the user who orders the development of the software? a) Acceptance test b) Integration test c) System test d) Unit test",
+      "options": {
+        "a": "Acceptance test",
+        "b": "Integration test",
+        "c": "System test",
+        "d": "Unit test"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 51,
+      "text": "Among the descriptions A through C concerning the measures for risk treatment to be considered when a new product is developed, which of the following is the list that contains all and only appropriate measures for reducing quality-related risks? A: Developing the product by using stable technology B: Purchasing insurance against development delays C: Creating a prototype of the product a) A, B b) A, C c) A, B, C d) B, C",
+      "options": {
+        "a": "A, B",
+        "b": "A, C",
+        "c": "A, B, C",
+        "d": "B, C"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 52,
+      "text": "Which of the following is an appropriate description of component decomposition that is performed to create the WBS of a system development project? a) It is desirable that decomposition be performed up to the level that the cost and time required to create development deliverables can be estimated and manageable. b) When system development is outsourced, the customer should entrust all decomposition of deliverables to the developer that creates the deliverables. c) Since a project’s progress report meetings are a means of communication, they are not subject to decomposition. d) If the developer has some experiences in developing similar systems, the developer does not need to perform decomposition again.",
+      "options": {
+        "a": "It is desirable that decomposition be performed up to the level that the cost and time required to create development deliverables can be estimated and manageable.",
+        "b": "When system development is outsourced, the customer should entrust all decomposition of deliverables to the developer that creates the deliverables.",
+        "c": "Since a project’s progress report meetings are a means of communication, they are not subject to decomposition.",
+        "d": "If the developer has some experiences in developing similar systems, the developer does not need to perform decomposition again."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 53,
+      "text": "Which of the following is an appropriate index or indicator that is used to evaluate the quality of deliverables in a system development project? a) External procurement ratio b) Test coverage c) Total number of staff assigned d) Number of days spent on the project",
+      "options": {
+        "a": "External procurement ratio",
+        "b": "Test coverage",
+        "c": "Total number of staff assigned",
+        "d": "Number of days spent on the project"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 54,
+      "text": "Project management includes project cost management, project scope management, project time management, and project integration management. Which of the following is an item that is created in project integration management in a software development project? a) Development schedule for the entire project b) List of deliverables for the entire project c) Budget document for the entire project d) Planning document for executing, monitoring, and controlling the entire project",
+      "options": {
+        "a": "Development schedule for the entire project",
+        "b": "List of deliverables for the entire project",
+        "c": "Budget document for the entire project",
+        "d": "Planning document for executing, monitoring, and controlling the entire project"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 55,
+      "text": "Which of the following is an appropriate activity for project human resources management in a system development project? a) Determining the type of deliverables to be created in external design phase b) Creating a schedule for the integration test c) Estimating personnel costs for defining system requirements d) Conducting training to improve programming skills",
+      "options": {
+        "a": "Determining the type of deliverables to be created in external design phase",
+        "b": "Creating a schedule for the integration test",
+        "c": "Estimating personnel costs for defining system requirements",
+        "d": "Conducting training to improve programming skills"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 57,
+      "text": "After the detailed design of an information system is complete, it is decided to outsource programming to an outsourcing contractor with clearly defined specifications, deliverables, and scope of work. Which of the following is the most appropriate management activity of the project manager of the ordering company?",
+      "options": {
+        "a": "Checking the quality of the completed program along with requesting the outsourcing contractor for periodic progress reports",
+        "b": "Checking the details of activities performed by the outsourcing contractor and requesting the substitution of staff members with a low productivity",
+        "c": "Managing the clock-in and clock-out of staff members at the workplace of the outsourcing contractor, and checking the operation status",
+        "d": "Directly requesting staff members to perform the programming activities associated with the change in specifications, if there are surplus staff members with the outsourcing contractor"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 58,
+      "text": "Which of the following is a framework that describes a collection of best practices of IT service management? a) ISO 14001 b) ISO/IEC 27001 c) ITIL d) PMBOK",
+      "options": {
+        "a": "ISO 14001",
+        "b": "ISO/IEC 27001",
+        "c": "ITIL",
+        "d": "PMBOK"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 61,
+      "text": "For confidential information that is managed in an information system, which of the following is an appropriate measure that is taken from the facility management perspective to prevent information leakage? a) Installation of antivirus software b) Entrance and exit control for a building that has a computer room c) ID and password management for information systems d) Encryption of electronic documents",
+      "options": {
+        "a": "Installation of antivirus software",
+        "b": "Entrance and exit control for a building that has a computer room",
+        "c": "ID and password management for information systems",
+        "d": "Encryption of electronic documents"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 62,
+      "text": "The IT department of Company A plans to extend inquiry hours to 24 hours in order to improve the availability of the help desk. Company A agrees to the proposal by Company B that offers 24-hour support through automatic response during overnight hours by a chatbot. Which of the following is an appropriate document to be used for this agreement? a) BCP b) NDA c) RFP d) SLA",
+      "options": {
+        "a": "BCP",
+        "b": "NDA",
+        "c": "RFP",
+        "d": "SLA"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 63,
+      "text": "Which of the following is the most appropriate explanation of IT governance?",
+      "options": {
+        "a": "It is the organizational abilities of a company to control the creation and execution of its IT strategy with the purpose of building competitive superiority, and to lead it in the ideal direction.",
+        "b": "It is the implementation and management of a good quality IT service that meets business needs.",
+        "c": "It is an activity that a third party that is not an involved party nor its management verifies that implementation and operation of risk control concerning information systems are appropriate.",
+        "d": "It is the application of the knowledge, skills, tools, and techniques to project activities in order to meet the requirements of the project."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 64,
+      "text": "A food manufacturer is conducting business in accordance with safety standards that are specified by the food industry. As the safety standards are revised, the internal standards of the company are also revised accordingly. Which of the following four (4) objectives of internal control corresponds to this action? a) Effectiveness and efficiency of business b) Reliability of financial reporting c) Compliance with laws and regulations that are related to business operations d) Protection of assets",
+      "options": {
+        "a": "Effectiveness and efficiency of business",
+        "b": "Reliability of financial reporting",
+        "c": "Compliance with laws and regulations that are related to business operations",
+        "d": "Protection of assets"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 65,
+      "text": "through Q100 concerning strategy.",
+      "options": {
+        "a": "Writing the audit report in such a way that no disadvantage is caused to the managers of the company",
+        "b": "Disclosing to the public the entire information obtained by the systems audit",
+        "c": "Concluding a contract that audit fee is paid according to the number of findings, and then conducting an audit",
+        "d": "Making audit judgements on the basis of sufficient and appropriate audit evidence Answer questions Q66 through Q100 concerning strategy."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 67,
+      "text": "Which of the following is the appropriate combination of words and phrases to be inserted into blanks A and B in the description below, concerning companies of making and receiving investments? Company C is making an investment in Company D. To increase its Company D, Company C may . A B a) control over sell a portion of stocks b) control over acquire additional stocks c) ratio of shareholding in dispatch auditors d) ratio of shareholding in dispatch directors",
+      "options": {
+        "a": "control over sell a portion of stocks",
+        "b": "control over acquire additional stocks",
+        "c": "ratio of shareholding in dispatch auditors",
+        "d": "ratio of shareholding in dispatch directors"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 68,
+      "text": "Among the senior management positions, which of the following is the highest-ranking person who exercises control over the information system? a) CEO b) CFO c) CIO d) COO",
+      "options": {
+        "a": "CEO",
+        "b": "CFO",
+        "c": "CIO",
+        "d": "COO"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 69,
+      "text": "Which of the following is a method of education and training by which the techniques and knowledge required for working are mastered through daily work experience? a) CDP b) e-learning c) Off-JT d) OJT",
+      "options": {
+        "a": "CDP",
+        "b": "e-learning",
+        "c": "Off-JT",
+        "d": "OJT"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 70,
+      "text": "Which of the following is an appropriate rule for “brainstorming” that is a method of resolving problems? a) Participants should select and present only high-quality ideas among their own ideas. b) Participants should criticize another participant’s ideas without hesitation. c) Participants should avoid presenting better ideas based on another participant’s. d) Participants should listen to free-wheeling opinions, including unique ideas.",
+      "options": {
+        "a": "Participants should select and present only high-quality ideas among their own ideas.",
+        "b": "Participants should criticize another participant’s ideas without hesitation.",
+        "c": "Participants should avoid presenting better ideas based on another participant’s.",
+        "d": "Participants should listen to free-wheeling opinions, including unique ideas."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 71,
+      "text": "Which of the following is the appropriate term that represents a variety of individuals with different sex, age, nationality, experience, and the like? a) Glass ceiling b) Diversity c) White collar exemption d) Work-life balance",
+      "options": {
+        "a": "Glass ceiling",
+        "b": "Diversity",
+        "c": "White collar exemption",
+        "d": "Work-life balance"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 72,
+      "text": "Which of the following represents the “E” in ROE that is an index for the measurement of a company’s profitability? a) Earnings b) Employee c) Enterprise d) Equity",
+      "options": {
+        "a": "Earnings",
+        "b": "Employee",
+        "c": "Enterprise",
+        "d": "Equity"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 73,
+      "text": "Which of the following is the coding scheme that can encode a large amount of information into a small area and has an error correction function that enables the code to be read out correctly even when the code cannot be partially read out? a) ISBN code b) ITF code c) QR code d) Unicode",
+      "options": {
+        "a": "ISBN code",
+        "b": "ITF code",
+        "c": "QR code",
+        "d": "Unicode"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 74,
+      "text": "Which of the following is a case example where Bluetooth is used as a standard protocol of wireless communications for cellular phones, household electric appliances, or such other devices? a) Connecting two controllers to one home video game console without any cables b) Receiving signals from some GPS satellites into a car navigation system c) Reading a QR code by using a cellular phone d) Reading the information or data on an IC card ticket at an automatic ticket gate",
+      "options": {
+        "a": "Connecting two controllers to one home video game console without any cables",
+        "b": "Receiving signals from some GPS satellites into a car navigation system",
+        "c": "Reading a QR code by using a cellular phone",
+        "d": "Reading the information or data on an IC card ticket at an automatic ticket gate"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 75,
+      "text": "Which of the following is standardized as ISO (International Organization for Standardization) 27000 series? a) Content management system b) Information security management system c) Talent management system d) Knowledge management system",
+      "options": {
+        "a": "Content management system",
+        "b": "Information security management system",
+        "c": "Talent management system",
+        "d": "Knowledge management system"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 77,
+      "text": "Which of the following corporate activities is related to compliance promotion? ",
+      "options": {
+        "a": "A mechanism for sharing sales people’s sales know-how, customer information, and negotiation information in the sales department is implemented to improve sales productivity.",
+        "b": "A mechanism for sharing customer information and purchasing history among all departments that come into contact with customers is implemented to increase customer satisfaction.",
+        "c": "Schedules, documents, messages, and meeting room reservation status are shared with groups such as departments and projects in order to prevent loss of communication.",
+        "d": "A code of conduct or a conduct manual based on corporate ethics that aims to follow the law is created, and ethical education is implemented to ensure that employees understand them."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 79,
+      "text": "In order to consider near-term strategies, automobile manufacturer Company A identified its strengths and weaknesses, as well as the opportunities and threats it faces in the external environment. On the basis of the results, which of the following is appropriate as measures to leverage the company's strengths and overcome the threats? Strengths Weaknesses • Strong brand image • Large-scale retirement of skilled Internal • Accumulation of multi- workers environment directional research and development Opportunities Threats External • Monetary easing under • Sharp rise in oil price environment interest rate decline • Spread of environmental conservation consciousness",
+      "options": {
+        "a": "Extend the retirement age of skilled workers or implement rehiring",
+        "b": "Procure funds at low interest and stockpile large reserves of oil",
+        "c": "Conduct research and development and commercialize electric automobiles",
+        "d": "Take advantage of brand image to strengthen sales capabilities"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 80,
+      "text": "Company X summarized the results of positioning analysis of its marketing power in relation to competitors into the table as shown below. In the table, “1” is the lowest score, and “5” is the highest score. Where does Company X rank from the top? Weight Company Company Company Company X A B C Price 5 3 4 3 2 Product quality 3 3 3 2 5 Brand name 3 4 2 5 1 Selling power 4 2 4 4 5 a) 1 b) 2 c) 3 d) 4",
+      "options": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 81,
+      "text": "In order to reduce the number of in-process or in-stock items between processes, production is carried out in each process according to the requests from the subsequent process and only the required number of the required items are supplied at the required time to the subsequent process. Which of the following performs this type of production?",
+      "options": {
+        "a": "Just-in-time production system",
+        "b": "Cell production system",
+        "c": "Build-to-stock production system",
+        "d": "Lot production system"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 82,
+      "text": "Which of the following information is necessary for CRM? a) Customer data and customer purchasing history b) Blueprint data c) Data of experts' knowledge d) Day and time of sales, shop, product sold, and quantity sold",
+      "options": {
+        "a": "Customer data and customer purchasing history",
+        "b": "Blueprint data",
+        "c": "Data of experts' knowledge",
+        "d": "Day and time of sales, shop, product sold, and quantity sold"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 83,
+      "text": "Which of the following is a marketing technique that seeks to analyze the needs of each individual person and provide products and services that fulfill those needs? a) Social marketing b) Telemarketing c) Mass marketing d) One-to-one marketing",
+      "options": {
+        "a": "Social marketing",
+        "b": "Telemarketing",
+        "c": "Mass marketing",
+        "d": "One-to-one marketing"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 84,
+      "text": "Which of the following is the most appropriate explanation of user experience (UX)?",
+      "options": {
+        "a": "The design of a software product with consideration that it is easy to use for as many people as possible, including mainly elderly people and disabled people",
+        "b": "A method identifying customer on the basis of analysis of customer data, and deepening relationships with customers by using channels such as call centers and the Internet",
+        "c": "A software product’s capability that enables efficient use by a user under specified conditions",
+        "d": "People’s feelings and responses that are gained through the use of a product, system, or service"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 86,
+      "text": "Which of the following is supported by a CAD system? a) Process designing b) Production planning c) Product designing d) Delivery planning",
+      "options": {
+        "a": "Process designing",
+        "b": "Production planning",
+        "c": "Product designing",
+        "d": "Delivery planning"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 88,
+      "text": "Which of the following is a system that collects information that is required for sales management or inventory control by reading or keying in a product code or a buyer’s attribute at the time of a sale? a) ETC b) GPS c) POS d) SCM",
+      "options": {
+        "a": "ETC",
+        "b": "GPS",
+        "c": "POS",
+        "d": "SCM"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 89,
+      "text": "When the processes from product development to shipment are divided into development, production planning, production, and shipment, which of the following is an appropriate process that can result in labor saving and improved efficiency by the introduction of the Flexible Manufacturing System (FMS)? a) Development b) Production planning c) Production d) Shipment",
+      "options": {
+        "a": "Development",
+        "b": "Production planning",
+        "c": "Production",
+        "d": "Shipment"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 91,
+      "text": "Which of the following is a general term for techniques or methods for trying to make the homepage of one’s own company to be displayed at a higher rank in the search results of a search engine on the Internet? a) DNS b) RSS c) SEO d) SNS",
+      "options": {
+        "a": "DNS",
+        "b": "RSS",
+        "c": "SEO",
+        "d": "SNS"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 92,
+      "text": "Which of the following is the most appropriate example of a use of a wearable device?",
+      "options": {
+        "a": "Using a PC or tablet computer, and receiving diagnosis from a doctor over a network",
+        "b": "Acquiring blood pressure, body temperature, and other such measurement data with a smartwatch, and detecting abnormalities at an early stage",
+        "c": "Managing the computerized data of patient records from multiple hospitals in the cloud, and sharing the data",
+        "d": "Installing a human presence sensor in a bed, and sending a notification if the sensor does not respond for a certain length of time"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 93,
+      "text": "Which of the following is a term that means that the development and operation of a system is farmed out to an overseas company or an overseas subsidiary? a) Hosting b) Offshore outsourcing c) Onshore outsourcing d) System integration",
+      "options": {
+        "a": "Hosting",
+        "b": "Offshore outsourcing",
+        "c": "Onshore outsourcing",
+        "d": "System integration"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 94,
+      "text": "Which of the following is the general name of software that has various functions such as e-mail and electronic bulletin board-based communication, information sharing, and electronic conferencing, and provides an environment for joint working? a) Groupware b) Shareware c) Firmware d) Freeware",
+      "options": {
+        "a": "Groupware",
+        "b": "Shareware",
+        "c": "Firmware",
+        "d": "Freeware"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 95,
+      "text": "Training on how to use a sales forecast system is planned for the persons in charge of business across the country. Which of the following is a merit that is obtained by using e-learning in training? ",
+      "options": {
+        "a": "The person in charge of business can be directly lectured about the system from the person in charge of design, and raise questions then and there.",
+        "b": "The person in charge of business can use his/her own free time and undergo training at any suitable time.",
+        "c": "Several persons in charge of business can participate together and exchange their opinions on how to use the system.",
+        "d": "The persons in charge of business can be asked to assemble together in a room and training can be given simultaneously."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 96,
+      "text": "Which of the following is an appropriate term that represents a method for achieving automation and improved efficiency by replacing humans with a software robot to perform routine office work? a) ROA b) RPA c) SFA d) SOA",
+      "options": {
+        "a": "ROA",
+        "b": "RPA",
+        "c": "SFA",
+        "d": "SOA"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 97,
+      "text": "Which of the following is a process that clarifies the business functions to be newly constructed or reconstructed, and on the basis of the business functions, specifies the scope of computerization and the functions in system development? a) External design b) Internal design c) Programming d) Requirements definition",
+      "options": {
+        "a": "External design",
+        "b": "Internal design",
+        "c": "Programming",
+        "d": "Requirements definition"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 98,
+      "text": "Which of the following is an appropriate explanation of an ASP?",
+      "options": {
+        "a": "A business operator or a form of service that provides communication lines for connecting to the Internet",
+        "b": "A service on the Internet for creating a closed community that is accessible to the members of the community",
+        "c": "A business operator or a form of service that provides users with application software on a server via the Internet",
+        "d": "An approach of constructing an information system from the viewpoint of a service, rather than from the viewpoint of a product such as hardware and software"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 99,
+      "text": "Which of the following is a document that is presented by a user to vendors upon procurement of an information system for requesting their proposals and that describes the overview and procurement conditions for the information system? a) RFC b) RFI c) RFID d) RFP",
+      "options": {
+        "a": "RFC",
+        "b": "RFI",
+        "c": "RFID",
+        "d": "RFP"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 100,
+      "text": "Which of the following is the most appropriate as a use case of IoT?",
+      "options": {
+        "a": "Making one’s own profile public on the Internet in order to expand one’s communication network",
+        "b": "Displaying advertisements for similar products when a certain product is searched for on an online sales website",
+        "c": "Recording video of a class or lecture at a school or other such place in advance, and distributing it on the Internet",
+        "d": "Remotely monitoring the operational status of electricity generation facilities via the Internet for performance management, fault detection, and maintenance and repair for the electricity generation facilities"
+      },
+      "correct_answer": "d"
+    }
+  ]
+}

@@ -1,0 +1,793 @@
+{
+  "metadata": {
+    "exam_name": "2014_october",
+    "year": 2014,
+    "month": "october",
+    "extraction_method": "intermediary",
+    "extraction_date": "2026-02-06",
+    "total_questions_extracted": 71
+  },
+  "questions": [
+    {
+      "q_num": 1,
+      "text": "Which of the following is the decimal number that is equivalent to the hexadecimal\nnumber “A3”?\na) 103 b) 153 c) 163 d) 179",
+      "options": {
+        "a": "103",
+        "b": "153",
+        "c": "163",
+        "d": "179"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 2,
+      "text": "Which of the following is the logical operation that is equivalent to the truth table\nbelow?\nInput A Input B Output\n0 0 0\n0 1 0\n1 0 0\n1 1 1\na) AND b) NOT c) OR d) XOR",
+      "options": {
+        "a": "AND",
+        "b": "NOT",
+        "c": "OR",
+        "d": "XOR"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 3,
+      "text": "Which of the following is a standard encoding system that is widely used for handling\nmultilingual text and symbols around the world as a single character set?\na) ASCII b) EBCDIC\nc) EUC d) Unicode",
+      "options": {
+        "a": "ASCII",
+        "b": "EBCDIC",
+        "c": "EUC",
+        "d": "Unicode"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 4,
+      "text": "Which of the following is an appropriate combination of compression techniques that\nare used for still images, moving images, and audio?\nStill image Moving image Audio\na) GIF MPEG MP3\nb) JPEG MP3 GIF\nc) MP3 JPEG GIF\nd) MPEG GIF MP3\n- 3 -",
+      "options": {
+        "a": "GIF MPEG MP3",
+        "b": "JPEG MP3 GIF",
+        "c": "MP3 JPEG GIF",
+        "d": "MPEG GIF MP3\n- 3 -"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 6,
+      "text": "Which of the following is an appropriate explanation of an algorithm that is used on a\ncomputer?\na) A generic term for artificial languages used to enable a computer to perform a series\nof operations\nb) A processing procedure for enabling a computer to accomplish a specific purpose\nc) Designing of buildings or industrial products with the assistance of a computer\nd) Software for translating a program into a machine language that can be directly\nexecuted by a computer",
+      "options": {
+        "a": "A generic term for artificial languages used to enable a computer to perform a series\nof operations",
+        "b": "A processing procedure for enabling a computer to accomplish a specific purpose",
+        "c": "Designing of buildings or industrial products with the assistance of a computer",
+        "d": "Software for translating a program into a machine language that can be directly\nexecuted by a computer"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 8,
+      "text": "Which of the following is an appropriate description concerning the Java language?\na) It is a general-purpose language developed mainly for business applications.\nb) It is a language developed for scientific and engineering calculations.\nc) It is a markup language used for describing Web pages.\nd) It is an object-oriented language that provides platform-independent portability.",
+      "options": {
+        "a": "It is a general-purpose language developed mainly for business applications.",
+        "b": "It is a language developed for scientific and engineering calculations.",
+        "c": "It is a markup language used for describing Web pages.",
+        "d": "It is an object-oriented language that provides platform-independent portability."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 9,
+      "text": "In a markup language with the purpose of displaying and printing a screen, it is\npossible to directly embed not only the body of a document but also various types of\nspecifications, such as the structure and layout of the document, and also the font and\nsize of the character. Which of the following is classified as such a markup language?\na) CASL b) HTML c) SQL d) URL",
+      "options": {
+        "a": "CASL",
+        "b": "HTML",
+        "c": "SQL",
+        "d": "URL"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 10,
+      "text": "Which of the following is an appropriate combination of words that are inserted into\nblanks A and B in the description below concerning the execution sequence of\ninstructions in a computer?\nIn a computer, the instructions are executed in the sequence shown below.\n(1) Refer to the program counter.\n(2) the instruction.\n(3) Set the program counter to the main memory address of the next instruction.\n(4) the instruction.\n(5) Execute the process corresponding to the instruction.\n(6) Return to (1).\nA B\na) Decode Read\nb) Read Decode\nc) Read Write\nd) Write Decode\n- 5 -",
+      "options": {
+        "a": "Decode Read",
+        "b": "Read Decode",
+        "c": "Read Write",
+        "d": "Write Decode\n- 5 -"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 13,
+      "text": "In a client/server system, which of the following is the most appropriate system that\nmanages both application software and data on the server side in a centralized manner\nand has only the minimum required functions on the client side?\na) Distributed processing system b) Interactive processing system\nc) Rich client system d) Thin client system\n- 6 -",
+      "options": {
+        "a": "Distributed processing system",
+        "b": "Interactive processing system",
+        "c": "Rich client system",
+        "d": "Thin client system\n- 6 -"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 14,
+      "text": "Which of the following is an explanation of a dual system?\na) It is a computer system in which exactly the same processing is performed in two\ncomputers, and its reliability is assured by cross-checking the results.\nb) It is a computer system that is composed of a primary system used usually and a\nsecondary system kept on standby in preparation for a failure.\nc) It is a distributed processing system in which the computers in a group connected via\na network have an equivalent relationship.\nd) It is a distributed processing system that provides a clear hierarchical relation to the\ncomputers in a group connected via a network.",
+      "options": {
+        "a": "It is a computer system in which exactly the same processing is performed in two\ncomputers, and its reliability is assured by cross-checking the results.",
+        "b": "It is a computer system that is composed of a primary system used usually and a\nsecondary system kept on standby in preparation for a failure.",
+        "c": "It is a distributed processing system in which the computers in a group connected via\na network have an equivalent relationship.",
+        "d": "It is a distributed processing system that provides a clear hierarchical relation to the\ncomputers in a group connected via a network."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 15,
+      "text": "The types of programs that are executed at the startup time of a PC are generally\nclassified into three categories: BIOS, OS, and resident applications. Which of the\nfollowing is the list that is arranged in the sequence of the execution of the programs?\na) BIOS → OS → Resident applications\nb) OS → BIOS → Resident applications\nc) OS → Resident applications → BIOS\nd) Resident applications → BIOS → OS",
+      "options": {
+        "a": "BIOS → OS → Resident applications",
+        "b": "OS → BIOS → Resident applications",
+        "c": "OS → Resident applications → BIOS",
+        "d": "Resident applications → BIOS → OS"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 17,
+      "text": "Which of the following is an appropriate explanation of multitasking?\na) Several computers connected via a network build a system that works together to\nachieve a high-performance system.\nb) Several processor cores composed of arithmetic circuits and other control circuits\nare implemented in a single CPU.\nc) The CPU processing time is allocated to several processes in a sequence so that the\nprocesses can be executed concurrently.\nd) The same processing is performed for multiple data items by executing a single\ninstruction.",
+      "options": {
+        "a": "Several computers connected via a network build a system that works together to\nachieve a high-performance system.",
+        "b": "Several processor cores composed of arithmetic circuits and other control circuits\nare implemented in a single CPU.",
+        "c": "The CPU processing time is allocated to several processes in a sequence so that the\nprocesses can be executed concurrently.",
+        "d": "The same processing is performed for multiple data items by executing a single\ninstruction."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 19,
+      "text": "Which of the following is an appropriate description concerning the characteristics of\nan interpreter-based program?\na) It can be used for batch processing, but cannot be used for interactive processing or\nreal-time processing.\nb) It generally runs faster than a compiled program, and is suitable for a large-scale\nprogram.\nc) It takes a long runtime because the program is translated and executed on a\nline-by-line basis.\nd) The generated object program has a tendency to be larger than a program generated\nby a compiler.",
+      "options": {
+        "a": "It can be used for batch processing, but cannot be used for interactive processing or\nreal-time processing.",
+        "b": "It generally runs faster than a compiled program, and is suitable for a large-scale\nprogram.",
+        "c": "It takes a long runtime because the program is translated and executed on a\nline-by-line basis.",
+        "d": "The generated object program has a tendency to be larger than a program generated\nby a compiler."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 22,
+      "text": "Which of the following is a technique that can provide accessible links between\ninformation items represented in text, still images, video, voice, music, or other forms\nso that related information can be easily reached by jumping from one place to another\nin documents or Web pages?\na) Cyberspace b) Groupware\nc) GUI d) Hypermedia",
+      "options": {
+        "a": "Cyberspace",
+        "b": "Groupware",
+        "c": "GUI",
+        "d": "Hypermedia"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 23,
+      "text": "Employee information is managed by creating two tables “Emp” for employees and\n“Dept” for Departments in a relational database. Which of the following is an\nappropriate combination of the primary key(s) and foreign key(s) that are set in the\n“Emp” table and the “Dept” table as needed? Here, any employee always belongs to\na department that exists in the “Dept” table, and when the employee data is added or\nupdated, the referential constraints are used to ensure consistency.\nEmp\nEmp_code Emp_name Year_joined Date_of_birth Dept_code\nDept\nDept_code Dept_name\nPrimary key Foreign key\nEmp_code of the “Emp” table\na) Dept_code of the “Dept” table\nDept_code of the “Emp” table\nEmp_code of the “Emp” table\nb) Dept_code of the “Emp” table\nDept_code of the “Dept” table\nEmp_code of the “Emp” table,\nc) Dept_code of the “Emp” table\nDept_code of the “Dept” table\nEmp_code of the “Emp” table,\nd) None\nDept_code of the “Dept” table\n- 10 -",
+      "options": {
+        "a": "Dept_code of the “Dept” table\nDept_code of the “Emp” table\nEmp_code of the “Emp” table",
+        "b": "Dept_code of the “Emp” table\nDept_code of the “Dept” table\nEmp_code of the “Emp” table,",
+        "c": "Dept_code of the “Emp” table\nDept_code of the “Dept” table\nEmp_code of the “Emp” table,",
+        "d": "None\nDept_code of the “Dept” table\n- 10 -"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 25,
+      "text": "Which of the following is the combination of conditions that can retrieve only three\nemployees including “Tom Cruise” from the “Employee” table managed in a relational\ndatabase?\nEmployee\nEmp_number Emp_name Department Location Service_years\nA0001 George Scott Accounting Boston 5\nA0002 Susan Hayward Accounting Boston 3\nA0003 Tom Cruise Accounting Chicago 20\nA0004 Catherine Bell Sales Dallas 5\nA0005 Jim Carrey Sales Boston 7\nA0006 Bill Murray Sales Boston 35\nA0007 Nancy Allen HR Boston 10\nA0008 Diana Hayden Sales Chicago 5\n[Conditions]\n(1) Location= 'Boston'\n(2) Department = 'Sales'\n(3) Service_years > 10\na) (1) AND (2) AND (3) b) ((1) AND (2)) OR (3)\nc) (1) OR ((2) AND (3)) d) (1) OR (2) OR (3)",
+      "options": {
+        "a": "(1) AND (2) AND (3)",
+        "b": "((1) AND (2)) OR (3)",
+        "c": "(1) OR ((2) AND (3))",
+        "d": "(1) OR (2) OR (3)"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 27,
+      "text": "Which of the following is a protocol that enables a client to download an e-mail that\nhas arrived at the mailbox of a remote server?\na) DNS b) HTTP c) POP3 d) SMTP",
+      "options": {
+        "a": "DNS",
+        "b": "HTTP",
+        "c": "POP3",
+        "d": "SMTP"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 28,
+      "text": "Which of the following is an appropriate explanation concerning URL?\na) It is a communications protocol between a Web page and a browser.\nb) It is a message about the update history of a Web page.\nc) It is a notation for representing the location of a Web page.\nd) It is grammar for describing the content (i.e., body) of a Web page.",
+      "options": {
+        "a": "It is a communications protocol between a Web page and a browser.",
+        "b": "It is a message about the update history of a Web page.",
+        "c": "It is a notation for representing the location of a Web page.",
+        "d": "It is grammar for describing the content (i.e., body) of a Web page."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 32,
+      "text": "Which of the following is an appropriate explanation of a DoS attack?\na) It refers to interrupting a network service by sending a large number of requests.\nb) It refers to spying on the data of other people on a communication path.\nc) It refers to trying various combinations of letters or numbers to unlock an account.\nd) It refers to using a service illegally on a network by pretending to be another person.",
+      "options": {
+        "a": "It refers to interrupting a network service by sending a large number of requests.",
+        "b": "It refers to spying on the data of other people on a communication path.",
+        "c": "It refers to trying various combinations of letters or numbers to unlock an account.",
+        "d": "It refers to using a service illegally on a network by pretending to be another person."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 33,
+      "text": "Which of the following is an appropriate purpose of using HTTPS for accessing a Web\npage?\na) To receive all data of one screen effectively through a single connection\nb) To secure communications by authenticating the server and encrypting data\nc) To shorten the communication time by compressing data\nd) To use a dynamically generated Web page in communications\n- 14 -",
+      "options": {
+        "a": "To receive all data of one screen effectively through a single connection",
+        "b": "To secure communications by authenticating the server and encrypting data",
+        "c": "To shorten the communication time by compressing data",
+        "d": "To use a dynamically generated Web page in communications\n- 14 -"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 34,
+      "text": "through Q56 concerning management.",
+      "options": {
+        "a": "E-mails from the same sender are routed to a spam folder by setting a spam filter.",
+        "b": "In order to make a complaint against the sender, a reply to the spam e-mail is sent.",
+        "c": "The e-mail service provider is notified of the transmission of the spam e-mail.",
+        "d": "The spam e-mail is deleted without opening, viewing, or forwarding.\n- 15 -\nAnswer questions Q35 through Q56 concerning management."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 35,
+      "text": "When the current system is replaced with a new system, the data to be migrated from\nthe current system to the new system and the resources necessary for the migration are\nassembled and organized to create a migration plan. Which of the following is the\nmost appropriate item to be included in the migration plan?\na) Functional requirements for the new system\nb) Operational procedures for the screens and forms provided by the new system\nc) Procedure for making a periodical backup copy of data files\nd) Schedule and organizational framework for switching to the new system",
+      "options": {
+        "a": "Functional requirements for the new system",
+        "b": "Operational procedures for the screens and forms provided by the new system",
+        "c": "Procedure for making a periodical backup copy of data files",
+        "d": "Schedule and organizational framework for switching to the new system"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 36,
+      "text": "Which of the following is an appropriate explanation and application example of an\nE-R diagram?\na) It is a diagram describing the state transition and conditions; for example, it can be\nused to describe the specifications of a communication protocol.\nb) It is a diagram representing sequence, selection, and iteration structures by\ncombining them; for example, it can be used to describe the flow of a program.\nc) It is a diagram representing the relationships between entities; for example, it can be\nused to represent the relationships between the tables of a relational database.\nd) It is a diagram showing the sequence of activities and the work period; for example,\nit can be used to perform schedule management of system development.",
+      "options": {
+        "a": "It is a diagram describing the state transition and conditions; for example, it can be\nused to describe the specifications of a communication protocol.",
+        "b": "It is a diagram representing sequence, selection, and iteration structures by\ncombining them; for example, it can be used to describe the flow of a program.",
+        "c": "It is a diagram representing the relationships between entities; for example, it can be\nused to represent the relationships between the tables of a relational database.",
+        "d": "It is a diagram showing the sequence of activities and the work period; for example,\nit can be used to perform schedule management of system development."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 37,
+      "text": "Which of the following is a problem that can be expected to be resolved by replacing\nprinted manuals with online manuals?\na) Discrepancy between one part of descriptions and another part\nb) Incomprehensible key points because of too long text\nc) Inconsistency between versions of applications and manuals\nd) Poorly-written text because of wrong or omitted letters\n- 16 -",
+      "options": {
+        "a": "Discrepancy between one part of descriptions and another part",
+        "b": "Incomprehensible key points because of too long text",
+        "c": "Inconsistency between versions of applications and manuals",
+        "d": "Poorly-written text because of wrong or omitted letters\n- 16 -"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 38,
+      "text": "It takes about five minutes to search for customer information with the currently-used\nsystem, but this should be completed within one minute with the next version of the\nsystem. Which of the following is an appropriate development phase for setting such\nan objective?\na) Software acceptance b) System design\nc) System requirements definition d) System test",
+      "options": {
+        "a": "Software acceptance",
+        "b": "System design",
+        "c": "System requirements definition",
+        "d": "System test"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 39,
+      "text": "In system development, which of the following is an activity that is performed after\nsoftware detailed design?\na) Programming b) Software architecture design\nc) Software outline design d) Software requirements definition",
+      "options": {
+        "a": "Programming",
+        "b": "Software architecture design",
+        "c": "Software outline design",
+        "d": "Software requirements definition"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 40,
+      "text": "In system analysis and design, which of the following is described by using DFD?\na) Flow of data\nb) Layout of items on a data entry screen\nc) Procedure of a program\nd) Physical structure of a database",
+      "options": {
+        "a": "Flow of data",
+        "b": "Layout of items on a data entry screen",
+        "c": "Procedure of a program",
+        "d": "Physical structure of a database"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 41,
+      "text": "Among the test techniques to verify the quality of a program, which of the following is\na test technique that is used for analyzing the internal structure of the program and then\ncreating the test cases?\na) Black box test b) Bottom-up test\nc) Top-down test d) White box test",
+      "options": {
+        "a": "Black box test",
+        "b": "Bottom-up test",
+        "c": "Top-down test",
+        "d": "White box test"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 42,
+      "text": "When system development progresses in the sequence of system requirements\ndefinition, external design, internal design, and programming, which of the following is\nthe most appropriate phase for defining the layout of screens and the format of forms?\na) External design b) Internal design\nc) Programming d) System requirements definition\n- 17 -",
+      "options": {
+        "a": "External design",
+        "b": "Internal design",
+        "c": "Programming",
+        "d": "System requirements definition\n- 17 -"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 43,
+      "text": "Which of the following is defined by “ISO/IEC 12207:2008 Systems and software\nengineering – Software life cycle processes”?\na) A common framework for both contracting parties to visualize software-oriented\nsystem development and transactions\nb) A control level for project management (e.g., schedule management or process\nmanagement) that is effective for developing packages\nc) A method for describing the content, format, and writing style of a contract\nconcerning software development and transactions\nd) A specific method for evaluating deliverables, quality of processes, delivery date,\nand productivity concerning system development",
+      "options": {
+        "a": "A common framework for both contracting parties to visualize software-oriented\nsystem development and transactions",
+        "b": "A control level for project management (e.g., schedule management or process\nmanagement) that is effective for developing packages",
+        "c": "A method for describing the content, format, and writing style of a contract\nconcerning software development and transactions",
+        "d": "A specific method for evaluating deliverables, quality of processes, delivery date,\nand productivity concerning system development"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 44,
+      "text": "Which of the following is the most appropriate description concerning the role of the\nuser department in large-scale system development?\na) The manager of the user department makes efforts to convince the development\ndepartment to accept implementing the functions requested by the user department\nregardless of the investment effects on the installed system.\nb) The user department checks the deliverables from the perspective of business\noperations, but the detailed program design is left to the discretion of the\ndevelopment department.\nc) The user department is the party who uses the system built by the development\ndepartment, so all decisions regarding system development are left to the discretion\nof the development department.\nd) The user department needs to provide various suggestions, so its staff members with\ncomputer skills should be preferentially involved even if they do not have sufficient\nknowledge of the business operations.",
+      "options": {
+        "a": "The manager of the user department makes efforts to convince the development\ndepartment to accept implementing the functions requested by the user department\nregardless of the investment effects on the installed system.",
+        "b": "The user department checks the deliverables from the perspective of business\noperations, but the detailed program design is left to the discretion of the\ndevelopment department.",
+        "c": "The user department is the party who uses the system built by the development\ndepartment, so all decisions regarding system development are left to the discretion\nof the development department.",
+        "d": "The user department needs to provide various suggestions, so its staff members with\ncomputer skills should be preferentially involved even if they do not have sufficient\nknowledge of the business operations."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 45,
+      "text": "Which of the following is a chart or a diagram that is illustrated in length proportional\nto the time period required for each activity, with time on the horizontal axis and\nactivities on the vertical axis?\na) Arrow diagram b) E-R diagram\nc) Gantt chart d) Pareto chart\n- 18 -",
+      "options": {
+        "a": "Arrow diagram",
+        "b": "E-R diagram",
+        "c": "Gantt chart",
+        "d": "Pareto chart\n- 18 -"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 46,
+      "text": "When a project manager makes a plan for the schedule, cost, and quality of a project,\nwhich of the following is the activity that should be performed first?\na) Defining the specifications of deliverables to be created in the project and the\nactivities to be performed for completing the deliverables\nb) Identifying the activity path that requires the longest time period to complete the\nentire project\nc) Measuring the effects of countermeasures against uncertain events affecting the\nobjectives of the project positively or negatively\nd) Reporting the actual results of the project to concerned parties who are affected\npositively or negatively by the implementation and results of the project",
+      "options": {
+        "a": "Defining the specifications of deliverables to be created in the project and the\nactivities to be performed for completing the deliverables",
+        "b": "Identifying the activity path that requires the longest time period to complete the\nentire project",
+        "c": "Measuring the effects of countermeasures against uncertain events affecting the\nobjectives of the project positively or negatively",
+        "d": "Reporting the actual results of the project to concerned parties who are affected\npositively or negatively by the implementation and results of the project"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 47,
+      "text": "At the request of a user department, the development department launches a project of\nsystem development. Which of the following is the most appropriate role of the\nproject manager?\na) Monitoring the progress to take preventive measures against problems\nb) Preparing a proposal for the project on behalf of the user department\nc) Presenting the requirements of the system to the user department\nd) Raising funds to carry out the project on behalf of both departments",
+      "options": {
+        "a": "Monitoring the progress to take preventive measures against problems",
+        "b": "Preparing a proposal for the project on behalf of the user department",
+        "c": "Presenting the requirements of the system to the user department",
+        "d": "Raising funds to carry out the project on behalf of both departments"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 49,
+      "text": "When the allocation of human resources in a project is compiled into a plan document,\nwhich of the following is the most appropriate description concerning the items that\nshould be taken into consideration?\na) A shortage of members during the project period is not taken into consideration\nbecause the purpose is to allocate sufficient members at the beginning of the project.\nb) All project members should be able to clearly understand their individual missions,\nroles, and responsibilities.\nc) The limit of the working time of each project member is not taken into consideration\nbecause the success of the project is the most important factor.\nd) The total working hours of each project member should be the same throughout the\nentire period of the project.",
+      "options": {
+        "a": "A shortage of members during the project period is not taken into consideration\nbecause the purpose is to allocate sufficient members at the beginning of the project.",
+        "b": "All project members should be able to clearly understand their individual missions,\nroles, and responsibilities.",
+        "c": "The limit of the working time of each project member is not taken into consideration\nbecause the success of the project is the most important factor.",
+        "d": "The total working hours of each project member should be the same throughout the\nentire period of the project."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 50,
+      "text": "Among the change items A through C concerning a project, which of the following is\nthe list containing all items that are subject to “change management” within the project\nscope?\nA: A change in related laws concerning the requirements occurring within the project\nB: A change in customer requirements\nC: A change in the affiliated department name of a project member\na) A b) A, B c) A, B, C d) B, C\n- 20 -",
+      "options": {
+        "a": "A",
+        "b": "A, B",
+        "c": "A, B, C",
+        "d": "B, C\n- 20 -"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 51,
+      "text": "The figure below shows the “service profit chain” developed by James L. Heskett.\nAmong the items to be inserted into blanks A through D, which of the following is the\nappropriate item to be inserted into blank C?\na) Improvement of customer loyalty\nb) Improvement of customer satisfaction\nc) Improvement of employee retention rate\nd) Improvement of employee satisfaction",
+      "options": {
+        "a": "Improvement of customer loyalty",
+        "b": "Improvement of customer satisfaction",
+        "c": "Improvement of employee retention rate",
+        "d": "Improvement of employee satisfaction"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 52,
+      "text": "The service provider of a Web portal system to which functions are added as necessary\ncreates a catalog so that users can have a look at available IT services. Which of the\nfollowing is an appropriate description concerning the content of the catalog?\na) In order to reduce any extra cost of maintenance, the catalog should be updated\ncollectively once a year.\nb) Technical terms should be used to ensure the accuracy of description even if it is\ndifficult for general users to understand them.\nc) The catalog should be created in a format that is easy to explain from the standpoint\nof the service provider.\nd) The content of each service should be easy to understand even if a user does not\nhave sufficient knowledge of IT.\n- 21 -",
+      "options": {
+        "a": "In order to reduce any extra cost of maintenance, the catalog should be updated\ncollectively once a year.",
+        "b": "Technical terms should be used to ensure the accuracy of description even if it is\ndifficult for general users to understand them.",
+        "c": "The catalog should be created in a format that is easy to explain from the standpoint\nof the service provider.",
+        "d": "The content of each service should be easy to understand even if a user does not\nhave sufficient knowledge of IT.\n- 21 -"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 53,
+      "text": "Among the policies of facility management concerning an information system in a\nBCP (Business Continuation Plan), which of the following is the policy that is based\non the assumption that a data center stops for a long period of time because of a huge\nearthquake?\na) A backup center for periodic synchronization of the data is located at a remote site.\nb) A UPS is connected to the servers as a backup power-supply in the data center.\nc) The servers are installed on an upper floor in preparation for a tsunami.\nd) The various types of redundant equipment or devices are installed in the data center.",
+      "options": {
+        "a": "A backup center for periodic synchronization of the data is located at a remote site.",
+        "b": "A UPS is connected to the servers as a backup power-supply in the data center.",
+        "c": "The servers are installed on an upper floor in preparation for a tsunami.",
+        "d": "The various types of redundant equipment or devices are installed in the data center."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 55,
+      "text": "Which of the following is an appropriate segregation of duties in view of internal\ncontrol?\na) A single activity is performed by several persons on the basis of division of labor.\nb) The managers give authority to their subordinates because of long absence.\nc) The remaining activity of a person on an early shift is transferred to another person.\nd) The rules are set forth so as not to be approved by the applicants themselves.\n- 22 -",
+      "options": {
+        "a": "A single activity is performed by several persons on the basis of division of labor.",
+        "b": "The managers give authority to their subordinates because of long absence.",
+        "c": "The remaining activity of a person on an early shift is transferred to another person.",
+        "d": "The rules are set forth so as not to be approved by the applicants themselves.\n- 22 -"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 56,
+      "text": "through Q88 concerning strategy.",
+      "options": {
+        "a": "Information ethics",
+        "b": "Internal control",
+        "c": "IT governance",
+        "d": "Privacy protection\n- 23 -\nAnswer questions Q57 through Q88 concerning strategy."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 57,
+      "text": "Which of the following is a mechanism by which interested parties, such as the\nshareholders or investors, supervise and monitor the management of a company\nconducted by the management executives and board of directors?\na) Compliance b) Corporate governance\nc) Risk management d) TOB",
+      "options": {
+        "a": "Compliance",
+        "b": "Corporate governance",
+        "c": "Risk management",
+        "d": "TOB"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 58,
+      "text": "Which of the following is an appropriate graph or diagram that is suitable for\ncomparing the value of shipped industrial products by industry in the three industrial\nzones A, B, and C shown in the table below?\nUnit: %\nMetal Machinery Chemical Food Textile Other\nZone A 7.7 51.3 11.2 7.1 0.9 21.8\nZone B 19.1 34.9 13.1 9.7 4.1 19.1\nZone C 10.5 58.3 5.8 6.6 3.0 15.8\na) Association diagram b) Band graph\nc) Pyramid graph d) Scatter diagram",
+      "options": {
+        "a": "Association diagram",
+        "b": "Band graph",
+        "c": "Pyramid graph",
+        "d": "Scatter diagram"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 61,
+      "text": "What is the sales amount in thousand dollars at the break-even point that is calculated\non the basis of the income statement shown below?\nUnit: thousand dollars\nSales 4,000\nVariable manufacturing cost 1,400\nVariable selling cost 600\nFixed cost 800\na) 1,200 b) 1,231 c) 1,600 d) 2,154",
+      "options": {
+        "a": "1,200",
+        "b": "1,231",
+        "c": "1,600",
+        "d": "2,154"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 62,
+      "text": "Which of the following is the right that belongs to a purchaser of a PC software\npackage provided by means of CD-ROM?\na) Copyright of the CD-ROM storing the program\nb) Copyright of the program stored in the CD-ROM\nc) Design right of the CD-ROM storing the program\nd) Right to use the program stored in the CD-ROM\n- 25 -",
+      "options": {
+        "a": "Copyright of the CD-ROM storing the program",
+        "b": "Copyright of the program stored in the CD-ROM",
+        "c": "Design right of the CD-ROM storing the program",
+        "d": "Right to use the program stored in the CD-ROM\n- 25 -"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 65,
+      "text": "Which of the following is a formula that can be used to calculate operating profit?\na) Sales amount − sales cost\nb) Sales amount − (sales cost + selling, general, and administrative expense)\nc) Sales amount − (sales cost + selling, general, and administrative expense)\n+ non-operating income − non-operating expense\nd) Sales amount − (sales cost + selling, general, and administrative expense)\n+ non-operating profit and loss + extraordinary profit and loss",
+      "options": {
+        "a": "Sales amount − sales cost",
+        "b": "Sales amount − (sales cost + selling, general, and administrative expense)",
+        "c": "Sales amount − (sales cost + selling, general, and administrative expense)\n+ non-operating income − non-operating expense",
+        "d": "Sales amount − (sales cost + selling, general, and administrative expense)\n+ non-operating profit and loss + extraordinary profit and loss"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 66,
+      "text": "Which of the following is the coding scheme that can encode a large amount of\ninformation into a small area and has an error correction function that enables the code\nto be read out correctly even when the code cannot be partially read out?\na) ISBN code b) ITF code\nc) QR code d) Unicode",
+      "options": {
+        "a": "ISBN code",
+        "b": "ITF code",
+        "c": "QR code",
+        "d": "Unicode"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 67,
+      "text": "Which of the following is an appropriate combination of the standards and their\napplicable fields?\nIEEE 802.3 ISO 9001 ISO 14001\nEnvironmental Quality\na) LAN\nmanagement management\nEnvironmental Quality\nb) LAN\nmanagement management\nEnvironmental Quality\nc) LAN\nmanagement management\nQuality Environmental\nd) LAN\nmanagement management\n- 27 -",
+      "options": {
+        "a": "LAN\nmanagement management\nEnvironmental Quality",
+        "b": "LAN\nmanagement management\nEnvironmental Quality",
+        "c": "LAN\nmanagement management\nQuality Environmental",
+        "d": "LAN\nmanagement management\n- 27 -"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 68,
+      "text": "Which of the following is an appropriate combination of terms to be inserted into\nblanks A and B in the description below concerning PPM (Product Portfolio\nManagement)?\nA is a group of products that create a profit with a little investment. In\ncontrast, B is a group of products that require an investment of more than\nthe fixed amount for potential future growth.\nA B\na) Cash cow Dog\nb) Cash cow Question mark\nc) Star Dog\nd) Star Question mark",
+      "options": {
+        "a": "Cash cow Dog",
+        "b": "Cash cow Question mark",
+        "c": "Star Dog",
+        "d": "Star Question mark"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 69,
+      "text": "Which of the following is an appropriate explanation of SWOT analysis?\na) It is a technique for deriving the future direction of corporate activities by analyzing\nopportunities and threats underlying in the external environment surrounding the\ncompany, and the strengths and weaknesses of the company.\nb) It is a technique for designing a company’s own activities from the viewpoint of\nwhat kind of value the activities finally generate for customers and whether this\nsatisfies the customers.\nc) It is a technique for evaluating and analyzing the business performance of a\ncompany in a well-balanced manner, from the perspectives of financial, customer,\ninternal business process, and learning and growth.\nd) It is a technique for plotting a business on a matrix created by the two quantitative\nitems of market growth rate and market share, and then optimizing the allocation of\nmanagement resources.\n- 28 -",
+      "options": {
+        "a": "It is a technique for deriving the future direction of corporate activities by analyzing\nopportunities and threats underlying in the external environment surrounding the\ncompany, and the strengths and weaknesses of the company.",
+        "b": "It is a technique for designing a company’s own activities from the viewpoint of\nwhat kind of value the activities finally generate for customers and whether this\nsatisfies the customers.",
+        "c": "It is a technique for evaluating and analyzing the business performance of a\ncompany in a well-balanced manner, from the perspectives of financial, customer,\ninternal business process, and learning and growth.",
+        "d": "It is a technique for plotting a business on a matrix created by the two quantitative\nitems of market growth rate and market share, and then optimizing the allocation of\nmanagement resources.\n- 28 -"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 70,
+      "text": "Strategies for promotion, which is known as one of the 4Ps of the marketing mix,\ninclude the push strategy and the pull strategy. Among the sales promotion plans of\nthe manufacturer, which of the following is considered as the pull strategy?\na) Dispatching salespersons to a shop in order to sell products over the counter\nb) Enhancing the training of salespersons concerning product knowledge and sales talk\nc) Increasing sales incentives that are paid according to the sales amount or volume\nd) Introducing advertisements that aim to draw customers to sales outlets",
+      "options": {
+        "a": "Dispatching salespersons to a shop in order to sell products over the counter",
+        "b": "Enhancing the training of salespersons concerning product knowledge and sales talk",
+        "c": "Increasing sales incentives that are paid according to the sales amount or volume",
+        "d": "Introducing advertisements that aim to draw customers to sales outlets"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 72,
+      "text": "In value engineering, which of the following is the combination of two elements that\ndefine value?\na) Fixed cost and variable cost b) Functions and cost\nc) Gross profit and sales cost d) Plans and results\n- 29 -",
+      "options": {
+        "a": "Fixed cost and variable cost",
+        "b": "Functions and cost",
+        "c": "Gross profit and sales cost",
+        "d": "Plans and results\n- 29 -"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 73,
+      "text": "“The establishment of a satisfactory relationship with customers and acquisition of\nexcellent customers who bring about long-term profits” is set as a goal based on\nbusiness strategy. Which of the following is an appropriate system to be constructed\nfor supporting the achievement of this goal?\na) CRM system b) MRP system\nc) POS system d) SCM system",
+      "options": {
+        "a": "CRM system",
+        "b": "MRP system",
+        "c": "POS system",
+        "d": "SCM system"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 74,
+      "text": "When some activities for planning a technology development strategy are performed in\nthe order of (1) through (5), which of the following is applicable to blank A?\nOrder of\nActivity item\nactivities\nIdentifying in-house and external technology related to the\n(1)\nbusiness strategy\n(2) A\nDetermining the technology area that is useful for the\n(3)\ndevelopment of competitive superiority\nEvaluating the in-house technical strength and selecting the area\n(4)\nto be strengthened\nDetermining the priority order of development and creating a\n(5)\ndevelopment road map\na) Carrying out test marketing\nb) Predicting the changes in technology and environment\nc) Setting the objectives of sales and profit for new products\nd) Setting up an organizational structure for technology development promotion\n- 30 -",
+      "options": {
+        "a": "Carrying out test marketing",
+        "b": "Predicting the changes in technology and environment",
+        "c": "Setting the objectives of sales and profit for new products",
+        "d": "Setting up an organizational structure for technology development promotion\n- 30 -"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 75,
+      "text": "Which of the following is the most appropriate explanation of BTO that is used for the\nproduction of PCs?\na) Each product is assembled by only one worker.\nb) The products are manufactured with the minimum possible inventory between the\nproduction processes by procuring the required amount of raw materials and\ncomponents at the required time.\nc) The products are stocked as components rather than finished products, and\nassembled after receiving an order from the customer, according to the details of the\norder.\nd) The products showing a company’s own logo are assembled by another company.",
+      "options": {
+        "a": "Each product is assembled by only one worker.",
+        "b": "The products are manufactured with the minimum possible inventory between the\nproduction processes by procuring the required amount of raw materials and\ncomponents at the required time.",
+        "c": "The products are stocked as components rather than finished products, and\nassembled after receiving an order from the customer, according to the details of the\norder.",
+        "d": "The products showing a company’s own logo are assembled by another company."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 76,
+      "text": "Which of the following is a technique for achieving effective business operations by\nmanaging and optimizing a company’s management resources in an integrated\nmanner?\na) BPR b) ERP c) RFP d) SLA",
+      "options": {
+        "a": "BPR",
+        "b": "ERP",
+        "c": "RFP",
+        "d": "SLA"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 77,
+      "text": "Which of the following is a situation that is suitable for using CAM as an engineering\nsystem?\na) Creation of a design drawing for an industrial product or a building\nb) Creation of a monthly production plan\nc) Creation of a plan for the order quantity of each component required for production\nd) Generation of the processed data used for controlling a machine tool",
+      "options": {
+        "a": "Creation of a design drawing for an industrial product or a building",
+        "b": "Creation of a monthly production plan",
+        "c": "Creation of a plan for the order quantity of each component required for production",
+        "d": "Generation of the processed data used for controlling a machine tool"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 80,
+      "text": "Which of the following is an appropriate explanation of EDI?\na) A communication service that provides added values such as storage of data\ntransmitted over the network and conversion of data formats\nb) An international standard for e-mail services, which is based on the OSI basic\nreference model, and provides general services for the generation, transmission, and\nprocessing of messages\nc) An ordering system that enables orders to be placed by transmitting order\ninformation from a data entry terminal to the head office or a supplier\nd) The exchange of business transaction data between computers (including terminals)\nover a network in accordance with standard protocols",
+      "options": {
+        "a": "A communication service that provides added values such as storage of data\ntransmitted over the network and conversion of data formats",
+        "b": "An international standard for e-mail services, which is based on the OSI basic\nreference model, and provides general services for the generation, transmission, and\nprocessing of messages",
+        "c": "An ordering system that enables orders to be placed by transmitting order\ninformation from a data entry terminal to the head office or a supplier",
+        "d": "The exchange of business transaction data between computers (including terminals)\nover a network in accordance with standard protocols"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 81,
+      "text": "Which of the following is an appropriate general term for computers that are embedded\nin home electric appliances, such as a microwave oven or a rice cooker?\na) Handheld computer b) Micro computer\nc) Mini computer d) Mobile computer\n- 32 -",
+      "options": {
+        "a": "Handheld computer",
+        "b": "Micro computer",
+        "c": "Mini computer",
+        "d": "Mobile computer\n- 32 -"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 82,
+      "text": "In the course of the planning of an information systems strategy, which of the\nfollowing should be performed when the policies and objectives for optimization of the\noverall information system are set?\na) Analyzing risks resulting from the installation of the information system\nb) Clarifying the skills of the staff members that are necessary for development\nc) Taking into consideration the consistency with the business strategy\nd) Verifying the conformity of user needs to the software package",
+      "options": {
+        "a": "Analyzing risks resulting from the installation of the information system",
+        "b": "Clarifying the skills of the staff members that are necessary for development",
+        "c": "Taking into consideration the consistency with the business strategy",
+        "d": "Verifying the conformity of user needs to the software package"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 83,
+      "text": "Which of the following is a term that means that the development and operation of a\nsystem is farmed out to an overseas company or an overseas subsidiary?\na) Hosting b) Offshore outsourcing\nc) Onshore outsourcing d) System integration",
+      "options": {
+        "a": "Hosting",
+        "b": "Offshore outsourcing",
+        "c": "Onshore outsourcing",
+        "d": "System integration"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 84,
+      "text": "A company is aiming to analyze the data that is accumulated in an information system\nand use such data in business operations. However, progress is not made because of\nthe insufficient experience of employees. Which of the following is the most\nappropriate activity that should be performed with higher priority in order to achieve\nthe objective?\na) Improving the performance of software used for analysis\nb) Installing a high-performance PC for analysis in each department\nc) Providing typical examples of analysis and templates for analysis\nd) Speeding up the provision of data that can be used for analysis",
+      "options": {
+        "a": "Improving the performance of software used for analysis",
+        "b": "Installing a high-performance PC for analysis in each department",
+        "c": "Providing typical examples of analysis and templates for analysis",
+        "d": "Speeding up the provision of data that can be used for analysis"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 85,
+      "text": "Which of the following is an appropriate approver for the optimization plan of the\noverall information system of a company?\na) Chief Information Officer\nb) Head of the business operations department handling the mission-critical system\nc) Head of the department where RFP is created\nd) System development project manager\n- 33 -",
+      "options": {
+        "a": "Chief Information Officer",
+        "b": "Head of the business operations department handling the mission-critical system",
+        "c": "Head of the department where RFP is created",
+        "d": "System development project manager\n- 33 -"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 86,
+      "text": "When the software life cycle is classified into the processes of planning, requirements\ndefinition, development, and operations, which of the following is an item that should\nbe clarified in the requirements definition process?\na) The function and capability of each software configuration item\nb) The needs and wants of the stakeholders\nc) The purpose of developing a system\nd) The structure of the database",
+      "options": {
+        "a": "The function and capability of each software configuration item",
+        "b": "The needs and wants of the stakeholders",
+        "c": "The purpose of developing a system",
+        "d": "The structure of the database"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 87,
+      "text": "Which of the following is an explanation of “acceptance inspection” performed for a\nvendor?\na) Checking the estimate submitted by the vendor prior to placing an order based on\nthat estimate\nb) Checking whether the deliverables provided by the vendor conform to the\nrequirements specifications\nc) Requesting the vendor to provide information for the purpose of collecting\ninformation\nd) Requesting the vendor to study and submit the proposal for the construction of a new\nsystem",
+      "options": {
+        "a": "Checking the estimate submitted by the vendor prior to placing an order based on\nthat estimate",
+        "b": "Checking whether the deliverables provided by the vendor conform to the\nrequirements specifications",
+        "c": "Requesting the vendor to provide information for the purpose of collecting\ninformation",
+        "d": "Requesting the vendor to study and submit the proposal for the construction of a new\nsystem"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 90,
+      "text": "Which of the following is the appropriate method for setting addresses prior to sending\nthe questionnaire to all the employees in order to prevent unforeseen or potential\nproblems that may occur when the questionnaire is returned from each employee?\na) Setting the addresses of all the employees in the TO and BCC fields\nb) Setting the addresses of all the employees only in the BCC field\nc) Setting the addresses of all the employees only in the CC field\nd) Setting the addresses of all the employees only in the TO field\n- 36 -\n[Technology]",
+      "options": {
+        "a": "Setting the addresses of all the employees in the TO and BCC fields",
+        "b": "Setting the addresses of all the employees only in the BCC field",
+        "c": "Setting the addresses of all the employees only in the CC field",
+        "d": "Setting the addresses of all the employees only in the TO field\n- 36 -\n[Technology]"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 91,
+      "text": "Which of the following is the most appropriate procedure for returning the\nquestionnaire attached to the e-mail on the basis of the instructions given by Mr. F?\na) Open the attachment file, fill out the questionnaire, and save it on a PC. Create a\nnew e-mail, set the recipient to the HR department, attach the file saved on the PC,\nand send the e-mail.\nb) Open the attachment file, fill out the questionnaire, and save it on a PC. Select\n“Reply”, attach the file saved on the PC to the reply e-mail, and send the e-mail.\nc) Save the attachment file on a PC. Select “Reply”, write the results of questionnaire\nin the text of the created e-mail, and send the e-mail.\nd) Save the attachment file on a PC. Select “Reply”, write the results of the\nquestionnaire in the text of the created e-mail, attach the file saved on PC, and send\nthe e-mail.\n[Technology]",
+      "options": {
+        "a": "Open the attachment file, fill out the questionnaire, and save it on a PC. Create a\nnew e-mail, set the recipient to the HR department, attach the file saved on the PC,\nand send the e-mail.",
+        "b": "Open the attachment file, fill out the questionnaire, and save it on a PC. Select\n“Reply”, attach the file saved on the PC to the reply e-mail, and send the e-mail.",
+        "c": "Save the attachment file on a PC. Select “Reply”, write the results of questionnaire\nin the text of the created e-mail, and send the e-mail.",
+        "d": "Save the attachment file on a PC. Select “Reply”, write the results of the\nquestionnaire in the text of the created e-mail, attach the file saved on PC, and send\nthe e-mail.\n[Technology]"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 93,
+      "text": "Which of the following is the agreement that Company F signs with Company G in\norder to receive the support for the new system?\na) Agreement for outsourcing of accounting operation\nb) Agreement for outsourcing of development activities\nc) Agreement for outsourcing of maintenance and operation\nd) Agreement for the software license\n[Management]",
+      "options": {
+        "a": "Agreement for outsourcing of accounting operation",
+        "b": "Agreement for outsourcing of development activities",
+        "c": "Agreement for outsourcing of maintenance and operation",
+        "d": "Agreement for the software license\n[Management]"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 94,
+      "text": "In the basic service of Company G, which of the following is the appropriate\ncombination of requirements that are fulfilled for the accounting department of\nCompany F after the operation of the new system starts?\na) (1) and (2) b) (2) and (4) c) (3) and (4) d) (4) and (5)\n[Management]",
+      "options": {
+        "a": "(1) and (2)",
+        "b": "(2) and (4)",
+        "c": "(3) and (4)",
+        "d": "(4) and (5)\n[Management]"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 97,
+      "text": "When the left 12 digits (from the 1st digit through the 12th digit) of the ISBN code are\nthe numbers shown below, which of the following is the check digit X to be appended\nto the 13th digit?\nDigit 1 2 3 4 5 6 7 8 9 10 11 12 13\n9 7 8 4 0 0 0 0 8 6 0 1 X\na) 1 b) 3 c) 7 d) 9\n[Strategy]",
+      "options": {
+        "a": "1",
+        "b": "3",
+        "c": "7",
+        "d": "9\n[Strategy]"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 100,
+      "text": "The check digit is determined by using spreadsheet software. Which of the\nfollowing is an appropriate expression to be inserted into cell N2 in the worksheet\nthat is described below? This worksheet is used repeatedly by entering numbers in\ncells B2 through M2. Here, the details of the modulo arithmetic MOD(x, y) are\ndescribed in the appendix “Spreadsheet Software Functions and Terminology”. For\nexample, the equation “MOD(x, y) = x−y*INT(x/y)” holds for integers x and y, and\nthe result of MOD(−10, 3) is 2.\n(1) In cells B1 through N1, enter a numeric value representing the number of digits\nof the ISBN code.\n(2) In cells B2 through M2, enter the 1st through the 12th digit of the ISBN code\nwith one digit in each cell.\n(3) In cells B3 through M3, enter the weight corresponding to each digit of the\nISBN code.\n(4) In cell B5, calculate the total of multiplying each digit of the ISBN code by the\ncorresponding weight.\n(5) In cell B6, enter the expression using the modulo arithmetic as follows:\nMOD (B5, 10)\n(6) In cell N2, enter an expression for calculating the check digit.\nA B C D E F G H I J K L M N\n1 Digit 1 2 3 4 5 6 7 8 9 10 11 12 13\n2 ISBN code 9 7 8 4 0 0 0 0 4 3 2 1\n3 Weight 1 3 1 3 1 3 1 3 1 3 1 3\n4\n5 Sum (S) 68\n6 Remainder (R)\nNote: The shaded cells are not shown.\nFig. 3 Worksheet for calculating the check digit\na) 10 − B6 b) B6 − 10\nc) 10 − MOD (B6, 10) d) MOD (10 − B6, 10)\n- 44 -\nSpreadsheet Software Functions and Terminology\nThe following defines the basic functions and technical terms of spreadsheet software.\nIn addition, when worksheet functions not described here, such as save, read, print, line creation, and graph\ncreation, are used, they are described in the exam question text.\n1. Worksheets\n(1) The work area that is composed of a grid of rows and columns is called a worksheet. A\nworksheet has 256 columns and 10,000 rows.\n(2) The position of each column and row in a worksheet is represented by a column letter and a row\nnumber. The leftmost column letter is A, and all column letters are represented as A, B, ..., Z, AA,\nAB, ..., AZ, BA, BB, ..., BZ, ..., IU, and IV. The uppermost row number is 1, and all row numbers\nare represented as 1, 2, …, 10000.\n(3) Multiple worksheets can be used. In this case, a unique name is assigned to each worksheet in\norder to distinguish worksheets from one another.\n2. Cells and cell ranges\n(1) Each box-shaped area in the grid that constitutes a worksheet is called a cell. The position of a\ncell is represented by a pair of the column letter and row number of the cell, and this is called a cell\naddress.\nExample: The cell address at column A and row 1 is A1.\n(2) When a group of all cells included in certain rectangular area of a worksheet is handled, the cell\naddresses of the top left and bottom right cells of the group are used with a semicolon “ : ”, and the\ngroup is represented as “top left cell address:bottom right cell address”. This is called a cell\nrange.\nExample: The cell range with the top left cell at A1 and the bottom right cell at B3 is represented\nas A1:B3 .\n(3) When a cell address or a cell range in another worksheet is specified, the worksheet name and an\nexclamation mark “!” are used, and they are represented as “worksheet name!cell address” or\n“worksheet name!cell range” respectively.\nExample: When the cell range B5:G10 in the worksheet “sheet1,”is specified from another\nworksheet, it is represented as sheet1!B5:G10.\n3. Values and expressions\n(1) A cell holds a value, and this value can be referenced using the cell address. A value can be a\nnumeric value, a character string, a logical value, or a null value.\n(2) A character string is enclosed in a pair of single quotation marks ‘ ’.\nExample: The character strings “A” and “BC” are represented as ‘A’ and ‘BC’ respectively.\n(3) A logical value is represented as true or false.\n- 45 -\n(4) A null value is represented as null, and a cell that has a null value is called a blank cell. The\ninitial state of a cell is null.\n(5) An expression can be entered into a cell. A cell holds the resulting value of an evaluated\nexpression.\n(6) An expression is composed of constants, cell addresses, operators, parentheses, and functions. A\nconstant is a notation that represents a numeric value, a character string, a logical value, or a null\nvalue. A cell address in an expression refers to the value held in the cell at that cell address.\n(7) An expression can be an arithmetic expression, a character expression, or a logical expression.\nAn expression whose evaluation generates a numeric value is called an arithmetic expression, an\nexpression whose evaluation generates a character string is called a character expression, and an\nexpression whose evaluation generates a logical value is called a logical expression.\n(8) When an expression is entered into a cell, it is evaluated immediately. When the value in a cell\nthat is referenced by an expression is changed, the expression is immediately re-evaluated.\n4. Operators\n(1) Unary operators are the plus sign “+” and the minus sign “−”.\n(2) Arithmetic operators are addition “+”, subtraction “−”, multiplication “*”, division “/”, and\nexponentiation “^”.\n(3) Comparison operators are greater than “>”, less than “<”, greater than or equal to “≥”, less than or\nequal to “≤”, equal to “=”, and not equal to “≠”.\n(4) For grouping symbols, a pair of parentheses “( )” is used.\n(5) When there are multiple operations and parentheses in an expression, the order of calculation is\nprioritized as shown in the table below.\nType of operation Operator Priority\nParentheses ( ) High\nExponentiation ^\nUnary operation +，−\nMultiplication and division *，/\nAddition and subtraction +，−\nComparison operators >，<，≥，≤，=，≠ Low\n5. Copying of cells\n(1) A value or expression in a cell can be copied into other cells.\n(2) In a cell copy operation, when the source cell holds an expression containing a cell address, the cell\nreference method that changes the cell address in the expression so that the difference in the cell\naddresses of the source cell and destination cell can be maintained is called a relative reference.\nIn this case, the expression that is entered into the destination cell is the expression modified by\n- 46 -\nadding the difference in column letter and row number between the source cell and destination cell\nto each cell address in the expression that is entered into the source cell.\nExample: When the expression A1+5 in cell A6 is copied into cell B8, the expression B3+5 is\nentered into cell B8.\n(3) In a cell copy operation, when the source cell holds an expression containing a cell address, the cell\nreference method that does not change either of or both the column letter and row number of the\ncell address is called an absolute reference. A dollar symbol “$” is placed immediately before\neither of or both the column letter and row number to which an absolute reference is applied.\nExample: When the expression $A$1+$A2+A$5 in cell B1 is copied into cell C4, the expression\n$A$1+$A5+B$5 is entered into cell C4.\n(4) In a cell copy operation, when the source cell holds an expression that refers to another worksheet,\nthe name of the referenced worksheet does not change at the copy destination.\nExample: When the expression Sheet1!A1 in cell A6 of the worksheet “Sheet2” is copied into\ncell B8 of the worksheet “Sheet3”, the expression Sheet1!B3 is entered into cell B8 of\n“Sheet3”.\n6. Functions\nThe functions defined in the table below are available for use in an expression.\nFormat Description\nReturns the sum of the values in a specified cellrange.\nSUM(cell range1)) Example: SUM(A1:B5) returns the sum of the values in the cell range\nA1:B5.\nAVG(cell range1)) Returns the average of the values in a specified cell range.\nSAMPLE_STD_DEV Sample standard deviation: Returns the standard deviation of the sample\n(cell range1)) values in a specified cell range.\nPOPULATION_STD_D Population standard deviation: Returns the standard deviation of the\nEV(cell range1)) population values in a specified cell range.\nMAX(cell range1)) Returns the maximum value in a specified cell range.\nMIN(cell range1)) Returns the minimum value in a specified cell range.\nReturns the value of expression1 when the value of the logical expression is\nIF(logical expression, true, and returns the value of expression 2 when it is false.\nexpression 1, expression Example: IF(B3 ˃ A4, ‘Chicago’, C4) returns the character string\n2) “Chicago”, if the value in cell B3 is greater than the value in\ncell A4. Otherwise, the value in cell C4 is returned.\nCOUNT(cell range) Returns the number of non-blank cells in a specified cell range.\nReturns the number of cells within a specified cell range that meet the\nspecified search condition. The search condition is described using a\ncombination of a comparison operator and an expression, and the value of\neach cell contained in the cell range is evaluated using the specified\nCOUNTIF(cell range, comparison operator.\nsearch condition) Example 1: COUNTIF(H5:L9, > A1) returns the number of cells in cell\nrange H5:L9 that hold a greater value than the value in cell\nA1 .\nExample 2: COUNTIF (H5:L9, = ‘ABC’) returns the number of cells in\nthe cell range H5:L9 that hold the character string “ABC”.\n- 47 -\nInteger: Rounds a value down to the maximuminteger that is less than or\nINT (arithmetic equal to the value of a specified arithmetic expression.\nexpression) Example 1: INTEGER(3.9) returns 3.\nExample 2: INTEGER(−3.9) returns −4.\nModulo arithmetic: Returns the remainder after the value of arithmetic\nexpression 1 (dividend) is divided by the value of arithmetic expression 2\nMOD(arithmetic\n(divisor). The equation below holds for functions MOD and INT.\nexpression 1, arithmetic\nMOD(x, y) = x − y * INT(x / y)\nexpression 2)\nExample 1: MOD(10, 3) returns 1.\nExample 2: MOD(−10, 3) returns 2.\nSquare root: Returns the non-negative square root of the value of a\nSQRT(arithmetic\nspecified arithmetic expression. The value of the arithmetic expression\nexpression)\nmust be a non-negative numeric value.\nAND(logical expression Returns true only when the values of logical expression 1, logical\n1, logical expression expression 2, and all other logical expressions specified are true.\n2, ...)2) Otherwise, it returns false.\nOR(logical expression Returns true when the value of at least one expression out of logical\n1, logical expression expression 1, logical expression 2, and all other logical expressions\n2, ...)2) specified is true. Otherwise, it returns false.\nNOT(logical Returns false when the value of a specifiedlogical expression is true, and\nexpression) returns true when the value of the logical expression is false.\nROUNDUP(arithmetic Returns the value of a specified arithmetic expression that is rounded to the\nexpression, position) position specified. The function ROUNDUP rounds the value up,\nROUNDOFF(arithmetic ROUNDOFF rounds the value off, and ROUNDDOWN rounds the value\nexpression, position) down. Here, the position is the number of places as counted from left to\nright with the first position being 0.\nROUNDDOWN\nExample 1: ROUNDUP(−314.159, 2) returns −314.16.\n(arithmetic expression,\nExample 2: ROUNDUP(314.159, −2) returns 400.\nposition)\nExample 3: ROUNDUP(314.159, 0) returns 315.\nTreats the value of expression 1, expression 2, and all other expressionsas\nCONCATENATE a character string, and returns these as a single character string joined in\n(expression 1, order of the arguments.\nexpression 2, ...) 2) Example: CONCATENATE(‘Chicago’, ‘Washington’, 123, 456) returns\nthe character string “ChicagoWashington123456”.\nReturns the rank order of the value of a specified arithmetic expression in a\ncell range in ascending order when the order option is 0, and in descending\nRANK(arithmetic\norder when the order option is 1. Here, if the same value occurs more\nexpression, cell range1),\nthan once in the cell range, these values are given the same rank order and\norder option)\nthe subsequent rank order is set as this rank order plus the number of cells\nin the same rank order.\nReturns a uniform random number (real value) that is greater than or equal\nRANDOM( )\nto 0 and less than 1.\nTable lookup: Counts each row andcolumn from the top left position of a\nTLOOKUP(cell range,\nspecified cell range as 1, 2, ..., and returns the value of a cell at the location\nrow position, column\nspecified using a row position and a column position.\nposition)\nExample: TLOOKUP(A3:H11, 2, 5) returns the value of cell E4.\n- 48 -\nVertical lookup: Scans the leftmost column of a specified cell range\nvertically from top to bottom, and searches for the first row with a cell that\nmeets the search option. For the row found, counts each column from the\nleftmost column of the cell range as 1, 2, ..., and returns the value of the\ncell in the column specified by the column position.\nVLOOKUP • When the search option is 0: searches for values that matches the\n(expression, cell range, expression value.\ncolumn position, search • When the search option is 1: searches for the maximum value that is less\noption) than or equal to the expression value. Here, the leftmost column must\nbe sorted in ascending order from top to bottom in advance.\nExample: VLOOKUP(15, A2:E10, 5, 0) searches the leftmost column in\nthe cell range from cell A2 to A10. Under this condition, if the\nvalue 15 is first found in cell A6, the value in cell E6 is returned,\nwhich is located at the 5th column E in the same row as cell A6.\nHorizontal lookup: Scans the top rowof a cell range horizontally from\nleft to right, and searches for the first column with a cell that meets the\nsearch option. For the column found, counts each row from the top row of\nthe cell range as 1, 2, ..., and returns the value of the cell in the row\nspecified by the row position.\n• When the search option is 0: searches for values that matches the\nHLOOKUP\nexpression value.\n(expression, cell range,\n• When the search option is 1: searches for the maximum value that is less\nrow position, search\nthan or equal to the expression value. Here, the top row must be sorted\noption)\nin ascending order from left to right in advance.\nExample: HLOOKUP(15, A2:G6, 5, 1) searches the top row in the cell\nrange from cell A2 to G2. Under this condition, if the\nmaximum value less than or equal to 15 is first found in cell D2,\nthe value in cell D6 is returned, which is located at the 5th row 6\nin the same column as cell D2.\nNotes: 1) Values other than numeric values contained in the cell range that is passed as an argument\nare not processed.\n2) One or more expressions can be passed as a list of arguments.\n- 49 -",
+      "options": {
+        "a": "10 − B6",
+        "b": "B6 − 10",
+        "c": "10 − MOD (B6, 10)",
+        "d": "MOD (10 − B6, 10)\n- 44 -\nSpreadsheet Software Functions and Terminology\nThe following defines the basic functions and technical terms of spreadsheet software.\nIn addition, when worksheet functions not described here, such as save, read, print, line creation, and graph\ncreation, are used, they are described in the exam question text.\n1. Worksheets\n(1) The work area that is composed of a grid of rows and columns is called a worksheet. A\nworksheet has 256 columns and 10,000 rows.\n(2) The position of each column and row in a worksheet is represented by a column letter and a row\nnumber. The leftmost column letter is A, and all column letters are represented as A, B, ..., Z, AA,\nAB, ..., AZ, BA, BB, ..., BZ, ..., IU, and IV. The uppermost row number is 1, and all row numbers\nare represented as 1, 2, …, 10000.\n(3) Multiple worksheets can be use"
+      },
+      "correct_answer": "d"
+    }
+  ]
+}

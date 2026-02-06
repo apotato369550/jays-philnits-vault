@@ -1,0 +1,815 @@
+{
+  "metadata": {
+    "exam_name": "2016_april",
+    "year": 2016,
+    "month": "april",
+    "extraction_method": "raw_pdf",
+    "extraction_date": "2026-02-06",
+    "total_questions_extracted": 75
+  },
+  "questions": [
+    {
+      "q_num": 1,
+      "text": "Which of the following is obtained by multiplying the binary value 10110 by three?",
+      "options": {
+        "a": "111010",
+        "b": "111110",
+        "c": "1000010",
+        "d": "10110000"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 2,
+      "text": "Which of the following is a search condition for the black area of the Venn diagram shown below? A C B",
+      "options": {
+        "a": "(not A) and B and C",
+        "b": "(not A) and (B or C)",
+        "c": "(not A) or (B and C)",
+        "d": "(not A) or (B or C)"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 3,
+      "text": "In the sales campaign for a certain product, a full-page advertisement is run a total of three times in three magazines A, B, and C. When the effects expected from running a full-page advertisement zero to three times in each of the magazines are as shown in the table below, how many times should the advertisement be run in magazine A to gain the largest possible effect? Here, the effects of the advertisements placed in the individual magazines are independent of one another, and the effects from multiple magazines can be calculated by simply adding the individual effects. Number of times that the full- Zero One Two Three page advertisement is run times time times times Effect of magazine A 0 2 7 7 Effect of magazine B 0 1 6 10 Effect of magazine C 0 5 8 9",
+      "options": {
+        "a": "0",
+        "b": "1",
+        "c": "2",
+        "d": "3"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 4,
+      "text": "Which of the following is an appropriate explanation of an algorithm that is used on a computer?",
+      "options": {
+        "a": "A generic term for artificial languages used to enable a computer to perform a series of operations",
+        "b": "A processing procedure for enabling a computer to accomplish a specific purpose",
+        "c": "Designing of buildings or industrial products with the assistance of a computer",
+        "d": "Software for translating a program into a machine language that can be directly executed by a computer"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 5,
+      "text": "Which of the following is an appropriate description concerning HTML?",
+      "options": {
+        "a": "It is a markup language that can specify the logical structure and layout of a Web page by using tags.",
+        "b": "It is a script language that can describe the program or processing steps executed on a browser.",
+        "c": "It is a communication protocol that is used between a browser and a Web server.",
+        "d": "It is a markup language that enables users to describe the meaning and structure of data by defining their own unique tags."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 6,
+      "text": "Which of the following is the method for describing the logical structure of a sentence in XML?",
+      "options": {
+        "a": "Enclosing the sentence, clauses, and other elements by using double quotes (“”)",
+        "b": "Separating the sentence, clauses, and other elements by using commas",
+        "c": "Enclosing the sentence, clauses, and other elements by using tags",
+        "d": "Separating the sentence, clauses, and other elements by using tabs"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 9,
+      "text": "Which of the following is an explanation of a hot plug?",
+      "options": {
+        "a": "A function that enables attachment or detachment of a peripheral device while PC power remains on",
+        "b": "Software that is installed afterwards in order to enhance the functions of application software",
+        "c": "A mechanism of supplying power from a PC to a peripheral device via a cable connected to the peripheral device",
+        "d": "A technique of executing a specific program and evaluating system performance on the basis of the time taken for the processing"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 10,
+      "text": "Which of the following is an appropriate description concerning clock frequency of CPU?",
+      "options": {
+        "a": "The CPUs which have the same clock frequency are equal in performance, regardless of whether they are 32-bit or 64-bit.",
+        "b": "The CPU with higher clock frequency gives higher heat generation than others in the same type of CPU, so heat dissipation becomes important.",
+        "c": "Clock frequency and network transfer rate are in direct proportion when the machine is connected to the network.",
+        "d": "For a multi-core processor, the throughput does not depend on the clock frequency."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 12,
+      "text": "Which of the following is a DVD in which users can write data, but cannot rewrite data?",
+      "options": {
+        "a": "DVD-R",
+        "b": "DVD-RAM",
+        "c": "DVD-ROM",
+        "d": "DVD-RW"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 14,
+      "text": "Which of the following is an appropriate explanation of the hot standby system?",
+      "options": {
+        "a": "It is a system where a collection of various types of hardware, software, and data on the Internet is provided to the user.",
+        "b": "It is a system where a high level of reliability can be obtained by simultaneously operating the two sets of equipment and performing the same processing while cross- checking the results.",
+        "c": "It is a system where a backup machine is always kept on standby in an operable state and is immediately switched into operation at the occurrence of a failure.",
+        "d": "It is a system where a backup machine is arranged, and at the occurrence of a failure, the operator in charge starts up the backup machine to switch the production machine to the backup machine."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 15,
+      "text": "When a computer system has operated for 1,200 hours, the status of the normal operation time and the repair time is as shown in the table below. What is the value of MTTR (Mean Time To Repair, in hours) of the system? Elapsed time (Hours) Status 0 through 250 Normal operation 250 through 265 Repair time 265 through 580 Normal operation 580 through 600 Repair time 600 through 990 Normal operation 990 through 1,000 Repair time 1,000 through 1,200 Normal operation",
+      "options": {
+        "a": "10",
+        "b": "15",
+        "c": "20",
+        "d": "45"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 16,
+      "text": "When a record in a file is modified, which of the following is an appropriate way of identifying the modified contents?",
+      "options": {
+        "a": "Keeping a record of the size and the modified date of a file",
+        "b": "Keeping a copy of a file and comparing it to the modified one later",
+        "c": "Keeping a record of the number of records into the file",
+        "d": "Keeping records sorted in ascending order of the key field"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 19,
+      "text": "The types of programs that are executed at the startup time of a PC are generally classified into three categories: BIOS, OS, and resident applications. Which of the following is the list that is arranged in the sequence of the execution of the programs?",
+      "options": {
+        "a": "BIOS  OS  Resident applications",
+        "b": "OS  BIOS  Resident applications",
+        "c": "OS  Resident applications  BIOS",
+        "d": "Resident applications  BIOS  OS"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 20,
+      "text": "Which of the following is the purpose of the virtual memory system that is known as one of the functions provided by an OS?",
+      "options": {
+        "a": "To prevent an application program from accessing the protected area on main memory used by the OS",
+        "b": "To reduce electricity consumption during the idle state, by stopping the power supply after data is written from main memory to external storage",
+        "c": "To make it possible to execute a program even if the program requires more storage capacity than main memory",
+        "d": "To accelerate CPU processing with the assistance of a higher speed storage device than main memory"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 21,
+      "text": "Which of the following is a device that is used to recognize handwritten characters and convert them into character codes?",
+      "options": {
+        "a": "BD-R",
+        "b": "CD-R",
+        "c": "OCR",
+        "d": "OMR"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 22,
+      "text": "Which of the following is the term for the design that is intended to provide comfortable usability to as many people as possible, regardless of differences in culture, language, age, gender, presence or absence of disability, or capability?",
+      "options": {
+        "a": "Barrier-free design",
+        "b": "Fail-safe",
+        "c": "Foolproof",
+        "d": "Universal design"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 23,
+      "text": "On a display screen, various colors are created through additive color mixing with three colors, namely red, green, and blue. When the red color, green color, and blue color are mixed uniformly, which of the following is the color that is formed?",
+      "options": {
+        "a": "Red-violet",
+        "b": "Yellow",
+        "c": "White",
+        "d": "Blueish green"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 25,
+      "text": "There are “Sales”, “Customer” and “Product” tables in a relational database. Among lists A through C, which of the following contains all and only the lists that can be created from the data in these tables? Here, a solid underlined part represents a primary key, and a dotted underlined part represents a foreign key. Sales SalesNumber CustomerNumber ProductNumber SalesDate SalesAmount Customer CustomerNumber CustomerName Product ProductNumber ProductCategoryName ProductName A The list of customers who bought more than a certain amount of money during a certain period in the past B The list of products that were out of stock in the previous month C The ranking list for sales amount by product in the previous month",
+      "options": {
+        "a": "A, B",
+        "b": "A, B, C",
+        "c": "A, C",
+        "d": "B, C"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 26,
+      "text": "In the description below concerning a relational database, which of the following is an appropriate combination of terms to be inserted into blanks A through C? Analyze the target business operations, identify the data which is used there, and create , consisting of entities and . On the basis of the created, design . A B C",
+      "options": {
+        "a": "instances E-R diagram functions",
+        "b": "instances flowchart tables",
+        "c": "relationships E-R diagram tables",
+        "d": "relationships flowchart functions"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 27,
+      "text": "In DBMS, which of the following is a function for maintaining consistency of data by preventing the occurrence of conflicts due to simultaneous access to the data ?",
+      "options": {
+        "a": "Normalization",
+        "b": "Deadlock",
+        "c": "Exclusive control",
+        "d": "Restore"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 29,
+      "text": "When an e-mail is sent to multiple destinations, there are cases that the receiver of the e- mail should not know the e-mail addresses of other destinations. In such cases, which of the following is an appropriate place where the e-mail addresses of the multiple destinations to be sent are entered?",
+      "options": {
+        "a": "Bcc",
+        "b": "Cc",
+        "c": "To",
+        "d": "Both To and Bcc"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 30,
+      "text": "Which of the following is required to construct a LAN connecting several computers in a room?",
+      "options": {
+        "a": "Internet",
+        "b": "Splitter",
+        "c": "Hub",
+        "d": "Modem"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 31,
+      "text": "Which of the following is the mechanism that determines the correspondence between domain names and IP addresses on the Internet?",
+      "options": {
+        "a": "DNS",
+        "b": "FTP",
+        "c": "SMTP",
+        "d": "Web"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 32,
+      "text": "Which of the following is an appropriate explanation concerning URL of a Web page?",
+      "options": {
+        "a": "It is a communications protocol between a Web page and a browser.",
+        "b": "It is a message about the update history of a Web page.",
+        "c": "It is a notation for representing the location of a Web page.",
+        "d": "It is grammar for describing the content (i.e., body) of a Web page."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 33,
+      "text": "Which of the following is the technology that enables terminals connected to a shared network such as the Internet to be used as if they are connected to a leased line by ensuring security with encryption and authentication?",
+      "options": {
+        "a": "ADSL",
+        "b": "ISDN",
+        "c": "VPN",
+        "d": "Wi-Fi"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 34,
+      "text": "Which of the following is an explanation of DRM (Digital Rights Management), which is used for digital content?",
+      "options": {
+        "a": "It is data compression technology for audio and video, and there are multiple standards for the technology according to playback quality.",
+        "b": "It is a collective term for technologies for protecting the copyright of content and restricting its use and duplication.",
+        "c": "It is an XML-based description language for controlling data broadcasting on digital television.",
+        "d": "It is a standard for reproducing realistic soun"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 35,
+      "text": "In order to promote risk management, the execution plan for introducing the risk management system was developed as the first step. When the subsequent actions are divided into steps A through C below, which of the following is the order of the steps in accordance with the PDCA cycle? A Implementing the measures against risks according to the execution plan B Measuring the effect of the implementation and evaluating the effectiveness of the risk management system C Taking corrective actions and improving the risk management system",
+      "options": {
+        "a": "A → B → C",
+        "b": "A → C → B",
+        "c": "C → A → B",
+        "d": "C → B → A"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 36,
+      "text": "When information security measures are grouped into three (3) categories of technical security measures, human security measures, and physical security measures, which of the following is an appropriate example of physical security measures?",
+      "options": {
+        "a": "Making a non-disclosure agreement with employees",
+        "b": "Attaching a digital signature to an e-mail when it is sent",
+        "c": "Storing a notebook PC in a place that can be locked",
+        "d": "Recommending password change on a regular basis"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 37,
+      "text": "In the description below concerning a one time password, which of the following is an appropriate combination of terms to be inserted into blanks A and B? A user is authenticated by using a password that is created by a device called a token. This password is called a one time password, and the use of this makes it possible to reduce the risk of caused by password leak. A B",
+      "options": {
+        "a": "fixed DoS (Denial of Service) attack",
+        "b": "fixed spoofing",
+        "c": "disposable DoS (Denial of Service) attack",
+        "d": "disposable spoofing"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 38,
+      "text": "Which of the following is an appropriate description concerning biometric authentication?",
+      "options": {
+        "a": "If margin for error in matching with the authentication data is made larger, the possibility of both rejecting an authorized person and accepting an unauthorized person becomes smaller.",
+        "b": "It eliminates the need to remember IDs and passwords for authentication, and the need to carry keys or cards.",
+        "c": "It cannot be used with other authentication methods such as passwords or tokens.",
+        "d": "The effective period in which retina and finger vein pattern can be used for authentication is short because they change greatly over years."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 39,
+      "text": "Cryptography methods include symmetric cryptography and public key cryptography. Which of the following is an appropriate characteristic of symmetric cryptography?",
+      "options": {
+        "a": "When the encrypted communication takes place with a single person, the number of keys that are used therein is larger than in public key cryptography.",
+        "b": "It is safe to send a key unencrypted that is to be used for encrypting communication.",
+        "c": "The processing time required for encryption and decryption is shorter than the time required in public key cryptography.",
+        "d": "A key pair is generated, and the text that is encrypted with one key can only be decrypted with another key."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 40,
+      "text": "Which of the following is an appropriate explanation of cracking in information security?",
+      "options": {
+        "a": "Conducting a durability test that applies external shock, pressure, drop, and vibration to a device such as a PC",
+        "b": "Making a malicious and unauthorized intrusion into a computer or spying or destroying data",
+        "c": "Setting up and maintaining system devices as a system administrator, including setting up a firewall",
+        "d": "Conducting an audit to ensure that the security measures of the organization work effectively"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 41,
+      "text": "In the description below concerning computer viruses, which of the following is an appropriate combination of terms to be inserted into blanks A and B? In order to prevent infection with viruses that exploit of OS and applications, it is necessary to keep the virus definition file updated and to . A B",
+      "options": {
+        "a": "threats apply security patches to OS and applications",
+        "b": "threats encrypt the hard disk",
+        "c": "vulnerabilities apply security patches to OS and applications",
+        "d": "vulnerabilities encrypt the hard disk"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 42,
+      "text": "Which of the following is an appropriate explanation of IP spoofing, which is a means of unauthorized access?",
+      "options": {
+        "a": "It refers to getting data such as personal information by pretending to be a financial institution or a famous company, sending an e-mail, and misleading a user into accessing a false site.",
+        "b": "It refers to a communication route for unauthorized intrusion that is set on the intruded server.",
+        "c": "It refers to sending a packet with a false source IP address.",
+        "d": "It refers to collecting data such as operation logs and personal information of a user in such a way that the user does not realize it."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 43,
+      "text": "through Q60 concerning management.",
+      "options": {
+        "a": "A, B, D",
+        "b": "A, C, D",
+        "c": "A, D",
+        "d": "B, C Answer questions Q44 through Q60 concerning management."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 44,
+      "text": "In a project in which system development is performed on the basis of the waterfall model, defects in the system requirements definition are found in the later processes. Among the processes in which defects are found, which of the following processes involves the least amount of the correction of defects and the rework as a result of the correction?",
+      "options": {
+        "a": "System design",
+        "b": "Programming",
+        "c": "Test",
+        "d": "Software acceptance"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 45,
+      "text": "When system development progresses in the sequence of system requirements definition, external design, internal design, and programming, which of the following is the most appropriate phase for defining the layout of screens and the format of forms?",
+      "options": {
+        "a": "External design",
+        "b": "Internal design",
+        "c": "Programming",
+        "d": "System requirements definition"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 46,
+      "text": "Among the test techniques to verify the quality of a program, which of the following is a test technique that is used for analyzing the internal structure of the program and then creating the test cases?",
+      "options": {
+        "a": "Black box test",
+        "b": "Bottom-up test",
+        "c": "Top-down test",
+        "d": "White box test"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 47,
+      "text": "In system development, which of the following is an activity that is performed after software detailed design?",
+      "options": {
+        "a": "Programming",
+        "b": "Software architecture design",
+        "c": "Software outline design",
+        "d": "Software requirements definition"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 48,
+      "text": "Which of the following is a development model for the system development that flexibly adjusts to the changes in user requirements through repetition of improvements and feature additions, as shown in the Figure? Analysis Design Programming Testing Evaluation (Improvements and feature additions)",
+      "options": {
+        "a": "Waterfall model",
+        "b": "Reuse model",
+        "c": "Spiral model",
+        "d": "Re-engineering model"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 49,
+      "text": "After the start of a project, the scope is defined by collecting the requirements for the project. Which of the following is the most appropriate purpose of defining the scope?",
+      "options": {
+        "a": "To clarify the activities to be implemented in the project",
+        "b": "To examine the action plan against the risk that has been realized in the project",
+        "c": "To create an action plan for the delay of the project",
+        "d": "To create the objectives of the project"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 50,
+      "text": "The project management knowledge areas include project cost management, project human resource management, project time management, and project procurement management. In a system development project, which of the following is an appropriate activity of project procurement management when a device is purchased for testing?",
+      "options": {
+        "a": "Creating a schedule so as to start the test using the purchased device after the delivery of the device",
+        "b": "Providing training in device operations to the person in charge of performing the test by using the purchased device",
+        "c": "Adding the purchase cost of the device for testing to the project budget, and managing the estimated results and actual results of the total cost",
+        "d": "Presenting the specifications of the device for testing to several supplier candidates, evaluating the proposals, and deciding on the appropriate supplier accordingly"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 52,
+      "text": "Among the descriptions A through C concerning the measures for risk treatment to be considered when a new product is developed, which of the following is the list that contains all and only appropriate measures for reducing quality-related risks? A: Developing the product by using stable technology B: Purchasing insurance against development delays C: Creating a prototype of the product",
+      "options": {
+        "a": "A, B",
+        "b": "A, C",
+        "c": "A, B, C",
+        "d": "B, C"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 53,
+      "text": "Which of the following is an appropriate management system that improves the efficiency of IT operations and the quality of services including availability?",
+      "options": {
+        "a": "IT technical strategy management",
+        "b": "IT service management",
+        "c": "IT project scope management",
+        "d": "IT project time management"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 54,
+      "text": "In release management of IT service management, the items which have been planned and approved according to the change management are implemented in the production environment. Which of the following is an appropriate description concerning release management?",
+      "options": {
+        "a": "Information may be provided after the completion of release to users and operation managers concerned with changes.",
+        "b": "During release planning, cases when activities cannot be completed within the planned time period are also taken into account.",
+        "c": "Since there is no possibility of new failures after release, it is not necessary to make preparations.",
+        "d": "Regardless of the scale of release, the release is implemented simultaneously for all users."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 56,
+      "text": "In a certain IT service, four (4) priority levels are set for system changes: urgent, high, medium, and low. Among the proposed changes, which of the following is the change that should be classified as “urgent”? Here, changes are released regularly at the end of each month. Priority Description Fixing problems that pose a risk to human life or greatly reduce the Urgent ability to provide important public services, and that call for immediate response Fixing problems that have a severe impact on several important High users, or have an impact on many users, and that call for prompt response Fixing problems that do not have a severe impact, but cannot be Medium postponed until the next regular release Items for which change is required, but for which waiting until the Low next regular release is possible",
+      "options": {
+        "a": "System changes related to improving the function of supplementary lookup screens necessary for the launch of new services in two (2) weeks",
+        "b": "System changes related to countermeasures to address failures in an electronic conference system that has many corporate users",
+        "c": "System changes related to measures to address faults in a disaster information system that is used for making decisions on issuing local evacuation advisories",
+        "d": "Repair of program bugs that can be completed by the processing date in the coming month"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 59,
+      "text": "During a systems audit, systems auditors who are independent of the audit target inspect and evaluate the information systems comprehensively from an objective viewpoint. As a result of the systems audit requested by the management of a company, some problems are found in the effectiveness of the current information systems. Who are the most appropriate persons to whom the systems auditor gives advice and makes recommendations?",
+      "options": {
+        "a": "Stockholders",
+        "b": "Jurisdictional authority",
+        "c": "Management",
+        "d": "System users"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 60,
+      "text": "through Q88 concerning strategy.",
+      "options": {
+        "a": "Checking the findings of a business operations audit by an auditor",
+        "b": "Audit based on a contingent fee contract",
+        "c": "Joint audit with another auditor having specialized knowledge",
+        "d": "Checking the contents of an audit report of another auditor who performed the audit the previous year Answer questions Q61 through Q88 concerning strategy."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 63,
+      "text": "Which of the following is an appropriate combination of the standards and their applicable fields? IEEE 802.3 ISO 9001 ISO 14001 Environmental Quality",
+      "options": {
+        "a": "LAN management management Environmental Quality",
+        "b": "LAN management management Environmental Quality",
+        "c": "LAN management management Quality Environmental",
+        "d": "LAN management management"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 64,
+      "text": "Which of the following codes is used as an international standard for identifying a book?",
+      "options": {
+        "a": "ISBN",
+        "b": "ITF",
+        "c": "JAN",
+        "d": "QR"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 65,
+      "text": "Which of the following can be classified as a trade secret from a viewpoint of preventing unfair competition?",
+      "options": {
+        "a": "Information about a personal scandal involving a company executive",
+        "b": "Information about technology under development, which is marked as “Strictly Confidential” and circulated throughout the company",
+        "c": "Information about a production method that is not publicly known, which is marked as “Confidential” and stored in a locked cabinet",
+        "d": "A commercially available book which describes how to sell a company’s products effectively"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 66,
+      "text": "In e-commerce using public key cryptography, which of the following is created by a CA (Certification Authority) that is a third-party organization independent from the parties involved in the transaction?",
+      "options": {
+        "a": "Digital signatures of the parties involved in the transaction",
+        "b": "Electronic certificates for private keys of the parties involved in the transaction",
+        "c": "Electronic certificates for public keys of the parties involved in the transaction",
+        "d": "Passwords for the parties involved in the transaction"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 67,
+      "text": "Company S purchases equipment from Company K by using the procedure shown in the diagram below. In this transaction procedure, which of the following is the point at which the sales contract is concluded? Here, once the quotation is provided, the content of the transaction does not change throughout the procedure.",
+      "options": {
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "D"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 68,
+      "text": "Which of the following corresponds to a third-party audit that is defined in “ISO 9000:2015 Quality management system—Fundamentals and vocabulary”?",
+      "options": {
+        "a": "A parent company audits the quality management system of a subsidiary company.",
+        "b": "A customer audits the quality management system of a trading partner company.",
+        "c": "A company audits its own quality management system for internal purposes.",
+        "d": "A certification body audits the quality management system of a client company."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 69,
+      "text": "Which of the following is an appropriate explanation of blue ocean strategy?",
+      "options": {
+        "a": "Generating a new market that has no competition by providing new value",
+        "b": "Trying to increase sales opportunities by handling a wide range of products other than best-selling products",
+        "c": "Thoroughly proceeding with differentiation from products provided by the top companies in the industry",
+        "d": "Building predominance over competitors through cost reduction"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 70,
+      "text": "As segmentation in marketing, consumers are classified on the basis of the attitude toward product purchase. Which of the following is an appropriate attitude toward product purchase of a consumer called an opinion leader?",
+      "options": {
+        "a": "Conveying one’s evaluation of a product to friends and acquaintances after the product becomes popular",
+        "b": "Taking into consideration their friends’ evaluation and public opinion when deciding whether to purchase a product",
+        "c": "Waiting for the sales of a new product to start, and being eager to acquire it before friends and acquaintances",
+        "d": "Purchasing a new product in its initial phase of sale, and conveying information about the product to friends and acquaintances"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 71,
+      "text": "Which of the following is a means by which, analysis and evaluation of the management of a company is performed not only from the perspective of the financial performance, but also from the perspectives of customers, business processes, and learning and growth, and is then linked to the formulation of a strategy?",
+      "options": {
+        "a": "BSC",
+        "b": "CSF",
+        "c": "PPM",
+        "d": "SWOT analysis"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 72,
+      "text": "Which of the following is the marketing technique that is composed of four components: product, price, place, and promotion?",
+      "options": {
+        "a": "Social marketing",
+        "b": "Direct marketing",
+        "c": "Marketing channel",
+        "d": "Marketing mix"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 73,
+      "text": "Which of the following is an appropriate purpose of MOT (Management Of Technology)?",
+      "options": {
+        "a": "To improve the productivity by using mathematics and natural science in business administration and production management",
+        "b": "To grow a company by effectively connecting technical innovation with the business of one’s company",
+        "c": "To improve the quality of a company by ensuring that the employees put in efforts systematically to improve the quality of products",
+        "d": "To improve the business process efficiency by acquiring the necessary techniques and knowledge from senior employees through actual business operations at the workplace"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 74,
+      "text": "Which of the following systems can be realized through the use of RFID?",
+      "options": {
+        "a": "Performing medical activities by transmitting images and voice data of patients from a remote site via a network",
+        "b": "Depositing and withdrawing money from a bank ATM by using a cash card",
+        "c": "Reading product information from barcodes on products, and performing sales information management and order processing at the time of sale in stores",
+        "d": "Setting an electronic tag on a delivery parcel, and checking information related to the shipping history of the parcel"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 75,
+      "text": "Which of the following is an appropriate case example of improvement in business operations using CAD?",
+      "options": {
+        "a": "Automating inventory control by installing an IC tag on each product and monitoring shipment",
+        "b": "Performing control to ensure that the temperature suitable for production is maintained by installing temperature sensors on the production lines, and monitoring temperature",
+        "c": "Converting the design information to a database, and then sharing and reusing the design drawings",
+        "d": "Automating the production lines by using robots, and thus realizing an unmanned factory"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 76,
+      "text": "Which of the following is a technique for achieving effective business operations by managing and optimizing a company’s management resources in an integrated manner?",
+      "options": {
+        "a": "BPR",
+        "b": "ERP",
+        "c": "RFP",
+        "d": "SLA"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 77,
+      "text": "Which of the following is the most appropriate explanation of BTO that is used for the production of PCs?",
+      "options": {
+        "a": "Each product is assembled by only one worker.",
+        "b": "The products are manufactured with the minimum possible inventory between the production processes by procuring the required amount of raw materials and components at the required time.",
+        "c": "The products are stocked as components rather than finished products, and assembled after receiving an order from the customer, according to the details of the order.",
+        "d": "The products showing a company’s own logo are assembled by another company."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 80,
+      "text": "Among e-commerce categories, which of the following corresponds to the concept of “B to C” transactions?",
+      "options": {
+        "a": "CALS",
+        "b": "Web-EDI",
+        "c": "Virtual companies",
+        "d": "Virtual malls"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 82,
+      "text": "A company is aiming to analyze the data that is accumulated in information systems and use such data in business operations. However, progress is not made because of the insufficient experience of employees. Which of the following is the most appropriate activity that should be performed with higher priority in order to achieve the objective?",
+      "options": {
+        "a": "Improving the performance of software used for analysis",
+        "b": "Installing a high-performance PC for analysis in each department",
+        "c": "Providing typical cases of analysis and templates for analysis",
+        "d": "Speeding up the provision of data that can be used for analysis"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 83,
+      "text": "In order to make good use of IT to implement the business strategy of a company, which of the following is the most appropriate point to be considered when an information strategy is created?",
+      "options": {
+        "a": "The creation of the business strategy is the responsibility of top management, and on the other hand, the creation of the information strategy is the responsibility of the information systems department, and these activities should proceed independently.",
+        "b": "When the computerization is planned, IT-based automation of business processes should be implemented after identifying the business functions and workflow of the current business operations.",
+        "c": "When the computerization of business operations is planned, the ideal information system should be defined and reviewed whether its purpose and functions conform to the business strategy.",
+        "d": "In the planning stage of the information strategy, the initial cost should be evaluated as the cost of the system, and the cost of system operations and maintenance should be evaluated at the start of operations."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 84,
+      "text": "Which of the following is a set of activities that clarifies the target business operations, cost, schedule, organizational structure, investment effect, and other factors of system development, based on the information strategy?",
+      "options": {
+        "a": "Operational activities",
+        "b": "Development activities",
+        "c": "Planning activities",
+        "d": "Maintenance activities"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 85,
+      "text": "The table below shows the evaluated value of the proposals of four (4) vendors from the viewpoints of management, technology, and price. When each value of the management viewpoint, technology viewpoint, and price viewpoint is weighted, and the vendor with the highest total score is selected as the supplier, which of the following vendors is selected? Evaluation item Weight Vendor A Vendor B Vendor C Vendor D Management 2 2 4 3 3 viewpoint Technology 3 3 4 2 3 viewpoint Price viewpoint 5 4 2 4 3",
+      "options": {
+        "a": "Vendor A",
+        "b": "Vendor B",
+        "c": "Vendor C",
+        "d": "Vendor D"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 86,
+      "text": "Which of the following is an appropriate approver for the optimization plan of the overall information system of a company?",
+      "options": {
+        "a": "Chief Information Officer",
+        "b": "Head of the business operations department handling the mission-critical system",
+        "c": "Head of the department where RFP is created",
+        "d": "System development project manager"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 87,
+      "text": "Which of the following is an appropriate explanation of an ASP?",
+      "options": {
+        "a": "A business operator or a form of service that provides communication lines for connecting to the Internet",
+        "b": "A service on the Internet for creating a closed community that is accessible to users who are members of the community",
+        "c": "A business operator or a form of service that provides users with application software on a server via the Internet",
+        "d": "An approach of constructing an information system from the viewpoint of a service, rather than from the viewpoint of a product such as hardware and software"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 94,
+      "text": "If each process in Figure 1 is completed in the planned number of days, in how many days will this assembly be completed?",
+      "options": {
+        "a": "10",
+        "b": "12",
+        "c": "14",
+        "d": "16 [Management]"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 99,
+      "text": "Company G conducted a sales planning simulation concerning the manufacture of Product H under Plan A. When the company manufactures 400 units per month under the manufacturing method of Plan A, what is the minimum sales price necessary to secure a monthly gross profit of 20 million yen? Here, all products manufactured during a month can be sold during the same month.",
+      "options": {
+        "a": "135,000",
+        "b": "145,000",
+        "c": "150,000",
+        "d": "160,000 [Strategy]"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 100,
+      "text": "Company G conducted a sales planning simulation concerning the manufacture of Product H under Plan B. What is the gross profit (%) when the company manufactures the minimum number of units required to fulfill the [Monthly profit plan] under Plan B? Here, all products manufactured during a month can be sold during the same month. [Monthly profit plan] (1) The sales price of Product H is 100,000 yen per unit. (2) The monthly gross profit is 20 million yen.",
+      "options": {
+        "a": "20",
+        "b": "25",
+        "c": "33",
+        "d": "50"
+      },
+      "correct_answer": "b"
+    }
+  ]
+}

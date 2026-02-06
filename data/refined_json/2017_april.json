@@ -1,0 +1,804 @@
+{
+  "metadata": {
+    "exam_name": "2017_april",
+    "year": 2017,
+    "month": "april",
+    "extraction_method": "raw_pdf",
+    "extraction_date": "2026-02-06",
+    "total_questions_extracted": 72
+  },
+  "questions": [
+    {
+      "q_num": 1,
+      "text": "Japanese restaurants in London and Japanese restaurants in Paris are to be searched for together. Which of the following is the logical expression that represents the search condition?",
+      "options": {
+        "a": "(“London” AND “Paris”) AND “Japanese restaurant”",
+        "b": "(“London” AND “Paris”) OR “Japanese restaurant”",
+        "c": "(“London” OR “Paris”) AND “Japanese restaurant”",
+        "d": "(“London” OR “Paris”) OR “Japanese restaurant”"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 3,
+      "text": "Which of the following is the binary result of the multiplication of binary 1011 and binary 101?",
+      "options": {
+        "a": "1111",
+        "b": "10000",
+        "c": "101111",
+        "d": "110111"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 4,
+      "text": "There are five (5) lamps arranged in line. Each of them can be turned on and off independently. How many patterns are there where two (2) or more lamps are turned on? Here, the pattern where all lamps are turned on is counted as one (1) and the pattern where any one (1) of them is turned on is counted as five (5).",
+      "options": {
+        "a": "4",
+        "b": "10",
+        "c": "26",
+        "d": "32"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 5,
+      "text": "There is a standard that can represent data in a hierarchical structure by enclosing data that corresponds to attribute N with the tags <N>, which means the start, and </N>, which means the end, and then linking and nesting these tags. Company A decides to comply with this standard and create a paper by using the structural rules (1) through (3) below. Which of the following is the appropriate header of a paper named “New Document Management” that is created by Jack Smith of the Information Systems Department (IS Department) in accordance with this standard and the structural rules? [Structural rules] (1) A paper is composed of a header and a body text. (2) The header is composed of a title and author information. (3) Author information is composed of a name and a department.",
+      "options": {
+        "a": "<header> <author info> <title>New Document Management <name>Jack Smith</name><dept>IS Department</dept> </title> </author info> </header>",
+        "b": "<header> <title>New Document Management</title> <author info><name>Jack Smith</name></author info> <dept>IS Department</dept> </header>",
+        "c": "<header> <title>New Document Management</title> <author info> <name>Jack Smith</name><dept>IS Department</dept> </author info> </header>",
+        "d": "<header> <title>New Document Management</title> <name>Jack Smith <author info><dept>IS Department</dept></author info> </name> </header>"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 6,
+      "text": "Which of the following is an appropriate description concerning the usage of HTML (Hyper Text Markup Language) tags?",
+      "options": {
+        "a": "<LABEL> is used to define the title of a web page.",
+        "b": "<BODY> is used to describe the text of a web page.",
+        "c": "<BIG> is used to specify the size and style applied to each character in a web page.",
+        "d": "<FORM> is used to divide a web page into multiple frames."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 8,
+      "text": "Which of the following graphically represents a processing procedure of a program in a visual way?",
+      "options": {
+        "a": "Gantt chart",
+        "b": "Data flow diagram",
+        "c": "Flowchart",
+        "d": "Radar chart"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 10,
+      "text": "Which of the following is an appropriate explanation of HDMI?",
+      "options": {
+        "a": "It is an interface for an audio-visual device that handles the input and output of video, audio, and control signals through a single cable.",
+        "b": "It is an interface that makes use of the infrared rays used for the exchange of information between cell phones.",
+        "c": "It is a serial interface that connects a peripheral device, such as an external hard disk, through a cable.",
+        "d": "It is a wireless interface that makes use of radio waves and can communicate even when there is a slight shielding."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 12,
+      "text": "Which of the following is a port on a PC’s motherboard for the installation of a memory module?",
+      "options": {
+        "a": "PC card slot",
+        "b": "Flash memory",
+        "c": "Memory interleave",
+        "d": "Memory slot"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 13,
+      "text": "In the description below concerning the connection between a PC and a peripheral device, which of the following is an appropriate combination of words to be inserted into blanks A and B? The connection of a new peripheral device to a PC requires , but if a peripheral devices that supports function is connected, the is installed automatically and the device will be ready to use. A B",
+      "options": {
+        "a": "Device drivers Plug and play",
+        "b": "Device drivers Plugin",
+        "c": "Malware Plug and play",
+        "d": "Malware Plugin"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 15,
+      "text": "Which of the following is the most appropriate explanation of TCO (Total Cost of Ownership) that represents the cost of a system?",
+      "options": {
+        "a": "The total cost of a company’s initial investment in an information system",
+        "b": "The total cost incurred in system development",
+        "c": "The total cost including system implementation, operation, maintenance, and education",
+        "d": "The total cost of system implementation"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 17,
+      "text": "When the log file on a web server is analyzed in daily system administration, which of the following can be found?",
+      "options": {
+        "a": "Web pages accessed by website visitors",
+        "b": "The model name of a computer used by each visitor",
+        "c": "The speed of a web browser on each visitor’s computer",
+        "d": "Personal information about individual website visitors"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 19,
+      "text": "Which of the following is an appropriate description concerning OSs used for PCs?",
+      "options": {
+        "a": "Since the interface between an OS and application programs is standardized, the application programs can be developed without regard to the type of OS.",
+        "b": "An OS allocates the computer resources, such as the CPU, memory, and auxiliary storage device, to application programs.",
+        "c": "Since an OS has the function of automatically converting character sets in a file, application programs can access the file without regard to the type of character set.",
+        "d": "The source code of an OS should be disclosed so that application programs can freely use the various functions of the OS."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 20,
+      "text": "Which of the following is an appropriate explanation of multitasking?",
+      "options": {
+        "a": "Several computers connected via a network work together to achieve a high-performance system.",
+        "b": "Several processor cores composed of arithmetic circuits and other control circuits are implemented in a single CPU.",
+        "c": "The CPU processing time is allocated to several processes in turn so that the processes can be executed simultaneously.",
+        "d": "The same processing is performed for multiple data items by executing a single instruction."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 21,
+      "text": "As shown in the directory structure below, when D3 marked by an asterisk (*) is the current directory, which of the following the appropriate directory path that can designate file A under directory D4 marked by an arrow? Here, a file is designated as follows: [Method of file designation] (1) A file is referenced as “directory name\\···\\directory name\\file name”, where the directory names on the path are listed and separated with “\\” in sequence, followed by the file name. (2) The current directory is represented by a period “.”. (3) A directory that is one level higher is represented by two periods “..”. (4) When the path name string begins with a backslash “\\”, the root directory is omitted from the beginning of the string. (5) When the path name string does not begin with “\\”, “.”, or “..”, it is assumed that “ .\\” for the current directory is omitted from the beginning of the string.",
+      "options": {
+        "a": "..\\..\\D2\\D4\\A",
+        "b": "..\\D2\\D4\\A",
+        "c": "D1\\D2\\D4\\A",
+        "d": "D2\\D4\\A"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 23,
+      "text": "Which of the following is a computer that is used for activities such as global scale environmental simulations and DNA analysis, and was developed with the objective of processing large amount of calculations at ultra high speed?",
+      "options": {
+        "a": "Virtual computer",
+        "b": "Super computer",
+        "c": "General purpose computer",
+        "d": "Microcomputer"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 24,
+      "text": "Which of the following is an appropriate type of menu that enables users to make multiple selections on common GUIs as seen in PC operating systems?",
+      "options": {
+        "a": "Check box",
+        "b": "Text box",
+        "c": "Pull-down menu",
+        "d": "Radio button"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 26,
+      "text": "The response time of an inventory management system that uses a relational database has recently become slow. An investigation reveals that when the system was initially created, there was no problem with response time, and after that, insertion and deletion of product data was repeatedly performed on the database. Which of the following is the most effective way to improve the response time of the database?",
+      "options": {
+        "a": "Upgrading the CPU of the database server",
+        "b": "Extending the index area of the database",
+        "c": "Defragmenting the database",
+        "d": "Increasing the number of hard disks that store the database"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 27,
+      "text": "Which of the following is a service that provides disk space on a server connected to the Internet for storing files and allows users to read and write data from anywhere inside or outside their homes?",
+      "options": {
+        "a": "Archive",
+        "b": "Authoring",
+        "c": "Online storage",
+        "d": "Flash memory"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 30,
+      "text": "Which of the following is an appropriate description concerning a cookie used in the web?",
+      "options": {
+        "a": "It is a standard that can be used for formatting the layout of an HTML document in detail.",
+        "b": "It is a version of the HTTP protocol to which an encryption function is added for private communications over the Internet.",
+        "c": "It is a mechanism where a web server interacts with external programs to create web pages dynamically.",
+        "d": "It is a mechanism where information from a web server is temporarily saved in a browser that accesses the web server."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 31,
+      "text": "Which of the following is a communication network built in a limited area, such as the inside of a building?",
+      "options": {
+        "a": "IP-VPN",
+        "b": "LAN",
+        "c": "WAN",
+        "d": "Wide-area Ethernet"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 32,
+      "text": "Which of the following is an appropriate explanation of an intranet?",
+      "options": {
+        "a": "It is an organization’s internal network that is built with Internet technology.",
+        "b": "It is a company’s internal network that anyone outside a company can freely connect to.",
+        "c": "It is a network that is built in order to perform commercial electronic transactions between multiple companies.",
+        "d": "It is a network that is built without using wireless network, but with using wired network only."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 33,
+      "text": "When other networks such as the Internet are accessed from a network in an office or a household, which of the following fulfills the role of an entrance or an exit to the other networks?",
+      "options": {
+        "a": "Splitter",
+        "b": "Default gateway",
+        "c": "Hub",
+        "d": "Repeater"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 34,
+      "text": "Which of the following is the most appropriate explanation of a communication protocol?",
+      "options": {
+        "a": "It is a hub device for cables that are used to connect devices such as PCs and printers to a LAN.",
+        "b": "It is a description of the location of information specified with a web browser and the method for accessing it.",
+        "c": "It is a number that is used to identify a computer in Internet communication.",
+        "d": "It is a set of conventions that are defined for communication over a network."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 35,
+      "text": "Which of the following is an appropriate explanation of spam mail?",
+      "options": {
+        "a": "E-mail that is indiscriminately sent to users without their consent",
+        "b": "E-mail that is distributed to all participants registered previously for a specific purpose",
+        "c": "E-mail that is sent or forwarded with the same content by its receivers to multiple destinations and causes the number of receivers to continue increasing",
+        "d": "A message exchange system that provides a message posting function using e-mail or web page to enable information exchange with the general public"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 36,
+      "text": "Which of the following is an appropriate explanation of the keylogger that is a threat to information security?",
+      "options": {
+        "a": "Stealing information by watching the keyboard input and the display screen from behind a PC user",
+        "b": "Monitoring the keyboard input on a user’s PC by running a mechanism that can record such input",
+        "c": "Analyzing a password by using dictionary data of all the words that are likely to be used as passwords",
+        "d": "Searching for a free access point by moving around a town with a PC that can detect the electromagnetic waves of a wireless LAN"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 37,
+      "text": "The authentication technology is classified into three (3) types, namely authentication based on one’s possession, authentication based on physical characteristics, and authentication based on one’s memory. Which of the following is the appropriate classifications of the implementation examples (1) through (3)? (1) Authentication using an IC card (2) Authentication based on an ID and password (3) Authentication based on fingerprint (1) (2) (3)",
+      "options": {
+        "a": "Authentication based Authentication based on Authentication based on on one’s possession physical characteristics one’s memory",
+        "b": "Authentication based Authentication based on Authentication based on on one’s possession one’s memory physical characteristics",
+        "c": "Authentication based Authentication based on Authentication based on on one’s memory one’s possession physical characteristics",
+        "d": "Authentication based Authentication based on Authentication based on on one’s memory physical characteristics one’s possession"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 39,
+      "text": "Which of the following is the most appropriate explanation of the operation that spyware is meant to perform?",
+      "options": {
+        "a": "To destabilize the operation of the OS and software",
+        "b": "To delete files from the file system without user consent",
+        "c": "To hijack the browser and forcefully execute a particular operation",
+        "d": "To collect personal and other information without being noticed by users"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 40,
+      "text": "Which of the following is an appropriate information security measure against harmful software in a PC?",
+      "options": {
+        "a": "Using a 64-bit OS",
+        "b": "Maintaining the latest version of the virus definition file at all times",
+        "c": "Defragmenting the hard disk periodically",
+        "d": "Saving files after compressing them"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 42,
+      "text": "Security risk treatment includes risk transfer, risk avoidance, risk acceptance, and risk mitigation. Which of the following is an example of risk mitigation?",
+      "options": {
+        "a": "A security measure was taken, which reduced the possibility of problems occurring.",
+        "b": "The company took out insurance in case a problem should occur and cause damage.",
+        "c": "The risk was confirmed to be small, and it was decided that damage would be borne by the company if a problem should occur.",
+        "d": "The company withdrew from the services that carried high risk."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 43,
+      "text": "Which of the following shows the basic concept and approach in ISMS activities concerning the protection of information assets that are handled by a company?",
+      "options": {
+        "a": "BCP",
+        "b": "ISMS requirements",
+        "c": "PDCA",
+        "d": "Information security policy"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 44,
+      "text": "Which of the following is an appropriate example of a vulnerability that is discovered in a penetration test that is conducted via the Internet?",
+      "options": {
+        "a": "A backdoor for unauthorized intrusion to a public server from an external network",
+        "b": "An exfiltration of confidential information with the use of storage media",
+        "c": "A virus infection on a PC that is to be connected to the internal network",
+        "d": "The route of unauthorized entry to a room with security protection"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 45,
+      "text": "through Q65 concerning management.",
+      "options": {
+        "a": "An encrypted e-mail is tapped by a third party when it is sent.",
+        "b": "An operator makes a mistake in data input, and a contradiction occurs in a customer contact list.",
+        "c": "A shopping site cannot be used temporarily because of a system failure.",
+        "d": "Customer information that is managed in a database is leake"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 47,
+      "text": "A specification document of software is created as a result of software detailed design. Which of the following is the person who takes charge of the next process of development upon receipt of this result?",
+      "options": {
+        "a": "System auditor",
+        "b": "System operator in-charge",
+        "c": "System user",
+        "d": "Programmer"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 48,
+      "text": "In the process of system requirements definition, which of the following is an appropriate evaluation criteria for system requirements?",
+      "options": {
+        "a": "Consistency with results of system integration test",
+        "b": "Consistency with needs of system users",
+        "c": "Appropriateness of the design method used",
+        "d": "Coverage of test cases"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 51,
+      "text": "Among the following lists of descriptions A through D, which is the set that contains all appropriate descriptions concerning quality management in information systems? A: Continuous initiatives according to the PDCA cycle are effective in improving quality. B: The more functions a system has, the higher the quality. C: The cost of preventing defects is generally less than the cost of correcting bugs when they occur. D: Quality can be increased through appropriate design and implementation.",
+      "options": {
+        "a": "A, B, D",
+        "b": "A, C",
+        "c": "A, C, D",
+        "d": "C, D"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 52,
+      "text": "Which of the following is a technique that represents, hierarchically as shown in the figure below, activities of the development project of the new sales office system ?",
+      "options": {
+        "a": "PERT (Program Evaluation and Review Technique)",
+        "b": "WBS (Work Breakdown Structure)",
+        "c": "Structured programming",
+        "d": "FP (Function Point) method"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 55,
+      "text": "When the test period for the three (3) subsystems A, B, and C and the number of staff members are as shown below, what is the number of staff members in the month that has the highest total number of staff members in the test period? Subsystem Test period Number of staff members A April - June One (1) full time B May - July Two (2) full time C July - August Three (3) full time",
+      "options": {
+        "a": "3",
+        "b": "4",
+        "c": "5",
+        "d": "6"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 57,
+      "text": "When a project is launched, which of the following is created by the project manager to run the project?",
+      "options": {
+        "a": "Request for proposal",
+        "b": "Project implementation report",
+        "c": "Project management plan",
+        "d": "Requirements definition"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 58,
+      "text": "A part of a program was changed to add a new function to a system in operation. Which of the following is the most appropriate environment that is used for testing the changed program and determining whether or not it can be brought into system in operation?",
+      "options": {
+        "a": "Programming environment",
+        "b": "Test environment for other systems",
+        "c": "Production environment",
+        "d": "Test environment equivalent to production"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 59,
+      "text": "Among the management functions for service support, which of the following is the process of identifying all IT assets such as hardware and software, and creating and maintaining an up-to-date record of those IT assets including related documentation or such other information?",
+      "options": {
+        "a": "Configuration management",
+        "b": "Incident management",
+        "c": "Problem management",
+        "d": "Release management"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 60,
+      "text": "Which of the following is the framework that describes a collection of best practices of IT service management?",
+      "options": {
+        "a": "ISO 14001",
+        "b": "ISO 27001",
+        "c": "ITIL",
+        "d": "PMBOK"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 61,
+      "text": "For confidential information that is managed in an information system, which of the following is an appropriate measure that is performed from the facility management perspective against leakage?",
+      "options": {
+        "a": "Installation of antivirus software",
+        "b": "Entrance and exit control for a building that has a computer room",
+        "c": "ID and password management for information systems",
+        "d": "Encryption of electronic documents"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 62,
+      "text": "Which of the following is an appropriate description of internal control?",
+      "options": {
+        "a": "A process that is performed by all persons within a company in order to ensure the effectiveness and efficiency of business operations, reliability of financial reporting, compliance, and safeguarding of assets",
+        "b": "A process where a manager who is entrusted with business management raises funds from a financial institution and buys shares from the shareholders of a parent company in order to obtain a controlling interest",
+        "c": "An approach to both work and personal life outside of work where an attempt is made to sacrifice neither work nor personal life and to keep a good balance between both of them in a fulfilling way",
+        "d": "A measure taken by an organization in order to achieve the target of organizational activities, and a method that aims for the optimization of business activities and systems"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 63,
+      "text": "Which of the following is an activity that is performed by a service provider and is effective for the improvement of availability?",
+      "options": {
+        "a": "Measurement of response time",
+        "b": "Monitoring of failure occurrence",
+        "c": "Management of the server configuration used by the organization",
+        "d": "Recording of the modification history of a program"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 64,
+      "text": "Which of the following is the most appropriate explanation of IT governance?",
+      "options": {
+        "a": "It is the organizational abilities of a company to control the creation and execution of its IT strategy with the purpose of building competitive superiority, and to lead it in the ideal direction.",
+        "b": "It is the implementation and management of a good quality IT service that meets business needs.",
+        "c": "It is an activity that a third party that is not an involved party nor its management verifies that implementation and operation of risk control concerning information systems are appropriate.",
+        "d": "It is the application of the knowledge, skills, tools, and techniques to project activities in order to meet the requirements of the project."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 65,
+      "text": "through Q100 concerning strategy.",
+      "options": {
+        "a": "A C B",
+        "b": "B A D",
+        "c": "C D A",
+        "d": "D B C Answer questions Q66 through Q100 concerning strategy."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 66,
+      "text": "Which of the following is the most appropriate example of what can be understood by means of the “C” phase in the PDCA cycle as one of the business management methodologies?",
+      "options": {
+        "a": "The medium- and long-term status that a company aims for",
+        "b": "The technology elements that constitute a company’s technology road map",
+        "c": "The implementation status of a company’s business plan",
+        "d": "The results of an analysis of the external environment surrounding a company’s business"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 67,
+      "text": "Among the employee training methods, which of the following is classified as “off-the-job training” rather than “on-the-job training”?",
+      "options": {
+        "a": "Promoting the independence and autonomy of employees by granting authority to the employees who do the real work",
+        "b": "Enabling the acquisition of knowledge and techniques through education and training implemented separately from work",
+        "c": "Enabling the acquisition of necessary knowledge and techniques by coaching and training on a planned basis through actual tasks",
+        "d": "Putting forward questions and simple advice to have employees work towards their goals for themselves"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 68,
+      "text": "Which of the following is the list containing all the items that necessitate the decision of a stockholders’ meeting? A: Election of an auditor B: Determination of corporate merger C: Enforcement of an enterprise strategy D: Election of directors",
+      "options": {
+        "a": "A, B, D",
+        "b": "A, C",
+        "c": "B",
+        "d": "C, D"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 70,
+      "text": "In order to produce and sell a certain product, the fixed cost is 10,000 dollars and the variable cost for each product is 700 dollars. When this product is sold for 1,000 dollars each, at least how many products need to be sold in order to obtain a profit of 17,000 dollars or more?",
+      "options": {
+        "a": "90",
+        "b": "270",
+        "c": "630",
+        "d": "900"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 71,
+      "text": "Which of the following refers to a technique by which several persons come together and give their opinions freely with prioritizing quantity over quality of opinions without criticizing each other so as to create ideas?",
+      "options": {
+        "a": "Brainstorming",
+        "b": "Benchmarking",
+        "c": "Role playing",
+        "d": "Work design"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 72,
+      "text": "Which of the following is an international book code?",
+      "options": {
+        "a": "EAN",
+        "b": "ISBN",
+        "c": "ITF",
+        "d": "UPC"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 73,
+      "text": "The entire inventory of Warehouse A and Warehouse B is to be sent to Warehouse C and Warehouse D. The inventory volume of Warehouse A and Warehouse B is 35 items and 15 items respectively, and the required volume for Store C and Store D is 20 items and 30 items respectively. The shipment cost for each item from warehouse to store is as shown in the table. Under these conditions, what is the minimum total shipment cost in 100 dollars? Unit: 100 dollars/item Store C Store D Warehouse A 4 2 Warehouse B 2 1",
+      "options": {
+        "a": "85",
+        "b": "100",
+        "c": "110",
+        "d": "125"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 74,
+      "text": "Which of the following is the coding scheme that can encode a large amount of information into a small area and has an error correction function that enables the code to be read out correctly even when the code cannot be partially read out?",
+      "options": {
+        "a": "ISBN code",
+        "b": "ITF code",
+        "c": "QR code",
+        "d": "Unicode"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 75,
+      "text": "According to the ISO 9000 family, quality is defined as the “degree to which a set of inherent characteristics fulfills requirements.” When products are evaluated on the basis of this definition, which of the following is most appropriate as a product with good quality?",
+      "options": {
+        "a": "A product having no customer complaints and a high level of customer satisfaction",
+        "b": "A product that a company produces in-house without outsourcing",
+        "c": "A product designed and manufactured using CAD and CAM",
+        "d": "A product utilizing materials and components of high quality"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 76,
+      "text": "Which of the following is an example of an NDA (Non-Disclosure Agreement)?",
+      "options": {
+        "a": "A contract specifying the service content to be provided, which is agreed between the service provider and the customer before the provision of the IT service",
+        "b": "A contract specifying that the vendor of computer equipment bears the responsibility of transferring the property right, and that the buyer bears the responsibility of paying the price",
+        "c": "A contract, specifying the obligation of the outsourcer and outsourcee to maintain confidentiality of the secret information of the other party that become known to the party during system development",
+        "d": "A contract specifying that a person to whom the installation of a general-purpose package has been outsourced performs the task at his/her own discretion and responsibility, and receives payment upon the completion of the task"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 78,
+      "text": "Which of the following is the most appropriate as an example of an enhancement activity for compliance?",
+      "options": {
+        "a": "Expansion of a program to support the community service activities of employees",
+        "b": "Education for employees concerning laws and rules that must be followed",
+        "c": "Acquisition of another company’s business for swift business deployment",
+        "d": "Withdrawal from businesses where it is difficult to make profit"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 79,
+      "text": "A series of procedures, from the application for a digital certificate to the implementation of electronic tendering, are performed according to steps (1) through (6). Which of the following is an appropriate procedure to be performed in step (4)?",
+      "options": {
+        "a": "Notifying the results of opening of tenders",
+        "b": "Issuing an electronic certificate",
+        "c": "Checking the effectiveness of the electronic certificate",
+        "d": "Submitting a tender electronically"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 80,
+      "text": "Which of the following is an appropriate explanation of opinion leaders who are thought to be important for market penetration of a new product?",
+      "options": {
+        "a": "The tier of people who purchase the product after making sure that many people are using it.",
+        "b": "The tier of people who take a cautious approach and purchase the product after checking with the early buyers",
+        "c": "The tier of people who purchase the product early based on their judgment and have an influence on other consumers who follow behind",
+        "d": "The tier of people who are adventurous enough to take the initiative in purchasing the product"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 81,
+      "text": "Cross licensing is a way of using a company’s own patents effectively. Which of the following is an appropriate explanation of the right to execute the patent in cross licensing?",
+      "options": {
+        "a": "The company grants an exclusive license of a patent to an authorized party.",
+        "b": "An authorized party, who is granted the right to execute the patent, grants it to a third party.",
+        "c": "Two patent-holding companies mutually grant the right to execute their patents to each other.",
+        "d": "Multiple companies centralize the management of their own patents at a single place and grant the licenses to the participating companies including those that do not own any patent."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 82,
+      "text": "Which of the following is the most appropriate as the underlying concept of CRM?",
+      "options": {
+        "a": "The source of profit is the entry into an area with little competition before competitors.",
+        "b": "The source of profit is the construction and maintenance of a good relationship with the customer.",
+        "c": "The source of profit is the reduction of the product life cycle.",
+        "d": "The source of profit is the obtaining of a large share in a specific market."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 83,
+      "text": "Which of the following is an appropriate description concerning M&A?",
+      "options": {
+        "a": "The analysis of the flow of business and the chain of value for the production of value of products and services provided by a company",
+        "b": "The increase in the independence of an enterprise strategy by dividing a company by business or region",
+        "c": "The drastic reform of business processes, and using IT to increase business throughput and cost efficiency",
+        "d": "The acceleration of business deployment by fulfilling the functions that the company is lacking from other companies through corporate acquisition, et"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 84,
+      "text": "Company A performs analysis of its positioning with competitors. In order for Company A to obtain the best evaluation of all three (3) companies, what is the minimum number of points required in the brand evaluation item? The minimum value of evaluation item is one (1) point and the maximum value is ten points, and each company is evaluated by using the total value of each weighted evaluation item. Evaluation item Weight Company A Company B Company C Selling power 1 10 9 6 Price 4 10 7 9 Quality 3 6 10 7 Brand 2 6 10 Note: The shaded part is not shown.",
+      "options": {
+        "a": "6",
+        "b": "7",
+        "c": "8",
+        "d": "9"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 87,
+      "text": "Which of the following is an appropriate description in comparison of how to safeguard IC cards and magnetic cards against forgery?",
+      "options": {
+        "a": "An IC card is more robust against forgery than a magnetic card, because the IC card provides the features of storing and encrypting information in the IC chip.",
+        "b": "An IC card is more robust against forgery than a magnetic card, because the IC card uses a two-dimensional code for information recording.",
+        "c": "A magnetic card is more robust against forgery than an IC card, because the magnetic card stores information on a magnetic stripe and has a more complicated data protection mechanism.",
+        "d": "A magnetic card is more robust against forgery than an IC card, because the magnetic card uses a bar code for information recording."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 88,
+      "text": "Which of the following is a form of e-commerce corresponding to an online bookstore or an online shopping mall that is constructed for individuals on the Internet?",
+      "options": {
+        "a": "B to B",
+        "b": "B to C",
+        "c": "C to B",
+        "d": "C to C"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 89,
+      "text": "Which of the following is the most appropriate purpose of ERP?",
+      "options": {
+        "a": "Achieving the optimization of business resources and the improvement of management efficiency by managing all corporate activities in an integrated manner and linking business operations in a cross-organizational fashion from the viewpoint of making effective use of business resources.",
+        "b": "Improving performance by reviewing the current business processes and reforming not only the work flows and methods but also the structure and management system of the organization.",
+        "c": "Responding to customers more rapidly and building good relationships with them by storing information concerning customers into a database and making it to be shared by all the departments that contact customers.",
+        "d": "Utilizing the employees’ creativity, capacity to act, wisdom, and knowledge and information stored in a database as consolidated business resources, not as separate assets."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 90,
+      "text": "Which of the following is an appropriate explanation of the SEO, which is used on the Internet?",
+      "options": {
+        "a": "It is a mechanism of transmitting information on the Internet through encryption in order to secure personal information, such as the credit card numbers of customers.",
+        "b": "It is a community-type service whose purpose is to enable the participants to introduce their friends and acquaintances to other participants, and establish a social connection on the Internet.",
+        "c": "It is a management information system whose purpose is to secure and maintain the strategic superiority of an organization through differentiation and qualitative improvement of business.",
+        "d": "It is a method with which, when a user performs a keyword search on the Internet, a specific website is displayed at higher position on the list."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 91,
+      "text": "When build-to-order production is compared to build-to-stock production, which of the following is an appropriate characteristic of build-to-order production?",
+      "options": {
+        "a": "Shipment is not possible immediately when an order is received, but there is no risk of an excessive number of products in the inventory.",
+        "b": "It is required to increase the accuracy of order forecasts, and maintain the optimum inventory volume of products.",
+        "c": "It brings the risk of the loss of order opportunities through insufficient product inventory.",
+        "d": "Products are produced according to a production plan that is proposed on the basis of a product order forecast."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 92,
+      "text": "Which of the following is a business objective that becomes possible to achieve with “the introduction of a POS system”?",
+      "options": {
+        "a": "Improvement in the work productivity of salespersons and organizational strengthening of the sales department",
+        "b": "Reduction in inventory volume of component parts and partly finished goods",
+        "c": "Optimization of the series of processes from procurement to manufacturing, shipment, and sales",
+        "d": "Improvement in the product lineup at each store and streamlining of ordering and inventory control work"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 95,
+      "text": "Which of the following is the general name of software that has various functions such as e-mail and electronic bulletin board-based communication, information sharing, and electronic conferencing, and provides an environment for joint working?",
+      "options": {
+        "a": "Groupware",
+        "b": "Shareware",
+        "c": "Firmware",
+        "d": "Freeware"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 97,
+      "text": "When the software life cycle is divided into the planning process, requirements definition process, development process, and operation process, which of the following is an appropriate activity in the requirements definition process?",
+      "options": {
+        "a": "Business process and system transition",
+        "b": "Computerization planning",
+        "c": "Software detailed design",
+        "d": "Stakeholders’ needs identification"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 99,
+      "text": "When Company B procures an information system according to the flow shown in the figure below, which of the following is the term to be inserted in blank A?",
+      "options": {
+        "a": "NDA",
+        "b": "RFI",
+        "c": "RFP",
+        "d": "SLA"
+      },
+      "correct_answer": "c"
+    }
+  ]
+}

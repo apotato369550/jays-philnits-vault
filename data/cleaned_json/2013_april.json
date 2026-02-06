@@ -1,0 +1,815 @@
+{
+  "metadata": {
+    "exam_name": "2013_april",
+    "year": 2013,
+    "month": "april",
+    "extraction_method": "raw_pdf",
+    "extraction_date": "2026-02-06",
+    "total_questions_extracted": 74
+  },
+  "questions": [
+    {
+      "q_num": 1,
+      "text": "As shown in the figure below, there exists a process of converting each character of a character string in accordance with the conversion table. When the result of performing such a conversion is “0110001010”, which of the following is the character string before conversion? a) ABBAAABB b) ACAAABB c) ACABB d) CAAABB",
+      "options": {
+        "a": "ABBAAABB",
+        "b": "ACAAABB",
+        "c": "ACABB",
+        "d": "CAAABB"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 2,
+      "text": "As shown in Figure 1, there is a processing unit which reads two positive input values A1 and A2, and then writes two output values B1 and B2. B1 is equal to A2, and B2 is the remainder of A1 divided by A2. In Figure 2, two processing units with the same function as the above are connected in series. When A1=15 and A2=6 are given to the left-hand unit in Figure 2, what is the output value of B2 for the right-hand unit? a) 0 b) 3 c) 6 d) 15",
+      "options": {
+        "a": "0",
+        "b": "3",
+        "c": "6",
+        "d": "15"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 4,
+      "text": "Which of the following can be created using HTML? a) Web browser b) Web page c) Cookie d) SQL program",
+      "options": {
+        "a": "Web browser",
+        "b": "Web page",
+        "c": "Cookie",
+        "d": "SQL program"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 5,
+      "text": "Which of the following is the method for describing the logical structure of a sentence in XML? a) Enclosing the sentence, clauses, and other elements by using double quotes (“”) b) Separating the sentence, clauses, and other elements by using commas c) Enclosing the sentence, clauses, and other elements by using tags d) Separating the sentence, clauses, and other elements by using tabs",
+      "options": {
+        "a": "Enclosing the sentence, clauses, and other elements by using double quotes (“”)",
+        "b": "Separating the sentence, clauses, and other elements by using commas",
+        "c": "Enclosing the sentence, clauses, and other elements by using tags",
+        "d": "Separating the sentence, clauses, and other elements by using tabs"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 7,
+      "text": "Which of the following is a method of writing the same data to multiple hard disks simultaneously and improving reliability rather than performance? a) Striping b) Paging c) Interleaving d) Mirroring",
+      "options": {
+        "a": "Striping",
+        "b": "Paging",
+        "c": "Interleaving",
+        "d": "Mirroring"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 8,
+      "text": "Which of the following is a storage device or medium that is based on semiconductor memory technology? a) CD-ROM b) DVD-RAM c) BD d) SSD",
+      "options": {
+        "a": "CD-ROM",
+        "b": "DVD-RAM",
+        "c": "BD",
+        "d": "SSD"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 9,
+      "text": "Which of the following is a type of software that is provided for each PC peripheral and works as an intermediary between an OS and a specific peripheral so that application programs can use such a peripheral? a) Installer b) Device driver c) Device manager d) Converter",
+      "options": {
+        "a": "Installer",
+        "b": "Device driver",
+        "c": "Device manager",
+        "d": "Converter"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 10,
+      "text": "Which of the following is an appropriate description concerning PnP used on a PC? a) A feature to launch application programs from a remote site b) A feature to set up peripherals automatically when connected c) A feature to start up an OS automatically when powered on d) A feature to run software developed for another OS",
+      "options": {
+        "a": "A feature to launch application programs from a remote site",
+        "b": "A feature to set up peripherals automatically when connected",
+        "c": "A feature to start up an OS automatically when powered on",
+        "d": "A feature to run software developed for another OS"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 11,
+      "text": "Which of the following is the most appropriate description concerning a characteristic of RAID? a) It increases the data transfer rate of each hard disk. b) It provides a larger capacity than the total capacity of individual hard disks. c) It provides better performance or reliability or both by using multiple hard disks. d) It increases data access time because it needs to access multiple hard disks.",
+      "options": {
+        "a": "It increases the data transfer rate of each hard disk.",
+        "b": "It provides a larger capacity than the total capacity of individual hard disks.",
+        "c": "It provides better performance or reliability or both by using multiple hard disks.",
+        "d": "It increases data access time because it needs to access multiple hard disks."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 12,
+      "text": "Which of the following is the most appropriate explanation of TCO (Total Cost of Ownership) that is a major factor when any purchasing decision is made for a system? a) It is the sum of the operation and management costs incurred after the installation of the system. b) It is the sum of the costs required to troubleshoot software and hardware faults that occur after the installation of the system. c) It is the sum of the costs incurred during the installation of the system and the operation and management costs incurred after the installation. d) It is the sum of the costs incurred during the installation of the system in addition to the planning phase of the system.",
+      "options": {
+        "a": "It is the sum of the operation and management costs incurred after the installation of the system.",
+        "b": "It is the sum of the costs required to troubleshoot software and hardware faults that occur after the installation of the system.",
+        "c": "It is the sum of the costs incurred during the installation of the system and the operation and management costs incurred after the installation.",
+        "d": "It is the sum of the costs incurred during the installation of the system in addition to the planning phase of the system."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 13,
+      "text": "When a computer system operates for 1,200 hours, the status of the normal operation time and the repair time is shown in the table below. What is the value of MTTR (Mean Time To Repair, in hours) of the system? Elapsed time (Hours) Status 0 through 250 Normal operation 250 through 265 Repair time 265 through 580 Normal operation 580 through 600 Repair time 600 through 990 Normal operation 990 through 1,000 Repair time 1,000 through 1,200 Normal operation a) 10 b) 15 c) 20 d) 45",
+      "options": {
+        "a": "10",
+        "b": "15",
+        "c": "20",
+        "d": "45"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 14,
+      "text": "Which of the following is the most appropriate term that means the process of grouping multiple files into one, for the purpose of making effective use of storage media or promoting the efficiency of backup or distribution? a) Archive b) Aggregate c) Bundle d) Compile",
+      "options": {
+        "a": "Archive",
+        "b": "Aggregate",
+        "c": "Bundle",
+        "d": "Compile"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 15,
+      "text": "Which of the following is the purpose of the virtual memory system that is known as one of the functions provided by an OS? a) To prevent an application program from accessing the protected area on main memory used by the OS b) To reduce electricity consumption during the idle state, by stopping the power supply after data is written from main memory to external storage c) To make it possible to execute a program even if the program requires more storage capacity than main memory d) To accelerate CPU processing with the assistance of a higher speed storage device than main memory",
+      "options": {
+        "a": "To prevent an application program from accessing the protected area on main memory used by the OS",
+        "b": "To reduce electricity consumption during the idle state, by stopping the power supply after data is written from main memory to external storage",
+        "c": "To make it possible to execute a program even if the program requires more storage capacity than main memory",
+        "d": "To accelerate CPU processing with the assistance of a higher speed storage device than main memory"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 16,
+      "text": "Which of the following is the most appropriate explanation of a “multimedia authoring tool”? a) It is a tool that is used to create multimedia content by combining materials, such as image, sound, and text, on the screen. b) It is a tool that is used to play back multimedia content, such as image, sound, and text, in the PC environment. c) It is a tool that is used to search for multimedia information, such as image, sound, and text. d) It is a tool that is used to interactively define schema for multimedia database containing information, such as image, sound, and text.",
+      "options": {
+        "a": "It is a tool that is used to create multimedia content by combining materials, such as image, sound, and text, on the screen.",
+        "b": "It is a tool that is used to play back multimedia content, such as image, sound, and text, in the PC environment.",
+        "c": "It is a tool that is used to search for multimedia information, such as image, sound, and text.",
+        "d": "It is a tool that is used to interactively define schema for multimedia database containing information, such as image, sound, and text."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 17,
+      "text": "Which of the following is a unit that is used to represent “resolution”, one of the performance indicators of a display or a printer? a) bps b) dpi c) fps d) psi",
+      "options": {
+        "a": "bps",
+        "b": "dpi",
+        "c": "fps",
+        "d": "psi"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 18,
+      "text": "Which of the following is the concept representing a database that is built by extracting and restructuring data from a mission-critical business system for the purpose of supporting information analysis and decision making? a) Data center b) Data warehouse c) Data mining d) Data roaming",
+      "options": {
+        "a": "Data center",
+        "b": "Data warehouse",
+        "c": "Data mining",
+        "d": "Data roaming"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 19,
+      "text": "Which of the following is an appropriate purpose of normalizing data in a relational database? a) To guarantee data compatibility so that data can be shared between different types of computers b) To prevent the occurrence of redundancy or inconsistency of data when data is updated c) To identify characters that are not permitted to be sent when a database is used via a network d) To handle data storage areas distributed over multiple media as a single contiguous storage area",
+      "options": {
+        "a": "To guarantee data compatibility so that data can be shared between different types of computers",
+        "b": "To prevent the occurrence of redundancy or inconsistency of data when data is updated",
+        "c": "To identify characters that are not permitted to be sent when a database is used via a network",
+        "d": "To handle data storage areas distributed over multiple media as a single contiguous storage area"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 20,
+      "text": "When the order records shown below are entered in the system where each order number must be uniquely defined, which of the following is the appropriate method for searching the order master file containing all of the past order records, and for checking the uniqueness of the order number? Order record Order number Order date Item code Quantity Customer code (Character) (year/month/day) (Character) (Numeric value) (Character) a) Duplication check b) Format check c) Limit check d) Logical check",
+      "options": {
+        "a": "Duplication check",
+        "b": "Format check",
+        "c": "Limit check",
+        "d": "Logical check"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 22,
+      "text": "Which of the following is an appropriate explanation of DNS? a) It is a system that is used to search for a wide variety of information through the Internet. b) It is a system that is used to map between host names and IP addresses of devices connected to the Internet. c) It is a personal authentication system that is used to provide a safe and secure online shopping environment. d) It is a system that is used to manage personal e-mail addresses for the delivery of e-mail messages.",
+      "options": {
+        "a": "It is a system that is used to search for a wide variety of information through the Internet.",
+        "b": "It is a system that is used to map between host names and IP addresses of devices connected to the Internet.",
+        "c": "It is a personal authentication system that is used to provide a safe and secure online shopping environment.",
+        "d": "It is a system that is used to manage personal e-mail addresses for the delivery of e-mail messages."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 23,
+      "text": "When the Internet is accessed from an intranet, which of the following is the most appropriate mechanism that can be used to relay access to the Internet, to speed up access to it by caching Web content, and also to ensure security? a) DMZ b) Firewall c) Proxy d) Router",
+      "options": {
+        "a": "DMZ",
+        "b": "Firewall",
+        "c": "Proxy",
+        "d": "Router"
+      },
+      "correct_answer": ""
+    },
+    {
+      "q_num": 25,
+      "text": "Which of the following is an appropriate explanation of MIME used on the Internet? a) It is a language that is used to describe hypertext on the Internet. b) It is a hypertext transmission protocol between client and server on the Internet. c) It is a method of address notation for uniquely identifying a resource on the Internet. d) It is a standard of exchanging multimedia data, such as audio or video, by e-mail.",
+      "options": {
+        "a": "It is a language that is used to describe hypertext on the Internet.",
+        "b": "It is a hypertext transmission protocol between client and server on the Internet.",
+        "c": "It is a method of address notation for uniquely identifying a resource on the Internet.",
+        "d": "It is a standard of exchanging multimedia data, such as audio or video, by e-mail."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 26,
+      "text": "When ten e-mail messages are sent successively from Company A to Company B, they may arrive at Company B in a different order from the order they are sent. Which of the following is the most possible reason for this phenomenon? a) There is a problem with the setup of Company A’s mail server. b) There is a problem with the setup of Company B’s firewall for e-mail. c) There is a possibility that e-mail delivered late is falsified on the way. d) There is a possibility that each e-mail is sent via different transfer routes.",
+      "options": {
+        "a": "There is a problem with the setup of Company A’s mail server.",
+        "b": "There is a problem with the setup of Company B’s firewall for e-mail.",
+        "c": "There is a possibility that e-mail delivered late is falsified on the way.",
+        "d": "There is a possibility that each e-mail is sent via different transfer routes."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 27,
+      "text": "Which of the following is an appropriate description concerning cryptography? a) The process of transforming the encrypted text back into its original plain text is called reset. b) In common key cryptography, the encrypted text is transmitted together with the common key. c) Public key cryptography uses two types of keys: a key for encryption and a key for recovering the plain text d) Common key cryptography that is also known as secret key cryptography is used for digital signature.",
+      "options": {
+        "a": "The process of transforming the encrypted text back into its original plain text is called reset.",
+        "b": "In common key cryptography, the encrypted text is transmitted together with the common key.",
+        "c": "Public key cryptography uses two types of keys: a key for encryption and a key for recovering the plain text",
+        "d": "Common key cryptography that is also known as secret key cryptography is used for digital signature."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 28,
+      "text": "Which of the following is a characteristic of a Trojan horse that is a type of malicious program? a) It is designed to infect a specific type of data file by using the macro function of application software. b) It sends out fake virus information, such as a warning message about a new type of virus, through chain e-mails. c) It performs self-propagation by sending copies of itself to other computers connected through a network. d) It masquerades as a legitimate file or helpful program with the purpose of performing harmful operations.",
+      "options": {
+        "a": "It is designed to infect a specific type of data file by using the macro function of application software.",
+        "b": "It sends out fake virus information, such as a warning message about a new type of virus, through chain e-mails.",
+        "c": "It performs self-propagation by sending copies of itself to other computers connected through a network.",
+        "d": "It masquerades as a legitimate file or helpful program with the purpose of performing harmful operations."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 29,
+      "text": "Which of the following can be made possible by using a digital signature in e-commerce? a) Preventing an unintended third party from accessing any confidential file b) Checking that a file is not infected with a virus or other malicious software c) Protecting the content of a transaction from being leaked through wiretapping d) Confirming the identity of a partner and the correctness of the details of a transaction",
+      "options": {
+        "a": "Preventing an unintended third party from accessing any confidential file",
+        "b": "Checking that a file is not infected with a virus or other malicious software",
+        "c": "Protecting the content of a transaction from being leaked through wiretapping",
+        "d": "Confirming the identity of a partner and the correctness of the details of a transaction"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 31,
+      "text": "When a PC is connected to an online shopping site on the Internet, the Web browser displays the SSL padlock icon on the screen. Also, it is confirmed that the server certificate is that of the operator of the intended online shopping site. Among the items A through C described below on such an occasion, which of the following is the appropriate combination of decisions to be made? Here, “√” means what can be decided, and “ −” means what cannot be decided? A: The operator of the shopping site being accessed is in stable financial condition. B: The online shopping site being accessed is not a fake or fraudulent site. C: The data and information entered by the user is never stolen along the way. A B C a) √ √ √ b) − √ √ c) − √ − d) − − √",
+      "options": {
+        "a": "√ √ √",
+        "b": "− √ √",
+        "c": "− √ −",
+        "d": "− − √"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 36,
+      "text": "A test in system development often adopts a build-up approach where tests are performed incrementally from a smaller to a larger unit. On such an occasion, which of the following is the appropriate test sequence? a) System test → integration test → unit test b) System test → unit test → integration test c) Unit test → integration test → system test d) Unit test → system test → integration test",
+      "options": {
+        "a": "System test → integration test → unit test",
+        "b": "System test → unit test → integration test",
+        "c": "Unit test → integration test → system test",
+        "d": "Unit test → system test → integration test"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 40,
+      "text": "Which of the following is the term that means the process of modifying some of the functions of a software package on the basis of user environments and requirements? a) Reengineering b) Customization c) Refactoring d) Localization",
+      "options": {
+        "a": "Reengineering",
+        "b": "Customization",
+        "c": "Refactoring",
+        "d": "Localization"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 41,
+      "text": "Which of the following is the development model where a trial model or a pilot unit is developed at an early stage of system development so that users can verify their requirements in a tangible manner? a) Growth model b) Incremental model c) Spiral model d) Prototyping model",
+      "options": {
+        "a": "Growth model",
+        "b": "Incremental model",
+        "c": "Spiral model",
+        "d": "Prototyping model"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 42,
+      "text": "Among the charts and diagrams created for project management, which of the following is the most appropriate chart or diagram that can be used to visually check the overall status of progress as well as the planned start and finish dates? a) Arrow diagram b) Gantt chart c) Cause and effect diagram d) Pareto chart",
+      "options": {
+        "a": "Arrow diagram",
+        "b": "Gantt chart",
+        "c": "Cause and effect diagram",
+        "d": "Pareto chart"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 43,
+      "text": "Which of the following is the most appropriate example of a project? a) Performing the periodic or schedule-based inspection of the ATM in a bank b) Creating a monthly report concerning actual production results in a factory c) Increasing the purchase volume of popular or best-selling products in a shop d) Developing a new large-scale online system in a software house",
+      "options": {
+        "a": "Performing the periodic or schedule-based inspection of the ATM in a bank",
+        "b": "Creating a monthly report concerning actual production results in a factory",
+        "c": "Increasing the purchase volume of popular or best-selling products in a shop",
+        "d": "Developing a new large-scale online system in a software house"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 44,
+      "text": "Which of the following is the activity that is performed to confirm that project deliverables achieve the required quality? a) Selecting suppliers for tools necessary for the creation of project deliverables b) Performing the review of project deliverables in advance of delivery c) Performing the progress management based on the plan of project deliverables d) Defining the roles and responsibilities of each member involved in deliverables",
+      "options": {
+        "a": "Selecting suppliers for tools necessary for the creation of project deliverables",
+        "b": "Performing the review of project deliverables in advance of delivery",
+        "c": "Performing the progress management based on the plan of project deliverables",
+        "d": "Defining the roles and responsibilities of each member involved in deliverables"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 45,
+      "text": "The programming project of image processing using a newly devised algorithm is outsourced to an external vendor. In order to ensure the strict control of handling information, which of the following is an item that must be included in the contract? a) Maintenance plan after development b) Organizational structure of development c) Performance assurance of the program d) Protection of confidentiality",
+      "options": {
+        "a": "Maintenance plan after development",
+        "b": "Organizational structure of development",
+        "c": "Performance assurance of the program",
+        "d": "Protection of confidentiality"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 46,
+      "text": "Which of the following is an appropriate diagram or chart used for the identification of the critical path that takes the longest period of time from the start to the end of a project? a) Arrow diagram b) Control chart c) Tree diagram d) Milestone chart",
+      "options": {
+        "a": "Arrow diagram",
+        "b": "Control chart",
+        "c": "Tree diagram",
+        "d": "Milestone chart"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 47,
+      "text": "When direct one-to-one communication is performed between three project members A, B, and C, there exist three communication paths between A and B, B and C, and C and A. When communication is performed among seven persons, what is the maximum number of communication paths? Here, there exists a single communication path between any two of the seven members. a) 7 b) 14 c) 21 d) 42",
+      "options": {
+        "a": "7",
+        "b": "14",
+        "c": "21",
+        "d": "42"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 49,
+      "text": "Which of the following is the framework that describes a collection of best practices of IT service management? a) ISO 14001 b) ISO 27001 c) ITIL d) PMBOK",
+      "options": {
+        "a": "ISO 14001",
+        "b": "ISO 27001",
+        "c": "ITIL",
+        "d": "PMBOK"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 50,
+      "text": "In IT service management, which of the following is an appropriate explanation concerning SLA and SLM? a) SLA is a proposal for improving services that are presented by the service provider, and SLM is an activity for providing technical means to perform the maintenance management of service levels. b) SLA is an agreement on service levels between the service provider and the users, and SLM is an activity for the maintenance and improvement of the quality of IT services. c) SLA defines the activities for measuring the degree of achievement of service levels and identifying problems, and SLM defines the technical means for resolving problems. d) SLA aims at delivering a higher level of services, and SLM aims at providing a common understanding of service contents, required service levels, and other service factors.",
+      "options": {
+        "a": "SLA is a proposal for improving services that are presented by the service provider, and SLM is an activity for providing technical means to perform the maintenance management of service levels.",
+        "b": "SLA is an agreement on service levels between the service provider and the users, and SLM is an activity for the maintenance and improvement of the quality of IT services.",
+        "c": "SLA defines the activities for measuring the degree of achievement of service levels and identifying problems, and SLM defines the technical means for resolving problems.",
+        "d": "SLA aims at delivering a higher level of services, and SLM aims at providing a common understanding of service contents, required service levels, and other service factors."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 51,
+      "text": "In a company’s accounting department, a new financial accounting package is to be used, and a new server with the package installed is delivered from a vendor. Operations management of the new server is performed by the information systems department. Among the items A through D described below about what should be agreed between the accounting department as the user department and the information systems department as the operations department from the point of view of service levels, which of the following is the list that contains all of the appropriate items? A: The operating hours available for the financial accounting package B: The cost sharing between both departments for purchasing the new server C: The items to be tested when the new server is received from the vendor D: The scope and frequency of data backup a) A b) A, B c) A, D d) C, D",
+      "options": {
+        "a": "A",
+        "b": "A, B",
+        "c": "A, D",
+        "d": "C, D"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 52,
+      "text": "Which of the following is a process of IT service management that proactively identifies and analyzes the root cause of an incident and also manages problems to closure? a) Incident management b) Change management c) Problem management d) Release management",
+      "options": {
+        "a": "Incident management",
+        "b": "Change management",
+        "c": "Problem management",
+        "d": "Release management"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 53,
+      "text": "Which of the following is an appropriate description concerning the organizational structure of risk management? a) Authority and functions should be concentrated at the executive officer who is in charge of all risk management tasks covering from detection or identification to evaluation of risks. b) Since risk management includes the handling of classified information and material, departments other than those specific to risk management should not be involved in risk management. c) Since risk handling has a direct relationship with insurance and business resource management, the financial department should play the role of the risk management team. d) Measures against risks should be performed by each department possessing authority and functions, and overall management should be performed by the risk management department directly connected with the top management team.",
+      "options": {
+        "a": "Authority and functions should be concentrated at the executive officer who is in charge of all risk management tasks covering from detection or identification to evaluation of risks.",
+        "b": "Since risk management includes the handling of classified information and material, departments other than those specific to risk management should not be involved in risk management.",
+        "c": "Since risk handling has a direct relationship with insurance and business resource management, the financial department should play the role of the risk management team.",
+        "d": "Measures against risks should be performed by each department possessing authority and functions, and overall management should be performed by the risk management department directly connected with the top management team."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 54,
+      "text": "In an IT service agreement between a service provider and users, which of the following is the term that means the ratio of the amount of service time provided to users actually during the period of pre-defined service time? a) Responsiveness b) Availability c) Usability d) Serviceability",
+      "options": {
+        "a": "Responsiveness",
+        "b": "Availability",
+        "c": "Usability",
+        "d": "Serviceability"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 55,
+      "text": "Which of the following is an appropriate description concerning a system audit? a) The actual user of a developed system evaluates the system in order to determine whether or not the system can be brought into full operation. b) Personal identification is performed as authentication for system use, on the basis of fingerprint, voice print, iris image, or any other unique physical representation. c) From an independent standpoint, it is verified whether or not the measures against risks concerning the information system are developed and operated appropriately. d) A system is evaluated by entering the system from outside the network, and trying to steal, modify, or destroy data and programs without permission.",
+      "options": {
+        "a": "The actual user of a developed system evaluates the system in order to determine whether or not the system can be brought into full operation.",
+        "b": "Personal identification is performed as authentication for system use, on the basis of fingerprint, voice print, iris image, or any other unique physical representation.",
+        "c": "From an independent standpoint, it is verified whether or not the measures against risks concerning the information system are developed and operated appropriately.",
+        "d": "A system is evaluated by entering the system from outside the network, and trying to steal, modify, or destroy data and programs without permission."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 57,
+      "text": "through Q88 concerning strategy.",
+      "options": {
+        "a": "A framework which is a comprehensive collection of best practices concerning the management and operation rules of IT services",
+        "b": "The organizational ability to guide the development and implementation of an IT strategy in the appropriate direction to establish a competitive advantage",
+        "c": "A specifications package requesting a detailed proposal from a subcontracting IT vendor from which information systems or IT services are to be procured",
+        "d": "An agreement in which the service level is clearly defined by a service provider in order to assure the quality of the service Answer questions Q58 through Q88 concerning strategy."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 58,
+      "text": "Which of the following is the organizational form of a company that is shown in the chart below? a) Divisional organization b) Functional organization c) Project organization d) Matrix organization",
+      "options": {
+        "a": "Divisional organization",
+        "b": "Functional organization",
+        "c": "Project organization",
+        "d": "Matrix organization"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 60,
+      "text": "The points representing the relations between production factors (w, x, and y) and quality (z) are plotted in the graphs shown below. Which of the following is an appropriate description concerning these graphs? z z z ･ ･ ･ ･･ ･･ ･ ･ ･ ･･ ･ ･ ･ ･ ･ ･ ･･ ･･･ ･ ･･ ･ ･･ ･ ･ ･･ ･ ･ ･ ･ ･･･ ･ ･ ･･ ･ ･･･ ･ ･ ･･ ･ ･ ･ ･･･ ･･ ･ ･ ･ ･ 0 0 0 w x y a) There is no correlation between w, x, y, and z, so none of w, x, and y can be considered as an item for quality control. b) There is a negative correlation between w and z, so w can be considered as an item for quality control. c) Changes in x make a great impact on z, so x can be considered as an item for quality control. d) z is approximately defined as a quadratic function of y, so y cannot be considered as an item for quality control.",
+      "options": {
+        "a": "There is no correlation between w, x, y, and z, so none of w, x, and y can be considered as an item for quality control.",
+        "b": "There is a negative correlation between w and z, so w can be considered as an item for quality control.",
+        "c": "Changes in x make a great impact on z, so x can be considered as an item for quality control.",
+        "d": "z is approximately defined as a quadratic function of y, so y cannot be considered as an item for quality control."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 61,
+      "text": "In order to prepare for any potential bad debt on accounts receivable from a business partner, which of the following is an action that enables the appropriation of a part of the business partner’s property for accounts receivable more preferentially than the other? a) Adding debt b) Issuing an invoice c) Setting collateral d) Increasing interest",
+      "options": {
+        "a": "Adding debt",
+        "b": "Issuing an invoice",
+        "c": "Setting collateral",
+        "d": "Increasing interest"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 62,
+      "text": "When a server with a purchase price of 30,000 dollars is leased for a period of five years at a lease rate of 2%, what is the total leasing expense in dollars? Here, the lease rate is shown as a proportion of the monthly lease fee to the purchase price. a) 32,400 b) 33,000 c) 34,200 d) 36,000",
+      "options": {
+        "a": "32,400",
+        "b": "33,000",
+        "c": "34,200",
+        "d": "36,000"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 63,
+      "text": "Without any particular arrangements with Company A concerning the rights to the work, Company B makes a request to Company A for the development of a program for a sales management system based on the requirements of Company B. In this case, what happens to the original ownership of the copyright of the program? a) Company A and Company B decide the copyright through discussions. b) Company A shares the copyright with Company B. c) The copyright belongs to Company A. d) The copyright belongs to Company B.",
+      "options": {
+        "a": "Company A and Company B decide the copyright through discussions.",
+        "b": "Company A shares the copyright with Company B.",
+        "c": "The copyright belongs to Company A.",
+        "d": "The copyright belongs to Company B."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 65,
+      "text": "Which of the following is an appropriate explanation of corporate governance? a) It quantitatively measures and analyzes the cost effectiveness of environmental conservation measures, and publicizes the cost and effects. b) In addition to essential profit-making activities, a company contributes appropriately for the betterment of society by acting as a member of society. c) It is a mechanism for monitoring whether or not business management is being performed appropriately, and maintaining the soundness of corporate activities. d) It publicizes the business status of a company accurately, promptly, and continuously as a part of public relations with investors and analysts.",
+      "options": {
+        "a": "It quantitatively measures and analyzes the cost effectiveness of environmental conservation measures, and publicizes the cost and effects.",
+        "b": "In addition to essential profit-making activities, a company contributes appropriately for the betterment of society by acting as a member of society.",
+        "c": "It is a mechanism for monitoring whether or not business management is being performed appropriately, and maintaining the soundness of corporate activities.",
+        "d": "It publicizes the business status of a company accurately, promptly, and continuously as a part of public relations with investors and analysts."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 66,
+      "text": "Which of the following is an explanation of compliance enhancement in corporate management? a) Preventing management staff and employees from being involved in illicit or illegal acts that have a possibility of threatening the survival of the company b) Establishing a framework that enables sound management by keeping the use of power by management staff in check c) Improving the level of satisfaction of the interested parties, such as customers, shareholders, and employees, to ensure continued growth of the company d) Increasing competitiveness by securing management resources that can be a source of differentiation against competitors",
+      "options": {
+        "a": "Preventing management staff and employees from being involved in illicit or illegal acts that have a possibility of threatening the survival of the company",
+        "b": "Establishing a framework that enables sound management by keeping the use of power by management staff in check",
+        "c": "Improving the level of satisfaction of the interested parties, such as customers, shareholders, and employees, to ensure continued growth of the company",
+        "d": "Increasing competitiveness by securing management resources that can be a source of differentiation against competitors"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 67,
+      "text": "Which of the following corresponds to a third-party audit that is defined in “ISO 9000:2005 Quality management system—Fundamentals and vocabulary”? a) A parent company audits the quality management system of a subsidiary company. b) A customer audits the quality management system of a trading partner company. c) A company audits its own quality management system for internal purposes. d) A certification body audits the quality management system of a client company.",
+      "options": {
+        "a": "A parent company audits the quality management system of a subsidiary company.",
+        "b": "A customer audits the quality management system of a trading partner company.",
+        "c": "A company audits its own quality management system for internal purposes.",
+        "d": "A certification body audits the quality management system of a client company."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 68,
+      "text": "Which of the following is the primary purpose of the ISO 9000 series? a) To provide standards for a quality management system that aims to improve customer satisfaction b) To provide the latest methodologies and tools for effective and efficient quality management c) To provide the successful best practices of software development processes and activities d) To provide quality management activities that should be performed in a development project",
+      "options": {
+        "a": "To provide standards for a quality management system that aims to improve customer satisfaction",
+        "b": "To provide the latest methodologies and tools for effective and efficient quality management",
+        "c": "To provide the successful best practices of software development processes and activities",
+        "d": "To provide quality management activities that should be performed in a development project"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 71,
+      "text": "Which of the following is an explanation of core competence management? a) Acquiring management resources from other companies that have an established business operation, in order to gain an advantage over competitors b) Optimizing the combination of business operations in order to have a greater effect than merely operating each business independently c) Concentrating management resources on a company’s own proprietary expertise and technology in order to establish a competitive advantage d) Reviewing best practices of other companies in order to fundamentally improve and restructure the current business processes",
+      "options": {
+        "a": "Acquiring management resources from other companies that have an established business operation, in order to gain an advantage over competitors",
+        "b": "Optimizing the combination of business operations in order to have a greater effect than merely operating each business independently",
+        "c": "Concentrating management resources on a company’s own proprietary expertise and technology in order to establish a competitive advantage",
+        "d": "Reviewing best practices of other companies in order to fundamentally improve and restructure the current business processes"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 73,
+      "text": "Which of the following is the terminology used when product improvement, addition of new varieties, and product disposal are planned according to each stage of introduction, growth, maturity, and decline? a) Experience curve effect b) Business continuity plan c) Product portfolio management d) Product life cycle strategy",
+      "options": {
+        "a": "Experience curve effect",
+        "b": "Business continuity plan",
+        "c": "Product portfolio management",
+        "d": "Product life cycle strategy"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 74,
+      "text": "Which of the following is the most appropriate description concerning the advantageous effects of implementing CRM? a) It becomes easy to maintain accurate records about the customer payment status of account receivables. b) It becomes easy to shorten the lead time required from the point of receipt of order to delivery. c) It becomes easy to share sales approach to customers among all of the sales staff members. d) It becomes easy to deeply understand customer needs and establish long-term positive relationships.",
+      "options": {
+        "a": "It becomes easy to maintain accurate records about the customer payment status of account receivables.",
+        "b": "It becomes easy to shorten the lead time required from the point of receipt of order to delivery.",
+        "c": "It becomes easy to share sales approach to customers among all of the sales staff members.",
+        "d": "It becomes easy to deeply understand customer needs and establish long-term positive relationships."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 75,
+      "text": "Which of the following is an appropriate explanation of MOT? a) It is the business activity of a company gaining control of all or part of another company through merger or acquisition for the purpose of expanding the scale of operation. b) It is the concept of management under which a company doing industrial business invests in scientific methods and materials to promote innovation and to grow business continuously. c) It is the business activity of the management of a company raising funds from financial institutions and buying the stock to acquire the controlling interest of the company. d) It is the material management technique for calculating the quantities of the components and materials necessary to produce a product and reflecting the results on the production plan.",
+      "options": {
+        "a": "It is the business activity of a company gaining control of all or part of another company through merger or acquisition for the purpose of expanding the scale of operation.",
+        "b": "It is the concept of management under which a company doing industrial business invests in scientific methods and materials to promote innovation and to grow business continuously.",
+        "c": "It is the business activity of the management of a company raising funds from financial institutions and buying the stock to acquire the controlling interest of the company.",
+        "d": "It is the material management technique for calculating the quantities of the components and materials necessary to produce a product and reflecting the results on the production plan."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 77,
+      "text": "Which of the following is the system that is used to record sales information when a product is sold at the store, and also to collect, accumulate, and analyze product sales information for each product? a) ECR b) QR c) EOS d) POS",
+      "options": {
+        "a": "ECR",
+        "b": "QR",
+        "c": "EOS",
+        "d": "POS"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 78,
+      "text": "Which of the following is a technology that is defined by some international standards and used for contactless IC cards, such as tickets for public transport? a) IrDA b) RFID c) Bluetooth d) Wi-Fi",
+      "options": {
+        "a": "IrDA",
+        "b": "RFID",
+        "c": "Bluetooth",
+        "d": "Wi-Fi"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 80,
+      "text": "When online shopping via the Internet is done according to the procedure shown in the figure below, which of the following is the point at which this order comes into effect between the two parties unless otherwise specified? a) Transmission of the order mail b) Order entry processing c) Receipt of the order acceptance mail d) Payment for the product",
+      "options": {
+        "a": "Transmission of the order mail",
+        "b": "Order entry processing",
+        "c": "Receipt of the order acceptance mail",
+        "d": "Payment for the product"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 81,
+      "text": "Which of the following is a form of e-commerce corresponding to an online bookstore or an online shopping mall that is constructed for individuals on the Internet? a) B to B b) B to C c) C to B d) C to C",
+      "options": {
+        "a": "B to B",
+        "b": "B to C",
+        "c": "C to B",
+        "d": "C to C"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 82,
+      "text": "Among the characteristics required for an embedded system, which of the following is the most appropriate terminology used when a fixed process must be completed within a given period of time? a) Availability b) Reliability c) Real-time ability d) Serviceability",
+      "options": {
+        "a": "Availability",
+        "b": "Reliability",
+        "c": "Real-time ability",
+        "d": "Serviceability"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 83,
+      "text": "Which of the following is the appropriate explanation of the DFD that is created when a business process is analyzed? a) It shows various types of data items handled in the business operations and the interrelations among them. b) It shows various types of data items handled in the business operations, from sets to elements in a hierarchically detailed fashion. c) It shows the flow of data exchanged among the processes that make up the business operations. d) It shows the contents of the processes that make up the business operations, from overview to detailed view in a hierarchical fashion.",
+      "options": {
+        "a": "It shows various types of data items handled in the business operations and the interrelations among them.",
+        "b": "It shows various types of data items handled in the business operations, from sets to elements in a hierarchically detailed fashion.",
+        "c": "It shows the flow of data exchanged among the processes that make up the business operations.",
+        "d": "It shows the contents of the processes that make up the business operations, from overview to detailed view in a hierarchical fashion."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 85,
+      "text": "Which of the following is an appropriate purpose of installing groupware? a) To integrate groupware into equipment, such as PCs and peripheral devices, and provide basic hardware control functions b) To enhance the overall work efficiency of an organization by providing an environment for collaborative work c) To enhance the organization’s Internet security by implementing a solution that combines both hardware and software into a single security product d) To shorten the period of system development and improve the efficiency of maintenance by installing a suite of packaged software",
+      "options": {
+        "a": "To integrate groupware into equipment, such as PCs and peripheral devices, and provide basic hardware control functions",
+        "b": "To enhance the overall work efficiency of an organization by providing an environment for collaborative work",
+        "c": "To enhance the organization’s Internet security by implementing a solution that combines both hardware and software into a single security product",
+        "d": "To shorten the period of system development and improve the efficiency of maintenance by installing a suite of packaged software"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 86,
+      "text": "Among the various types of outsourcing services, which of the following is a service that is provided by an MSP? a) Connectivity of “co-location” servers with the Internet environment b) Business processes such as human resource management, accounting, sales, and logistics c) The operations control of an IT infrastructure, such as a network, server, and storage, over the network d) Standard application services over a network through a billing method such as a flat fee",
+      "options": {
+        "a": "Connectivity of “co-location” servers with the Internet environment",
+        "b": "Business processes such as human resource management, accounting, sales, and logistics",
+        "c": "The operations control of an IT infrastructure, such as a network, server, and storage, over the network",
+        "d": "Standard application services over a network through a billing method such as a flat fee"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 87,
+      "text": "Which of the following is an activity that is performed in the requirements definition process of system development? a) Creating and approving computerization plan b) Performing qualitative and quantitative risk analysis c) Estimating investment effect and computerization costs d) Identifying the needs and demands of system users",
+      "options": {
+        "a": "Creating and approving computerization plan",
+        "b": "Performing qualitative and quantitative risk analysis",
+        "c": "Estimating investment effect and computerization costs",
+        "d": "Identifying the needs and demands of system users"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 88,
+      "text": "Which of the following is an appropriate explanation of an ASP? a) A business operator or a form of service that provides communication lines for connecting to the Internet b) A service on the Internet for creating a closed community that is accessible to users who are members of the community c) A business operator or a form of service that provides users with application software on a server via the Internet d) An approach of constructing an information system from the viewpoint of a service, rather than from the viewpoint of a product such as hardware and software Answer questions A through C, each of which has four questions. Question A Read the following description concerning sales analysis, and then answer the four questions. Mr. A, who is working in store B, performed sales analysis for the current one month by using spreadsheet software and then reported to the president. The worksheet used for sales analysis is shown in Figure 1. Here, each amount of money is given in dollars. A B C D E F 1 Item Unit price Cost price Sales quantity Total sales Gross profit 2 Item U 400 200 4,800 1,920,000 960,000 3 Item V 450 250 2,310 1,039,500 462,000 4 Item W 500 350 5,350 2,675,000 802,500 5 Item X 400 150 3,520 1,408,000 880,000 6 Total 15,980 7,042,500 3,104,500 Figure 1 Worksheet for performing sales analysis [Strategy]",
+      "options": {
+        "a": "A business operator or a form of service that provides communication lines for connecting to the Internet",
+        "b": "A service on the Internet for creating a closed community that is accessible to users who are members of the community",
+        "c": "A business operator or a form of service that provides users with application software on a server via the Internet",
+        "d": "An approach of constructing an information system from the viewpoint of a service, rather than from the viewpoint of a product such as hardware and software"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 89,
+      "text": "On the basis of Figure 1, which of the following is an appropriate result analyzed by Mr. A? a) Item V has the lowest total sales and gross profit. b) Item W has the highest total sales and gross profit. c) Item X has the second highest gross profit rate. d) Item U has the highest gross profit and the maximum gross profit ratio. [Technology]",
+      "options": {
+        "a": "Item V has the lowest total sales and gross profit.",
+        "b": "Item W has the highest total sales and gross profit.",
+        "c": "Item X has the second highest gross profit rate.",
+        "d": "Item U has the highest gross profit and the maximum gross profit ratio. [Technology]"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 90,
+      "text": "In order to calculate the ratio of the gross profit for each item to the total gross profit (hereinafter, the gross profit ratio), the expression is entered in cell G2 of the worksheet shown below, and then copied to cells G3 through G5. Which of the following is the expression that is entered in cell G2? Here, the cells used to calculate the gross profit ratio are displayed in percentage. A B C D E F G Unit Cost Sales Gross profit 1 Item Total sales Gross profit price price quantity ratio 2 Item U 400 200 4,800 1,920,000 960,000 30.9% 3 Item V 450 250 2,310 1,039,500 462,000 14.9% 4 Item W 500 350 5,350 2,675,000 802,500 25.8% 5 Item X 400 150 3,520 1,408,000 880,000 28.3% 6 Total 15,980 7,042,500 3,104,500 100.0% a) F2/E2 b) F2/F6 c) F2/F$6 d) F2/SUM(E$2:E$5) [Strategy]",
+      "options": {
+        "a": "F2/E2",
+        "b": "F2/F6",
+        "c": "F2/F$6",
+        "d": "F2/SUM(E$2:E$5) [Strategy]"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 91,
+      "text": "Mr. A decides to offer a discount of 50 dollars on the unit price of Item U to increase the sales quantity. In order to offer the unit price of Item U at a discount of 50 dollars next month and yet to earn more than the gross profit of the current month, at least how many additional units of Item U must be sold in the next month? a) 770 b) 880 c) 1,600 d) 3,450 [Technology]",
+      "options": {
+        "a": "770",
+        "b": "880",
+        "c": "1,600",
+        "d": "3,450 [Technology]"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 93,
+      "text": "In the [Memorandum of the system installation review meeting], which of the following is the list of items that describe the current problems concerning the transportation expense application? a) (1), (3), and (5) b) (1), (4), and (5) c) (3), (4), and (5) d) (4), (5), and (6) [Strategy]",
+      "options": {
+        "a": "(1), (3), and (5)",
+        "b": "(1), (4), and (5)",
+        "c": "(3), (4), and (5)",
+        "d": "(4), (5), and (6) [Strategy]"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 94,
+      "text": "In the [Memorandum of the system installation review meeting], which of the following is the list of items that describe the requirements for the system, which are currently not seen as a problem but as a function that is believed to be convenient in the transportation expense application? a) (2), (3), and (7) b) (3), (6), and (9) c) (3), (7), and (8) d) (7), (8), and (9) [Management]",
+      "options": {
+        "a": "(2), (3), and (7)",
+        "b": "(3), (6), and (9)",
+        "c": "(3), (7), and (8)",
+        "d": "(7), (8), and (9) [Management]"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 96,
+      "text": "Mr. A wants to set the purpose of system installation as “Improving the efficiency of the application procedure.” When system installation is continued on the basis of this purpose, which of the following is an appropriate activity to be performed on a priority basis? a) Enabling all employees to use the system by holding the system explanatory meeting repeatedly b) Installing the system as cheaply as possible by using a commercially available software package c) Informing applicants about the date of payment of the transportation expenses by using e-mail d) Installing the function that can automatically set the applicable fare based on the departure and destination locations Question C Read the following description concerning the encryption of image data, and then answer the four questions. Figure 1 is an example of a black and white image of 8 × 8 pixels. In this figure, if white is represented as 0 and black is represented as 1, the image data can be represented as digital data having eight rows with eight bits per row, as shown in Figure 2 below. Figure 1 Example of a black Figure 2 Representation of the and white image of 8 × 8 pixels image data of Figure 1 in bit strings When an attempt is made to send image data via communication by which only character data can be sent, the image data needs to be first converted to character data and then transmitted. Furthermore, in order to efficiently transmit image data of a larger size than the character data, a method of sending data after compression is implemented. If the bit string of Figure 2 is viewed in a sequence from top left, it is understood that there are 10 consecutive 0s followed by 34 consecutive 1s, and then 20 consecutive 0s. This consecutive number of the same value is called a run length. Here, a method for using this run length to compress image data is considered. [Technology]",
+      "options": {
+        "a": "Enabling all employees to use the system by holding the system explanatory meeting repeatedly",
+        "b": "Installing the system as cheaply as possible by using a commercially available software package",
+        "c": "Informing applicants about the date of payment of the transportation expenses by using e-mail",
+        "d": "Installing the function that can automatically set the applicable fare based on the departure and destination locations"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 99,
+      "text": "The method shown below is used to convert image data for the purpose of compressing the amount of information. How many bits are required to represent the image data shown in Figure 2? [Method of representing the image data] (1) The image data is represented using a run length encoding scheme. When the run length exceeds 128 (i.e., “10000000” in binary), it is split into multiple run lengths in units of 128. For example, when the run length is 200, it is split into 128 and 72. (2) “1” is subtracted from each value represented in the above (1) so that each value can be represented as a 7-bit binary number. After that, “0 for white” or “1 for black” as a color indicator is appended to the first bit position of each of the 7-bit strings. As a result, each run length is represented as shown below. 0 1 2 3 4 5 6 7 Bit position “Run length – 1” (0 through 127) Color bit: “0” for white, “1” for black a) 7 b) 8 c) 21 d) 24 [Technology]",
+      "options": {
+        "a": "7",
+        "b": "8",
+        "c": "21",
+        "d": "24 [Technology]"
+      },
+      "correct_answer": "d"
+    }
+  ]
+}

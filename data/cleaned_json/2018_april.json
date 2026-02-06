@@ -1,0 +1,793 @@
+{
+  "metadata": {
+    "exam_name": "2018_april",
+    "year": 2018,
+    "month": "april",
+    "extraction_method": "raw_pdf",
+    "extraction_date": "2026-02-06",
+    "total_questions_extracted": 71
+  },
+  "questions": [
+    {
+      "q_num": 1,
+      "text": "A survey into the amount of pocket money is conducted at three (3) schools. When the consolidated results of the survey are used to calculate the average pocket money per student for all the students of the three (3) schools, which of the following is the expression that is entered into cell C5? A B C 1 Number of students Average of pocket money per student 2 School M 150 1,250 3 School N 250 850 4 School P 60 1,530 5 Average of pocket money per student a) (B2*B3*B4)/(C2*C3*C4) b) (B2*C2+B3*C3+B4*C4)/SUM(B2:B4) c) SUM(C2:C4)/SUM(B2:B4) d) AVERAGE(C2:C4)",
+      "options": {
+        "a": "(B2*B3*B4)/(C2*C3*C4)",
+        "b": "(B2*C2+B3*C3+B4*C4)/SUM(B2:B4)",
+        "c": "SUM(C2:C4)/SUM(B2:B4)",
+        "d": "AVERAGE(C2:C4)"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 2,
+      "text": "Which of the following is obtained by multiplying the binary value 10110 by three (3)? a) 111010 b) 111110 c) 1000010 d) 10110000",
+      "options": {
+        "a": "111010",
+        "b": "111110",
+        "c": "1000010",
+        "d": "10110000"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 3,
+      "text": "Which of the following is an appropriate purpose of appending a check digit to a customer code? a) To check the customer code for input errors b) To arrange customers in the order of acquisition when a list of customers is created c) To enable customers to be inferred easily and quickly d) To enable the grouping of customers by geographical area or other attributes",
+      "options": {
+        "a": "To check the customer code for input errors",
+        "b": "To arrange customers in the order of acquisition when a list of customers is created",
+        "c": "To enable customers to be inferred easily and quickly",
+        "d": "To enable the grouping of customers by geographical area or other attributes"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 4,
+      "text": "Which of the following is an appropriate description concerning the characteristics of EUC (End User Computing)? a) EUC enables users to directly access, reference, and manipulate data that they need for business operations. b) EUC gives priority to system operation and maintenance, so it causes backlogs to increase in the information systems department. c) EUC requires more development staff members in the information systems department, so it often leads to an increase in the operating costs of the department. d) EUC allows the information systems department to take a leadership role in application development, so it can reduce the workload of users.",
+      "options": {
+        "a": "EUC enables users to directly access, reference, and manipulate data that they need for business operations.",
+        "b": "EUC gives priority to system operation and maintenance, so it causes backlogs to increase in the information systems department.",
+        "c": "EUC requires more development staff members in the information systems department, so it often leads to an increase in the operating costs of the department.",
+        "d": "EUC allows the information systems department to take a leadership role in application development, so it can reduce the workload of users."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 5,
+      "text": "At a desk that is only large enough to place 4 files at the same time, 6 files, A through F, are used to perform a task. When 4 files are already placed on the desk, the least recently used file must be placed back into the drawer before the fifth file can be placed on the desk. When the files are used in the sequence A, B, C, D, B, A, E, A, B, F, which of the following is the last file placed back into the drawer? a) A b) B c) D d) E",
+      "options": {
+        "a": "A",
+        "b": "B",
+        "c": "D",
+        "d": "E"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 6,
+      "text": "There exist four states numbered 1 through 4. The four states are connected as shown in the figure below, and the state transition occurs in a clockwise or counter-clockwise direction. 1 4 2 3 If the current state is 1, which of the following is the state that is reached after the procedure below is performed twice? [Procedure] The number of the current state is multiplied by 11, and the result is divided by three (3). The process below is performed based on the remainder of the division. • When the remainder is zero (0), a transition to the next state occurs in the clockwise direction. • When the remainder is one (1), a transition to the next state occurs in the counter- clockwise direction. • When the remainder is two (2), a transition to the second state occurs in the clockwise direction. a) 1 b) 2 c) 3 d) 4",
+      "options": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 8,
+      "text": "There is a program that displays text in accordance with the specifications below. When the original text described below is displayed, in what point size does the program display the underlined character string? Here, the first character of the original text is displayed in 10 points. [Specifications] The characters between <B> and </B> are displayed one point larger than the preceding character. The characters between <S> and </S> are displayed one point smaller than the preceding character. Each of <B> </B> and <S> </S> must be used as a pair, and both of them can be nested with each other. [Original text] The system administrator promotes and implements <B>department-level<B> or <S>group-level</S> computerization</B> from a user’s <S>standpoint</S>.</B> a) 10 b) 11 c) 12 d) 13",
+      "options": {
+        "a": "10",
+        "b": "11",
+        "c": "12",
+        "d": "13"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 9,
+      "text": "Which of the following is an appropriate description concerning the Java language? a) It is a markup language used for describing web pages. b) It is a language developed for scientific and engineering calculations. c) It is an object-oriented language that provides platform-independent portability. d) It is a language developed for business-oriented calculations.",
+      "options": {
+        "a": "It is a markup language used for describing web pages.",
+        "b": "It is a language developed for scientific and engineering calculations.",
+        "c": "It is an object-oriented language that provides platform-independent portability.",
+        "d": "It is a language developed for business-oriented calculations."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 10,
+      "text": "Which of the following is the correct comparison of the amount of data? a) 1 KB < 1 MB < 1 GB < 1 TB b) 1 KB < 1 MB < 1 TB < 1 GB c) 1 KB < 1 TB < 1 MB < 1 GB d) 1 TB < 1 KB < 1 MB < 1 GB",
+      "options": {
+        "a": "1 KB < 1 MB < 1 GB < 1 TB",
+        "b": "1 KB < 1 MB < 1 TB < 1 GB",
+        "c": "1 KB < 1 TB < 1 MB < 1 GB",
+        "d": "1 TB < 1 KB < 1 MB < 1 GB"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 11,
+      "text": "Which of the following is designed to virtually reduce the time for the CPU to access the main memory, in order to improve the processing efficiency of a PC? a) SSD b) Virtual memory c) Cache memory d) Defragmentation",
+      "options": {
+        "a": "SSD",
+        "b": "Virtual memory",
+        "c": "Cache memory",
+        "d": "Defragmentation"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 13,
+      "text": "Which of the following is the most appropriate description concerning a multi-core processor? a) Several microprocessors are installed in one PC with the purpose of improving the reliability of the processing results by performing the same processing at the same time in each processor. b) If the structure and clock frequency of the arithmetic logical unit are the same, a quad core processor has four times as much processing power as a dual core processor. c) The clock frequency is temporarily increased according to the load of the processing so as to achieve high-speed processing. d) A single CPU has several processing circuits that perform operations, and each processing circuit performs different processing at the same time with the purpose of improving the processing power.",
+      "options": {
+        "a": "Several microprocessors are installed in one PC with the purpose of improving the reliability of the processing results by performing the same processing at the same time in each processor.",
+        "b": "If the structure and clock frequency of the arithmetic logical unit are the same, a quad core processor has four times as much processing power as a dual core processor.",
+        "c": "The clock frequency is temporarily increased according to the load of the processing so as to achieve high-speed processing.",
+        "d": "A single CPU has several processing circuits that perform operations, and each processing circuit performs different processing at the same time with the purpose of improving the processing power."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 14,
+      "text": "In reliability engineering, which of the following is the index represented by the y-axis of a bathtub curve? sixa-y 0 Time a) Failure rate b) Reliability c) Mean time between failures d) Mean time to repair",
+      "options": {
+        "a": "Failure rate",
+        "b": "Reliability",
+        "c": "Mean time between failures",
+        "d": "Mean time to repair"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 16,
+      "text": "When the processing speed of the system overall is constrained because of slow processing speed in one of the components, which of the following is a term for the component of a system that is causing the problem? a) Throughput b) Defragmentation c) Flowchart d) Bottleneck",
+      "options": {
+        "a": "Throughput",
+        "b": "Defragmentation",
+        "c": "Flowchart",
+        "d": "Bottleneck"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 19,
+      "text": "Which of the following is the image data that is pasted onto the documents and web pages created by the word-processing software and presentation software so as to improve the expressive power? a) CSS b) Capture c) Clip art d) Template",
+      "options": {
+        "a": "CSS",
+        "b": "Capture",
+        "c": "Clip art",
+        "d": "Template"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 20,
+      "text": "Which of the following is the expression to be entered into cell D4 in order to calculate the after-tax prices of the products shown in cells A4 and A5 by using the two tentative sales tax rates that are set in cells D2 and E2? Here, the expression to be entered into cell D4 is copied to cells D5, E4, and E5. A B C D E 1 Sales tax rate 1 Sales tax rate 2 2 Tax rate 0.1 0.2 Product Before-tax 3 After-tax price 1 After-tax price 2 name price 4 Product A 500 550 600 5 Product B 600 660 720 a) B4*(1.0+D2) b) B$4*(1.0+D$2) c) $B4*(1.0+D$2) d) $B$4*(1.0+$D2)",
+      "options": {
+        "a": "B4*(1.0+D2)",
+        "b": "B$4*(1.0+D$2)",
+        "c": "$B4*(1.0+D$2)",
+        "d": "$B$4*(1.0+$D2)"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 24,
+      "text": "Which of the following is an appropriate concept of universal design? a) Ensuring that, once a product is designed, the design remains usable without being changed for a long period of time b) Ensuring that products keep the same levels of performance and quality regardless of where they are manufactured in the world c) Making the design as simple and easy as possible in order to reduce the manufacturing cost d) Making products usable to many people regardless of differences in age, culture, and ability as well as whether disability is present",
+      "options": {
+        "a": "Ensuring that, once a product is designed, the design remains usable without being changed for a long period of time",
+        "b": "Ensuring that products keep the same levels of performance and quality regardless of where they are manufactured in the world",
+        "c": "Making the design as simple and easy as possible in order to reduce the manufacturing cost",
+        "d": "Making products usable to many people regardless of differences in age, culture, and ability as well as whether disability is present"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 25,
+      "text": "Which of the following is the most appropriate explanation of virtual reality? a) Improving the GUI not by displaying an image gradually from top to bottom, but by first displaying a coarse mosaic-like image, and then by gradually increasing the sharpness of the image b) Enabling computer-simulated objects and spaces to be perceived like the real world by using computer graphics or other techniques c) Conducting computer simulations instead of, among others, the wind-tunnel test used for the design of cars and airplanes d) Combining images of separately shot scenery and people to create an image that is different from the real world",
+      "options": {
+        "a": "Improving the GUI not by displaying an image gradually from top to bottom, but by first displaying a coarse mosaic-like image, and then by gradually increasing the sharpness of the image",
+        "b": "Enabling computer-simulated objects and spaces to be perceived like the real world by using computer graphics or other techniques",
+        "c": "Conducting computer simulations instead of, among others, the wind-tunnel test used for the design of cars and airplanes",
+        "d": "Combining images of separately shot scenery and people to create an image that is different from the real world"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 26,
+      "text": "A hard disk failure occurred on a mail server, and e-mails of many users were lost. Recovery of data was attempted, but e-mails sent and received during the two-week period after the last backup could not be restored because backups were only created every two weeks. Taking a lesson from this incident, a measure is to be implemented to allow restoration up to the state of the day before such a failure. Which of the following is an appropriate measure? a) Performing daily incremental backup in addition to biweekly (every two-week) full backup b) Accumulating e-mails on multiple different hard disks in a distributed manner c) Implementing hard disk mirroring on the mail server for higher reliability, without changing the existing backup schedule d) Storing daily backup onto the same hard disk media, and a biweekly (every two-week) copy of the backup to another storage media",
+      "options": {
+        "a": "Performing daily incremental backup in addition to biweekly (every two-week) full backup",
+        "b": "Accumulating e-mails on multiple different hard disks in a distributed manner",
+        "c": "Implementing hard disk mirroring on the mail server for higher reliability, without changing the existing backup schedule",
+        "d": "Storing daily backup onto the same hard disk media, and a biweekly (every two-week) copy of the backup to another storage media"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 27,
+      "text": "The “Sales Details” table and the “Products” table are managed in a relational database. What is the total number of notebooks sold? Sales Details Products Voucher Product_code Number_sold Product_code Product_name number H001 S001 20 S001 Pencil H001 S003 40 S002 Eraser H002 S002 60 S003 Notebook H002 S003 80 a) 40 b) 80 c) 120 d) 200",
+      "options": {
+        "a": "40",
+        "b": "80",
+        "c": "120",
+        "d": "200"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 28,
+      "text": "Which of the following is an appropriate effect obtained through the normalization of data in a relational database? a) Securing of data compatibility between different types of computers b) Improvement of storage efficiency through data compression c) Elimination of redundancy and inconsistency of data d) Omission of backups that are necessary in preparation for the failure of devices storing data",
+      "options": {
+        "a": "Securing of data compatibility between different types of computers",
+        "b": "Improvement of storage efficiency through data compression",
+        "c": "Elimination of redundancy and inconsistency of data",
+        "d": "Omission of backups that are necessary in preparation for the failure of devices storing data"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 29,
+      "text": "Which of the following is an appropriate description concerning foreign keys in a relational database? a) A property held by the foreign key is called a unique constraint. b) Duplicate values cannot be set in the fields that are set as foreign keys. c) Multiple foreign keys can be defined in a single table. d) Multiple fields cannot be collectively set as a single foreign key.",
+      "options": {
+        "a": "A property held by the foreign key is called a unique constraint.",
+        "b": "Duplicate values cannot be set in the fields that are set as foreign keys.",
+        "c": "Multiple foreign keys can be defined in a single table.",
+        "d": "Multiple fields cannot be collectively set as a single foreign key."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 30,
+      "text": "Which of the following is used to identify a wireless LAN network? a) Bluetooth b) ESSID c) LTE d) WPA2",
+      "options": {
+        "a": "Bluetooth",
+        "b": "ESSID",
+        "c": "LTE",
+        "d": "WPA2"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 31,
+      "text": "Mr. A specifies the destinations for an e-mail as below and sends it. Mr. Y receives this e-mail, and sends a reply to all the recipients and the sender listed in the e-mail. Among Mr. A, Mr. X, and Mr. Z, which of the following is the list that includes all and only the destinations of the e-mail that Mr. Y sends? [Destinations specified for Mr. A’s e-mail] To: X CC: Y BCC: Z a) A b) A, X c) A, X, Z d) X, Z",
+      "options": {
+        "a": "A",
+        "b": "A, X",
+        "c": "A, X, Z",
+        "d": "X, Z"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 32,
+      "text": "Which of the following is an appropriate explanation of the POP communications protocol? a) It is a protocol for the remote control of a computer from a terminal that is in a different location. b) It is a protocol for file transfer. c) It is a protocol for sending e-mails to a mail server. d) It is a protocol that e-mail software uses in order to receive e-mails from a mail server.",
+      "options": {
+        "a": "It is a protocol for the remote control of a computer from a terminal that is in a different location.",
+        "b": "It is a protocol for file transfer.",
+        "c": "It is a protocol for sending e-mails to a mail server.",
+        "d": "It is a protocol that e-mail software uses in order to receive e-mails from a mail server."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 37,
+      "text": "Which of the following is a technique for taking advantage of psychological weaknesses or carelessness in order to improperly obtain confidential information? a) DoS attack b) SQL injection c) Social engineering d) Buffer overflow",
+      "options": {
+        "a": "DoS attack",
+        "b": "SQL injection",
+        "c": "Social engineering",
+        "d": "Buffer overflow"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 38,
+      "text": "Which of the following is the threat that can be prevented by encrypting data? a) Deletion of data because of an operational error b) Social engineering c) Tapping of communication content d) DoS attack on the server in which data is stored",
+      "options": {
+        "a": "Deletion of data because of an operational error",
+        "b": "Social engineering",
+        "c": "Tapping of communication content",
+        "d": "DoS attack on the server in which data is stored"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 43,
+      "text": "During the use of a PC in workplace, a message was displayed stating that antivirus software had detected a virus. Which of the following is an appropriate action that should be taken immediately on the PC? a) Reboot of the PC b) Notification to the workplace by e-mail from the PC c) Disconnection of the PC from networks d) Backup of files on the PC",
+      "options": {
+        "a": "Reboot of the PC",
+        "b": "Notification to the workplace by e-mail from the PC",
+        "c": "Disconnection of the PC from networks",
+        "d": "Backup of files on the PC"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 45,
+      "text": "through Q65 concerning management.",
+      "options": {
+        "a": "Controlling a system in a safe state in order to minimize damage when a fault occurs in a device is called foolproof.",
+        "b": "Reducing the probability of occurrence of a fault in a device by using high-quality and high-reliability parts and elements is called fail-safe.",
+        "c": "Enabling continuation of system processing when a fault occurs in a system due to an error is called fault tolerance.",
+        "d": "Taking measures in the design stage so that humans do not make mistakes in system operation, or no faults or failures occur even if they make mistakes is called fail soft. Answer questions Q46 through Q65 concerning management."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 46,
+      "text": "In order to check that a system works normally, a user department and the information systems department are to jointly perform operational testing before operation,. Which of the following is an appropriate content of the test performed by the user department? a) Testing whether the system operates based on the intended business procedures b) Testing whether operations, such as the start-up and shut-down of online processing and night time batch processing, are performed based on predetermined operational procedures c) Testing whether all modules are created based on specifications d) Testing the failure recovery procedure used at the occurrence of a problem on hardware or OS",
+      "options": {
+        "a": "Testing whether the system operates based on the intended business procedures",
+        "b": "Testing whether operations, such as the start-up and shut-down of online processing and night time batch processing, are performed based on predetermined operational procedures",
+        "c": "Testing whether all modules are created based on specifications",
+        "d": "Testing the failure recovery procedure used at the occurrence of a problem on hardware or OS"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 47,
+      "text": "Which of the following is the test method that verifies a system based solely on the functions as it is seen from the outside and with no consideration of the internal structure, focusing only on inputs and outputs to check that the output expected from the system specifications is obtained for any given input? a) Operational test b) Integration test c) Black box test d) White box test",
+      "options": {
+        "a": "Operational test",
+        "b": "Integration test",
+        "c": "Black box test",
+        "d": "White box test"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 48,
+      "text": "Among the descriptions A through D below, which of the following is the list that contains all items that are to be considered in the design of screens for easy-to-use for system users? A: The time to recover from a failure B: The ease of learning of operation C: The layout of pushbuttons D: The size and color of text a) A, B, C b) A, B, D c) A, C, D d) B, C, D",
+      "options": {
+        "a": "A, B, C",
+        "b": "A, B, D",
+        "c": "A, C, D",
+        "d": "B, C, D"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 51,
+      "text": "Which of the following is the first task to be performed when a project is initiated? a) Progress management b) Scheduling c) Clarification of the project goals d) Budget planning",
+      "options": {
+        "a": "Progress management",
+        "b": "Scheduling",
+        "c": "Clarification of the project goals",
+        "d": "Budget planning"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 52,
+      "text": "In the arrow diagram below, what is the maximum number of days that can be allowed as a delay of the activity “C→F” on condition that the total number of days required for activities from A through G is not affected? 4 B D 3 3 6 3 6 4 A C F G 7 4 7 [Legend] Number of days required E a) 1 b) 2 c) 3 d) 4",
+      "options": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 53,
+      "text": "Which of the following is an item that must be clarified in order to determine the appropriate assignment of the members participating in a project? a) Cost estimation method b) Reporting method of activity progress c) Acceptance standards of deliverables d) Roles and responsibilities to be assigned",
+      "options": {
+        "a": "Cost estimation method",
+        "b": "Reporting method of activity progress",
+        "c": "Acceptance standards of deliverables",
+        "d": "Roles and responsibilities to be assigned"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 54,
+      "text": "In a system development project, as a measure for improving the productivity of program creation, a training to improve skills for using development tools is planned for new members. Which of the following is the most appropriate indicator to evaluate the effect of this measure? a) The total number of participants in training b) The number of times training is provided c) The amount of programming created in one day by each member d) Total time of participation in training by each member",
+      "options": {
+        "a": "The total number of participants in training",
+        "b": "The number of times training is provided",
+        "c": "The amount of programming created in one day by each member",
+        "d": "Total time of participation in training by each member"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 55,
+      "text": "Quality management in system development projects has a quality planning process to define quality requirements and quality standards for deliverables and to specify the methods for achieving them. Which of the following is appropriate to this quality planning process? a) If deliverables are not exactly the same as those of past system development projects, past quality standards cannot be used as reference. b) Since schedules have the highest priority in all projects, it is acceptable to shorten the period for reviewing and testing for achieving target quality. c) Quality should have the highest priory in all projects, and, to enhance the quality of deliverables, constraints should not be placed on the budget. d) The effects by reductions in reworking, improvement in productivity, improvement of stakeholder satisfaction, and others brought about by activities to achieve targeted quality, and their required costs are to be compared.",
+      "options": {
+        "a": "If deliverables are not exactly the same as those of past system development projects, past quality standards cannot be used as reference.",
+        "b": "Since schedules have the highest priority in all projects, it is acceptable to shorten the period for reviewing and testing for achieving target quality.",
+        "c": "Quality should have the highest priory in all projects, and, to enhance the quality of deliverables, constraints should not be placed on the budget.",
+        "d": "The effects by reductions in reworking, improvement in productivity, improvement of stakeholder satisfaction, and others brought about by activities to achieve targeted quality, and their required costs are to be compare"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 56,
+      "text": "Which of the following is an appropriate explanation of component decomposition that is performed to create the WBS of a system development project? a) The cost and time required to create development deliverables can be estimated, and it is desirable that decomposition be performed up to the manageable level. b) When system development is outsourced, all decomposition of deliverables should be entrusted to the outsource that creates the deliverables. c) Since a project’s progress report meetings are a means of communication, they are not subject to decomposition. d) If there are some experiences in developing similar systems, it is not necessary to perform decomposition again.",
+      "options": {
+        "a": "The cost and time required to create development deliverables can be estimated, and it is desirable that decomposition be performed up to the manageable level.",
+        "b": "When system development is outsourced, all decomposition of deliverables should be entrusted to the outsource that creates the deliverables.",
+        "c": "Since a project’s progress report meetings are a means of communication, they are not subject to decomposition.",
+        "d": "If there are some experiences in developing similar systems, it is not necessary to perform decomposition again."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 57,
+      "text": "The response measure for risks that may occur in a project can be classified as avoidance, mitigation, acceptance, and transfer. In a system development project, the design and development process is to be subcontracted to Company A. In a previous system development, Company A suffered a delay for delivery, so it is also possible that a delay will occur in this project. Which of the following is a response measure that corresponds to mitigation of the risk of a delay? a) The inclusion of causal analysis of the previous delay at Company A, and preventive measures on the basis of this analysis into this development plan b) Cancellation of subcontracting to Company A c) Inclusion in the contract of the term of the compensation for damages by Company A in the event of a delay d) Inclusion in the project of the cost of measures in response to a delay",
+      "options": {
+        "a": "The inclusion of causal analysis of the previous delay at Company A, and preventive measures on the basis of this analysis into this development plan",
+        "b": "Cancellation of subcontracting to Company A",
+        "c": "Inclusion in the contract of the term of the compensation for damages by Company A in the event of a delay",
+        "d": "Inclusion in the project of the cost of measures in response to a delay"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 60,
+      "text": "Which of the following is the most appropriate explanation of what a service desk implements? a) It eliminates the root cause of an incident and prevents the recurrence of the incident. b) It installs updated software in order to prevent the recurrence of an incident. c) It performs centralized management of changes in a service. d) It receives and records inquiries from users.",
+      "options": {
+        "a": "It eliminates the root cause of an incident and prevents the recurrence of the incident.",
+        "b": "It installs updated software in order to prevent the recurrence of an incident.",
+        "c": "It performs centralized management of changes in a service.",
+        "d": "It receives and records inquiries from users."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 62,
+      "text": "Among the management activities for an information system that are performed by IT service management, which of the following is a process that provides a temporary workaround for a system failure and performs a prompt recovery? a) Incident management b) Change management c) Problem management d) Release management",
+      "options": {
+        "a": "Incident management",
+        "b": "Change management",
+        "c": "Problem management",
+        "d": "Release management"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 63,
+      "text": "A system auditor is required to have an independent and professional standpoint. When a system audit is performed in a company, which of the following is the example that contradicts with the independence of the system auditor? a) An external certified public accountant performs the audit of the financial accounting system. b) The system auditor of a consulting company performs the audit of the information systems department. c) The system auditor of the information systems department of the company performs the audit of the information systems department. d) The system auditor of the internal audit department performs the audit of the information systems department.",
+      "options": {
+        "a": "An external certified public accountant performs the audit of the financial accounting system.",
+        "b": "The system auditor of a consulting company performs the audit of the information systems department.",
+        "c": "The system auditor of the information systems department of the company performs the audit of the information systems department.",
+        "d": "The system auditor of the internal audit department performs the audit of the information systems department."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 64,
+      "text": "Which of the following is an appropriate combination of words to be inserted into blanks A and B in the description below concerning the implementation of internal control? The implementation of internal control requires A separation of duties, setting , of rules and procedures, and B . A B a) computerization of business operation improvement of business efficiency b) computerization of business operation establishment of checking systems c) clarification of business processes improvement of business efficiency d) clarification of business processes establishment of checking systems",
+      "options": {
+        "a": "computerization of business operation improvement of business efficiency",
+        "b": "computerization of business operation establishment of checking systems",
+        "c": "clarification of business processes improvement of business efficiency",
+        "d": "clarification of business processes establishment of checking systems"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 65,
+      "text": "through Q100 concerning strategy.",
+      "options": {
+        "a": "Areas for which there is no audit evidence are evaluated through inference.",
+        "b": "Evaluation must be based on audit evidence.",
+        "c": "Evaluation is performed according to the views of the system user department.",
+        "d": "Evaluation is performed according to the views of the audited department. Answer questions Q66 through Q100 concerning strategy."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 66,
+      "text": "Which of the following is an explanation of corporate philosophy? a) Fundamental concepts that present the company’s significance of existence and values, and act as the guideline for business activities b) Resources, usually categorized as people, money, materials, or information, which are utilized by a company to gain a competitive advantage c) Long-term, mid-term, and short-term decision making plans for realizing the vision that indicates the future direction of the company d) Unique style or characteristics of a company, also referred to as corporate culture, which has been derived and established over many years of business activities",
+      "options": {
+        "a": "Fundamental concepts that present the company’s significance of existence and values, and act as the guideline for business activities",
+        "b": "Resources, usually categorized as people, money, materials, or information, which are utilized by a company to gain a competitive advantage",
+        "c": "Long-term, mid-term, and short-term decision making plans for realizing the vision that indicates the future direction of the company",
+        "d": "Unique style or characteristics of a company, also referred to as corporate culture, which has been derived and established over many years of business activities"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 67,
+      "text": "Among the senior management positions, which of the following is the highest-ranking person who exercises control over the information system? a) CEO b) CFO c) CIO d) COO",
+      "options": {
+        "a": "CEO",
+        "b": "CFO",
+        "c": "CIO",
+        "d": "COO"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 68,
+      "text": "Which of the following is a cost that has a relationship with the calculation of operating profit in an income statement? a) Advertising cost b) Loss on disposal of fixed assets c) Interest paid d) Corporate tax",
+      "options": {
+        "a": "Advertising cost",
+        "b": "Loss on disposal of fixed assets",
+        "c": "Interest paid",
+        "d": "Corporate tax"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 69,
+      "text": "Which of the following is a consolidated financial statement by which a parent company indicates the status of revenue and expenses of an accounting period of a corporate group including subsidiaries? a) Consolidated statement of shareholders’ equity b) Consolidated cash flow statement c) Consolidated income statement d) Consolidated balance sheet",
+      "options": {
+        "a": "Consolidated statement of shareholders’ equity",
+        "b": "Consolidated cash flow statement",
+        "c": "Consolidated income statement",
+        "d": "Consolidated balance sheet"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 70,
+      "text": "Which of the following is an appropriate diagram or chart that is used for ABC analysis? a) Control chart b) Scatter diagram c) Cause and effect diagram d) Pareto chart",
+      "options": {
+        "a": "Control chart",
+        "b": "Scatter diagram",
+        "c": "Cause and effect diagram",
+        "d": "Pareto chart"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 71,
+      "text": "Which of the following is the scope that the CFO, one of the positions involved in corporate management, bears responsibility for? a) Technology b) Finance c) Information d) Personnel",
+      "options": {
+        "a": "Technology",
+        "b": "Finance",
+        "c": "Information",
+        "d": "Personnel"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 72,
+      "text": "Which of the following is the most appropriate term that applies to the example below? “In order to achieve continuous growth, a company withdraws from business area A with stagnant sales, and puts the management resources into strengthening business area B.” a) Business environment b) Business strategy c) Management vision d) Management philosophy",
+      "options": {
+        "a": "Business environment",
+        "b": "Business strategy",
+        "c": "Management vision",
+        "d": "Management philosophy"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 73,
+      "text": "Among the lists of corporate activities A through D, which of the following is the list that contains all activities concerning the establishment of compliance? A: Supporting fine art and cultural activities B: Training employees in the codes of conduct C: Performing activities for prevention of global desertification D: Creating a mechanism of internal communication a) A, B b) A, C c) B, D d) C, D",
+      "options": {
+        "a": "A, B",
+        "b": "A, C",
+        "c": "B, D",
+        "d": "C, D"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 75,
+      "text": "Which of the following is an explanation of a volume license agreement on software? a) It is an agreement in which a master copy of software is provided to a customer, such as an enterprise who purchases the software in high volume, and the number of permitted installations is defined in advance. b) It is an agreement in which the location of use is restricted to a specified facility, and the software can be used without limiting the number of computers or users in the facility. c) It is an agreement in which the use of software is permitted by accepting the terms and conditions of the contract displayed on the screen when the software is downloaded from the Internet. d) It is an agreement in which standard licensing terms are defined and a license agreement is considered to be automatically concluded between the rights holder and the purchaser when a certain amount of package is unwrapped.",
+      "options": {
+        "a": "It is an agreement in which a master copy of software is provided to a customer, such as an enterprise who purchases the software in high volume, and the number of permitted installations is defined in advance.",
+        "b": "It is an agreement in which the location of use is restricted to a specified facility, and the software can be used without limiting the number of computers or users in the facility.",
+        "c": "It is an agreement in which the use of software is permitted by accepting the terms and conditions of the contract displayed on the screen when the software is downloaded from the Internet.",
+        "d": "It is an agreement in which standard licensing terms are defined and a license agreement is considered to be automatically concluded between the rights holder and the purchaser when a certain amount of package is unwrappe"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 76,
+      "text": "In the case of placing an order for a product on an Internet shopping site, at which point is the sales contract concluded? a) At the point in time when the consumer’s purchase message reaches the shop b) At the point in time when the shop sends out an acceptance notice to the consumer c) At the point in time when the shop’s acceptance notice reaches the consumer d) At the point in time when the ordered product reaches the consumer",
+      "options": {
+        "a": "At the point in time when the consumer’s purchase message reaches the shop",
+        "b": "At the point in time when the shop sends out an acceptance notice to the consumer",
+        "c": "At the point in time when the shop’s acceptance notice reaches the consumer",
+        "d": "At the point in time when the ordered product reaches the consumer"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 77,
+      "text": "Which of the following is an international standard for environmental management systems developed by ISO? a) ISO 9000 b) ISO 14000 c) ISO/IEC 20000 d) ISO/IEC 27000",
+      "options": {
+        "a": "ISO 9000",
+        "b": "ISO 14000",
+        "c": "ISO/IEC 20000",
+        "d": "ISO/IEC 27000"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 78,
+      "text": "Which of the following examples of sending e-mail is inappropriate from the standpoint of the protection of personal information? a) In responding to an e-mail asking questions about a product, you placed the e-mail addresses of multiple customers in the “CC” field as you want these customers to read the response. b) You created one (1) e-mail message for each of your top 10 customers as determined by the amount of mail-order purchases, in order to inform each customer of a corresponding prize. c) You sent an e-mail message with information on an alumni meeting, and addressed the message to the e-mail addresses of all members listed in the alumni association directory that is distributed to all members. d) When you were arranging a special spring exhibition, you placed the e-mail addresses of selected members in the “BCC” field of an e-mail message and sent the message in order to solicit exhibits.",
+      "options": {
+        "a": "In responding to an e-mail asking questions about a product, you placed the e-mail addresses of multiple customers in the “CC” field as you want these customers to read the response.",
+        "b": "You created one (1) e-mail message for each of your top 10 customers as determined by the amount of mail-order purchases, in order to inform each customer of a corresponding prize.",
+        "c": "You sent an e-mail message with information on an alumni meeting, and addressed the message to the e-mail addresses of all members listed in the alumni association directory that is distributed to all members.",
+        "d": "When you were arranging a special spring exhibition, you placed the e-mail addresses of selected members in the “BCC” field of an e-mail message and sent the message in order to solicit exhibits."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 79,
+      "text": "Which of the following is an explanation of compliance management? a) It is a business process of monitoring and checking whether the business management is adequate and appropriate, so as to maintain the legitimacy of the business activities towards the shareholders. b) It is a business process of holding accountability to the shareholders and other stakeholders for the operational activities and business performance. c) It is a business process of implementing rules, manuals, and checking systems based on business ethics, and performing business activities in accordance with legal requirements and social norms. d) It is a business process of providing investors and analysts with accurate management information necessary for making investment decisions, on a timely and continuous basis.",
+      "options": {
+        "a": "It is a business process of monitoring and checking whether the business management is adequate and appropriate, so as to maintain the legitimacy of the business activities towards the shareholders.",
+        "b": "It is a business process of holding accountability to the shareholders and other stakeholders for the operational activities and business performance.",
+        "c": "It is a business process of implementing rules, manuals, and checking systems based on business ethics, and performing business activities in accordance with legal requirements and social norms.",
+        "d": "It is a business process of providing investors and analysts with accurate management information necessary for making investment decisions, on a timely and continuous basis."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 80,
+      "text": "Company X summarized the results of positioning analysis of its marketing power in relation to competitors into the table as shown below. In the table, “1” is the lowest score, and “5” is the highest score. Where does Company X rank from the top? Weight Company Company Company Company X A B C Price 5 3 4 3 2 Product quality 3 3 3 2 5 Brand name 3 4 2 5 1 Selling power 4 2 4 4 5 a) 1 b) 2 c) 3 d) 4",
+      "options": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 81,
+      "text": "In the planning of the business strategy of a retail business, “retention of loyal customers” is set as the CSF (Critical Success Factor). Which of the following is the most appropriate analysis that is used for evaluating the achievement level of the CSF? a) RFM analysis by customer b) Demographic analysis of new customers c) POS analysis of new products d) ABC analysis of the total sales amount by store and by product",
+      "options": {
+        "a": "RFM analysis by customer",
+        "b": "Demographic analysis of new customers",
+        "c": "POS analysis of new products",
+        "d": "ABC analysis of the total sales amount by store and by product"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 82,
+      "text": "Which of the following is the marketing technique that is composed of four components: product, price, place, and promotion? a) Social marketing b) Direct marketing c) Marketing channel d) Marketing mix",
+      "options": {
+        "a": "Social marketing",
+        "b": "Direct marketing",
+        "c": "Marketing channel",
+        "d": "Marketing mix"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 83,
+      "text": "Which of the following is an appropriate combination of a management theme and a technique for achieving it? [Management themes] A: A company wishes to develop efficient business processes that span from procurement of components to sales. B: A company wishes to understand customers’ preferences and other information, and use this information in product planning and sales promotion. C: A company wishes to know the product name, quantity, and other sales-related information at the time of sale in order to restock appropriately and analyze strong- selling products. [Techniques] CRM, POS, SCM A B C a) SCM CRM POS b) POS CRM SCM c) CRM SCM POS d) SCM POS CRM",
+      "options": {
+        "a": "SCM CRM POS",
+        "b": "POS CRM SCM",
+        "c": "CRM SCM POS",
+        "d": "SCM POS CRM"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 84,
+      "text": "Which of the following is appropriate as the evaluation axes in PPM that are used in optimizing the allocation of management resources across multiple businesses in a company? a) Technology and products b) Market growth rate and market share c) Products and markets d) Strengths and weaknesses, and opportunities and threats",
+      "options": {
+        "a": "Technology and products",
+        "b": "Market growth rate and market share",
+        "c": "Products and markets",
+        "d": "Strengths and weaknesses, and opportunities and threats"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 86,
+      "text": "Which of the following is supported by a CAD system? a) Process designing b) Production planning c) Product designing d) Delivery planning",
+      "options": {
+        "a": "Process designing",
+        "b": "Production planning",
+        "c": "Product designing",
+        "d": "Delivery planning"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 88,
+      "text": "The table below shows the relationship between the standard number of staff and the number of days required to complete preparation activities A through E of an event. The preparation activities started 35 days before the event and have been conducted according to the table; however, only one staff member was assigned during the first 20 days. In order to complete the remaining activities to meet the original deadline, what is the minimum number of staff members that must be reserved per day for the remaining period? Here, the preparation activities can be performed in any sequence, any staff member can achieve the same productivity in each activity, and any number of staff members can be assigned to an activity at one time. Standard number of staff Number of days required Preparation activity (persons) (days) A 2 5 B 2 5 C 3 10 D 2 5 E 5 10 a) 4 b) 5 c) 6 d) 7",
+      "options": {
+        "a": "4",
+        "b": "5",
+        "c": "6",
+        "d": "7"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 91,
+      "text": "Which of the following describes EDI? a) An international standard for e-mail services, based on the OSI basic reference model, which provides comprehensive services for the creation, transmission, and processing of messages b) A communication service that provides added values such as storage of data transmitted over the network and conversion of data formats c) The exchange of business transaction data between computers (including terminals) over a network in accordance with standard conventions d) An ordering system that allows orders to be placed by transmitting order information from a data entry terminal to the head office or suppliers",
+      "options": {
+        "a": "An international standard for e-mail services, based on the OSI basic reference model, which provides comprehensive services for the creation, transmission, and processing of messages",
+        "b": "A communication service that provides added values such as storage of data transmitted over the network and conversion of data formats",
+        "c": "The exchange of business transaction data between computers (including terminals) over a network in accordance with standard conventions",
+        "d": "An ordering system that allows orders to be placed by transmitting order information from a data entry terminal to the head office or suppliers"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 93,
+      "text": "When system development is outsourced for the purpose of building a system, which of the following is an appropriate item to be considered? a) Placing an order with a reliable outsourcee in order to complete the acceptance test in a simple and easy way b) Monitoring the progress of development on the outsourcer side in order to find and resolve problems early c) Entrusting all tasks, including the determination of the specifications of business processes, to an outsourcee who is familiar with the business processes d) Giving detailed instructions on outsourced tasks down to each staff member, even if the outsourcee is reliable",
+      "options": {
+        "a": "Placing an order with a reliable outsourcee in order to complete the acceptance test in a simple and easy way",
+        "b": "Monitoring the progress of development on the outsourcer side in order to find and resolve problems early",
+        "c": "Entrusting all tasks, including the determination of the specifications of business processes, to an outsourcee who is familiar with the business processes",
+        "d": "Giving detailed instructions on outsourced tasks down to each staff member, even if the outsourcee is reliable"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 94,
+      "text": "Which of the following is term for a method that uses data such as accumulated sales data to find regularity such as a correlation between weather and products that sell well? a) Data warehouse b) Data processing c) Data mining d) Data modeling",
+      "options": {
+        "a": "Data warehouse",
+        "b": "Data processing",
+        "c": "Data mining",
+        "d": "Data modeling"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 95,
+      "text": "Which of the following is the most appropriate training content for improving the information literacy of sales employees? a) Methods for analyzing the structure of sales performance data used in work, and designing databases b) A method for analyzing past sales performance data stored in an information system, for use in work c) A method for analyzing progress management data from development work on sales systems, in order to improve project management standards d) A method for surveying satisfaction with sales systems and drawing a roadmap for improving them",
+      "options": {
+        "a": "Methods for analyzing the structure of sales performance data used in work, and designing databases",
+        "b": "A method for analyzing past sales performance data stored in an information system, for use in work",
+        "c": "A method for analyzing progress management data from development work on sales systems, in order to improve project management standards",
+        "d": "A method for surveying satisfaction with sales systems and drawing a roadmap for improving them"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 96,
+      "text": "Which of the following is an item that must be considered when information systems strategy is drafted? a) Methods for shortening the development period b) Consistency with the business strategies c) Methods for reducing costs d) Introduction of the latest technologies",
+      "options": {
+        "a": "Methods for shortening the development period",
+        "b": "Consistency with the business strategies",
+        "c": "Methods for reducing costs",
+        "d": "Introduction of the latest technologies"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 97,
+      "text": "Which of the following is an explanation of “acceptance inspection” performed for a vendor? a) Checking the estimate submitted by the vendor and placing an order on the basis of that estimate b) Checking whether the deliverables provided by the vendor conform to the requested specifications c) Requesting the vendor to study and submit the proposal for the implementation of a new system d) Requesting the vendor to provide information for the purpose of collecting information",
+      "options": {
+        "a": "Checking the estimate submitted by the vendor and placing an order on the basis of that estimate",
+        "b": "Checking whether the deliverables provided by the vendor conform to the requested specifications",
+        "c": "Requesting the vendor to study and submit the proposal for the implementation of a new system",
+        "d": "Requesting the vendor to provide information for the purpose of collecting information"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 98,
+      "text": "Which of the following is a process in the software life cycle that includes the creation of a computerization project? a) Operation b) Development c) Planning d) Requirements definition",
+      "options": {
+        "a": "Operation",
+        "b": "Development",
+        "c": "Planning",
+        "d": "Requirements definition"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 99,
+      "text": "Which of the following is the most appropriate description concerning the creation of documents in the development and maintenance of software? a) When an itemized list or a chart is used, meaning and content become unclear. Therefore, text based on natural language is used as much as possible. b) A clear relationship between documents is important and makes it possible to check the consistency between documents, which leads to an improvement in quality. c) Duplication and redundancy of the content of a document are necessary to improve not only the maintainability of the software but also the maintainability of the document. d) The first priority is that a document can be understood better by developers than by maintenance personnel, and it is desirable to improve productivity without taking too much time.",
+      "options": {
+        "a": "When an itemized list or a chart is used, meaning and content become unclear. Therefore, text based on natural language is used as much as possible.",
+        "b": "A clear relationship between documents is important and makes it possible to check the consistency between documents, which leads to an improvement in quality.",
+        "c": "Duplication and redundancy of the content of a document are necessary to improve not only the maintainability of the software but also the maintainability of the document.",
+        "d": "The first priority is that a document can be understood better by developers than by maintenance personnel, and it is desirable to improve productivity without taking too much time."
+      },
+      "correct_answer": "b"
+    }
+  ]
+}

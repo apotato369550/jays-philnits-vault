@@ -1,0 +1,793 @@
+{
+  "metadata": {
+    "exam_name": "2025_april",
+    "year": 2025,
+    "month": "april",
+    "extraction_method": "intermediary",
+    "extraction_date": "2026-02-06",
+    "total_questions_extracted": 71
+  },
+  "questions": [
+    {
+      "q_num": 1,
+      "text": "Which of the following is always true for two (2) sets A and B? Here, (X  Y) represents\nthe set that contains only the elements that are in both X and Y (intersection set), and (X \nY) represents the set that contains all of the elements that are in at least one of X or Y (union\nset).\na) (A  B) is a subset of the complement of (A  B).\nb) (A  B) is a subset of A.\nc) (A  B) is a subset of (A  B).\nd) (A  B) is a subset of the complement of A.",
+      "options": {
+        "a": "(A  B) is a subset of the complement of (A  B).",
+        "b": "(A  B) is a subset of A.",
+        "c": "(A  B) is a subset of (A  B).",
+        "d": "(A  B) is a subset of the complement of A."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 2,
+      "text": "Which of the following is the binary number that is obtained by adding the binary\nnumbers 01011010 and 01101011? Here, the binary numbers are expressed as positive 8-bit\nvalues.\na) 00110001 b) 01111011 c) 10000100 d) 11000101",
+      "options": {
+        "a": "00110001",
+        "b": "01111011",
+        "c": "10000100",
+        "d": "11000101"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 3,
+      "text": "Which of the following is the combination of the mean and median of the data?\n[Data]\n10, 20, 20, 20, 40, 50, 100, 440, 2000\nMean Median\na) 20 40\nb) 40 20\nc) 300 20\nd) 300 40",
+      "options": {
+        "a": "20 40",
+        "b": "40 20",
+        "c": "300 20",
+        "d": "300 40"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 4,
+      "text": "Which of the following is the appropriate description concerning the prefix of the\nInternational System of Units (SI) that is used to indicate CPU clock frequency, communication\nspeed, and other such things?\na) G multiplied by 10 to the power of 6 is T.\nb) M multiplied by 10 to the power of 3 is G.\nc) M multiplied by 10 to the power of 6 is G.\nd) T multiplied by 10 to the power of 3 is G.",
+      "options": {
+        "a": "G multiplied by 10 to the power of 6 is T.",
+        "b": "M multiplied by 10 to the power of 3 is G.",
+        "c": "M multiplied by 10 to the power of 6 is G.",
+        "d": "T multiplied by 10 to the power of 3 is G."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 6,
+      "text": "At a certain company, employees get a medical allowance equal to 5% of their monthly\nbase salary in addition to their monthly base salary. If the total of the monthly base salary\nand medical allowance is more than 5,000, a 20% tax is deducted from the total. In the\nprogram below, the function calculateTotalSal receives the monthly base salary as an\nargument and returns the monthly total salary after tax deduction. Which of the following is\nthe correct combination of pieces of code to be inserted into ___A___ and ___B___ in\nthe program? Here, the monthly base salary is a multiple of 100.\n[Program]\n○ integer: calculateTotalSal(integer: monthlyBaseSal)\ninteger: monthlyTotalSal\nmonthlyTotalSal ← integer part of (monthlyBaseSal × 1.05)\nif (monthlyTotalSal > ___A___)\nmonthlyTotalSal ← integer part of (monthlyTotalSal × ___B___)\nendif\nreturn monthlyTotalSal\nA B\na) 5000 0.2\nb) 5000 0.8\nc) 5250 0.2\nd) 5250 0.8",
+      "options": {
+        "a": "5000 0.2",
+        "b": "5000 0.8",
+        "c": "5250 0.2",
+        "d": "5250 0.8"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 7,
+      "text": "Which of the following is the appropriate way for extracting data from a stack that stores\nmultiple data?\na) Data is extracted from an arbitrary location that is specified, regardless of the sequence\nthat data is stored in.\nb) Data that was stored last is extracted first.\nc) Data that was stored first is extracted first.\nd) Data has a key, and it is extracted according to the priority of the key.",
+      "options": {
+        "a": "Data is extracted from an arbitrary location that is specified, regardless of the sequence\nthat data is stored in.",
+        "b": "Data that was stored last is extracted first.",
+        "c": "Data that was stored first is extracted first.",
+        "d": "Data has a key, and it is extracted according to the priority of the key."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 8,
+      "text": "In the program below, the function subTotal receives an integer array inputarr as an\nargument, returns an array arr in which the sum of all elements of original array inputarr\nup to that location is stored in the same location. Which of the following is the correct\ncombination of pieces of code to be inserted into ___A___ and ___B___ in the program.\nHere, the size of the array inputarr is greater than 1, and elements outside the bounds of\nthe array must not be accessed, and the array index starts at 1.\n[Program]\n○ integer []:subTotal(integer []: inputarr)\ninteger: i\ninteger: n ← the number of elements in inputarr\ninteger []: arr ← {0, …, 0} // Number of elements is n.\n// All the elements of the array are 0.\narr[1] ← inputarr[1]\nfor (increase i from ___A___ to n by 1)\narr[i] ← inputarr[i] + ___B___\nendfor\nreturn arr\nA B\na) 1 arr[i + 1]\nb) 1 arr[i - 1]\nc) 2 arr[i + 1]\nd) 2 arr[i - 1]",
+      "options": {
+        "a": "1 arr[i + 1]",
+        "b": "1 arr[i - 1]",
+        "c": "2 arr[i + 1]",
+        "d": "2 arr[i - 1]"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 9,
+      "text": "Which of the following is the explanation of a characteristic of hypertext?\na) It has a function for the creation and editing of a range of expressions.\nb) It has a function for the creation and editing of a range of shapes.\nc) It provides a range of templates, and enables their use.\nd) It has a mechanism that enables relevant information to be accessed by embedding a link\nin any position in a text.",
+      "options": {
+        "a": "It has a function for the creation and editing of a range of expressions.",
+        "b": "It has a function for the creation and editing of a range of shapes.",
+        "c": "It provides a range of templates, and enables their use.",
+        "d": "It has a mechanism that enables relevant information to be accessed by embedding a link\nin any position in a text."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 10,
+      "text": "Which of the following is designed to virtually reduce the time for the CPU to access\nthe main memory, in order to improve the processing efficiency of a PC?\na) SSD b) Virtual memory\nc) Cache memory d) Defragmentation",
+      "options": {
+        "a": "SSD",
+        "b": "Virtual memory",
+        "c": "Cache memory",
+        "d": "Defragmentation"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 14,
+      "text": "The system configurations A through C are made up by connecting multiple identical\ndevices. Which of the following is the list where A through C are sorted in descending order\nof availability? Here, represents a device. The parallel connection requires only one\n(1) of the devices to be functional, while the series connection requires all devices to be\nfunctional.\nA B C\na) A, B, C b) B, A, C\nc) C, A, B d) C, B, A",
+      "options": {
+        "a": "A, B, C",
+        "b": "B, A, C",
+        "c": "C, A, B",
+        "d": "C, B, A"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 15,
+      "text": "When the processing speed of the system overall is constrained because of slow\nprocessing speed in one of the components, which of the following is the term for the\ncomponent that is causing the problem?\na) Throughput b) Defragmentation\nc) Flowchart d) Bottleneck",
+      "options": {
+        "a": "Throughput",
+        "b": "Defragmentation",
+        "c": "Flowchart",
+        "d": "Bottleneck"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 16,
+      "text": "Among the descriptions A through C below concerning the effects that are obtained by\nsimultaneously running multiple virtual servers on one (1) physical computer, which of the\nfollowing lists all and only the appropriate descriptions?\nA: Each virtual server can run an OS with a different version, and the resources of the\nphysical computer can be utilized effectively.\nB: The throughput that is gained when the number of virtual servers is increased is the\nsame as when the number of physical computers is increased by the same number.\nC: A volume of data that is the same as the capacity of the HDD on the physical computer\ncan be simultaneously recorded on all of the virtual servers.\na) A b) A, C c) B d) C",
+      "options": {
+        "a": "A",
+        "b": "A, C",
+        "c": "B",
+        "d": "C"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 19,
+      "text": "There is a system where a full backup is made after closing time every Sunday, and an\nincremental backup is made after closing time on Monday through Saturday. On a\nWednesday, a failure happened during business hours, so a decision was made to restore\ndata to the state at the closing time on Tuesday by using backup files. Which of the\nfollowing lists all and only the necessary backup files for restoring data? Here, an\nincremental backup file means a backup file that contains only the data that has been\nmodified since the previous backup (a full backup or an incremental backup) was made.\na) A full backup file on Sunday, incremental backup files on Monday and Tuesday\nb) A full backup file on Sunday, an incremental backup file on Tuesday\nc) Incremental backup files on Monday and Tuesday\nd) An incremental backup file on Tuesday",
+      "options": {
+        "a": "A full backup file on Sunday, incremental backup files on Monday and Tuesday",
+        "b": "A full backup file on Sunday, an incremental backup file on Tuesday",
+        "c": "Incremental backup files on Monday and Tuesday",
+        "d": "An incremental backup file on Tuesday"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 22,
+      "text": "Which of the following is the appropriate description of multithreading?\na) Equipping a CPU with multiple cores (arithmetic circuits)\nb) Using a hard disk or another external storage unit and providing a storage space with a\ncapacity larger than that of the main memory\nc) Dividing one (1) application program into multiple process units and processing them in\nparallel\nd) Dividing one (1) piece of data and writing it to multiple hard disks in parallel",
+      "options": {
+        "a": "Equipping a CPU with multiple cores (arithmetic circuits)",
+        "b": "Using a hard disk or another external storage unit and providing a storage space with a\ncapacity larger than that of the main memory",
+        "c": "Dividing one (1) application program into multiple process units and processing them in\nparallel",
+        "d": "Dividing one (1) piece of data and writing it to multiple hard disks in parallel"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 23,
+      "text": "Which of the following is the appropriate role of OCR?\na) Performing wireless communication between devices that are close together at a distance\nof approximately 10cm\nb) Recognizing printed and handwritten characters, and transforming them to text data\nc) Creating an artificial voice through digital signal processing\nd) Detecting the position on a panel that was touched by a user’s fingertip, etc.",
+      "options": {
+        "a": "Performing wireless communication between devices that are close together at a distance\nof approximately 10cm",
+        "b": "Recognizing printed and handwritten characters, and transforming them to text data",
+        "c": "Creating an artificial voice through digital signal processing",
+        "d": "Detecting the position on a panel that was touched by a user’s fingertip, et"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 24,
+      "text": "Which of the following is the function that aids keyboard input and lessens the trouble\nof entering characters, by looking up past input history for characters being entered and\ndisplaying a list of candidate character strings?\na) Indentation b) Autocomplete\nc) Autofilter d) Hyperlink",
+      "options": {
+        "a": "Indentation",
+        "b": "Autocomplete",
+        "c": "Autofilter",
+        "d": "Hyperlink"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 26,
+      "text": "When an activity for building a relational database is divided into steps A through C\nbelow, which of the following is the appropriate order of the steps?\nA Identifying the data items to be used in the business operation\nB Creating tables\nC Inserting records\na) A → B → C b) A → C → B\nc) B → A → C d) B → C → A",
+      "options": {
+        "a": "A → B → C",
+        "b": "A → C → B",
+        "c": "B → A → C",
+        "d": "B → C → A"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 27,
+      "text": "The “Purchase_list” table in a relational database manages the purchases of products.\nThis table should be normalized and divided into a “Purchase” table and a “Product” table.\nWhich of the following is the most appropriate field that should be contained in common in\nthe two divided tables? Here, each purchase includes only one product, and can be uniquely\nidentified by Purchase_number. Also, each product can be uniquely identified by\nProduct_number.\nPurchase_list\nPurchase_ Product_ Product_ Count Unit_ Payment_ Delivery_\nnumber number name price method date\na) Purchase_number b) Payment_method\nc) Product_number d) Product_name",
+      "options": {
+        "a": "Purchase_number",
+        "b": "Payment_method",
+        "c": "Product_number",
+        "d": "Product_name"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 29,
+      "text": "Which of the following is the appropriate purpose of exclusive control in a database\nmanagement system?\na) To ensure that data is not accidentally modified nor intentionally tampered with\nb) To make system maintenance management easy by making data and programs\nindependent of each other\nc) To prevent access to data except by certain persons according to the confidentiality of\nthe data\nd) To prevent the occurrence of inconsistencies in data when multiple programs\nsimultaneously access the same data",
+      "options": {
+        "a": "To ensure that data is not accidentally modified nor intentionally tampered with",
+        "b": "To make system maintenance management easy by making data and programs\nindependent of each other",
+        "c": "To prevent access to data except by certain persons according to the confidentiality of\nthe data",
+        "d": "To prevent the occurrence of inconsistencies in data when multiple programs\nsimultaneously access the same data"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 30,
+      "text": "Which of the following is the appropriate explanation of the POP communications\nprotocol?\na) It is a protocol for the remote control of a computer from a terminal that is in a different\nlocation.\nb) It is a protocol for file transfer.\nc) It is a protocol for sending e-mails to a mail server.\nd) It is a protocol that e-mail software uses in order to receive e-mails from a mail server.",
+      "options": {
+        "a": "It is a protocol for the remote control of a computer from a terminal that is in a different\nlocation.",
+        "b": "It is a protocol for file transfer.",
+        "c": "It is a protocol for sending e-mails to a mail server.",
+        "d": "It is a protocol that e-mail software uses in order to receive e-mails from a mail server."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 31,
+      "text": "Which of the following is the file storage on the Internet that can be freely written to\nand read from over the Internet and can be used for saving files in place of USB memory or\nother such media?\na) Cookie b) RAID\nc) Online storage d) Crawler",
+      "options": {
+        "a": "Cookie",
+        "b": "RAID",
+        "c": "Online storage",
+        "d": "Crawler"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 33,
+      "text": "Which of the following mobile communication systems not only offers higher\ncommunication speed than LTE, but also allows more devices to connect and has less lag\ntime?\na) Block chain b) MVNO\nc) 8K d) 5G",
+      "options": {
+        "a": "Block chain",
+        "b": "MVNO",
+        "c": "8K",
+        "d": "5G"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 34,
+      "text": "Which of the following is the most appropriate description of edge computing in an IoT\nsystem?\na) In order to reduce the load on IoT servers caused by an increase in IoT devices, it\nperforms as much data processing as possible close to an IoT device.\nb) It creates a sequence of data that compiles multiple transactions at certain time intervals,\nand increases the reliability of the data by embedding in an item of data a hash value of\nthe previous item of data to associate items of data with each other and ensure the data is\ndifficult to tamper with.\nc) Computer resources are aggregated in a data center, and used from a remote location via\nthe network.\nd) It enables a computer to acquire new knowledge, rules, and other such things from input\ndata without explicit programming.",
+      "options": {
+        "a": "In order to reduce the load on IoT servers caused by an increase in IoT devices, it\nperforms as much data processing as possible close to an IoT device.",
+        "b": "It creates a sequence of data that compiles multiple transactions at certain time intervals,\nand increases the reliability of the data by embedding in an item of data a hash value of\nthe previous item of data to associate items of data with each other and ensure the data is\ndifficult to tamper with.",
+        "c": "Computer resources are aggregated in a data center, and used from a remote location via\nthe network.",
+        "d": "It enables a computer to acquire new knowledge, rules, and other such things from input\ndata without explicit programming."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 36,
+      "text": "Which of the following is the appropriate combination of the descriptions (i) through (iii)\nabout threats in information security and the terms below?\n(i) An attack in which a malicious script injected to a web site that displays data that a\nvisitor enters as it is, is executed on the visitor’s web browser, and data such as cookies\nare stolen by a third party\n(ii) A program that infects numerous PCs, executes malicious operations on the PCs by\nfollowing instructions received via a network, and conducts a coordinated attack\n(iii) A program that is disguised as a useful program, but once installed and executed,\nperforms unauthorized data destruction or leakage\n(i) (ii) (iii)\na) Cross-site scripting Trojan horse Bot\nb) Cross-site scripting Bot Trojan horse\nc) Targeted attack Cross-site scripting Trojan horse\nd) Targeted attack Trojan horse Cross-site scripting",
+      "options": {
+        "a": "Cross-site scripting Trojan horse Bot",
+        "b": "Cross-site scripting Bot Trojan horse",
+        "c": "Targeted attack Cross-site scripting Trojan horse",
+        "d": "Targeted attack Trojan horse Cross-site scripting"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 40,
+      "text": "In a wireless LAN router, which of the following is the appropriate explanation of a\nfunction that is set up for devices brought in from external locations and is called a “guest\nport” or a “guest SSID” or other such names?\na) It is possible to connect a device only to the Internet, but not to the internal network.\nb) It is possible to check whether a device is infected with malware or not, and only allow\nconnections from devices that are confirmed to be safe.\nc) It is possible to configure the connection from a device to a wireless LAN router with\nbutton operations alone on the device and wireless LAN router.\nd) If the device’s SSID setting field is left blank, it is possible to connect to the wireless\nLAN router even if the SSID is not known.",
+      "options": {
+        "a": "It is possible to connect a device only to the Internet, but not to the internal network.",
+        "b": "It is possible to check whether a device is infected with malware or not, and only allow\nconnections from devices that are confirmed to be safe.",
+        "c": "It is possible to configure the connection from a device to a wireless LAN router with\nbutton operations alone on the device and wireless LAN router.",
+        "d": "If the device’s SSID setting field is left blank, it is possible to connect to the wireless\nLAN router even if the SSID is not known."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 42,
+      "text": "A business PC that was connected to a company’s internal wireless LAN network was\nused to view a website on the Internet. Immediately after this, the web browser crashed and\nunknown files were created, and other such events occurred that indicated the possibility of\ninfection with malware. Which of the following is the appropriate action that the user of this\nPC should take first?\na) Reinstalling the web browser\nb) Updating the malware definition file of the anti-malware software\nc) Cutting off connection with the wireless LAN, and isolating the PC from the network\nd) Changing the encryption method for wireless communication",
+      "options": {
+        "a": "Reinstalling the web browser",
+        "b": "Updating the malware definition file of the anti-malware software",
+        "c": "Cutting off connection with the wireless LAN, and isolating the PC from the network",
+        "d": "Changing the encryption method for wireless communication"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 43,
+      "text": "Which of the following is the appropriate combination of terms or phrases inserted into\nA through D in the table that describes the characteristics of encryption methods?\nSafe\nEncryption/decryption\nEncryption method Key characteristics distribution of\nrelative processing speed\nkeys\nThe encryption key and the\nA Easy C\ndecryption key are different\nThe encryption key and the\nB Difficult D\ndecryption key are the same\nA B C D\na) Common key cryptography Public key cryptography Slow Fast\nb) Common key cryptography Public key cryptography Fast Slow\nc) Public key cryptography Common key cryptography Slow Fast\nd) Public key cryptography Common key cryptography Fast Slow",
+      "options": {
+        "a": "Common key cryptography Public key cryptography Slow Fast",
+        "b": "Common key cryptography Public key cryptography Fast Slow",
+        "c": "Public key cryptography Common key cryptography Slow Fast",
+        "d": "Public key cryptography Common key cryptography Fast Slow"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 44,
+      "text": "Which of the following is the appropriate example of activities performed in C (Check)\nin the organizations that operate ISMS on the basis of the PDCA model?\na) Changing the server monitoring method as a corrective action that is based on the audit\nresults of the business operations\nb) Identifying the information assets in the server room in order to decide specific measures\nand objectives\nc) Objectively evaluating the server administrator’s work details by a third party\nd) Monitoring the behavior of the server according to the defined operational procedure",
+      "options": {
+        "a": "Changing the server monitoring method as a corrective action that is based on the audit\nresults of the business operations",
+        "b": "Identifying the information assets in the server room in order to decide specific measures\nand objectives",
+        "c": "Objectively evaluating the server administrator’s work details by a third party",
+        "d": "Monitoring the behavior of the server according to the defined operational procedure"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 46,
+      "text": "In the process of system requirements definition, which of the following is the\nappropriate evaluation criteria for system requirements?\na) Consistency with results of system integration test\nb) Consistency with needs of the customer\nc) Appropriateness of the design method used\nd) Coverage of test cases",
+      "options": {
+        "a": "Consistency with results of system integration test",
+        "b": "Consistency with needs of the customer",
+        "c": "Appropriateness of the design method used",
+        "d": "Coverage of test cases"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 48,
+      "text": "Which of the following is the activity in software maintenance?\na) Program modifications that are requested by an ordering party to a developer as a result\nof an acceptance test for software\nb) Creation of additional code for the functions that are discovered to be lacking in the unit\ntest of a program\nc) Fixing of bugs that are discovered in the unit test of a program\nd) Program modifications to handle a system failure that occurs in actual operation",
+      "options": {
+        "a": "Program modifications that are requested by an ordering party to a developer as a result\nof an acceptance test for software",
+        "b": "Creation of additional code for the functions that are discovered to be lacking in the unit\ntest of a program",
+        "c": "Fixing of bugs that are discovered in the unit test of a program",
+        "d": "Program modifications to handle a system failure that occurs in actual operation"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 49,
+      "text": "Which of the following is the appropriate description concerning the black box test?\na) The test is performed for all branches of the program.\nb) The test is performed for all instructions of the program.\nc) The test is performed on the basis of the internal structure of the program.\nd) The test is performed by focusing on the input and the output of the program.",
+      "options": {
+        "a": "The test is performed for all branches of the program.",
+        "b": "The test is performed for all instructions of the program.",
+        "c": "The test is performed on the basis of the internal structure of the program.",
+        "d": "The test is performed by focusing on the input and the output of the program."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 52,
+      "text": "In a system development project, a flowchart of the development process is created to\nperform quality management. Which of the following is the appropriate purpose of using\nsuch a flowchart?\na) To consider where and what kind of problem is likely to occur in the work processes\nb) To determine whether the usage rate of the system is within the expected range\nc) To identify the relationships between major problems in project execution and latent\ncauses of the problems\nd) To assess the frequency of problem occurrence on a per-cause basis in order to resolve\nthe causes of the most problems",
+      "options": {
+        "a": "To consider where and what kind of problem is likely to occur in the work processes",
+        "b": "To determine whether the usage rate of the system is within the expected range",
+        "c": "To identify the relationships between major problems in project execution and latent\ncauses of the problems",
+        "d": "To assess the frequency of problem occurrence on a per-cause basis in order to resolve\nthe causes of the most problems"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 53,
+      "text": "Which of the following is appropriate to be prepared in order to select the delivering\nparty for a product or service?\na) A communication management plan b) A test case\nc) Evaluation standards d) A project charter",
+      "options": {
+        "a": "A communication management plan",
+        "b": "A test case",
+        "c": "Evaluation standards",
+        "d": "A project charter"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 54,
+      "text": "Which of the following is the hierarchical decomposition for the activities of creating\nproject deliverables?\na) EVM b) RFP c) SLA d) WBS",
+      "options": {
+        "a": "EVM",
+        "b": "RFP",
+        "c": "SLA",
+        "d": "WBS"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 55,
+      "text": "Which of the following is the most appropriate description of stakeholders in a system\ndevelopment project?\na) They are individuals and organizations such as users of the developed system and\nmanagers in the development division.\nb) They are sponsors who bear the cost of system development.\nc) They are events that may negatively affect the project and other events that may\npositively affect the project.\nd) They are project deliverables and tasks that are performed to create the deliverables.",
+      "options": {
+        "a": "They are individuals and organizations such as users of the developed system and\nmanagers in the development division.",
+        "b": "They are sponsors who bear the cost of system development.",
+        "c": "They are events that may negatively affect the project and other events that may\npositively affect the project.",
+        "d": "They are project deliverables and tasks that are performed to create the deliverables."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 56,
+      "text": "The PC on one’s desk and the printer in a shared space are started by a single person\nunder the conditions shown in the figure below. Each operation/processing needs to be\nperformed sequentially, but during automatic processing of one device, it is possible for the\nperson to move or operate the other device in parallel. What is the minimum time required\n(in seconds) for the person to start the PC startup at his/her desk, then move, start and end\nthe printer startup, return to his/her desk, and end the PC startup?\n[Conditions]\nMovement: 60\nseconds one way\nPC on one s̓ desk Printer in a shared space\nFlow of PC startup Flow of printer startup\nTime Processing Time Processing\nOperation/processing Operation/processing\nrequired type required type\n(Start of startup) (Start of startup)\nManual Manual\nA: Turn on the power 3 seconds E: Turn on the power 3 seconds\noperation operation\nB: Login screen startup 150 seconds Automatic F: Startup 60 seconds Automatic\nprocessing processing\nC: Login operation 10 seconds Manual (End of startup)\noperation\nD: Application startup Automatic\n60 seconds\nafter login processing\n(End of startup)\na) 223 b) 256 c) 286 d) 406",
+      "options": {
+        "a": "223",
+        "b": "256",
+        "c": "286",
+        "d": "406"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 58,
+      "text": "Which of the following is the appropriate management system that improves the\nefficiency of IT operations and enhances the service quality including availability?\na) IT technical strategy management b) IT service management\nc) IT project scope management d) IT project time management",
+      "options": {
+        "a": "IT technical strategy management",
+        "b": "IT service management",
+        "c": "IT project scope management",
+        "d": "IT project time management"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 60,
+      "text": "Which of the following is the purpose of incident management?\na) Ensuring that activities are performed for migrating new software that is used in an IT\nservice to a production environment\nb) Managing a series of activities for handling a change request about an IT service\nc) Recovering an IT service immediately when any disruption to the IT service occurs, and\nmaking the impact to business as small as possible\nd) Managing the information on the items that are required for providing an IT service and\non their combinations",
+      "options": {
+        "a": "Ensuring that activities are performed for migrating new software that is used in an IT\nservice to a production environment",
+        "b": "Managing a series of activities for handling a change request about an IT service",
+        "c": "Recovering an IT service immediately when any disruption to the IT service occurs, and\nmaking the impact to business as small as possible",
+        "d": "Managing the information on the items that are required for providing an IT service and\non their combinations"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 61,
+      "text": "Which of the following is the most appropriate department for setting up a service desk\nthat is a single point of contact for queries on the usage method of the internal system?\na) Department in charge of incident management\nb) Department in charge of configuration management\nc) Department in charge of change management\nd) Department in charge of release management",
+      "options": {
+        "a": "Department in charge of incident management",
+        "b": "Department in charge of configuration management",
+        "c": "Department in charge of change management",
+        "d": "Department in charge of release management"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 63,
+      "text": "Which of the following is the appropriate explanation of a system audit?\na) It is a framework for the implementation of IT service management.\nb) It is verification of whether or not controls against risks concerning information systems\nare implemented and operated appropriately.\nc) It is technology and techniques for the efficient development of good quality software.\nd) It is the application of knowledge, skills, tools, and techniques to project activities in\norder to meet project requirements.",
+      "options": {
+        "a": "It is a framework for the implementation of IT service management.",
+        "b": "It is verification of whether or not controls against risks concerning information systems\nare implemented and operated appropriately.",
+        "c": "It is technology and techniques for the efficient development of good quality software.",
+        "d": "It is the application of knowledge, skills, tools, and techniques to project activities in\norder to meet project requirements."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 64,
+      "text": "Regarding the roles (i) through (iv) below for establishing appropriate IT governance,\nwhich of the following is the appropriate combination of the roles of the company executive\nresponsible for it and the person responsible for the information system department?\n(i) Defining the IT governance policy\n(ii) Formulating principles for decisions on investment in computerization\n(iii) Deciding the roles and the rights within the information system department\n(iv) Performing progress management in system development on the basis of a project\nplan\nThe person responsible for the information system\nThe company executive\ndepartment\na) (i), (ii) (iii), (iv)\nb) (i), (iii) (ii), (iv)\nc) (ii), (iii) (i), (iv)\nd) (ii), (iv) (i), (iii)",
+      "options": {
+        "a": "(i), (ii) (iii), (iv)",
+        "b": "(i), (iii) (ii), (iv)",
+        "c": "(ii), (iii) (i), (iv)",
+        "d": "(ii), (iv) (i), (iii)"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 65,
+      "text": "Which of the following is the initiative that is composed of control environment, risk\nassessment, control activities, information and communication, and monitoring activities,\nand has compliance with laws and regulations relating to the business activities as one of its\nobjectives?\na) CMMI b) ITIL\nc) Internal control d) Risk management",
+      "options": {
+        "a": "CMMI",
+        "b": "ITIL",
+        "c": "Internal control",
+        "d": "Risk management"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 67,
+      "text": "Among company rules, which of the following is the rule that describes segregation of\nduties?\na) Rule that defines the management organization and job classification that are the\nfoundation of the company\nb) Rule that defines the role, responsibilities, and authority of each department and each\nemployee\nc) Rule that defines employees' working conditions and other matters related to\nemployment\nd) Rule that defines proper conduct in terms of laws, regulations, and social norms",
+      "options": {
+        "a": "Rule that defines the management organization and job classification that are the\nfoundation of the company",
+        "b": "Rule that defines the role, responsibilities, and authority of each department and each\nemployee",
+        "c": "Rule that defines employees' working conditions and other matters related to\nemployment",
+        "d": "Rule that defines proper conduct in terms of laws, regulations, and social norms"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 68,
+      "text": "The entire inventory of Warehouse A and Warehouse B is to be sent to Store C and\nStore D. The number of items in the inventory of Warehouse A and Warehouse B is 35 and\n15 respectively, and the required number of items for Store C and Store D is 20 and 30\nrespectively. The shipment cost for each item from warehouse to store is as shown in the\ntable. Under these conditions, what is the minimum total shipment cost in dollars?\nUnit: dollars/item\nStore C Store D\nWarehouse A 400 200\nWarehouse B 200 100\na) 8,500 b) 10,000 c) 11,000 d) 12,500",
+      "options": {
+        "a": "8,500",
+        "b": "10,000",
+        "c": "11,000",
+        "d": "12,500"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 71,
+      "text": "Which of the following is the expression that calculates operating profit?\na) (Sales) – (Cost of sales)\nb) (Gross profit) – (Selling, general, and administrative expenses)\nc) (Ordinary profit) + (Extraordinary profit) – (Extraordinary loss)\nd) (Profit before tax) – (Corporate tax, residential tax, and business tax)",
+      "options": {
+        "a": "(Sales) – (Cost of sales)",
+        "b": "(Gross profit) – (Selling, general, and administrative expenses)",
+        "c": "(Ordinary profit) + (Extraordinary profit) – (Extraordinary loss)",
+        "d": "(Profit before tax) – (Corporate tax, residential tax, and business tax)"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 72,
+      "text": "The sales and the costs for a certain product for this month are as shown in the table\nbelow. When the unit sales price is changed from 1,000 yen to 800 yen, in order to avoid\nmaking a loss, at least how many units need to be sold each month? Here, the fixed cost and\nthe variable cost per unit of the product do not change.\nSales amount 2,000,000 yen\nUnit sales price 1,000 yen\nUnits sold 2,000\nFixed cost 600,000 yen\nVariable cost per unit 700 yen\na) 2,400 b) 2,500 c) 4,800 d) 6,000",
+      "options": {
+        "a": "2,400",
+        "b": "2,500",
+        "c": "4,800",
+        "d": "6,000"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 73,
+      "text": "Which of the following is the right that belongs to a purchaser of a PC software\npackage provided by means of CD-ROM?\na) Right to use the program stored in the CD-ROM\nb) Copyright of the program stored in the CD-ROM\nc) Design right of the CD-ROM storing the program\nd) Copyright of the CD-ROM storing the program",
+      "options": {
+        "a": "Right to use the program stored in the CD-ROM",
+        "b": "Copyright of the program stored in the CD-ROM",
+        "c": "Design right of the CD-ROM storing the program",
+        "d": "Copyright of the CD-ROM storing the program"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 74,
+      "text": "Which of the following is free software that can be copied or modified freely without\npermission from the author?\na) Shareware b) Package software\nc) Public domain software d) Utility software",
+      "options": {
+        "a": "Shareware",
+        "b": "Package software",
+        "c": "Public domain software",
+        "d": "Utility software"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 75,
+      "text": "Which of the following is the case example where Bluetooth is used as a standard\nprotocol of wireless communications for cellular phones, household electric appliances, or\nsuch other devices?\na) Connecting two controllers to one home video game console without any cables\nb) Receiving signals from some GPS satellites into a car navigation system\nc) Reading a QR code by using a cellular phone\nd) Reading the information or data on an IC card ticket at an automatic ticket gate",
+      "options": {
+        "a": "Connecting two controllers to one home video game console without any cables",
+        "b": "Receiving signals from some GPS satellites into a car navigation system",
+        "c": "Reading a QR code by using a cellular phone",
+        "d": "Reading the information or data on an IC card ticket at an automatic ticket gate"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 76,
+      "text": "Which of the following is appropriate as a characteristic of the QR code?\na) The code can contain only single-byte alphanumeric characters and symbols.\nb) The amount of information that can be stored is equivalent to that of a barcode.\nc) The code can be read from any direction including the top, bottom, left, and right.\nd) The code has a two-dimensional structure in which three barcode layers are stacked.",
+      "options": {
+        "a": "The code can contain only single-byte alphanumeric characters and symbols.",
+        "b": "The amount of information that can be stored is equivalent to that of a barcode.",
+        "c": "The code can be read from any direction including the top, bottom, left, and right.",
+        "d": "The code has a two-dimensional structure in which three barcode layers are stacke"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 77,
+      "text": "Among the lists of corporate activities A through D, which of the following is the list that\ncontains all activities concerning the establishment of compliance?\nA: Supporting fine art and cultural activities\nB: Training employees in the codes of conduct\nC: Performing activities for prevention of global desertification\nD: Creating a mechanism for whistle blowing\na) A, B b) A, C c) B, D d) C, D",
+      "options": {
+        "a": "A, B",
+        "b": "A, C",
+        "c": "B, D",
+        "d": "C, D"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 78,
+      "text": "Which of the following is the international standardization organization that engages in\nstandardization of information security management systems and quality management\nsystems?\na) ANSI b) CEN c) ISO d) JIS",
+      "options": {
+        "a": "ANSI",
+        "b": "CEN",
+        "c": "ISO",
+        "d": "JIS"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 79,
+      "text": "Which of the following is the appropriate example of vertical integration in corporate\nbusiness development?\na) An apparel manufacturer outsources product inspection at factories to a partner\ncompany.\nb) A major trading company makes a major retailer its subsidiary with the aim of\nexpanding sales of products that it purchases overseas.\nc) A bank acquires another bank through an M&A with the aim of increasing its size.\nd) Many PC assembling companies use the semiconductors and OS of a specific\nmanufacturer.",
+      "options": {
+        "a": "An apparel manufacturer outsources product inspection at factories to a partner\ncompany.",
+        "b": "A major trading company makes a major retailer its subsidiary with the aim of\nexpanding sales of products that it purchases overseas.",
+        "c": "A bank acquires another bank through an M&A with the aim of increasing its size.",
+        "d": "Many PC assembling companies use the semiconductors and OS of a specific\nmanufacturer."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 80,
+      "text": "Which of the following is the appropriate combination of the management themes and\ntechniques for achieving them?\n[Management themes]\nA: A company wants to develop efficient business processes that span from procurement\nof components to sales.\nB: A company wants to understand customers’ preferences and other information, and\nuse them in product planning and sales promotion.\nC: A company wants to know the product name, quantity, and other sales-related\ninformation at the time of sale in order to restock appropriately and analyze strong-\nselling products.\n[Techniques]\nCRM, POS, SCM\nA B C\na) SCM CRM POS\nb) POS CRM SCM\nc) CRM SCM POS\nd) SCM POS CRM",
+      "options": {
+        "a": "SCM CRM POS",
+        "b": "POS CRM SCM",
+        "c": "CRM SCM POS",
+        "d": "SCM POS CRM"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 81,
+      "text": "The elements seen from the seller’s standpoint in the marketing mix are called “the\n4Ps.” Which of the following are the corresponding elements as seen from the buyer’s\nstandpoint?\na) the 4Cs b) the 4Ss c) AIDMA d) SWOT",
+      "options": {
+        "a": "the 4Cs",
+        "b": "the 4Ss",
+        "c": "AIDMA",
+        "d": "SWOT"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 83,
+      "text": "A middle-sized consumer electronics manufacturer company A divides the products\ninto groups in accordance with their potential and competitive strength in order to determine\nthe priority of investing funds among their lineup. Which of the following is the most\nappropriate method of analysis for this purpose?\na) Cluster analysis regarding the prices and the customer bases of the company’s products\nb) RFM analysis regarding the customers that purchase the company’s products\nc) PPM analysis regarding the shares and the market growth rates of the company’s\nproducts\nd) Principal component analysis regarding the cause of faults in the company’s products",
+      "options": {
+        "a": "Cluster analysis regarding the prices and the customer bases of the company’s products",
+        "b": "RFM analysis regarding the customers that purchase the company’s products",
+        "c": "PPM analysis regarding the shares and the market growth rates of the company’s\nproducts",
+        "d": "Principal component analysis regarding the cause of faults in the company’s products"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 84,
+      "text": "Which of the following is the appropriate means of complementing the technologies\nand know-how of one’s company with those of other companies in a short period of time?\na) BPR b) Alliance\nc) Incubation d) Benchmarking",
+      "options": {
+        "a": "BPR",
+        "b": "Alliance",
+        "c": "Incubation",
+        "d": "Benchmarking"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 86,
+      "text": "Which of the following is the appropriate explanation of an ERP package?\na) As it is a system that comprehensively supports business unique to an industry, it is used\nonly for certain industry sectors such as the mobile phone business.\nb) As it is a system specific to the financial accounting process, the function of passing\naccounting data to the general accounting process must be developed or purchased\nseparately.\nc) It is an integrated business system that processes various business-related applications,\nand is used in companies of various sizes in various industry sectors.\nd) It is a system that integrates sales, purchasing, and financial accounting, and is a system\nspecialized for the use by small company such as individually-owned shops.",
+      "options": {
+        "a": "As it is a system that comprehensively supports business unique to an industry, it is used\nonly for certain industry sectors such as the mobile phone business.",
+        "b": "As it is a system specific to the financial accounting process, the function of passing\naccounting data to the general accounting process must be developed or purchased\nseparately.",
+        "c": "It is an integrated business system that processes various business-related applications,\nand is used in companies of various sizes in various industry sectors.",
+        "d": "It is a system that integrates sales, purchasing, and financial accounting, and is a system\nspecialized for the use by small company such as individually-owned shops."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 87,
+      "text": "When build-to-order production is compared to build-to-stock production, which of the\nfollowing is the appropriate characteristic of build-to-order production?\na) Shipment is not possible immediately when an order is received, but there is no risk of\nan excessive number of products in the inventory.\nb) It is required to increase the accuracy of order forecast, and maintain the optimum\ninventory volume of products.\nc) It brings the risk of the loss of sales opportunities through insufficient product inventory.\nd) Products are produced according to a production plan that is proposed on the basis of\norder forecast.",
+      "options": {
+        "a": "Shipment is not possible immediately when an order is received, but there is no risk of\nan excessive number of products in the inventory.",
+        "b": "It is required to increase the accuracy of order forecast, and maintain the optimum\ninventory volume of products.",
+        "c": "It brings the risk of the loss of sales opportunities through insufficient product inventory.",
+        "d": "Products are produced according to a production plan that is proposed on the basis of\norder forecast."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 88,
+      "text": "Which of the following is the appropriate example of a function that uses an IC tag?\na) Scanning barcode at a POS register\nb) Sending images from a remote medical system\nc) Identifying current location with a car navigation system\nd) Monitoring at theft prevention gate in a library",
+      "options": {
+        "a": "Scanning barcode at a POS register",
+        "b": "Sending images from a remote medical system",
+        "c": "Identifying current location with a car navigation system",
+        "d": "Monitoring at theft prevention gate in a library"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 89,
+      "text": "Which of the following terminologies refers to an initiative to develop unprecedented\nand innovative services by utilizing IT in the field of finance, such as a service provided by\na bank where AI manages depositors’ assets automatically?\na) FA b) Fintech\nc) OA d) Sharing economy",
+      "options": {
+        "a": "FA",
+        "b": "Fintech",
+        "c": "OA",
+        "d": "Sharing economy"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 90,
+      "text": "Which of the following is one of the technologies used in deep learning, and represents\na mathematical model of the circuits in the human brain?\na) Content delivery network b) Storage area network\nc) Neural network d) Ubiquitous network",
+      "options": {
+        "a": "Content delivery network",
+        "b": "Storage area network",
+        "c": "Neural network",
+        "d": "Ubiquitous network"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 91,
+      "text": "Which of the following is the production system that minimizes the inventory between\nprocesses through the procurement of raw materials and components at the required timing\nand in the required quantity?\na) BPO b) CIM c) JIT d) OEM",
+      "options": {
+        "a": "BPO",
+        "b": "CIM",
+        "c": "JIT",
+        "d": "OEM"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 92,
+      "text": "Which of the following is the most appropriate diagram representing the flow of business\noperations after concurrent engineering is applied? Here, the arrows in the diagram show the\nflow of business operations, and each activity name is displayed on top.\na) Production Process\nSpecifications Production\ndiagram diagram\nb) Production Process\nSpecifications Production\ndiagram diagram\nc) Production Process\nSpecifications Production\ndiagram diagram\nd)\nSpecifications\nProduction\ndiagram\nProcess\ndiagram\nProduction",
+      "options": {
+        "a": "Production Process\nSpecifications Production\ndiagram diagram",
+        "b": "Production Process\nSpecifications Production\ndiagram diagram",
+        "c": "Production Process\nSpecifications Production\ndiagram diagram",
+        "d": "Specifications\nProduction\ndiagram\nProcess\ndiagram\nProduction"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 93,
+      "text": "Which of the following is the general name of software that has various functions such\nas communication via e-mail and chat, information sharing, and video conferencing?\na) Groupware b) Shareware\nc) Firmware d) Freeware",
+      "options": {
+        "a": "Groupware",
+        "b": "Shareware",
+        "c": "Firmware",
+        "d": "Freeware"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 94,
+      "text": "Which of the following is the term for a method that uses data such as accumulated\nsales data to find regularity such as a correlation between weather and products that sell\nwell?\na) Data warehouse b) Data processing\nc) Data mining d) Data modeling",
+      "options": {
+        "a": "Data warehouse",
+        "b": "Data processing",
+        "c": "Data mining",
+        "d": "Data modeling"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 95,
+      "text": "Which of the following is the appropriate term that represents a method for achieving\nautomation and improved efficiency by replacing humans with a software robot to perform\nroutine office work?\na) ROA b) RPA c) SFA d) SOA",
+      "options": {
+        "a": "ROA",
+        "b": "RPA",
+        "c": "SFA",
+        "d": "SOA"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 97,
+      "text": "The table below shows the evaluated scores of the proposals of four (4) vendors from\nthe viewpoints of management, technology, and price. When each score of the management\nviewpoint, technology viewpoint, and price viewpoint is weighted, and the vendor with the\nhighest total score is selected as the supplier, which of the following vendors is selected?\nEvaluation item Weight Vendor A Vendor B Vendor C Vendor D\nManagement\n2 2 4 3 3\nviewpoint\nTechnology\n3 3 4 2 3\nviewpoint\nPrice viewpoint 5 4 2 4 3\na) Vendor A b) Vendor B\nc) Vendor C d) Vendor D",
+      "options": {
+        "a": "Vendor A",
+        "b": "Vendor B",
+        "c": "Vendor C",
+        "d": "Vendor D"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 98,
+      "text": "When the system life cycle is divided into the planning process, requirements definition\nprocess, development process, and operation/maintenance process, which of the following is\nthe appropriate process to clarify the functions of the system for the implementation of\nbusiness operations?\na) Planning process b) Requirements definition process\nc) Development process d) Operation/maintenance process",
+      "options": {
+        "a": "Planning process",
+        "b": "Requirements definition process",
+        "c": "Development process",
+        "d": "Operation/maintenance process"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 99,
+      "text": "Which of the following is the appropriate combination of words or phrases to be\ninserted into blanks A and B in the description below concerning documentation that is\ncreated in the procurement of an information system?\nThe document that sets out the overview, what is being asked for, procurement\nconditions, and other such information for an information system to be procured and asks\nfor a proposal to be submitted is the A . And the document that asks for the\nprovision of relevant information by indicating the computerization purpose, a business\noverview, and other such information is the B .\nA B\na) RFI RFP\nb) RFI SLA\nc) RFP RFI\nd) RFP SLA",
+      "options": {
+        "a": "RFI RFP",
+        "b": "RFI SLA",
+        "c": "RFP RFI",
+        "d": "RFP SLA"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 100,
+      "text": "In an online service, a website with a newly created design and a website with a\nconventional design were run in parallel experimentally to compare them and find out the\none that makes its users more likely to apply for paid services. Which of the following is the\nmost appropriate technique used at this time?\na) A/B test b) ABC analysis\nc) Cluster analysis d) Regression test",
+      "options": {
+        "a": "A/B test",
+        "b": "ABC analysis",
+        "c": "Cluster analysis",
+        "d": "Regression test"
+      },
+      "correct_answer": "a"
+    }
+  ]
+}
