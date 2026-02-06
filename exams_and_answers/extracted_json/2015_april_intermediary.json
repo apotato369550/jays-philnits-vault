@@ -1,0 +1,848 @@
+{
+  "metadata": {
+    "exam_name": "2015_april",
+    "year": 2015,
+    "month": "april",
+    "extraction_method": "intermediary",
+    "extraction_date": "2026-02-06",
+    "total_questions_extracted": 76
+  },
+  "questions": [
+    {
+      "q_num": 1,
+      "text": "When the six characters a, b, c, d, e, and f are arranged in a row in any arbitrary order,\nin how many ways can a and b be placed side-by-side?\na) 120 b) 240 c) 720 d) 1,440",
+      "options": {
+        "a": "120",
+        "b": "240",
+        "c": "720",
+        "d": "1,440"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 2,
+      "text": "When three balls are picked out consecutively from a box containing three white balls\nand four black balls, which of the following is the lowest probability?\na) Probability of picking out the balls in order of black, black, black\nb) Probability of picking out the balls in order of black, black, white\nc) Probability of picking out the balls in order of black, white, black\nd) Probability of picking out the balls in order of white, black, black",
+      "options": {
+        "a": "Probability of picking out the balls in order of black, black, black",
+        "b": "Probability of picking out the balls in order of black, black, white",
+        "c": "Probability of picking out the balls in order of black, white, black",
+        "d": "Probability of picking out the balls in order of white, black, black"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 3,
+      "text": "As shown in the figure below, decimal numbers 2, 5, 10, and 21 are represented using\nfive squares, each of which is either black or white.\n2 □□□■□\n5 □□■□■\n10 □■□■□\n21 ■□■□■\nA white square indicates 0, and a black square indicates a different positive value that\nis determined by the position of the square. When the sum of the values of the five\nsquares shows a decimal number, which of the following is the numeric value\nrepresented by ■■□□□?\na) 12 b) 20 c) 24 d) 30\n– 3 –",
+      "options": {
+        "a": "12",
+        "b": "20",
+        "c": "24",
+        "d": "30\n– 3 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 4,
+      "text": "There is a standard that can represent data in a hierarchical structure by enclosing data\nthat corresponds to attribute N with the tags <N>, which means the start, and </N>,\nwhich means the end, and then linking and nesting these tags. Company A decides to\ncomply with this standard and create a paper by using the structural rules (1) through (3)\nbelow. Which of the following is the appropriate header of a paper named “New\nDocument Management” that is created by Jack Smith of the Information Systems\nDepartment (I/S Department) in accordance with this standard and the structural rules?\n[Structural rules]\n(1) A paper is composed of a header and a body text.\n(2) The header is composed of a title and author information.\n(3) Author information is composed of a name and a department.\na) <header>\n<author info>\n<title>New Document Management\n<name>Jack Smith</name><dept>I/S Department</dept>\n</title>\n</author info>\n</header>\nb) <header>\n<title>New Document Management</title>\n<author info><name>Jack Smith</name></author info>\n<dept>I/S Department</dept>\n</header>\nc) <header>\n<title>New Document Management</title>\n<author info>\n<name>Jack Smith</name><dept>I/S Department</dept>\n</author info>\n</header>\nd) <header>\n<title>New Document Management</title>\n<name>Jack Smith\n<author info><dept>I/S Department</dept></author info>\n</name>\n</header>\n– 4 –",
+      "options": {
+        "a": "<header>\n<author info>\n<title>New Document Management\n<name>Jack Smith</name><dept>I/S Department</dept>\n</title>\n</author info>\n</header>",
+        "b": "<header>\n<title>New Document Management</title>\n<author info><name>Jack Smith</name></author info>\n<dept>I/S Department</dept>\n</header>",
+        "c": "<header>\n<title>New Document Management</title>\n<author info>\n<name>Jack Smith</name><dept>I/S Department</dept>\n</author info>\n</header>",
+        "d": "<header>\n<title>New Document Management</title>\n<name>Jack Smith\n<author info><dept>I/S Department</dept></author info>\n</name>\n</header>\n– 4 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 5,
+      "text": "Which of the following is an appropriate description concerning EUC (End User\nComputing)?\na) As EUC is widely spread, information systems departments in companies come to\nhave large backlogs in software development.\nb) EUC is characterized with system construction and operations management by end\nusers without using software packages at all.\nc) To support EUC, training in programming languages such as COBOL, C, and Java is\nimportant, and it is a key role of information systems departments.\nd) In order to achieve EUC, it is necessary to provide training to end users in PCs or\ncommercially available applications, and also to select easy-to-operate development\ntools and provide training in those tools.",
+      "options": {
+        "a": "As EUC is widely spread, information systems departments in companies come to\nhave large backlogs in software development.",
+        "b": "EUC is characterized with system construction and operations management by end\nusers without using software packages at all.",
+        "c": "To support EUC, training in programming languages such as COBOL, C, and Java is\nimportant, and it is a key role of information systems departments.",
+        "d": "In order to achieve EUC, it is necessary to provide training to end users in PCs or\ncommercially available applications, and also to select easy-to-operate development\ntools and provide training in those tools."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 8,
+      "text": "Which of the following is an appropriate description concerning the usage of HTML\n(Hyper Text Markup Language) tags?\na) <LABEL> is used to define the title of a Web page.\nb) <BODY> is used to describe the text of a Web page.\nc) <BIG> is used to specify the size and style applied to each character in a Web page.\nd) <FORM> is used to divide a Web page into multiple frames.",
+      "options": {
+        "a": "<LABEL> is used to define the title of a Web page.",
+        "b": "<BODY> is used to describe the text of a Web page.",
+        "c": "<BIG> is used to specify the size and style applied to each character in a Web page.",
+        "d": "<FORM> is used to divide a Web page into multiple frames."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 9,
+      "text": "Which of the following is an appropriate description of a multi-core processor?\na) An improvement in the throughput of the entire system is aimed at by\nsimultaneously executing different processing in each core.\nb) An improvement in the reliability of the processing result is aimed at by executing\nthe same processing in several cores.\nc) Several cores are controlled by hardware alone, and the OS is not required to have a\nspecial function.\nd) The throughput of the processor depends only on the number of cores, and does not\ndepend on the clock frequency.",
+      "options": {
+        "a": "An improvement in the throughput of the entire system is aimed at by\nsimultaneously executing different processing in each core.",
+        "b": "An improvement in the reliability of the processing result is aimed at by executing\nthe same processing in several cores.",
+        "c": "Several cores are controlled by hardware alone, and the OS is not required to have a\nspecial function.",
+        "d": "The throughput of the processor depends only on the number of cores, and does not\ndepend on the clock frequency."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 10,
+      "text": "Which of the following is required for an application program to use the peripheral\nequipment that is connected to a PC?\na) Compiler b) Device driver\nc) Plug and play d) Hot plug",
+      "options": {
+        "a": "Compiler",
+        "b": "Device driver",
+        "c": "Plug and play",
+        "d": "Hot plug"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 11,
+      "text": "Which of the following is a standard for wireless communication between a PC and\nperipheral devices?\na) Bluetooth b) IEEE 1394\nc) PCI d) USB 3.0\n– 6 –",
+      "options": {
+        "a": "Bluetooth",
+        "b": "IEEE 1394",
+        "c": "PCI",
+        "d": "USB 3.0\n– 6 –"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 14,
+      "text": "Among the system configurations shown below, which of the following has the lowest\nprobability of the entire system stopping on a failure? Here, represents an\nidentical device. For the entire system to work, at least one device must be running\nwhen the devices are connected in parallel, and all devices must be running when the\ndevices are connected in serial.\na) b)\nc) d)",
+      "options": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 16,
+      "text": "Which of the following is the most appropriate purpose of installing a business\napplication software package instead of self-developed application software?\na) To enhance the environment of development\nb) To reduce the cost of development\nc) To acquire knowledge of software development methods\nd) To improve the skills of application developers\n– 8 –",
+      "options": {
+        "a": "To enhance the environment of development",
+        "b": "To reduce the cost of development",
+        "c": "To acquire knowledge of software development methods",
+        "d": "To improve the skills of application developers\n– 8 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 17,
+      "text": "When the log file on a Web server is analyzed in daily system administration, which of\nthe following can be found?\na) Web pages accessed by Web site visitors\nb) The model name of a computer used by each visitor\nc) The speed of a Web browser on each visitor’s computer\nd) Personal information about individual Web site visitors",
+      "options": {
+        "a": "Web pages accessed by Web site visitors",
+        "b": "The model name of a computer used by each visitor",
+        "c": "The speed of a Web browser on each visitor’s computer",
+        "d": "Personal information about individual Web site visitors"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 19,
+      "text": "In theory, what color is printed by a printer, when cyan, magenta, and yellow are mixed\ntogether by a subtractive color mixture?\na) Blue b) Red c) Black d) Green",
+      "options": {
+        "a": "Blue",
+        "b": "Red",
+        "c": "Black",
+        "d": "Green"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 20,
+      "text": "Which of the following is an appropriate explanation of MP3, which is used as a\nmultimedia file format?\na) File compression format for G4 facsimile communication data\nb) File compression format for audio data\nc) File compression format for color image data\nd) File compression format for digital video data\n– 9 –",
+      "options": {
+        "a": "File compression format for G4 facsimile communication data",
+        "b": "File compression format for audio data",
+        "c": "File compression format for color image data",
+        "d": "File compression format for digital video data\n– 9 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 21,
+      "text": "Which of the following effect is obtained by normalizing the tables of a relational\ndatabase?\na) The number of disk accesses for data update is reduced by compiling frequently\nused data in the same table.\nb) Data inconsistency due to data update is prevented by eliminating data duplication.\nc) The usage efficiency of the main memory is improved by making the size of the\ntables uniform.\nd) Response time for queries is shortened by reducing the number of tables.",
+      "options": {
+        "a": "The number of disk accesses for data update is reduced by compiling frequently\nused data in the same table.",
+        "b": "Data inconsistency due to data update is prevented by eliminating data duplication.",
+        "c": "The usage efficiency of the main memory is improved by making the size of the\ntables uniform.",
+        "d": "Response time for queries is shortened by reducing the number of tables."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 22,
+      "text": "Which of the following is a purpose of using a database management system?\na) To enable users to access data even when there is no OS available\nb) To eliminate the need for backups created in preparation for disk failures\nc) To encrypt data to be transmitted over a network\nd) To enable multiple users to share information while maintaining data integrity",
+      "options": {
+        "a": "To enable users to access data even when there is no OS available",
+        "b": "To eliminate the need for backups created in preparation for disk failures",
+        "c": "To encrypt data to be transmitted over a network",
+        "d": "To enable multiple users to share information while maintaining data integrity"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 23,
+      "text": "There is a system for entering and managing orders from customers. Sequential order\nnumber is printed on each order form in the order of arrival unless the form has any\nmistakes such as missing information. Before the order form shown below is entered\ninto the system, which of the following should be checked so as not to enter duplicated\norder data?\nOrder data\nOrder number Order date Product code Quantity Customer code\na) Customer code b) Product code\nc) Order number d) Order date\n– 10 –",
+      "options": {
+        "a": "Customer code",
+        "b": "Product code",
+        "c": "Order number",
+        "d": "Order date\n– 10 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 25,
+      "text": "A DHCP server has been installed in a LAN. When a PC that automatically acquires\ninformation from the DHCP server is to be connected to the LAN, which of the\nfollowing will be set in the PC?\na) IP address\nb) Latest virus definition file\nc) Address list of spam mail\nd) Mail addresses assigned by the provider",
+      "options": {
+        "a": "IP address",
+        "b": "Latest virus definition file",
+        "c": "Address list of spam mail",
+        "d": "Mail addresses assigned by the provider"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 26,
+      "text": "Which of the following is the unit of the data transmission speed in a network?\na) bps b) fps c) ppm d) rpm\n– 11 –",
+      "options": {
+        "a": "bps",
+        "b": "fps",
+        "c": "ppm",
+        "d": "rpm\n– 11 –"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 28,
+      "text": "Which of the following is appropriate for the description of Bcc recipients of an\ne-mail?\na) The e-mail is automatically encrypted before being sent to Bcc recipients.\nb) The text is deleted from the e-mail and an e-mail containing only the subject is sent\nto the Bcc recipients.\nc) The Bcc addresses are not revealed to other recipients of the e-mail.\nd) The destination specified in Bcc is the notification destination when a delivery error\noccurs.",
+      "options": {
+        "a": "The e-mail is automatically encrypted before being sent to Bcc recipients.",
+        "b": "The text is deleted from the e-mail and an e-mail containing only the subject is sent\nto the Bcc recipients.",
+        "c": "The Bcc addresses are not revealed to other recipients of the e-mail.",
+        "d": "The destination specified in Bcc is the notification destination when a delivery error\noccurs."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 32,
+      "text": "Which of the following is the term that is used for the drawbacks and defects that may\nexist in computer systems or networks and can be exploited for unauthorized\naccesses?\na) Incidents b) Security holes\nc) Hacking d) Forensics\n– 13 –\nAnswer questions",
+      "options": {
+        "a": "Incidents",
+        "b": "Security holes",
+        "c": "Hacking",
+        "d": "Forensics\n– 13 –\nAnswer questions"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 33,
+      "text": "A new system is required to operate 24 hours a day, 365 days a year. Which of the\nfollowing is the development phase that involves making such a decision?\na) Software acceptance b) Testing\nc) Programming d) Requirements definition",
+      "options": {
+        "a": "Software acceptance",
+        "b": "Testing",
+        "c": "Programming",
+        "d": "Requirements definition"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 34,
+      "text": "A system migration plan was created for the switch from an existing system to a new\nsystem. Which of the following is an appropriate item to be described in the system\nmigration plan?\na) System selection policy\nb) Schedule for parallel operation of the old and new systems\nc) Evaluation criteria for the quality of the deliverables\nd) The work history of project members",
+      "options": {
+        "a": "System selection policy",
+        "b": "Schedule for parallel operation of the old and new systems",
+        "c": "Evaluation criteria for the quality of the deliverables",
+        "d": "The work history of project members"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 35,
+      "text": "Among the descriptions A through D below, which of the following is the list that\ncontains all items that are to be considered in the design of easy-to-use user interface\nfor system users?\nA: The time to recover from a failure\nB: The ease of learning methods of operation\nC: The layout of pushbuttons\nD: The size and color of text\na) A, B, C b) A, B, D c) A, C, D d) B, C, D\n– 14 –",
+      "options": {
+        "a": "A, B, C",
+        "b": "A, B, D",
+        "c": "A, C, D",
+        "d": "B, C, D\n– 14 –"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 36,
+      "text": "Which of the following is an appropriate test item to be performed by the integration test\nin the software development process?\na) Connecting several PCs on a LAN, and testing to ensure that files can be shared\nb) Checking the shape of the connector on the cable that connects a PC and a peripheral\ndevice, and testing to ensure that the cable can be smoothly inserted\nc) Testing to ensure that after a contract is signed with an Internet service provider,\nWeb sites can be accessed from the browser\nd) Combining two or more programs after the unit test, and testing to ensure that the\nprogram interfaces are implemented in accordance with the specifications and are\nproperly bound together",
+      "options": {
+        "a": "Connecting several PCs on a LAN, and testing to ensure that files can be shared",
+        "b": "Checking the shape of the connector on the cable that connects a PC and a peripheral\ndevice, and testing to ensure that the cable can be smoothly inserted",
+        "c": "Testing to ensure that after a contract is signed with an Internet service provider,\nWeb sites can be accessed from the browser",
+        "d": "Combining two or more programs after the unit test, and testing to ensure that the\nprogram interfaces are implemented in accordance with the specifications and are\nproperly bound together"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 37,
+      "text": "In a newly outsourced system development, the plan to install software to the\nproduction environment is explained to the customer. Which of the following is an\nappropriate phase for performing the activities based on this plan?\na) Integration test b) System test\nc) Software deployment d) Software maintenance",
+      "options": {
+        "a": "Integration test",
+        "b": "System test",
+        "c": "Software deployment",
+        "d": "Software maintenance"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 38,
+      "text": "Which of the following is part of software maintenance?\na) Adding more development staff in advance when it is found that the development\ncannot be completed on schedule\nb) Discovering a program that may cause a failure and correcting it in advance\nc) Replacing a disk with one with a larger capacity in advance since data size is\nincreasing\nd) Projecting the scale of program development based on requirement specifications\n– 15 –",
+      "options": {
+        "a": "Adding more development staff in advance when it is found that the development\ncannot be completed on schedule",
+        "b": "Discovering a program that may cause a failure and correcting it in advance",
+        "c": "Replacing a disk with one with a larger capacity in advance since data size is\nincreasing",
+        "d": "Projecting the scale of program development based on requirement specifications\n– 15 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 40,
+      "text": "Which of the following is an advantage of dividing the software development process\ninto four phases—requirements definition, system design, programming, and\ntesting—and then executing them in this order?\na) It provides flexibility to handle changes in software specifications at any point of the\ndevelopment phases.\nb) It contributes to the ease of understanding the progress status of development.\nc) It requires fewer person-hours spent for reviews in the upstream phases.\nd) It allows users to try the software at an early stage of development.",
+      "options": {
+        "a": "It provides flexibility to handle changes in software specifications at any point of the\ndevelopment phases.",
+        "b": "It contributes to the ease of understanding the progress status of development.",
+        "c": "It requires fewer person-hours spent for reviews in the upstream phases.",
+        "d": "It allows users to try the software at an early stage of development."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 41,
+      "text": "Which of the following is the development model where a trial system is developed at\nan early stage of system development so that users can verify their requirements in a\ntangible manner?\na) Growth model b) Incremental model\nc) Spiral model d) Prototyping model\n– 16 –",
+      "options": {
+        "a": "Growth model",
+        "b": "Incremental model",
+        "c": "Spiral model",
+        "d": "Prototyping model\n– 16 –"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 43,
+      "text": "Five staff members with the same productivity are assigned to an activity that takes 20\ndays. Immediately before the start of the activity, three members have influenza and\nare replaced by new members. When the new members’ productivity is 60% of the\noriginal members’, what is the minimum number of new staff members that is needed\nto complete the activity in 20 days or less?\na) 4 b) 5 c) 7 d) 9",
+      "options": {
+        "a": "4",
+        "b": "5",
+        "c": "7",
+        "d": "9"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 44,
+      "text": "Which of the following is an appropriate description concerning the component\nbreakdown of the WBS (Work Breakdown Structure) in project management?\na) The most detailed level of the component breakdown enables accurate project\nplanning and cost estimation.\nb) The most detailed level of the component breakdown is always the same regardless\nof the project scale.\nc) The number of levels of the component breakdown is always the same regardless of\nthe project scale.\nd) The deeper the level of the component breakdown is, the higher the level of the work\nefficiency becomes.\n– 17 –",
+      "options": {
+        "a": "The most detailed level of the component breakdown enables accurate project\nplanning and cost estimation.",
+        "b": "The most detailed level of the component breakdown is always the same regardless\nof the project scale.",
+        "c": "The number of levels of the component breakdown is always the same regardless of\nthe project scale.",
+        "d": "The deeper the level of the component breakdown is, the higher the level of the work\nefficiency becomes.\n– 17 –"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 45,
+      "text": "Forms of communication include reciprocal-type communication, by which\ninformation is exchanged among two (2) or more parties; push-type communication, by\nwhich information is sent to specified persons; and pull-type communication, by which\npersons access necessary information under their own volition. Which of the following\nis a description of pull-type communication?\na) Looking up progress meeting schedules on an internal bulletin board site\nb) Coordinating progress meeting schedules with key members via telephone\nc) Using a teleconferencing system to conduct progress meetings\nd) Attaching the minutes of progress meetings to email for distribution",
+      "options": {
+        "a": "Looking up progress meeting schedules on an internal bulletin board site",
+        "b": "Coordinating progress meeting schedules with key members via telephone",
+        "c": "Using a teleconferencing system to conduct progress meetings",
+        "d": "Attaching the minutes of progress meetings to email for distribution"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 46,
+      "text": "In a certain IT service, four (4) priority levels are set for system changes: urgent, high,\nmedium, and low. Among the proposed changes, which of the following is the change\nthat should be classified as “urgent”? Here, changes are released regularly at the end of\neach month.\nPriority Description\nFixing problems that pose a risk to human life or greatly reduce\nUrgent the ability to provide important public services, and that call for\nimmediate response\nFixing problems that have a severe impact on several important\nHigh users, or have an impact on many users, and that call for prompt\nresponse\nFixing problems that do not have a severe impact, but cannot be\nMedium\npostponed until the next regular release\nItems for which change is required, but for which waiting until\nLow\nthe next regular release is possible\na) System changes related to improving the function of supplementary lookup screens\nnecessary for the launch of new services in two (2) weeks\nb) System changes related to countermeasures to address failures in an electronic\nconference system that has many corporate users\nc) System changes related to measures to address faults in a disaster information\nsystem that is used for making decisions on issuing local evacuation advisories\nd) Repair of program bugs that can be completed by the processing date in the coming\nmonth\n– 18 –",
+      "options": {
+        "a": "System changes related to improving the function of supplementary lookup screens\nnecessary for the launch of new services in two (2) weeks",
+        "b": "System changes related to countermeasures to address failures in an electronic\nconference system that has many corporate users",
+        "c": "System changes related to measures to address faults in a disaster information\nsystem that is used for making decisions on issuing local evacuation advisories",
+        "d": "Repair of program bugs that can be completed by the processing date in the coming\nmonth\n– 18 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 49,
+      "text": "Which of the following is an appropriate explanation concerning the usage of a UPS\n(Uninterrupted Power Supply)?\na) It is used as a spare battery for a cell phone in order to use the cell phone for a longer\ntime.\nb) It is used to continue the supply of power when a long power failure occurs in a\ncomputer center.\nc) It is used to temporarily supply power to a computer when a power failure occurs,\nand to safeguard the computer against a momentary drop in voltage.\nd) It is used to enable the use of a computer for a long time in an outdoor area where no\nother power source is available.\n– 19 –",
+      "options": {
+        "a": "It is used as a spare battery for a cell phone in order to use the cell phone for a longer\ntime.",
+        "b": "It is used to continue the supply of power when a long power failure occurs in a\ncomputer center.",
+        "c": "It is used to temporarily supply power to a computer when a power failure occurs,\nand to safeguard the computer against a momentary drop in voltage.",
+        "d": "It is used to enable the use of a computer for a long time in an outdoor area where no\nother power source is available.\n– 19 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 50,
+      "text": "A part of a program was changed to add a new function to a system in operation.\nWhich of the following is the most appropriate environment that is used for testing the\nchanged program and determining whether or not it can be brought into system in\noperation?\na) Programming environment\nb) Test environment for other systems\nc) Production environment\nd) Test environment equivalent to production",
+      "options": {
+        "a": "Programming environment",
+        "b": "Test environment for other systems",
+        "c": "Production environment",
+        "d": "Test environment equivalent to production"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 51,
+      "text": "Which of the following is the appropriate use of a security cable (or security wire)?\na) Preventing critical equipment from being destroyed in a fire\nb) Preventing notebook PCs in the office from being stolen\nc) Preventing the screens of mobile PCs used outside the office from being peeped at\nd) Supplying alternative power to the system in the event of a power failure",
+      "options": {
+        "a": "Preventing critical equipment from being destroyed in a fire",
+        "b": "Preventing notebook PCs in the office from being stolen",
+        "c": "Preventing the screens of mobile PCs used outside the office from being peeped at",
+        "d": "Supplying alternative power to the system in the event of a power failure"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 52,
+      "text": "Which of the following is an appropriate explanation of system auditing?\na) It is implemented on the basis of ISO 9001 quality management system standards.\nb) It confirms conformity with ISO 14001 environment management system standards.\nc) It is a general name for audits that use IT as an auditing tool.\nd) It verifies and evaluates information systems.",
+      "options": {
+        "a": "It is implemented on the basis of ISO 9001 quality management system standards.",
+        "b": "It confirms conformity with ISO 14001 environment management system standards.",
+        "c": "It is a general name for audits that use IT as an auditing tool.",
+        "d": "It verifies and evaluates information systems."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 53,
+      "text": "Types of governance within a company include IT governance and corporate\ngovernance. Which of the following is an appropriate explanation of the positioning of\nIT governance?\na) IT governance and corporate governance are the same concepts.\nb) IT governance and corporate governance are opposing concepts.\nc) Corporate governance is one (1) component of IT governance.\nd) IT governance is an indispensable element of corporate governance.\n– 20 –",
+      "options": {
+        "a": "IT governance and corporate governance are the same concepts.",
+        "b": "IT governance and corporate governance are opposing concepts.",
+        "c": "Corporate governance is one (1) component of IT governance.",
+        "d": "IT governance is an indispensable element of corporate governance.\n– 20 –"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 55,
+      "text": "Which of the following is the appropriate combination of words and phrases to be\ninserted into blanks A and B in the description below, concerning companies of making\nand receiving investments?\nCompany C is making an investment in Company D. To increase its\nCompany D, Company C may .\nA B\na) control over sell a portion of stocks\nb) control over acquire additional stocks\nc) ratio of shareholding in dispatch auditors\nd) ratio of shareholding in dispatch directors",
+      "options": {
+        "a": "control over sell a portion of stocks",
+        "b": "control over acquire additional stocks",
+        "c": "ratio of shareholding in dispatch auditors",
+        "d": "ratio of shareholding in dispatch directors"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 56,
+      "text": "Which of the following is the most appropriate activity based on CSR (Corporate Social\nResponsibility)?\na) Providing products that require less material and less electricity\nb) Providing products differentiated from competitors’ by adding new functions\nc) Providing products that meet various market needs by adopting a cell production\nsystem\nd) Providing products that the company did not offer, by acquiring other companies\n– 22 –",
+      "options": {
+        "a": "Providing products that require less material and less electricity",
+        "b": "Providing products differentiated from competitors’ by adding new functions",
+        "c": "Providing products that meet various market needs by adopting a cell production\nsystem",
+        "d": "Providing products that the company did not offer, by acquiring other companies\n– 22 –"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 58,
+      "text": "In order to prepare for any potential bad debt on accounts receivable from a business\npartner, which of the following is an action that enables the appropriation of a part of\nthe business partner’s property for accounts receivable more preferentially than the\nother?\na) Adding debt b) Issuing an invoice\nc) Setting collateral d) Increasing interest",
+      "options": {
+        "a": "Adding debt",
+        "b": "Issuing an invoice",
+        "c": "Setting collateral",
+        "d": "Increasing interest"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 59,
+      "text": "Which of the following is an appropriate rule for a method of resolving problems\ncalled “brainstorming”?\na) Participants should select and present only high-quality ideas among their own ideas.\nb) Participants should criticize another participant’s ideas without hesitation.\nc) Participants should avoid presenting better ideas based on another participant’s.\nd) Participants should listen to freewheeling opinions, including unique ideas.\n– 23 –",
+      "options": {
+        "a": "Participants should select and present only high-quality ideas among their own ideas.",
+        "b": "Participants should criticize another participant’s ideas without hesitation.",
+        "c": "Participants should avoid presenting better ideas based on another participant’s.",
+        "d": "Participants should listen to freewheeling opinions, including unique ideas.\n– 23 –"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 60,
+      "text": "The design quality of software is associated with the skills of the designers, the design\nmethods, the design tools, and other factors. Which of the following is an appropriate\nname for a diagram or a chart that resembles a fishbone and is used for identifying the\nitems that affect the quality?\na) Arrow diagram b) Cause and effect diagram\nc) Pareto chart d) Matrix diagram",
+      "options": {
+        "a": "Arrow diagram",
+        "b": "Cause and effect diagram",
+        "c": "Pareto chart",
+        "d": "Matrix diagram"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 61,
+      "text": "Which of the following is an appropriate example of a practice based on the concept of\nGreen IT?\na) Use of displays that reduce eye fatigue from blue LED light\nb) Installation of air shower devices in server room entrances and exits\nc) Construction of backup systems in preparation for disasters\nd) Making a rule of viewing materials on PC screens and limiting their printing on\npaper",
+      "options": {
+        "a": "Use of displays that reduce eye fatigue from blue LED light",
+        "b": "Installation of air shower devices in server room entrances and exits",
+        "c": "Construction of backup systems in preparation for disasters",
+        "d": "Making a rule of viewing materials on PC screens and limiting their printing on\npaper"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 62,
+      "text": "Which of the following is an international book code?\na) EAN b) ISBN c) ITF d) UPC",
+      "options": {
+        "a": "EAN",
+        "b": "ISBN",
+        "c": "ITF",
+        "d": "UPC"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 63,
+      "text": "Which of the following is the most appropriate explanation of “digital divide” in\nrelation to information technologies and services?\na) It refers to the economic or social gap between those who take full advantage of\ninformation equipment and those who do not.\nb) It refers to an environment where all people including handicapped people and\nsenior citizens have access to the Internet by using information devices.\nc) It refers to the level of availability of information equipment and services for all\npeople including handicapped people and senior citizens.\nd) It refers to the people who cannot obtain information because of their lack of\nknowledge or skills about information equipment such as PC.\n– 24 –",
+      "options": {
+        "a": "It refers to the economic or social gap between those who take full advantage of\ninformation equipment and those who do not.",
+        "b": "It refers to an environment where all people including handicapped people and\nsenior citizens have access to the Internet by using information devices.",
+        "c": "It refers to the level of availability of information equipment and services for all\npeople including handicapped people and senior citizens.",
+        "d": "It refers to the people who cannot obtain information because of their lack of\nknowledge or skills about information equipment such as PC.\n– 24 –"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 65,
+      "text": "Which of the following is an appropriate description of certification to ISO 9001:2008?\na) Once a party is certified, the certification is permanent.\nb) Certification is applied to manufacturing industries, not to service industries.\nc) There is only one certification body in each country.\nd) Organizations which fulfill the international standard “Quality Management System\n- Requirements” are assessed and certified.",
+      "options": {
+        "a": "Once a party is certified, the certification is permanent.",
+        "b": "Certification is applied to manufacturing industries, not to service industries.",
+        "c": "There is only one certification body in each country.",
+        "d": "Organizations which fulfill the international standard “Quality Management System\n- Requirements” are assessed and certifie"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 66,
+      "text": "Which of the following is an explanation of free software?\na) It can be installed on any number of computers without limitation in a predetermined\nlocation of use.\nb) It requires users to pay predetermined charges to the developer if it continues to be\nused after a certain period of free trial.\nc) It is commercially available and is permitted to be installed on one or more\ncomputers.\nd) It is provided without charge, or it can be modified, copied, and distributed without\nrestriction under a license agreement.",
+      "options": {
+        "a": "It can be installed on any number of computers without limitation in a predetermined\nlocation of use.",
+        "b": "It requires users to pay predetermined charges to the developer if it continues to be\nused after a certain period of free trial.",
+        "c": "It is commercially available and is permitted to be installed on one or more\ncomputers.",
+        "d": "It is provided without charge, or it can be modified, copied, and distributed without\nrestriction under a license agreement."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 67,
+      "text": "Which of the following is an item that aims to secure preferred customers and\ncontinuously generate profits, by creating databases of customer information and\ncontact history and by building positive relationships with customers through prompt\nresponse to their questions and requests?\na) CRM b) HRM c) PPM d) SCM\n– 25 –",
+      "options": {
+        "a": "CRM",
+        "b": "HRM",
+        "c": "PPM",
+        "d": "SCM\n– 25 –"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 68,
+      "text": "In order to reduce the number of in-process or in-stock items between processes,\nproduction is carried out in each process according to the requests from the subsequent\nprocess and only the required number of the required items are supplied at the required\ntime to the subsequent process. Which of the following is the system that performs\nthis type of production?\na) Just-in-time production system b) Cell production system\nc) Build-to-stock production system d) Lot production system",
+      "options": {
+        "a": "Just-in-time production system",
+        "b": "Cell production system",
+        "c": "Build-to-stock production system",
+        "d": "Lot production system"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 69,
+      "text": "The utilization of electronic commerce is one of the business strategies for creating\ncompetitive superiority. Which of the following is “B to C” electronic commerce?\na) An auction site where general consumers sell products\nb) An Internet shopping site for general consumers\nc) A site for transactions between businesses, such as sale of raw materials to other\ncompanies\nd) An in-house sales site for the company’s employees for the purpose of welfare\nbenefits",
+      "options": {
+        "a": "An auction site where general consumers sell products",
+        "b": "An Internet shopping site for general consumers",
+        "c": "A site for transactions between businesses, such as sale of raw materials to other\ncompanies",
+        "d": "An in-house sales site for the company’s employees for the purpose of welfare\nbenefits"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 70,
+      "text": "Which of the following is an appropriate explanation of opinion leaders who are\nthought to be important for market penetration of a new product?\na) The tier of people who purchase the product after making sure that many people are\nusing it.\nb) The tier of people who take a cautious approach and purchase the product after\nchecking with the early buyers\nc) The tier of people who purchase the product early based on their judgment and have\nan influence on other consumers who follow behind\nd) The tier of people who are adventurous enough to take the initiative in purchasing\nthe product\n– 26 –",
+      "options": {
+        "a": "The tier of people who purchase the product after making sure that many people are\nusing it.",
+        "b": "The tier of people who take a cautious approach and purchase the product after\nchecking with the early buyers",
+        "c": "The tier of people who purchase the product early based on their judgment and have\nan influence on other consumers who follow behind",
+        "d": "The tier of people who are adventurous enough to take the initiative in purchasing\nthe product\n– 26 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 71,
+      "text": "Which of the following is a method for analyzing the behavior of a visitor based on\ninformation such as the number of accesses to a Web site and the browsing history\nwithin the Web site?\na) Regression analysis b) Cluster analysis\nc) Access log analysis d) Value chain analysis",
+      "options": {
+        "a": "Regression analysis",
+        "b": "Cluster analysis",
+        "c": "Access log analysis",
+        "d": "Value chain analysis"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 72,
+      "text": "Company A is evaluating the business strategy that was implemented last fiscal year.\nWhen the conditions are as shown in the table below, what is the score of the overall\nevaluation?\nStrategic Actual Score\nClassification Target Evaluation method and criteria\nitem record weighting\n- When the actual rate of\nincrease in sales is 2% or\nhigher, 110 points are given.\n- When the actual rate is over 1%\nRate of and below 2%, 100 points are\nincrease in 2.5% 2.4% given. 0.5\nsales - When the actual rate is over 0%\nand below 1%, 90 points are\nQuantitative given.\nitems - In cases other than the above, 0\npoints are given.\n- When the actual number of\nnewly developed products is 2\nNumber of\nor more, 110 points are given.\nnewly\n2 1 - When the actual number is 1, 0.3\ndeveloped\n100 points are given.\nproducts\n- In cases other than the above, 0\npoints are given.\n- When the actual customer\nsatisfaction is one or more\nQualitative Customer ranks higher than the target,\n4 4 0.2\nitem satisfaction 100 points are given.\n- In cases other than the above, 0\npoints are given.\n[Method of the overall evaluation]\n(1) A score is calculated for each strategic item by using the evaluation method and\nthe criteria set.\n(2) Each score calculated in (1) is multiplied by the score weighting, and then the\nresulting scores are added together to obtain the total weighted score of the\noverall evaluation.\na) 75 b) 82 c) 85 d) 105\n– 27 –",
+      "options": {
+        "a": "75",
+        "b": "82",
+        "c": "85",
+        "d": "105\n– 27 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 73,
+      "text": "Which of the following is the most appropriate explanation of a patent strategy of\ncross-licensing?\na) The acquisition of patents held by a company through absorption-style merger, to\ngain that company’s technology\nb) Implementation of joint research with other organizations, to complement a\ncompany’s own technologies and apply for patents\nc) Granting a company’s own patents to other companies and obtaining royalties\ncommensurate with their value\nd) Mutual consent between patent holders on the use of each other’s patents",
+      "options": {
+        "a": "The acquisition of patents held by a company through absorption-style merger, to\ngain that company’s technology",
+        "b": "Implementation of joint research with other organizations, to complement a\ncompany’s own technologies and apply for patents",
+        "c": "Granting a company’s own patents to other companies and obtaining royalties\ncommensurate with their value",
+        "d": "Mutual consent between patent holders on the use of each other’s patents"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 74,
+      "text": "Which of the following is an appropriate explanation of CAD, as used in the\nmanufacturing industry?\na) The derivation of the required quantity of materials from a product production plan\nand the placement of orders for the materials.\nb) The management of the information of components, semi-finished products, or\nquantities\nc) The unified management of the information in the process from design through\nmanufacturing, such as design documents or component tables.\nd) The use of computers in product design to improve the productivity of the designing\nprocess and the reliability of design specifications.",
+      "options": {
+        "a": "The derivation of the required quantity of materials from a product production plan\nand the placement of orders for the materials.",
+        "b": "The management of the information of components, semi-finished products, or\nquantities",
+        "c": "The unified management of the information in the process from design through\nmanufacturing, such as design documents or component tables.",
+        "d": "The use of computers in product design to improve the productivity of the designing\nprocess and the reliability of design specifications."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 75,
+      "text": "Which of the following is a technology that is defined by some international standards\nand used for contactless IC cards, such as tickets for public transport?\na) IrDA b) RFID c) Bluetooth d) Wi-Fi\n– 28 –",
+      "options": {
+        "a": "IrDA",
+        "b": "RFID",
+        "c": "Bluetooth",
+        "d": "Wi-Fi\n– 28 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 76,
+      "text": "Which of the following is an example of embedded software?\na) Operating systems that are pre-installed in PCs\nb) Game software that is downloaded by users to smartphones\nc) Software that performs automatic focus in digital cameras\nd) Updated map data for car navigation systems, recorded on auxiliary memory media",
+      "options": {
+        "a": "Operating systems that are pre-installed in PCs",
+        "b": "Game software that is downloaded by users to smartphones",
+        "c": "Software that performs automatic focus in digital cameras",
+        "d": "Updated map data for car navigation systems, recorded on auxiliary memory media"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 80,
+      "text": "Which of the following is an appropriate explanation of POS terminals (or POS cash\nregisters) in a supermarket and other such places?\na) They are terminals of the system used for collecting and managing information such\nas the product code and price at the time of a sales transaction (at the “Point of\nSale”).\nb) They are terminals of the “Purchase Order System”, and are mainly used to automate\npurchase orders for the replenishment of products.\nc) They are terminals of the strategic product management system developed for\nmonitoring the “Probability of Survival” of such products.\nd) They are terminals of the inventory management system first manufactured in “Port\nof Spain”, and they hold an overwhelming market share.\n– 30 –",
+      "options": {
+        "a": "They are terminals of the system used for collecting and managing information such\nas the product code and price at the time of a sales transaction (at the “Point of\nSale”).",
+        "b": "They are terminals of the “Purchase Order System”, and are mainly used to automate\npurchase orders for the replenishment of products.",
+        "c": "They are terminals of the strategic product management system developed for\nmonitoring the “Probability of Survival” of such products.",
+        "d": "They are terminals of the inventory management system first manufactured in “Port\nof Spain”, and they hold an overwhelming market share.\n– 30 –"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 81,
+      "text": "Which of the following is an appropriate main objective of information system strategy\ncreation?\na) First, to clarify requirements for new work and information systems to be\nconstructed and, second, to determine the scope of computerization and specify its\nspecific functions from the requirements\nb) To clarify the ideals for information systems overall based on management strategy,\nand to determine organization’ s optimization policy for the information systems\noverall\nc) To determine the organization’s development methods and management methods for\ninformation system development, and set standard procedures for development and\nmanagement based on the standard procedures\nd) To organize requirements for the targeted business activity and the information\nsystems to be constructed, and to create policy and an implementation plan for\ncomputerization",
+      "options": {
+        "a": "First, to clarify requirements for new work and information systems to be\nconstructed and, second, to determine the scope of computerization and specify its\nspecific functions from the requirements",
+        "b": "To clarify the ideals for information systems overall based on management strategy,\nand to determine organization’ s optimization policy for the information systems\noverall",
+        "c": "To determine the organization’s development methods and management methods for\ninformation system development, and set standard procedures for development and\nmanagement based on the standard procedures",
+        "d": "To organize requirements for the targeted business activity and the information\nsystems to be constructed, and to create policy and an implementation plan for\ncomputerization"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 82,
+      "text": "Which of the following is the most appropriate description concerning the role of CIO?\na) Making an audit of the company from an objective standpoint in order to check if\nthere is no problem with business operations and IT control works effectively\nb) Playing a leading role in planning and execution of an information strategy for\nimplementing a business strategy\nc) Establishing a personnel system for implementing a business strategy, and\ncontrolling overall administrative operations such as understanding the actual\nsituation of services\nd) Improving the efficiency of allocating company funds, and ensuring the accuracy of\nfinancial accounting\n– 31 –",
+      "options": {
+        "a": "Making an audit of the company from an objective standpoint in order to check if\nthere is no problem with business operations and IT control works effectively",
+        "b": "Playing a leading role in planning and execution of an information strategy for\nimplementing a business strategy",
+        "c": "Establishing a personnel system for implementing a business strategy, and\ncontrolling overall administrative operations such as understanding the actual\nsituation of services",
+        "d": "Improving the efficiency of allocating company funds, and ensuring the accuracy of\nfinancial accounting\n– 31 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 83,
+      "text": "Which of the following is an appropriate description concerning groupware?\na) It is software that has an animation or audio function and is useful when making\npresentations effective by incorporating the output of spreadsheet software or\ndatabase software.\nb) It is software that has functions, such setting print layout or changing and editing\ntexts, and is used for creating documents.\nc) It is software that has functions, such as communication via e-mail and electronic\nbulletin boards, data sharing, and schedule management, and supports collaborative\nwork.\nd) It is software that is used to enter data into cells of a worksheet, create tables, and\ntabulate data.",
+      "options": {
+        "a": "It is software that has an animation or audio function and is useful when making\npresentations effective by incorporating the output of spreadsheet software or\ndatabase software.",
+        "b": "It is software that has functions, such setting print layout or changing and editing\ntexts, and is used for creating documents.",
+        "c": "It is software that has functions, such as communication via e-mail and electronic\nbulletin boards, data sharing, and schedule management, and supports collaborative\nwork.",
+        "d": "It is software that is used to enter data into cells of a worksheet, create tables, and\ntabulate dat"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 84,
+      "text": "Which of the following is used as a management tool such as a decision-making\nsupport system for accumulating and consolidating a large amount of data acquired\nthrough various business activities and thereby providing helpful and meaningful data?\na) Data mapping b) Data warehouse\nc) Data dictionary d) Data modeling\n– 32 –",
+      "options": {
+        "a": "Data mapping",
+        "b": "Data warehouse",
+        "c": "Data dictionary",
+        "d": "Data modeling\n– 32 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 85,
+      "text": "In system development, which of the following is the process in which the business\nfunctions to be newly constructed or reconstructed are clarified and the scope and the\nfunctions of the information system are specifically specified based on the business\nfunctions?\na) External design b) Internal design\nc) Programming d) Requirements definition",
+      "options": {
+        "a": "External design",
+        "b": "Internal design",
+        "c": "Programming",
+        "d": "Requirements definition"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 87,
+      "text": "Which of the following is an explanation of “acceptance inspection” performed on a\nvendor?\na) Checking the estimate submitted by the vendor prior to placing an order based on the\nestimate\nb) Checking whether the deliverables provided by the vendor conform to the\nrequirements specifications\nc) Requesting the vendor to provide information for the purpose of collecting\ninformation\nd) Requesting the vendor to study and submit the proposal for the construction of a new\nsystem\n– 33 –",
+      "options": {
+        "a": "Checking the estimate submitted by the vendor prior to placing an order based on the\nestimate",
+        "b": "Checking whether the deliverables provided by the vendor conform to the\nrequirements specifications",
+        "c": "Requesting the vendor to provide information for the purpose of collecting\ninformation",
+        "d": "Requesting the vendor to study and submit the proposal for the construction of a new\nsystem\n– 33 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 88,
+      "text": "Which of the following is the most appropriate description concerning the creation of\ndocuments in the development and maintenance of software?\na) When an itemized list or a chart is used, the meaning and the content of the\ndocuments become unclear. Therefore, text based on natural language is used as\nmuch as possible.\nb) Because it is important to make the relationship between documents clear,\nconsistency checks of the content of the documents can lead to an improvement in\nquality.\nc) Duplication and redundancy of the content of a document are necessary to improve\nnot only the maintainability of the software but also the maintainability of the\ndocument.\nd) The first priority is that a document can be understood better by developers than by\nmaintenance personnel, and it is desirable to improve productivity without taking too\nmuch time.\n– 34 –\nAnswer questions A through C, each of which has four questions.\nQuestion A Read the following description concerning software development work,\nand then answer the four questions.\nIn Company S, a machine manufacturer, the development activities A through H of\nsoftware to be embedded in product X (hereinafter, software X) are planned as shown in\nTable 1 below. Here, pre-work refers to the activities that must end before the relevant\nactivity is started, and each activity starts immediately after the pre-work ends. The cost\nof each activity is added up at the time of completion of each activity.\nTable 1 Activities of software X development\nNumber Number\nActivity Cost Pre-work Activity Cost Pre-work\nof days of days\nA 2 5 None E 5 6 D\nB 3 7 A F 2 5 A\nC 4 4 B G 6 6 D, F\nD 4 5 A H 7 12 C, E, G\nFigure 1 is an arrow diagram that is created on the basis of Table 1.\nFigure 1 Arrow diagram of development activities of software X\n– 35 –\n[Strategy]",
+      "options": {
+        "a": "When an itemized list or a chart is used, the meaning and the content of the\ndocuments become unclear. Therefore, text based on natural language is used as\nmuch as possible.",
+        "b": "Because it is important to make the relationship between documents clear,\nconsistency checks of the content of the documents can lead to an improvement in\nquality.",
+        "c": "Duplication and redundancy of the content of a document are necessary to improve\nnot only the maintainability of the software but also the maintainability of the\ndocument.",
+        "d": "The first priority is that a document can be understood better by developers than by\nmaintenance personnel, and it is desirable to improve productivity without taking too\nmuch time.\n– 34 –\nAnswer questions A through C, each of which has four questions.\nQuestion A Read the following description concerning software development work,\nand then answer the four questions.\nIn Company S, a machine manufacturer, the development activities A through H of\nsoftware to be embedded in product X (hereinafter, software X) are planned as shown in\nTable 1 below. Here, pre-work refers to the activities that must end before the relevant\nactivity is started, and each activity starts immediately after the pre-work ends. The cost\nof each activity is added up at the time of completion of each activity.\nTable 1 Activities of software X development\nNumber Number\nActivity Cost Pre-work Activity Cost Pre-work\nof days of days\nA 2 5 None E 5 6 D\nB 3 7 A F 2 5 A\nC 4 4 B G 6 6 D, F\nD 4 5 A H 7 12 C, E, G\nFigure 1 is an arrow diagram that is created on the basis of Table 1.\nFigure 1 Arrow diagram of development activities of software X\n– 35 –\n[Strategy]"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 89,
+      "text": "What is the number of days required to complete the development of software X?\na) 16 b) 17 c) 18 d) 19\n[Technology]",
+      "options": {
+        "a": "16",
+        "b": "17",
+        "c": "18",
+        "d": "19\n[Technology]"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 90,
+      "text": "The development of software X proceeds according to Table 1. Which of the following\nis the appropriate graph that shows the accumulated total of the cost from the start of\nthe work until the 10th day?\na) b)\nc) d)\n– 36 –\n[Management]",
+      "options": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": "– 36 –\n[Management]"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 91,
+      "text": "Compared with other activities, activity H involves a large number of days. When the\ncontent of activity H is checked, it is found that if an additional cost is borne, the\nactivities can be divided into the three (3) categories of H1 through H3. The number of\ndays, cost, and pre-work of each activity after the division are as shown in Table 2.\nWhich of the following is an appropriate description concerning the cost and the effect\nat this time?\nTable 2 Number of days, cost, and pre-work of each activity after division\nNumber\nActivity Cost Pre-work\nof days\nH1 3 5 C, E, G\nH2 2 6 C, E, G\nH3 2 4 H1, H2\na) When two (2) is added to the cost, activity H can be shortened by two (2) days.\nb) When two (2) is added to the cost, activity H can be shortened by three (3) days.\nc) When three (3) is added to the cost, activity H can be shortened by two (2) days.\nd) When three (3) is added to the cost, activity H can be shortened by three (3) days.\n[Management]",
+      "options": {
+        "a": "When two (2) is added to the cost, activity H can be shortened by two (2) days.",
+        "b": "When two (2) is added to the cost, activity H can be shortened by three (3) days.",
+        "c": "When three (3) is added to the cost, activity H can be shortened by two (2) days.",
+        "d": "When three (3) is added to the cost, activity H can be shortened by three (3) days.\n[Management]"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 92,
+      "text": "Since one of the pre-works did not end on time, the start of activity H is delayed by one\n(1) day. Which of the following is an appropriate cause of the delay?\na) The activity C is delayed by three (3) days.\nb) The activity C is delayed by four (4) days.\nc) The activity F is delayed by one (1) day.\nd) The activity F is delayed by two (2) days.\n– 37 –\nQuestion B Read the following description concerning the administration of a\nquestionnaire by e-mail, and then answer the four questions.\nMr. F from the HR (Human Resources) department of Company X is asked by his\nmanager to conduct an employee satisfaction survey by e-mail. The survey is conducted\nby attaching a questionnaire for the satisfaction survey that is created with word\nprocessing software and then returning the questionnaire by e-mail.\nThe instructions provided by the manager of Mr. F are as follows:\n(1) The purpose, respondents, method of replying, and deadline of the satisfaction\nsurvey are clearly described in the e-mail text..\n(2) Mr. F attaches a questionnaire to a request e-mail and sends it to all the employees.\nFor collecting the filled-out questionnaires, employees return the filled-out\nquestionnaires by sending them back to Mr. F as an e-mail attachment. The\ndeadline is the end of the next month.\n(3) As the company would like to have replies to the questionnaire from 90% or more\nof all the employees, a personal reminder e-mail is sent to all the employees who do\nnot reply two working days before the deadline.\n(4) Based on the reply e-mails, a check mark is placed in the employee list in order to\nrecord all the respondents.\n(5) The returned questionnaire documents are stored in a shared folder for\nquestionnaires (hereinafter called shared folder) on the server. Only the HR\ndepartment can access the shared folder. The returned questionnaires are saved\nseparately by department of respondents with a file name that enables the employee\nto be identified. The reply e-mails for questionnaires are stored separately from\nother received e-mails until the tabulation process is completed.\n– 38 –\n[Strategy]",
+      "options": {
+        "a": "The activity C is delayed by three (3) days.",
+        "b": "The activity C is delayed by four (4) days.",
+        "c": "The activity F is delayed by one (1) day.",
+        "d": "The activity F is delayed by two (2) days.\n– 37 –\nQuestion B Read the following description concerning the administration of a\nquestionnaire by e-mail, and then answer the four questions.\nMr. F from the HR (Human Resources) department of Company X is asked by his\nmanager to conduct an employee satisfaction survey by e-mail. The survey is conducted\nby attaching a questionnaire for the satisfaction survey that is created with word\nprocessing software and then returning the questionnaire by e-mail.\nThe instructions provided by the manager of Mr. F are as follows:\n(1) The purpose, respondents, method of replying, and deadline of the satisfaction\nsurvey are clearly described in the e-mail text..\n(2) Mr. F attaches a questionnaire to a request e-mail and sends it to all the employees.\nFor collecting the filled-out questionnaires, employees return the filled-out\nquestionnaires by sending them back to Mr. F as an e-mail attachment. The\ndeadline is the end of the next month.\n(3) As the company would like to have replies to the questionnaire from 90% or more\nof all the employees, a personal reminder e-mail is sent to all the employees who do\nnot reply two working days before the deadline.\n(4) Based on the reply e-mails, a check mark is placed in the employee list in order to\nrecord all the respondents.\n(5) The returned questionnaire documents are stored in a shared folder for\nquestionnaires (hereinafter called shared folder) on the server. Only the HR\ndepartment can access the shared folder. The returned questionnaires are saved\nseparately by department of respondents with a file name that enables the employee\nto be identifie"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 94,
+      "text": "Which of the following is the appropriate method for setting addresses prior to sending\nthe questionnaire to all the employees in order to prevent unforeseen or potential\nproblems that may occur when the questionnaire is returned from each employee?\na) Setting the addresses of all the employees in the TO and BCC fields\nb) Setting the addresses of all the employees only in the BCC field\nc) Setting the addresses of all the employees only in the CC field\nd) Setting the addresses of all the employees only in the TO field\n– 39 –\n[Technology]",
+      "options": {
+        "a": "Setting the addresses of all the employees in the TO and BCC fields",
+        "b": "Setting the addresses of all the employees only in the BCC field",
+        "c": "Setting the addresses of all the employees only in the CC field",
+        "d": "Setting the addresses of all the employees only in the TO field\n– 39 –\n[Technology]"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 95,
+      "text": "Which of the following is the most appropriate procedure for returning the\nquestionnaire attached to the e-mail on the basis of the instructions given by Mr. F?\na) Open the attachment file, fill out the questionnaire, and save it on a PC. Create a\nnew e-mail, set the recipient to the HR department, attach the file saved on the PC,\nand send the e-mail.\nb) Open the attachment file, fill out the questionnaire, and save it on a PC. Select\n“Reply”, attach the file saved on the PC to the reply e-mail, and send the e-mail.\nc) Save the attachment file on a PC. Select “Reply”, write the results of questionnaire\nin the text of the created e-mail, and send the e-mail.\nd) Save the attachment file on a PC. Select “Reply”, write the results of the\nquestionnaire in the text of the created e-mail, attach the file saved on PC, and send\nthe e-mail.\n[Technology]",
+      "options": {
+        "a": "Open the attachment file, fill out the questionnaire, and save it on a PC. Create a\nnew e-mail, set the recipient to the HR department, attach the file saved on the PC,\nand send the e-mail.",
+        "b": "Open the attachment file, fill out the questionnaire, and save it on a PC. Select\n“Reply”, attach the file saved on the PC to the reply e-mail, and send the e-mail.",
+        "c": "Save the attachment file on a PC. Select “Reply”, write the results of questionnaire\nin the text of the created e-mail, and send the e-mail.",
+        "d": "Save the attachment file on a PC. Select “Reply”, write the results of the\nquestionnaire in the text of the created e-mail, attach the file saved on PC, and send\nthe e-mail.\n[Technology]"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 97,
+      "text": "When Mr. Taro Joho of the general affairs department creates a business report for the\nsecond week of September in 2010, which of the following is an appropriate filename?\na) Report_100902TaroJoho b) Report_10092TaroJoho\nc) Report_10902TaroJoho d) Report_1092TaroJoho\n[Technology]",
+      "options": {
+        "a": "Report_100902TaroJoho",
+        "b": "Report_10092TaroJoho",
+        "c": "Report_10902TaroJoho",
+        "d": "Report_1092TaroJoho\n[Technology]"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 98,
+      "text": "When a template file is used to create a new a business report with word processing\nsoftware, which of the following is an appropriate procedure?\nA: Open the file “BusinessReport(Template)” in the “Template” folder.\nB: Copy the business report from the personal folder to the “Reports” folder, and\nthen delete the business report in the personal folder.\nC: Assign the predefined filename and save the file in the “Reports” folder.\nD: Assign the predefined filename and save the file in the personal folder.\nE: Overwrite the file.\nF: Write the report.\nG: Close the word processing software.\na) A → C → F → E → G\nb) A → D → F → E → G → B\nc) A → E → F → C → G → B\nd) A → F → E → G → B\n– 42 –\n[Technology]",
+      "options": {
+        "a": "A → C → F → E → G",
+        "b": "A → D → F → E → G → B",
+        "c": "A → E → F → C → G → B",
+        "d": "A → F → E → G → B\n– 42 –\n[Technology]"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 99,
+      "text": "A decision is made to give a filename to each related document so that the related\ndocuments are displayed along with the reports in the “Reports” folder when they are\nsorted by filenames in alphabetical order. Which of the following is an appropriate\nformat of filenames for related documents that meets this requirement as well as the\nrequirements in Table 1? Here, n is a number that represents the sequential number of\nthe related document, and the number of n’s represents the number of digits.\na) “Related_” + n + “_Report_” + yymm + w + creator’s name\nb) “Related_” + nn + “_Report_” + yymm + w + creator’s name\nc) “Report_” + yymm + w + creator’s name + “_Related_” + n\nd) “Report_” + yymm + w + creator’s name + “_Related_” + nn\n[Technology]",
+      "options": {
+        "a": "“Related_” + n + “_Report_” + yymm + w + creator’s name",
+        "b": "“Related_” + nn + “_Report_” + yymm + w + creator’s name",
+        "c": "“Report_” + yymm + w + creator’s name + “_Related_” + n",
+        "d": "“Report_” + yymm + w + creator’s name + “_Related_” + nn\n[Technology]"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 100,
+      "text": "Which of the following is an appropriate password to set for a related document file\nwith a high level of confidentiality?\na) Da8e9 b) Hdfpfgh c) W28t53 d) z32e2bk\n– 43 –",
+      "options": {
+        "a": "Da8e9",
+        "b": "Hdfpfgh",
+        "c": "W28t53",
+        "d": "z32e2bk\n– 43 –"
+      },
+      "correct_answer": "c"
+    }
+  ]
+}

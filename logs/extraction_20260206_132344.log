@@ -1,0 +1,276 @@
+[2026-02-06 13:23:44] Found 20 exam(s) to process.
+[2026-02-06 13:23:44] Verbose mode: False
+[2026-02-06 13:23:44] Output directory: /home/jay/Desktop/Coding Stuff/jays-philnits-vault/exams_and_answers/extracted_json
+[2026-02-06 13:23:44] 
+============================================================
+[2026-02-06 13:23:44] Processing exam: 2013_april
+[2026-02-06 13:23:44] ============================================================
+[2026-02-06 13:23:44] Answers extracted: 99 found
+[2026-02-06 13:23:46] PASS 1 (RAW PDF): 20 questions extracted
+[2026-02-06 13:23:49] PASS 2 (INTERMEDIARY): 20 questions extracted
+[2026-02-06 13:23:49] Selected RAW pass (20 questions)
+[2026-02-06 13:23:49] Written: 2013_april_raw_pdf.json (20 questions)
+[2026-02-06 13:23:49] Written: 2013_april_intermediary.json (20 questions)
+[2026-02-06 13:23:49] OK (20 raw, 20 intermediary)
+[2026-02-06 13:23:49] 
+============================================================
+[2026-02-06 13:23:49] Processing exam: 2013_april_variant
+[2026-02-06 13:23:49] ============================================================
+[2026-02-06 13:23:49] Answers extracted: 100 found
+[2026-02-06 13:23:51] PASS 1 (RAW PDF): 17 questions extracted
+[2026-02-06 13:23:54] PASS 2 (INTERMEDIARY): 17 questions extracted
+[2026-02-06 13:23:54] Selected RAW pass (17 questions)
+[2026-02-06 13:23:54] Written: 2013_april_variant_raw_pdf.json (17 questions)
+[2026-02-06 13:23:54] Written: 2013_april_variant_intermediary.json (17 questions)
+[2026-02-06 13:23:54] OK (17 raw, 17 intermediary)
+[2026-02-06 13:23:54] 
+============================================================
+[2026-02-06 13:23:54] Processing exam: 2014_october
+[2026-02-06 13:23:54] ============================================================
+[2026-02-06 13:23:54] Answers extracted: 100 found
+[2026-02-06 13:23:57] PASS 1 (RAW PDF): 14 questions extracted
+[2026-02-06 13:24:00] PASS 2 (INTERMEDIARY): 14 questions extracted
+[2026-02-06 13:24:00] Selected RAW pass (14 questions)
+[2026-02-06 13:24:00] Written: 2014_october_raw_pdf.json (14 questions)
+[2026-02-06 13:24:00] Written: 2014_october_intermediary.json (14 questions)
+[2026-02-06 13:24:00] OK (14 raw, 14 intermediary)
+[2026-02-06 13:24:00] 
+============================================================
+[2026-02-06 13:24:00] Processing exam: 2015_april
+[2026-02-06 13:24:00] ============================================================
+[2026-02-06 13:24:00] Answers extracted: 100 found
+[2026-02-06 13:24:02] PASS 1 (RAW PDF): 16 questions extracted
+[2026-02-06 13:24:04] PASS 2 (INTERMEDIARY): 16 questions extracted
+[2026-02-06 13:24:04] Selected RAW pass (16 questions)
+[2026-02-06 13:24:04] Written: 2015_april_raw_pdf.json (16 questions)
+[2026-02-06 13:24:04] Written: 2015_april_intermediary.json (16 questions)
+[2026-02-06 13:24:04] OK (16 raw, 16 intermediary)
+[2026-02-06 13:24:04] 
+============================================================
+[2026-02-06 13:24:04] Processing exam: 2015_may
+[2026-02-06 13:24:04] ============================================================
+[2026-02-06 13:24:04] Answers extracted: 100 found
+[2026-02-06 13:24:08] PASS 1 (RAW PDF): 17 questions extracted
+[2026-02-06 13:24:12] PASS 2 (INTERMEDIARY): 17 questions extracted
+[2026-02-06 13:24:12] Selected RAW pass (17 questions)
+[2026-02-06 13:24:12] Written: 2015_may_raw_pdf.json (17 questions)
+[2026-02-06 13:24:12] Written: 2015_may_intermediary.json (17 questions)
+[2026-02-06 13:24:12] OK (17 raw, 17 intermediary)
+[2026-02-06 13:24:12] 
+============================================================
+[2026-02-06 13:24:12] Processing exam: 2016_april
+[2026-02-06 13:24:12] ============================================================
+[2026-02-06 13:24:12] Answers extracted: 100 found
+[2026-02-06 13:24:14] PASS 1 (RAW PDF): 18 questions extracted
+[2026-02-06 13:24:17] PASS 2 (INTERMEDIARY): 18 questions extracted
+[2026-02-06 13:24:17] Selected RAW pass (18 questions)
+[2026-02-06 13:24:17] Written: 2016_april_raw_pdf.json (18 questions)
+[2026-02-06 13:24:17] Written: 2016_april_intermediary.json (18 questions)
+[2026-02-06 13:24:17] OK (18 raw, 18 intermediary)
+[2026-02-06 13:24:17] 
+============================================================
+[2026-02-06 13:24:17] Processing exam: 2016_october
+[2026-02-06 13:24:17] ============================================================
+[2026-02-06 13:24:17] Answers extracted: 100 found
+[2026-02-06 13:24:20] PASS 1 (RAW PDF): 20 questions extracted
+[2026-02-06 13:24:22] PASS 2 (INTERMEDIARY): 20 questions extracted
+[2026-02-06 13:24:22] Selected RAW pass (20 questions)
+[2026-02-06 13:24:22] Written: 2016_october_raw_pdf.json (20 questions)
+[2026-02-06 13:24:22] Written: 2016_october_intermediary.json (20 questions)
+[2026-02-06 13:24:22] OK (20 raw, 20 intermediary)
+[2026-02-06 13:24:22] 
+============================================================
+[2026-02-06 13:24:22] Processing exam: 2017_april
+[2026-02-06 13:24:22] ============================================================
+[2026-02-06 13:24:22] Answers extracted: 100 found
+[2026-02-06 13:24:24] PASS 1 (RAW PDF): 15 questions extracted
+[2026-02-06 13:24:27] PASS 2 (INTERMEDIARY): 15 questions extracted
+[2026-02-06 13:24:27] Selected RAW pass (15 questions)
+[2026-02-06 13:24:27] Written: 2017_april_raw_pdf.json (15 questions)
+[2026-02-06 13:24:27] Written: 2017_april_intermediary.json (15 questions)
+[2026-02-06 13:24:27] OK (15 raw, 15 intermediary)
+[2026-02-06 13:24:27] 
+============================================================
+[2026-02-06 13:24:27] Processing exam: 2017_october
+[2026-02-06 13:24:27] ============================================================
+[2026-02-06 13:24:27] Answers extracted: 100 found
+[2026-02-06 13:24:29] PASS 1 (RAW PDF): 17 questions extracted
+[2026-02-06 13:24:31] PASS 2 (INTERMEDIARY): 17 questions extracted
+[2026-02-06 13:24:31] Selected RAW pass (17 questions)
+[2026-02-06 13:24:31] Written: 2017_october_raw_pdf.json (17 questions)
+[2026-02-06 13:24:31] Written: 2017_october_intermediary.json (17 questions)
+[2026-02-06 13:24:31] OK (17 raw, 17 intermediary)
+[2026-02-06 13:24:31] 
+============================================================
+[2026-02-06 13:24:31] Processing exam: 2018_april
+[2026-02-06 13:24:31] ============================================================
+[2026-02-06 13:24:31] Answers extracted: 100 found
+[2026-02-06 13:24:33] PASS 1 (RAW PDF): 19 questions extracted
+[2026-02-06 13:24:36] PASS 2 (INTERMEDIARY): 19 questions extracted
+[2026-02-06 13:24:36] Selected RAW pass (19 questions)
+[2026-02-06 13:24:36] Written: 2018_april_raw_pdf.json (19 questions)
+[2026-02-06 13:24:36] Written: 2018_april_intermediary.json (19 questions)
+[2026-02-06 13:24:36] OK (19 raw, 19 intermediary)
+[2026-02-06 13:24:36] 
+============================================================
+[2026-02-06 13:24:36] Processing exam: 2018_october
+[2026-02-06 13:24:36] ============================================================
+[2026-02-06 13:24:36] Answers extracted: 100 found
+[2026-02-06 13:24:38] PASS 1 (RAW PDF): 18 questions extracted
+[2026-02-06 13:24:40] PASS 2 (INTERMEDIARY): 18 questions extracted
+[2026-02-06 13:24:40] Selected RAW pass (18 questions)
+[2026-02-06 13:24:40] Written: 2018_october_raw_pdf.json (18 questions)
+[2026-02-06 13:24:40] Written: 2018_october_intermediary.json (18 questions)
+[2026-02-06 13:24:40] OK (18 raw, 18 intermediary)
+[2026-02-06 13:24:40] 
+============================================================
+[2026-02-06 13:24:40] Processing exam: 2019_april
+[2026-02-06 13:24:40] ============================================================
+[2026-02-06 13:24:40] Answers extracted: 100 found
+[2026-02-06 13:24:42] PASS 1 (RAW PDF): 23 questions extracted
+[2026-02-06 13:24:45] PASS 2 (INTERMEDIARY): 23 questions extracted
+[2026-02-06 13:24:45] Selected RAW pass (23 questions)
+[2026-02-06 13:24:45] Written: 2019_april_raw_pdf.json (23 questions)
+[2026-02-06 13:24:45] Written: 2019_april_intermediary.json (23 questions)
+[2026-02-06 13:24:45] OK (23 raw, 23 intermediary)
+[2026-02-06 13:24:45] 
+============================================================
+[2026-02-06 13:24:45] Processing exam: 2019_october
+[2026-02-06 13:24:45] ============================================================
+[2026-02-06 13:24:45] Answers extracted: 100 found
+[2026-02-06 13:24:47] PASS 1 (RAW PDF): 17 questions extracted
+[2026-02-06 13:24:49] PASS 2 (INTERMEDIARY): 17 questions extracted
+[2026-02-06 13:24:49] Selected RAW pass (17 questions)
+[2026-02-06 13:24:49] Written: 2019_october_raw_pdf.json (17 questions)
+[2026-02-06 13:24:49] Written: 2019_october_intermediary.json (17 questions)
+[2026-02-06 13:24:49] OK (17 raw, 17 intermediary)
+[2026-02-06 13:24:49] 
+============================================================
+[2026-02-06 13:24:49] Processing exam: 2020_april
+[2026-02-06 13:24:49] ============================================================
+[2026-02-06 13:24:49] Answers extracted: 100 found
+[2026-02-06 13:24:51] PASS 1 (RAW PDF): 20 questions extracted
+[2026-02-06 13:24:53] PASS 2 (INTERMEDIARY): 20 questions extracted
+[2026-02-06 13:24:53] Selected RAW pass (20 questions)
+[2026-02-06 13:24:53] Written: 2020_april_raw_pdf.json (20 questions)
+[2026-02-06 13:24:53] Written: 2020_april_intermediary.json (20 questions)
+[2026-02-06 13:24:53] OK (20 raw, 20 intermediary)
+[2026-02-06 13:24:53] 
+============================================================
+[2026-02-06 13:24:53] Processing exam: 2021_april
+[2026-02-06 13:24:53] ============================================================
+[2026-02-06 13:24:53] Answers extracted: 100 found
+[2026-02-06 13:24:55] PASS 1 (RAW PDF): 20 questions extracted
+[2026-02-06 13:24:57] PASS 2 (INTERMEDIARY): 20 questions extracted
+[2026-02-06 13:24:57] Selected RAW pass (20 questions)
+[2026-02-06 13:24:57] Written: 2021_april_raw_pdf.json (20 questions)
+[2026-02-06 13:24:57] Written: 2021_april_intermediary.json (20 questions)
+[2026-02-06 13:24:57] OK (20 raw, 20 intermediary)
+[2026-02-06 13:24:57] 
+============================================================
+[2026-02-06 13:24:57] Processing exam: 2021_october
+[2026-02-06 13:24:57] ============================================================
+[2026-02-06 13:24:57] Answers extracted: 100 found
+[2026-02-06 13:24:59] PASS 1 (RAW PDF): 20 questions extracted
+[2026-02-06 13:25:01] PASS 2 (INTERMEDIARY): 20 questions extracted
+[2026-02-06 13:25:01] Selected RAW pass (20 questions)
+[2026-02-06 13:25:01] Written: 2021_october_raw_pdf.json (20 questions)
+[2026-02-06 13:25:01] Written: 2021_october_intermediary.json (20 questions)
+[2026-02-06 13:25:01] OK (20 raw, 20 intermediary)
+[2026-02-06 13:25:01] 
+============================================================
+[2026-02-06 13:25:01] Processing exam: 2022_october
+[2026-02-06 13:25:01] ============================================================
+[2026-02-06 13:25:01] Answers extracted: 100 found
+[2026-02-06 13:25:03] PASS 1 (RAW PDF): 15 questions extracted
+[2026-02-06 13:25:05] PASS 2 (INTERMEDIARY): 15 questions extracted
+[2026-02-06 13:25:05] Selected RAW pass (15 questions)
+[2026-02-06 13:25:05] Written: 2022_october_raw_pdf.json (15 questions)
+[2026-02-06 13:25:05] Written: 2022_october_intermediary.json (15 questions)
+[2026-02-06 13:25:05] OK (15 raw, 15 intermediary)
+[2026-02-06 13:25:05] 
+============================================================
+[2026-02-06 13:25:05] Processing exam: 2023_april
+[2026-02-06 13:25:05] ============================================================
+[2026-02-06 13:25:05] Answers extracted: 100 found
+[2026-02-06 13:25:07] PASS 1 (RAW PDF): 18 questions extracted
+[2026-02-06 13:25:09] PASS 2 (INTERMEDIARY): 18 questions extracted
+[2026-02-06 13:25:09] Selected RAW pass (18 questions)
+[2026-02-06 13:25:09] Written: 2023_april_raw_pdf.json (18 questions)
+[2026-02-06 13:25:09] Written: 2023_april_intermediary.json (18 questions)
+[2026-02-06 13:25:09] OK (18 raw, 18 intermediary)
+[2026-02-06 13:25:09] 
+============================================================
+[2026-02-06 13:25:09] Processing exam: 2024_october
+[2026-02-06 13:25:09] ============================================================
+[2026-02-06 13:25:09] Answers extracted: 100 found
+[2026-02-06 13:25:11] PASS 1 (RAW PDF): 17 questions extracted
+[2026-02-06 13:25:13] PASS 2 (INTERMEDIARY): 17 questions extracted
+[2026-02-06 13:25:13] Selected RAW pass (17 questions)
+[2026-02-06 13:25:13] Written: 2024_october_raw_pdf.json (17 questions)
+[2026-02-06 13:25:13] Written: 2024_october_intermediary.json (17 questions)
+[2026-02-06 13:25:13] OK (17 raw, 17 intermediary)
+[2026-02-06 13:25:13] 
+============================================================
+[2026-02-06 13:25:13] Processing exam: 2025_april
+[2026-02-06 13:25:13] ============================================================
+[2026-02-06 13:25:13] Answers extracted: 100 found
+[2026-02-06 13:25:15] PASS 1 (RAW PDF): 16 questions extracted
+[2026-02-06 13:25:17] PASS 2 (INTERMEDIARY): 16 questions extracted
+[2026-02-06 13:25:17] Selected RAW pass (16 questions)
+[2026-02-06 13:25:17] Written: 2025_april_raw_pdf.json (16 questions)
+[2026-02-06 13:25:17] Written: 2025_april_intermediary.json (16 questions)
+[2026-02-06 13:25:17] OK (16 raw, 16 intermediary)
+[2026-02-06 13:25:17] 
+[2026-02-06 13:25:17] ============================================================
+[2026-02-06 13:25:17] SUMMARY
+[2026-02-06 13:25:17] ============================================================
+[2026-02-06 13:25:17] Total exams: 20
+[2026-02-06 13:25:17] Successfully processed: 20
+[2026-02-06 13:25:17] Failed: 0
+[2026-02-06 13:25:17] JSON files created: 40
+[2026-02-06 13:25:17] 
+[2026-02-06 13:25:17] Output directory: /home/jay/Desktop/Coding Stuff/jays-philnits-vault/exams_and_answers/extracted_json
+[2026-02-06 13:25:17] Files created:
+[2026-02-06 13:25:17]   - 2013_april_intermediary.json
+[2026-02-06 13:25:17]   - 2013_april_raw_pdf.json
+[2026-02-06 13:25:17]   - 2013_april_variant_intermediary.json
+[2026-02-06 13:25:17]   - 2013_april_variant_raw_pdf.json
+[2026-02-06 13:25:17]   - 2014_october_intermediary.json
+[2026-02-06 13:25:17]   - 2014_october_raw_pdf.json
+[2026-02-06 13:25:17]   - 2015_april_intermediary.json
+[2026-02-06 13:25:17]   - 2015_april_raw_pdf.json
+[2026-02-06 13:25:17]   - 2015_may_intermediary.json
+[2026-02-06 13:25:17]   - 2015_may_raw_pdf.json
+[2026-02-06 13:25:17]   - 2016_april_intermediary.json
+[2026-02-06 13:25:17]   - 2016_april_raw_pdf.json
+[2026-02-06 13:25:17]   - 2016_october_intermediary.json
+[2026-02-06 13:25:17]   - 2016_october_raw_pdf.json
+[2026-02-06 13:25:17]   - 2017_april_intermediary.json
+[2026-02-06 13:25:17]   - 2017_april_raw_pdf.json
+[2026-02-06 13:25:17]   - 2017_october_intermediary.json
+[2026-02-06 13:25:17]   - 2017_october_raw_pdf.json
+[2026-02-06 13:25:17]   - 2018_april_intermediary.json
+[2026-02-06 13:25:17]   - 2018_april_raw_pdf.json
+[2026-02-06 13:25:17]   - 2018_october_intermediary.json
+[2026-02-06 13:25:17]   - 2018_october_raw_pdf.json
+[2026-02-06 13:25:17]   - 2019_april_intermediary.json
+[2026-02-06 13:25:17]   - 2019_april_raw_pdf.json
+[2026-02-06 13:25:17]   - 2019_october_intermediary.json
+[2026-02-06 13:25:17]   - 2019_october_raw_pdf.json
+[2026-02-06 13:25:17]   - 2020_april_intermediary.json
+[2026-02-06 13:25:17]   - 2020_april_raw_pdf.json
+[2026-02-06 13:25:17]   - 2021_april_intermediary.json
+[2026-02-06 13:25:17]   - 2021_april_raw_pdf.json
+[2026-02-06 13:25:17]   - 2021_october_intermediary.json
+[2026-02-06 13:25:17]   - 2021_october_raw_pdf.json
+[2026-02-06 13:25:17]   - 2022_october_intermediary.json
+[2026-02-06 13:25:17]   - 2022_october_raw_pdf.json
+[2026-02-06 13:25:17]   - 2023_april_intermediary.json
+[2026-02-06 13:25:17]   - 2023_april_raw_pdf.json
+[2026-02-06 13:25:17]   - 2024_october_intermediary.json
+[2026-02-06 13:25:17]   - 2024_october_raw_pdf.json
+[2026-02-06 13:25:17]   - 2025_april_intermediary.json
+[2026-02-06 13:25:17]   - 2025_april_raw_pdf.json
+[2026-02-06 13:25:17] 
+[2026-02-06 13:25:17] Logs written to: /home/jay/Desktop/Coding Stuff/jays-philnits-vault/logs/extraction_20260206_132344.log

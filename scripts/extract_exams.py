@@ -3,11 +3,13 @@
 Exam PDF Extraction Script
 Reads question and answer PDFs from exams_and_answers directory,
 matches pairs, and outputs unified JSON files with extracted questions.
+Uses dual-pass extraction (raw PDF + intermediary) for robustness.
 """
 
 import os
 import re
 import json
+import sys
 import pdfplumber
 from datetime import datetime
 from pathlib import Path
@@ -15,14 +17,21 @@ from typing import Dict, List, Tuple, Optional
 
 
 class ExamExtractor:
-    def __init__(self, base_dir: str):
+    def __init__(self, base_dir: str, verbose: bool = False):
         self.base_dir = Path(base_dir)
         self.questions_dir = self.base_dir / "exams_and_answers" / "questions"
         self.answers_dir = self.base_dir / "exams_and_answers" / "answers"
         self.output_dir = self.base_dir / "exams_and_answers" / "extracted_json"
+        self.logs_dir = self.base_dir / "logs"
+        self.verbose = verbose
 
-        # Create output directory if it doesn't exist
+        # Create output directories if they don't exist
         self.output_dir.mkdir(parents=True, exist_ok=True)
+        self.logs_dir.mkdir(parents=True, exist_ok=True)
+
+        # Set up logging
+        self.log_file = self.logs_dir / f"extraction_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+        self.log_entries = []
 
     def get_exam_pairs(self) -> Dict[str, Tuple[Optional[Path], Optional[Path]]]:
         """
@@ -104,9 +113,11 @@ class ExamExtractor:
 
         return answers
 
-    def extract_questions(self, pdf_path: Path) -> Dict[int, Dict]:
+    def extract_questions_raw(self, pdf_path: Path) -> Dict[int, Dict]:
         """
-        Extract questions from PDF.
+        Pass 1: Extract questions directly from PDF text using Q# boundaries.
+        Splits by Q\d+\. pattern (Q1., Q2., etc.) to isolate each question block.
+        Then extracts options within each block.
         Returns dict mapping question number to question data.
         """
         questions = {}
@@ -119,209 +130,360 @@ class ExamExtractor:
                     if text:
                         full_text += text + "\n"
 
-                # Find all Q markers
-                q_pattern = r"Q(\d+)\."
-                matches = list(re.finditer(q_pattern, full_text))
+                # Split by Q# boundary: Q\d+\. matches "Q1. ", "Q2. ", etc.
+                q_blocks = self._split_by_question_boundaries(full_text)
 
-                if not matches:
+                if not q_blocks:
                     return {}
 
-                # Skip instruction/preamble Q1 if it exists (find first real question)
-                real_start_idx = 0
-                for i, m in enumerate(matches):
-                    if m.group(1) == '1':
-                        start_pos = m.start()
-                        context = full_text[start_pos:start_pos+300]
-                        # Check if this looks like a real question (typical question starters)
-                        if any(phrase in context for phrase in 
-                               ["is always true", "binary number", "combination", 
-                                "appropriate description", "desk that", "employees get"]):
-                            real_start_idx = i
-                            break
+                skipped = []
+                for q_num, q_block in q_blocks.items():
+                    # Extract options within this question block
+                    options = self._extract_options_from_block(q_block)
 
-                # Process questions from real start
-                for i in range(real_start_idx, len(matches)):
-                    m = matches[i]
-                    q_num = int(m.group(1))
-                    if q_num > 100:
-                        continue
-
-                    # Extract text from this question to next question
-                    start_pos = m.start()
-                    if i + 1 < len(matches):
-                        end_pos = matches[i + 1].start()
-                    else:
-                        end_pos = len(full_text)
-
-                    q_text = full_text[start_pos:end_pos].strip()
-
-                    # Parse question text and options
-                    q_data = self._parse_question_text(q_text, q_num)
-                    if q_data:
+                    # Validate: must have all 4 options
+                    if len(options) == 4:
+                        q_body = self._extract_question_body(q_block)
+                        q_data = {
+                            "q_num": q_num,
+                            "text": q_body,
+                            "options": {
+                                "a": options[0],
+                                "b": options[1],
+                                "c": options[2],
+                                "d": options[3]
+                            }
+                        }
                         questions[q_num] = q_data
+                    else:
+                        skipped.append(f"Q{q_num} (found {len(options)}/4 options)")
+
+                if self.verbose and skipped:
+                    self.log(f"  RAW: Skipped {len(skipped)} questions: {', '.join(skipped[:5])}")
 
         except Exception as e:
-            print(f"  ERROR: Failed to extract questions from {pdf_path.name}: {e}")
+            self.log(f"ERROR: Failed to extract questions (raw) from {pdf_path.name}: {e}")
             return {}
 
         return questions
 
-    def _parse_question_text(self, q_text: str, q_num: int) -> Optional[Dict]:
+    def extract_questions_intermediary(self, pdf_path: Path) -> Dict[int, Dict]:
         """
-        Parse question text to extract question body and options (a, b, c, d).
-        Handles both multi-line and inline option formats.
+        Pass 2: Convert PDF to intermediary text format using Q# boundaries, then extract.
+        Normalizes whitespace first, then splits by Q# boundaries.
+        Returns dict mapping question number to question data.
         """
-        lines = q_text.split("\n")
+        questions = {}
+        try:
+            with pdfplumber.open(str(pdf_path)) as pdf:
+                # Extract text page by page, handling layout
+                full_text = ""
+                for page_num, page in enumerate(pdf.pages):
+                    text = page.extract_text()
+                    if text:
+                        full_text += text + "\n"
 
-        # Find where options start
-        options_start = -1
-        for idx, line in enumerate(lines):
-            if re.match(r"^[a-d]\)", line.strip()):
-                options_start = idx
-                break
+                # Normalize whitespace and line endings
+                full_text = re.sub(r'\r\n', '\n', full_text)
+                full_text = re.sub(r'\n{3,}', '\n\n', full_text)
 
-        # Extract options
-        options = {}
+                # Split by Q# boundary: Q\d+\. matches "Q1. ", "Q2. ", etc.
+                q_blocks = self._split_by_question_boundaries(full_text)
 
-        if options_start >= 0:
-            # Multi-line format: options on separate lines
-            q_body_lines = lines[:options_start]
-            q_body = " ".join([l.strip() for l in q_body_lines if l.strip()])
+                if not q_blocks:
+                    return {}
 
-            # Parse options from separate lines
-            current_option = None
-            current_text = []
+                skipped = []
+                for q_num, q_block in q_blocks.items():
+                    # Extract options within this question block
+                    options = self._extract_options_from_block(q_block)
 
-            for line in lines[options_start:]:
-                line = line.strip()
-                if not line:
+                    # Validate: must have all 4 options
+                    if len(options) == 4:
+                        q_body = self._extract_question_body(q_block)
+                        q_data = {
+                            "q_num": q_num,
+                            "text": q_body,
+                            "options": {
+                                "a": options[0],
+                                "b": options[1],
+                                "c": options[2],
+                                "d": options[3]
+                            }
+                        }
+                        questions[q_num] = q_data
+                    else:
+                        skipped.append(f"Q{q_num} (found {len(options)}/4 options)")
+
+                if self.verbose and skipped:
+                    self.log(f"  INTERMEDIARY: Skipped {len(skipped)} questions: {', '.join(skipped[:5])}")
+
+        except Exception as e:
+            self.log(f"ERROR: Failed to extract questions (intermediary) from {pdf_path.name}: {e}")
+            return {}
+
+        return questions
+
+    def _split_by_question_boundaries(self, text: str) -> Dict[int, str]:
+        """
+        Split text by Q# boundaries (Q\d+\.).
+        Returns dict mapping question number to the text block for that question.
+
+        Splits on pattern "Q1. ", "Q2. ", etc. and isolates text from Q[n] to Q[n+1].
+        Skips everything before Q1 (sample questions, instructions).
+        """
+        q_blocks = {}
+
+        # Find all Q# markers: Q1., Q2., etc.
+        pattern = r"Q\s*(\d+)\s*[.):\s]+"
+        matches = list(re.finditer(pattern, text))
+
+        if not matches:
+            return {}
+
+        # Process each match
+        for i, match in enumerate(matches):
+            q_num_str = match.group(1)
+            try:
+                q_num = int(q_num_str)
+                if not (1 <= q_num <= 100):
                     continue
+            except ValueError:
+                continue
 
-                m = re.match(r"^([a-d])\)\s*(.*)", line)
-                if m:
-                    # Save previous option
-                    if current_option:
-                        options[current_option] = " ".join(current_text).strip()
+            # Get start of this question block (after the Q# marker)
+            block_start = match.end()
 
-                    current_option = m.group(1)
-                    current_text = [m.group(2)] if m.group(2) else []
-                else:
-                    # Continue current option text
-                    if current_option:
-                        current_text.append(line)
+            # Get end of this question block (start of next Q# marker, or end of text)
+            if i + 1 < len(matches):
+                block_end = matches[i + 1].start()
+            else:
+                block_end = len(text)
 
-            # Save last option
-            if current_option:
-                options[current_option] = " ".join(current_text).strip()
+            # Extract block text
+            block_text = text[block_start:block_end].strip()
+            q_blocks[q_num] = block_text
 
-        else:
-            # Inline format: options on same line (e.g., "a) text b) text c) text d) text")
-            # Look for options anywhere in the text
-            full_line = " ".join([l.strip() for l in lines])
+        return q_blocks
 
-            # Try to split by option pattern
-            parts = re.split(r"\s+([a-d])\)", full_line)
-            # parts will be like: [question_text, 'a', 'option_a_text', 'b', 'option_b_text', ...]
+    def _extract_options_from_block(self, block_text: str) -> List[str]:
+        """
+        Extract options a, b, c, d from a question block.
+        Finds [a-d]) or [a-d]. patterns and captures text until next option.
+        Returns list of 4 option texts in order [a_text, b_text, c_text, d_text].
+        Returns shorter list if fewer than 4 options found.
+        """
+        options = []
 
-            if len(parts) >= 9:  # Need at least: text, a, text, b, text, c, text, d, text
-                q_body = parts[0].strip()
+        # Find all option markers: a) or a. or b) or b. etc.
+        pattern = r"[a-d][).]"
+        matches = list(re.finditer(pattern, block_text))
 
-                # Extract options from alternating pattern
-                for i in range(1, len(parts), 2):
-                    if i + 1 < len(parts):
-                        opt_letter = parts[i]
-                        opt_text = parts[i + 1].strip()
+        if not matches:
+            return []
 
-                        # Remove trailing content that might belong to next section
-                        # Truncate at common delimiters
-                        for delim in [" Q", "\nQ"]:
-                            if delim in opt_text:
-                                opt_text = opt_text[:opt_text.index(delim)].strip()
+        # Process each option marker
+        for i, match in enumerate(matches):
+            # Skip if this option letter is out of sequence
+            option_letter = block_text[match.start()].lower()
+            if option_letter != chr(ord('a') + len(options)):
+                break  # Stop if options are not sequential
 
-                        options[opt_letter] = opt_text
+            # Get start of option text (after the marker)
+            opt_start = match.end()
 
-        # Remove "Qn." prefix from body
-        q_body = re.sub(r"^Q\d+\.\s*", "", q_body)
+            # Get end of option text (start of next option marker, or end of block)
+            if i + 1 < len(matches):
+                opt_end = matches[i + 1].start()
+            else:
+                opt_end = len(block_text)
 
-        # Validate we have all 4 options with non-empty text
-        if not all(opt in options for opt in ['a', 'b', 'c', 'd']):
-            return None
+            # Extract and clean option text
+            opt_text = block_text[opt_start:opt_end].strip()
+            options.append(opt_text)
 
-        # Check that all options have text
-        if any(len(options[opt].strip()) == 0 for opt in ['a', 'b', 'c', 'd']):
-            return None
+        return options
 
-        return {
-            "q_num": q_num,
-            "text": q_body,
-            "options": options
-        }
+    def _extract_question_number(self, text: str) -> Optional[int]:
+        """
+        Extract question number from text using Q# pattern.
+        Returns the question number as int, or None if not found.
+        """
+        match = re.search(r"Q\s*(\d+)", text)
+        if match:
+            try:
+                return int(match.group(1))
+            except ValueError:
+                return None
+        return None
+
+    def _extract_question_body(self, text: str) -> str:
+        """
+        Extract question body by removing the Q# prefix.
+        Returns the question text (everything after Q# marker).
+        """
+        # Remove Q# and any following whitespace/punctuation
+        body = re.sub(r"^.*?Q\s*\d+[.):\s]*", "", text, flags=re.DOTALL)
+        return body.strip()
+
+    def log(self, message: str):
+        """Log message to file and optionally to stdout if verbose."""
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        log_message = f"[{timestamp}] {message}"
+        self.log_entries.append(log_message)
+        if self.verbose:
+            print(message)
+
+    def write_logs(self):
+        """Write all accumulated log entries to log file."""
+        try:
+            with open(self.log_file, 'w', encoding='utf-8') as f:
+                for entry in self.log_entries:
+                    f.write(entry + '\n')
+        except Exception as e:
+            print(f"WARNING: Failed to write logs to {self.log_file}: {e}")
 
     def process_exam(self, exam_name: str, questions_pdf: Path, answers_pdf: Path) -> bool:
         """
-        Process a single exam: extract questions and answers, merge, and output JSON.
+        Process a single exam: dual-pass extraction, answers, and output JSON.
         Returns True if successful, False otherwise.
         """
-        print(f"Processing {exam_name}... ", end="", flush=True)
+        if not self.verbose:
+            print(f"Processing {exam_name}... ", end="", flush=True)
+
+        self.log(f"\n{'='*60}")
+        self.log(f"Processing exam: {exam_name}")
+        self.log(f"{'='*60}")
 
         try:
             # Extract answers first (usually simpler)
             answers = self.extract_answers(answers_pdf)
             if not answers:
-                print(f"FAILED (no answers extracted)")
+                msg = f"FAILED: No answers extracted"
+                if not self.verbose:
+                    print(msg)
+                self.log(msg)
                 return False
 
-            # Extract questions
-            questions = self.extract_questions(questions_pdf)
-            if not questions:
-                print(f"FAILED (no questions extracted)")
-                return False
+            self.log(f"Answers extracted: {len(answers)} found")
 
-            # Check we got all 100 questions
-            if len(questions) < 100:
-                print(f"FAILED (only {len(questions)}/100 questions extracted)")
-                return False
+            # PASS 1: Raw PDF extraction
+            questions_raw = self.extract_questions_raw(questions_pdf)
+            self.log(f"PASS 1 (RAW PDF): {len(questions_raw)} questions extracted")
+
+            # PASS 2: Intermediary extraction
+            questions_intermediary = self.extract_questions_intermediary(questions_pdf)
+            self.log(f"PASS 2 (INTERMEDIARY): {len(questions_intermediary)} questions extracted")
+
+            # Check discrepancies
+            raw_set = set(questions_raw.keys())
+            inter_set = set(questions_intermediary.keys())
+            discrepancies = raw_set.symmetric_difference(inter_set)
+            if discrepancies:
+                self.log(f"Discrepancies between passes: {sorted(discrepancies)}")
+
+            # Use the pass with more questions, or raw if equal
+            if len(questions_intermediary) > len(questions_raw):
+                best_questions = questions_intermediary
+                best_pass = "INTERMEDIARY"
+            else:
+                best_questions = questions_raw
+                best_pass = "RAW"
+
+            self.log(f"Selected {best_pass} pass ({len(best_questions)} questions)")
+
+            # If we have fewer than 100, try to fill from the other pass
+            if len(best_questions) < 100:
+                other_pass = "RAW" if best_pass == "INTERMEDIARY" else "INTERMEDIARY"
+                other_questions = questions_raw if best_pass == "INTERMEDIARY" else questions_intermediary
+                missing = set(range(1, 101)) - set(best_questions.keys())
+                filled = 0
+                for q_num in missing:
+                    if q_num in other_questions:
+                        best_questions[q_num] = other_questions[q_num]
+                        filled += 1
+                if filled > 0:
+                    self.log(f"Filled {filled} missing questions from {other_pass} pass")
 
             # Build output structure
             year, month = self.parse_exam_name(exam_name)
 
-            output = {
+            # Process PASS 1: Raw PDF
+            output_raw = {
                 "metadata": {
                     "exam_name": exam_name,
                     "year": year,
                     "month": month,
-                    "total_questions": 100,
-                    "extraction_date": datetime.now().strftime("%Y-%m-%d")
+                    "extraction_method": "raw_pdf",
+                    "extraction_date": datetime.now().strftime("%Y-%m-%d"),
+                    "total_questions_extracted": len(questions_raw)
                 },
                 "questions": []
             }
 
-            # Merge questions with answers
             for q_num in range(1, 101):
-                if q_num not in questions:
-                    print(f"FAILED (missing Q{q_num})")
-                    return False
+                if q_num in questions_raw:
+                    q_data = questions_raw[q_num].copy()
+                    q_data["correct_answer"] = answers.get(q_num, "")
+                    output_raw["questions"].append(q_data)
 
-                q_data = questions[q_num].copy()
-                q_data["correct_answer"] = answers.get(q_num, "")
+            # Process PASS 2: Intermediary
+            output_intermediary = {
+                "metadata": {
+                    "exam_name": exam_name,
+                    "year": year,
+                    "month": month,
+                    "extraction_method": "intermediary",
+                    "extraction_date": datetime.now().strftime("%Y-%m-%d"),
+                    "total_questions_extracted": len(questions_intermediary)
+                },
+                "questions": []
+            }
 
-                # Validate answer is set
-                if not q_data["correct_answer"]:
-                    print(f"FAILED (missing answer for Q{q_num})")
-                    return False
+            for q_num in range(1, 101):
+                if q_num in questions_intermediary:
+                    q_data = questions_intermediary[q_num].copy()
+                    q_data["correct_answer"] = answers.get(q_num, "")
+                    output_intermediary["questions"].append(q_data)
 
-                output["questions"].append(q_data)
+            # Write JSON for PASS 1
+            output_path_raw = self.output_dir / f"{exam_name}_raw_pdf.json"
+            try:
+                with open(output_path_raw, 'w', encoding='utf-8') as f:
+                    json.dump(output_raw, f, indent=2, ensure_ascii=False)
+                self.log(f"Written: {output_path_raw.name} ({len(questions_raw)} questions)")
+            except Exception as e:
+                self.log(f"ERROR: Failed to write {output_path_raw.name}: {e}")
+                return False
 
-            # Write JSON
-            output_path = self.output_dir / f"{exam_name}.json"
-            with open(output_path, 'w', encoding='utf-8') as f:
-                json.dump(output, f, indent=2, ensure_ascii=False)
+            # Write JSON for PASS 2
+            output_path_intermediary = self.output_dir / f"{exam_name}_intermediary.json"
+            try:
+                with open(output_path_intermediary, 'w', encoding='utf-8') as f:
+                    json.dump(output_intermediary, f, indent=2, ensure_ascii=False)
+                self.log(f"Written: {output_path_intermediary.name} ({len(questions_intermediary)} questions)")
+            except Exception as e:
+                self.log(f"ERROR: Failed to write {output_path_intermediary.name}: {e}")
+                return False
 
-            print("OK")
+            # Verify files were actually created
+            if not output_path_raw.exists() or not output_path_intermediary.exists():
+                self.log(f"ERROR: Output files not verified on disk")
+                if not self.verbose:
+                    print("FAILED (files not written)")
+                return False
+
+            msg = f"OK ({len(questions_raw)} raw, {len(questions_intermediary)} intermediary)"
+            if not self.verbose:
+                print(msg)
+            self.log(msg)
             return True
 
         except Exception as e:
-            print(f"FAILED ({e})")
+            msg = f"FAILED ({e})"
+            if not self.verbose:
+                print(msg)
+            self.log(msg)
             return False
 
     def run(self):
@@ -330,9 +492,14 @@ class ExamExtractor:
 
         if not pairs:
             print("ERROR: No exam pairs found in directories.")
+            self.log("ERROR: No exam pairs found in directories.")
             return
 
-        print(f"Found {len(pairs)} exam(s) to process.\n")
+        if not self.verbose:
+            print(f"Found {len(pairs)} exam(s) to process.\n")
+        self.log(f"Found {len(pairs)} exam(s) to process.")
+        self.log(f"Verbose mode: {self.verbose}")
+        self.log(f"Output directory: {self.output_dir}")
 
         success_count = 0
         failure_count = 0
@@ -342,7 +509,9 @@ class ExamExtractor:
             questions_pdf, answers_pdf = pairs[exam_name]
 
             if questions_pdf is None or answers_pdf is None:
-                print(f"Processing {exam_name}... FAILED (missing PDF files)")
+                msg = f"Processing {exam_name}... FAILED (missing PDF files)"
+                print(msg)
+                self.log(msg)
                 failure_count += 1
                 continue
 
@@ -351,22 +520,43 @@ class ExamExtractor:
             else:
                 failure_count += 1
 
-        print(f"\n{'='*60}")
-        print(f"SUMMARY")
-        print(f"{'='*60}")
-        print(f"Total exams: {success_count + failure_count}")
-        print(f"Successfully processed: {success_count}")
-        print(f"Failed: {failure_count}")
+        # Print summary
+        summary_lines = [
+            "",
+            f"{'='*60}",
+            "SUMMARY",
+            f"{'='*60}",
+            f"Total exams: {success_count + failure_count}",
+            f"Successfully processed: {success_count}",
+            f"Failed: {failure_count}",
+        ]
 
         # Count output files
         output_files = list(self.output_dir.glob("*.json"))
-        print(f"JSON files created: {len(output_files)}")
+        summary_lines.extend([
+            f"JSON files created: {len(output_files)}",
+        ])
 
         if output_files:
-            print(f"\nOutput directory: {self.output_dir}")
-            print("Files created:")
+            summary_lines.extend([
+                f"",
+                f"Output directory: {self.output_dir}",
+                "Files created:",
+            ])
             for f in sorted(output_files):
-                print(f"  - {f.name}")
+                summary_lines.append(f"  - {f.name}")
+
+        summary_lines.extend([
+            f"",
+            f"Logs written to: {self.log_file}",
+        ])
+
+        for line in summary_lines:
+            print(line)
+            self.log(line)
+
+        # Write all logs to file
+        self.write_logs()
 
 
 if __name__ == "__main__":
@@ -374,5 +564,8 @@ if __name__ == "__main__":
     script_dir = Path(__file__).parent
     base_dir = script_dir.parent
 
-    extractor = ExamExtractor(str(base_dir))
+    # Parse CLI arguments
+    verbose = "--verbose" in sys.argv or "-v" in sys.argv
+
+    extractor = ExamExtractor(str(base_dir), verbose=verbose)
     extractor.run()

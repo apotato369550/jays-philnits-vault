@@ -1,0 +1,826 @@
+{
+  "metadata": {
+    "exam_name": "2022_october",
+    "year": 2022,
+    "month": "october",
+    "extraction_method": "intermediary",
+    "extraction_date": "2026-02-06",
+    "total_questions_extracted": 74
+  },
+  "questions": [
+    {
+      "q_num": 1,
+      "text": "Japanese restaurants in Sapporo and Japanese restaurants in Hakodate are to be searched\nfor together. Which of the following is the logical expression that represents the search\ncondition?\na) (“Sapporo” AND “Hakodate”) AND “Japanese restaurant”\nb) (“Sapporo” AND “Hakodate”) OR “Japanese restaurant”\nc) (“Sapporo” OR “Hakodate”) AND “Japanese restaurant”\nd) (“Sapporo” OR “Hakodate”) OR “Japanese restaurant”",
+      "options": {
+        "a": "(“Sapporo” AND “Hakodate”) AND “Japanese restaurant”",
+        "b": "(“Sapporo” AND “Hakodate”) OR “Japanese restaurant”",
+        "c": "(“Sapporo” OR “Hakodate”) AND “Japanese restaurant”",
+        "d": "(“Sapporo” OR “Hakodate”) OR “Japanese restaurant”"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 2,
+      "text": "Which of the following is always true for two (2) sets A and B? Here, (X  Y)\nrepresents the set that contains only the elements that are in both X and Y (intersection\nset), and (X  Y) represents the set that contains all of the elements that are in at least\none of X or Y (union set).\na) (A  B) is a subset of the complement of (A  B).\nb) (A  B) is a subset of A.\nc) (A  B) is a subset of (A  B).\nd) (A  B) is a subset of the complement of A.",
+      "options": {
+        "a": "(A  B) is a subset of the complement of (A  B).",
+        "b": "(A  B) is a subset of A.",
+        "c": "(A  B) is a subset of (A  B).",
+        "d": "(A  B) is a subset of the complement of A."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 3,
+      "text": "Which of the following is the binary result of the multiplication of binary 1011 and\nbinary 101?\na) 1111 b) 10000 c) 101111 d) 110111\n– 3 –",
+      "options": {
+        "a": "1111",
+        "b": "10000",
+        "c": "101111",
+        "d": "110111\n– 3 –"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 4,
+      "text": "When a chairperson and a secretary are selected from three (3) candidates with a method\nthat allows dual roles, there are three (3) ways for the selection of a single chairperson\nand three (3) ways for the selection of a secretary, so in total, there are nine (9)\ncombinations for the selection of a chairperson and a secretary. When a chairperson and\na secretary are selected from five (5) candidates with a method that allows dual roles,\nhow many combinations for the selection are there?\na) 5 b) 10 c) 20 d) 25",
+      "options": {
+        "a": "5",
+        "b": "10",
+        "c": "20",
+        "d": "25"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 6,
+      "text": "Which of the following is an appropriate description concerning HTML?\na) It is a markup language that can specify the logical structure and layout of a web\npage by using tags.\nb) It is a script language that can describe the program or processing steps executed on\na web browser.\nc) It is a communication protocol that is used between a web browser and a web server.\nd) It is a markup language that enables users to describe the meaning and structure of\ndata by defining their own unique tags.",
+      "options": {
+        "a": "It is a markup language that can specify the logical structure and layout of a web\npage by using tags.",
+        "b": "It is a script language that can describe the program or processing steps executed on\na web browser.",
+        "c": "It is a communication protocol that is used between a web browser and a web server.",
+        "d": "It is a markup language that enables users to describe the meaning and structure of\ndata by defining their own unique tags."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 7,
+      "text": "Which of the following represents a processing procedure of a program graphically?\na) Gantt chart b) Data flow diagram\nc) Flowchart d) Radar chart\n– 4 –",
+      "options": {
+        "a": "Gantt chart",
+        "b": "Data flow diagram",
+        "c": "Flowchart",
+        "d": "Radar chart\n– 4 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 11,
+      "text": "Which of the following is an appropriate description concerning the primary and\nsecondary cache memory that a CPU is equipped with?\na) The primary cache memory has larger capacity than the secondary cache memory.\nb) The secondary cache memory is slower than the main memory in writing and\nreading.\nc) When the CPU reads data, it first accesses the primary cache memory, and then it\naccesses the secondary cache memory if the data is not available.\nd) All of the data that is required for a process needs to be present on the primary or\nsecondary cache memory when a program starts.",
+      "options": {
+        "a": "The primary cache memory has larger capacity than the secondary cache memory.",
+        "b": "The secondary cache memory is slower than the main memory in writing and\nreading.",
+        "c": "When the CPU reads data, it first accesses the primary cache memory, and then it\naccesses the secondary cache memory if the data is not available.",
+        "d": "All of the data that is required for a process needs to be present on the primary or\nsecondary cache memory when a program starts."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 12,
+      "text": "Which of the following is an appropriate description concerning a device driver that\nenables the use of peripheral devices with a PC?\na) When a hard disk drive is initialized and the operating system is reinstalled, it is\nnecessary to reinstall device drivers that were installed separately to the operating\nsystem.\nb) When new application software is installed, it is necessary to reinstall all device\ndrivers that this software uses.\nc) Even if a device driver is no longer required, a user cannot delete the device driver\nonce it is installed.\nd) It is only necessary to install one (1) device driver for a printer to use all printers\nregardless of manufacturer or model.",
+      "options": {
+        "a": "When a hard disk drive is initialized and the operating system is reinstalled, it is\nnecessary to reinstall device drivers that were installed separately to the operating\nsystem.",
+        "b": "When new application software is installed, it is necessary to reinstall all device\ndrivers that this software uses.",
+        "c": "Even if a device driver is no longer required, a user cannot delete the device driver\nonce it is installe",
+        "d": ""
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 13,
+      "text": "Which of the following is a chip that is used in image processing in devices such as PCs\nand smartphones, and is also used for large amount of calculation processing in AI?\na) AR b) DVI c) GPU d) MPEG\n– 6 –",
+      "options": {
+        "a": "AR",
+        "b": "DVI",
+        "c": "GPU",
+        "d": "MPEG\n– 6 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 14,
+      "text": "The system configurations A through C are made up by connecting multiple identical\ndevices. Which of the following is a list where A through C are sorted in descending\norder of availability? Here, represents a device. The parallel connection requires\nonly one (1) of the devices to be functional, while the series connection requires all\ndevices to be functional.\nA B C\na) A, B, C b) B, A, C\nc) C, A, B d) C, B, A",
+      "options": {
+        "a": "A, B, C",
+        "b": "B, A, C",
+        "c": "C, A, B",
+        "d": "C, B, A"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 16,
+      "text": "Among the methods I through III for handling multiple hard disks as one (1) logical disk,\nwhich of the following lists all and only the methods that can recover data even if one of\nthe constituent hard disks fails?\nI RAID5\nII Striping\nIII Mirroring\na) I, II b) I, II, III c) I, III d) II, III",
+      "options": {
+        "a": "I, II",
+        "b": "I, II, III",
+        "c": "I, III",
+        "d": "II, III"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 18,
+      "text": "Which of the following is an OS function that executes multiple application programs\nconcurrently on a single PC, such as when a file is downloaded from a web site while\ndata is processed with spreadsheet software?\na) Virtual reality b) Dual core\nc) Dual system d) Multitasking",
+      "options": {
+        "a": "Virtual reality",
+        "b": "Dual core",
+        "c": "Dual system",
+        "d": "Multitasking"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 22,
+      "text": "When directories d1 and d2 are placed on a web server as shown in the figure, which of\nthe following descriptions specifies the reference of the web page file f2.html on\ndirectory d2 from the web page file f1.html on directory d1 (current directory)? Here,\nthe reference method of files is as follows.\n[Reference method]\n(1) A file is referenced as “directory name /.../ directory name / file name”, where the\ndirectory names on the path are listed and separated with “ / ” in sequence, followed\nby a “ / ” and the file name.\n(2) The current directory is represented by “.”.\n(3) The directory one (1) level above is represented by “..”.\n(4) When a reference begins with a “ / ”, it is assumed that the root directory is omitted\nfrom the beginning of the reference.\nroot\nd1 d2\nf1.html f2.html\na) ./d2/f2.html b) ./f2.html\nc) ../d2/f2.html d) d2/../f2.html",
+      "options": {
+        "a": "./d2/f2.html",
+        "b": "./f2.html",
+        "c": "../d2/f2.html",
+        "d": "d2/../f2.html"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 24,
+      "text": "With regard to the colors printed by a printer, theoretically, what color is formed when\ncyan, magenta, and yellow are mixed together by subtractive color mixing?\na) Blue b) Red c) Black d) Green",
+      "options": {
+        "a": "Blue",
+        "b": "Red",
+        "c": "Black",
+        "d": "Green"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 25,
+      "text": "Which of the following is an appropriate description of raster graphics, which is a\nmethod of handling the graphics that is used as a collection of points called pixels in\npainting software?\na) It is widely used in CAD.\nb) The color and brightness can be adjusted for each pixel.\nc) The file size is constant regardless of the level of resolution.\nd) No jaggies are visible at the edges of shapes even upon enlargement.",
+      "options": {
+        "a": "It is widely used in CAD.",
+        "b": "The color and brightness can be adjusted for each pixel.",
+        "c": "The file size is constant regardless of the level of resolution.",
+        "d": "No jaggies are visible at the edges of shapes even upon enlargement."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 28,
+      "text": "Which of the following is an appropriate purpose of conducting data normalization when\na relational database is constructed?\na) Providing redundancy to data in order to detect data errors\nb) Eliminating data inconsistencies and duplications in order to make it easy to\nmaintain and manage the data\nc) Unifying the character code of data in order to improve data reliability and storage\nefficiency\nd) Losslessly compressing data in order to improve access efficiency",
+      "options": {
+        "a": "Providing redundancy to data in order to detect data errors",
+        "b": "Eliminating data inconsistencies and duplications in order to make it easy to\nmaintain and manage the data",
+        "c": "Unifying the character code of data in order to improve data reliability and storage\nefficiency",
+        "d": "Losslessly compressing data in order to improve access efficiency"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 29,
+      "text": "In a relational database, which of the following is the reason for a primary key being\nspecified?\na) To clearly indicate that something is not subject to an arithmetic operation\nb) To enable the search of the column that is specified as the primary key\nc) To prevent another table from referencing the table\nd) To enable any record in the table to be uniquely identified\n– 13 –",
+      "options": {
+        "a": "To clearly indicate that something is not subject to an arithmetic operation",
+        "b": "To enable the search of the column that is specified as the primary key",
+        "c": "To prevent another table from referencing the table",
+        "d": "To enable any record in the table to be uniquely identified\n– 13 –"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 30,
+      "text": "Which of the following is a protocol that is used for synchronization of the internal clock\nof a computer via a network with a server that holds a reference clock?\na) FTP b) NTP c) POP d) SMTP",
+      "options": {
+        "a": "FTP",
+        "b": "NTP",
+        "c": "POP",
+        "d": "SMTP"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 31,
+      "text": "Which of the following is an appropriate description of online storage?\na) A virtual private network that is established via the Internet\nb) A service that lends disk space for saving data via the Internet\nc) Software that is distributed or sold via the Internet\nd) A computer game that multiple users can simultaneously play via the Internet",
+      "options": {
+        "a": "A virtual private network that is established via the Internet",
+        "b": "A service that lends disk space for saving data via the Internet",
+        "c": "Software that is distributed or sold via the Internet",
+        "d": "A computer game that multiple users can simultaneously play via the Internet"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 32,
+      "text": "Which of the following mobile communication systems not only offers higher\ncommunication speed than LTE, but also allows more devices to connect and has less\nlag time?\na) Block chain b) MVNO\nc) 8K d) 5G",
+      "options": {
+        "a": "Block chain",
+        "b": "MVNO",
+        "c": "8K",
+        "d": "5G"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 33,
+      "text": "Which of the following is the appropriate combination of terms or phrases to be inserted\ninto blanks A and B in the description below concerning NAT?\nNAT is often used when an office or a household LAN is connected to the Internet, and\nit converts between A and B .\nA B\na) private IP addresses a MAC address\nb) private IP addresses a global IP address\nc) host names a MAC address\nd) host names a global IP address\n– 14 –",
+      "options": {
+        "a": "private IP addresses a MAC address",
+        "b": "private IP addresses a global IP address",
+        "c": "host names a MAC address",
+        "d": "host names a global IP address\n– 14 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 35,
+      "text": "Which of the following is an appropriate description concerning biometric\nauthentication?\na) If margin for error in matching with the authentication data is made larger, both the\npossibility of rejecting an authorized person and the possibility of accepting an\nunauthorized person become smaller.\nb) It eliminates the need to remember IDs and passwords for authentication, and the\nneed to carry keys or cards.\nc) It cannot be used with other authentication methods such as passwords or tokens.\nd) The effective period in which retina pattern and finger vein pattern can be used for\nauthentication is short because they change greatly over years.\n– 15 –",
+      "options": {
+        "a": "If margin for error in matching with the authentication data is made larger, both the\npossibility of rejecting an authorized person and the possibility of accepting an\nunauthorized person become smaller.",
+        "b": "It eliminates the need to remember IDs and passwords for authentication, and the\nneed to carry keys or cards.",
+        "c": "It cannot be used with other authentication methods such as passwords or tokens.",
+        "d": "The effective period in which retina pattern and finger vein pattern can be used for\nauthentication is short because they change greatly over years.\n– 15 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 36,
+      "text": "Which of the following is an explanation of spyware?\na) It is a scam where money is demanded just by viewing a web site or clicking an\nimage on it.\nb) It is a mechanism where an attacker packages attack tools such as log removal or a\nback door and hides them in a PC so that the attacker can use them after intrusion.\nc) It is a program that infects a large number of PCs and performs actions such as\nsimultaneous attacks by illegitimately operating the PCs as instructed over a\nnetwork.\nd) It is a program that is installed without the user knowing and collects information\nsuch as the user’s personal information and access history.",
+      "options": {
+        "a": "It is a scam where money is demanded just by viewing a web site or clicking an\nimage on it.",
+        "b": "It is a mechanism where an attacker packages attack tools such as log removal or a\nback door and hides them in a PC so that the attacker can use them after intrusion.",
+        "c": "It is a program that infects a large number of PCs and performs actions such as\nsimultaneous attacks by illegitimately operating the PCs as instructed over a\nnetwork.",
+        "d": "It is a program that is installed without the user knowing and collects information\nsuch as the user’s personal information and access history."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 40,
+      "text": "Which of the following is an appropriate example of activities conducted in A (Act) in\nthe organizations that operate ISMS on the basis of the PDCA model?\na) Changing the server monitoring method as a corrective action for the results of the\nbusiness operations audit\nb) Objectively evaluating the server administrator’s work details by a third party\nc) Identifying the information assets in the server room\nd) Monitoring the operation of the server according to the defined operational\nprocedure",
+      "options": {
+        "a": "Changing the server monitoring method as a corrective action for the results of the\nbusiness operations audit",
+        "b": "Objectively evaluating the server administrator’s work details by a third party",
+        "c": "Identifying the information assets in the server room",
+        "d": "Monitoring the operation of the server according to the defined operational\nprocedure"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 41,
+      "text": "It is reported that WEP suffers from the problem that ciphers are decoded in a short time.\nWhich of the following is a stronger wireless LAN encryption method?\na) ESSID b) HTTPS c) S/MIME d) WPA2\n– 17 –",
+      "options": {
+        "a": "ESSID",
+        "b": "HTTPS",
+        "c": "S/MIME",
+        "d": "WPA2\n– 17 –"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 42,
+      "text": "When a smartphone is used, which of the following is an appropriate preventive measure\nfor shoulder surfing?\na) Always using the latest OS\nb) Turning off the GPS function\nc) Affixing a privacy screen protector on the screen\nd) Attaching a strap to prevent fall and theft",
+      "options": {
+        "a": "Always using the latest OS",
+        "b": "Turning off the GPS function",
+        "c": "Affixing a privacy screen protector on the screen",
+        "d": "Attaching a strap to prevent fall and theft"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 43,
+      "text": "Which of the following is used to confirm that there is no falsification of the content of\nan e-mail?\na) IMAP b) SMTP\nc) Information security policy d) Digital signature",
+      "options": {
+        "a": "IMAP",
+        "b": "SMTP",
+        "c": "Information security policy",
+        "d": "Digital signature"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 44,
+      "text": "Which of the following is not an appropriate security control concerning human\nresources as a security risk treatment in ISMS?\na) Performing background checks and other such checks for all candidates for\nrecruitment in accordance with the relevant laws, regulations, and ethics\nb) Defining official disciplinary proceedings for employees who violate information\nsecurity, and ensuring employees’ awareness of them\nc) Requesting that all employees at a company comply with information security\naccording to organizational policies and procedures, but not making any request to\ncompanies that work is outsourced to\nd) For employees who are leaving a company, defining obligations concerning\ninformation security valid after they leave the company, informing the employees\nabout their obligations, and having them fulfill their obligations after they leave\n– 18 –",
+      "options": {
+        "a": "Performing background checks and other such checks for all candidates for\nrecruitment in accordance with the relevant laws, regulations, and ethics",
+        "b": "Defining official disciplinary proceedings for employees who violate information\nsecurity, and ensuring employees’ awareness of them",
+        "c": "Requesting that all employees at a company comply with information security\naccording to organizational policies and procedures, but not making any request to\ncompanies that work is outsourced to",
+        "d": "For employees who are leaving a company, defining obligations concerning\ninformation security valid after they leave the company, informing the employees\nabout their obligations, and having them fulfill their obligations after they leave\n– 18 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 48,
+      "text": "Which of the following is an appropriate test for a user to confirm by himself/herself\nwhether the delivered software satisfies the requirements?\na) Acceptance test b) Integration test\nc) System test d) Unit test\n– 20 –",
+      "options": {
+        "a": "Acceptance test",
+        "b": "Integration test",
+        "c": "System test",
+        "d": "Unit test\n– 20 –"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 49,
+      "text": "A company contracted to develop an accounting system and held meetings with the\ncustomer to clarify the types of required financial statements and the target processing\ntime from accounting data confirmation to the output of the financial statements. Which\nof the following is the appropriate process for this activity?\na) System test b) System requirements definition\nc) Software detailed design d) Software architecture design",
+      "options": {
+        "a": "System test",
+        "b": "System requirements definition",
+        "c": "Software detailed design",
+        "d": "Software architecture design"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 50,
+      "text": "Which of the following is an appropriate characteristic of agile development?\na) Suitable for development with a large project team\nb) Preparing detailed documents with focus on the design document\nc) Focusing on contract negotiation rather than cooperation in terms of relationship\nwith customers\nd) Flexibly responding to changes in requests as compared with waterfall development",
+      "options": {
+        "a": "Suitable for development with a large project team",
+        "b": "Preparing detailed documents with focus on the design document",
+        "c": "Focusing on contract negotiation rather than cooperation in terms of relationship\nwith customers",
+        "d": "Flexibly responding to changes in requests as compared with waterfall development"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 51,
+      "text": "Project management knowledge areas are classified into project cost management,\nproject scope management, project quality management, project risk management and\nother areas. Which of the following is an appropriate activity performed in project quality\nmanagement?\na) To define and manage necessary work procedures and the measure of performance\nlevel in order to comply with deliverable acceptance criteria\nb) To manage a project so that it can be completed within the budget\nc) To identify potential events that may have negative impact on a project, analyze\nthem, plan responses, and conduct monitoring and control\nd) To define and manage works that need to be performed for the success of a project\n– 21 –",
+      "options": {
+        "a": "To define and manage necessary work procedures and the measure of performance\nlevel in order to comply with deliverable acceptance criteria",
+        "b": "To manage a project so that it can be completed within the budget",
+        "c": "To identify potential events that may have negative impact on a project, analyze\nthem, plan responses, and conduct monitoring and control",
+        "d": "To define and manage works that need to be performed for the success of a project\n– 21 –"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 52,
+      "text": "In an arrow diagram that shows system development, if activities A and D are delayed\nfor three (3) days in total, what is the delay in the entire project?\nA D\n2 4\nB E Legend\n4 3 Activity\nC F name\n7 1\nRequired\ndays\na) 1 b) 2 c) 3 d) 4",
+      "options": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 53,
+      "text": "There are negative and positive risks in a project. Among the treatment of risks in\nscheduling, which of the following corresponds to a treatment of a positive risk?\na) Having all members receive vaccination before influenza spreads to prevent the\nmembers from not being able to work\nb) Reducing the entire project duration by carrying out tasks for creating software\nprograms in parallel when the overall cost can be reduced by advancing the schedule\nc) Securing replacement staff in advance in preparation for delay due to unexpected\nwithdrawal of staff\nd) Purchasing insurance in preparation for payment of a penalty due to delivery delay\n– 22 –",
+      "options": {
+        "a": "Having all members receive vaccination before influenza spreads to prevent the\nmembers from not being able to work",
+        "b": "Reducing the entire project duration by carrying out tasks for creating software\nprograms in parallel when the overall cost can be reduced by advancing the schedule",
+        "c": "Securing replacement staff in advance in preparation for delay due to unexpected\nwithdrawal of staff",
+        "d": "Purchasing insurance in preparation for payment of a penalty due to delivery delay\n– 22 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 55,
+      "text": "Activities in project management include project time management, project cost\nmanagement, and project human resource management, and also include project\nintegration management that coordinates those activities. In a system development\nproject, which of the following is an appropriate action in project integration\nmanagement in a case where it has been decided that the delivery should be advanced?\na) Considering a change in the sequence of tasks in order to shorten the critical path\nb) Comparing and considering a staff increase and the cost for reducing the scheduled\nduration, as well as the number of days that can be reduced\nc) Estimating the impact on the cost for a case where the scheduled duration is reduced\nd) Reviewing timings when staff members are assigned and revising the staff plan\n– 23 –",
+      "options": {
+        "a": "Considering a change in the sequence of tasks in order to shorten the critical path",
+        "b": "Comparing and considering a staff increase and the cost for reducing the scheduled\nduration, as well as the number of days that can be reduced",
+        "c": "Estimating the impact on the cost for a case where the scheduled duration is reduced",
+        "d": "Reviewing timings when staff members are assigned and revising the staff plan\n– 23 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 56,
+      "text": "When the outsourced development project of a system has passed beyond its halfway\nmark, there is a request from the outsourcer for adding a function to the system. Which\nof the following is the most appropriate action of the project manager?\na) Accepting the request and securing the budget and staff members\nb) Declining the request by explaining that changes after halfway mark are generally\nnot accepted\nc) Taking into account the impact on the cost and schedule, and following the\nprocedure of change management\nd) Quickly updating the baseline of scope since only the project scope will be affected",
+      "options": {
+        "a": "Accepting the request and securing the budget and staff members",
+        "b": "Declining the request by explaining that changes after halfway mark are generally\nnot accepted",
+        "c": "Taking into account the impact on the cost and schedule, and following the\nprocedure of change management",
+        "d": "Quickly updating the baseline of scope since only the project scope will be affected"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 58,
+      "text": "When the operation of an information system is outsourced, which of the following is\ncreated in order to agree on the quality level for the service to be provided between the\noutsourcing party and the contractor?\na) ASP b) ISP c) RFP d) SLA\n– 24 –",
+      "options": {
+        "a": "ASP",
+        "b": "ISP",
+        "c": "RFP",
+        "d": "SLA\n– 24 –"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 59,
+      "text": "Which of the following is an appropriate measure of facility management that maintains\nand protects facilities and equipment of information systems?\na) Reviewing the fuel replenishment plan in order to maintain the appropriate duration\nthat power can be generated with a private power generation system\nb) Introducing asset management software in order to manage all the company’s\nsoftware centrally\nc) Standardizing how to set a screen saver in order to prevent unauthorized use of the\nPCs\nd) Reviewing the network firewall settings in order to enhance the prevention of\nunauthorized network access to the information systems",
+      "options": {
+        "a": "Reviewing the fuel replenishment plan in order to maintain the appropriate duration\nthat power can be generated with a private power generation system",
+        "b": "Introducing asset management software in order to manage all the company’s\nsoftware centrally",
+        "c": "Standardizing how to set a screen saver in order to prevent unauthorized use of the\nPCs",
+        "d": "Reviewing the network firewall settings in order to enhance the prevention of\nunauthorized network access to the information systems"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 60,
+      "text": "Which of the following is the purpose of incident management?\na) Ensuring that activities are performed for migrating new software that is used in an\nIT service to a production environment\nb) Managing a series of activities for handling a change request about an IT service\nc) Recovering an IT service immediately when any disruption to the IT service occurs,\nand making the impact to business as small as possible\nd) Managing the information on the items that are required for providing an IT service\nand on their combinations",
+      "options": {
+        "a": "Ensuring that activities are performed for migrating new software that is used in an\nIT service to a production environment",
+        "b": "Managing a series of activities for handling a change request about an IT service",
+        "c": "Recovering an IT service immediately when any disruption to the IT service occurs,\nand making the impact to business as small as possible",
+        "d": "Managing the information on the items that are required for providing an IT service\nand on their combinations"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 61,
+      "text": "In the PDCA cycle of service level management, which of the following is implemented\nas C (Check)?\na) Providing services on the basis of the SLA\nb) Preparing an improvement plan for services on the basis of the report and review of\nservice provision results\nc) Agreeing upon the desired service quality on the basis of the service requirements\nand the service improvement plan, and preparing an SLA\nd) Monitoring and measuring the provided services, and preparing a service report\n– 25 –",
+      "options": {
+        "a": "Providing services on the basis of the SLA",
+        "b": "Preparing an improvement plan for services on the basis of the report and review of\nservice provision results",
+        "c": "Agreeing upon the desired service quality on the basis of the service requirements\nand the service improvement plan, and preparing an SLA",
+        "d": "Monitoring and measuring the provided services, and preparing a service report\n– 25 –"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 62,
+      "text": "For a system that accepts a query from a user in the input area on the web site, which of\nthe following is the most appropriate mechanism to efficiently and promptly respond to\nthe query in an interactive and automated manner?\na) Recommendation b) Chatbot\nc) Escalation d) FAQs",
+      "options": {
+        "a": "Recommendation",
+        "b": "Chatbot",
+        "c": "Escalation",
+        "d": "FAQs"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 63,
+      "text": "Which of the following is the most appropriate control on the development and\nimplementation of an information systems strategy for improving the competitiveness of\na company?\na) IT governance b) Compliance\nc) Systems audit d) Project management",
+      "options": {
+        "a": "IT governance",
+        "b": "Compliance",
+        "c": "Systems audit",
+        "d": "Project management"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 64,
+      "text": "Which of the following is an appropriate explanation of monitoring in internal control?\na) It is a process of continuously evaluating if internal control is working effectively.\nb) It is a process of promoting compliance to the laws and other regulations concerning\ninternal control.\nc) It is a process of constructing an organization for internal control.\nd) It is a process of analyzing the risks that hinder internal control.",
+      "options": {
+        "a": "It is a process of continuously evaluating if internal control is working effectively.",
+        "b": "It is a process of promoting compliance to the laws and other regulations concerning\ninternal control.",
+        "c": "It is a process of constructing an organization for internal control.",
+        "d": "It is a process of analyzing the risks that hinder internal control."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 66,
+      "text": "Which of the following refers to a technique by which several persons come together\nand give their ideas freely with prioritizing quantity over quality of ideas without\ncriticizing each other so as to solve a problem?\na) Brainstorming b) Benchmarking\nc) Role playing d) Work design",
+      "options": {
+        "a": "Brainstorming",
+        "b": "Benchmarking",
+        "c": "Role playing",
+        "d": "Work design"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 67,
+      "text": "Which of the following is the scope that the CFO, one of the positions involved in\ncorporate management, bears responsibility for?\na) Technology b) Finance c) Information d) Personnel",
+      "options": {
+        "a": "Technology",
+        "b": "Finance",
+        "c": "Information",
+        "d": "Personnel"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 68,
+      "text": "Among the phases of the PDCA cycle in corporate business operations, which of the\nfollowing measures and evaluates the status of execution of operations on the basis of\nKPI?\na) P b) D c) C d) A",
+      "options": {
+        "a": "P",
+        "b": "D",
+        "c": "C",
+        "d": "A"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 69,
+      "text": "Retail company A is teaching the general distribution process for food products in an\neasily understandable manner at elementary schools near the company’s distribution\ncenter. Which of the following is an idea behind these activities by company A?\na) CSR b) Alliance\nc) Core competence d) Corporate governance\n– 27 –",
+      "options": {
+        "a": "CSR",
+        "b": "Alliance",
+        "c": "Core competence",
+        "d": "Corporate governance\n– 27 –"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 70,
+      "text": "The table below is a part of the ingredients table of a steamed meat dumplings lunch box.\nHow many grams of meat is necessary to prepare 100 steamed meat dumplings lunch\nboxes? Here, the steamed meat dumplings lunch boxes do not contain any dish that uses\nmeat other than the steamed meat dumplings, and there is no loss of ingredients in the\npreparing process.\nProduct Quantity Unit of Ingredients Quantity of Unit of\nto be quantity to ingredients quantity of\nprepared be prepared ingredients\nSteamed 1 unit Steamed meat 5 units\nmeat dumplings\ndumplings\nRice 300 grams\nlunch box\n…\nSteamed 1 unit Dumplings 1 sheet\nmeat wrapper\ndumplings Dumplings 20 grams\nstuffing\n…\nDumplings 100 grams Meat 60 grams\nstuffing Onion 30 grams\n…\n…\na) 1,200 b) 3,000 c) 6,000 d) 30,000",
+      "options": {
+        "a": "1,200",
+        "b": "3,000",
+        "c": "6,000",
+        "d": "30,000"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 71,
+      "text": "If risk assessment is divided into three (3) processes, which of the following is the third\nprocess besides risk identification and risk evaluation?\na) Risk transfer b) Risk avoidance\nc) Risk reduction d) Risk analysis\n– 28 –",
+      "options": {
+        "a": "Risk transfer",
+        "b": "Risk avoidance",
+        "c": "Risk reduction",
+        "d": "Risk analysis\n– 28 –"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 72,
+      "text": "Which of the following is an expression that calculates operating profit?\na) (Gross profit) − (Selling, general, and administrative expense)\nb) (Sales) − (Cost of sales)\nc) (Current profits) + (Extraordinary profit) − (Extraordinary loss)\nd) (Current net profit before tax) − (Corporate tax, residential tax, and business tax)",
+      "options": {
+        "a": "(Gross profit) − (Selling, general, and administrative expense)",
+        "b": "(Sales) − (Cost of sales)",
+        "c": "(Current profits) + (Extraordinary profit) − (Extraordinary loss)",
+        "d": "(Current net profit before tax) − (Corporate tax, residential tax, and business tax)"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 73,
+      "text": "Which of the following is an appropriate example of an initiative based on the Green IT\nconcept?\na) Use of displays that reduce eye fatigue from blue LED light\nb) Installation of air shower at the server room entrance and exit\nc) Construction of backup systems in preparation for disasters\nd) Setting a policy of viewing materials on PC screens, limiting their printing on paper",
+      "options": {
+        "a": "Use of displays that reduce eye fatigue from blue LED light",
+        "b": "Installation of air shower at the server room entrance and exit",
+        "c": "Construction of backup systems in preparation for disasters",
+        "d": "Setting a policy of viewing materials on PC screens, limiting their printing on paper"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 74,
+      "text": "Which of the following is an example of a Non-Disclosure Agreement (NDA)?\na) A contract specifying the service content to be provided, which is agreed between\nthe service provider and the customer before the provision of the IT service\nb) A contract specifying that the vendor of computer equipment bears the responsibility\nof transferring the property right, and that the buyer bears the responsibility of\npaying the charges.\nc) A contract, specifying the obligation of the outsourcer and outsourcee to maintain\nconfidentiality of the secret information of a party that becomes known to the other\nparty during system development\nd) A contract specifying that an outsourcee to whom the installation of a general-\npurpose software package has been outsourced performs the task at the outsourcee’s\nown discretion and responsibility, and receives payment upon the completion of the\ntask\n– 29 –",
+      "options": {
+        "a": "A contract specifying the service content to be provided, which is agreed between\nthe service provider and the customer before the provision of the IT service",
+        "b": "A contract specifying that the vendor of computer equipment bears the responsibility\nof transferring the property right, and that the buyer bears the responsibility of\npaying the charges.",
+        "c": "A contract, specifying the obligation of the outsourcer and outsourcee to maintain\nconfidentiality of the secret information of a party that becomes known to the other\nparty during system development",
+        "d": "A contract specifying that an outsourcee to whom the installation of a general-\npurpose software package has been outsourced performs the task at the outsourcee’s\nown discretion and responsibility, and receives payment upon the completion of the\ntask\n– 29 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 76,
+      "text": "Which of the following is an international standard for environmental management\nsystems developed by ISO?\na) ISO 9000 b) ISO 14001\nc) ISO/IEC 20000 d) ISO/IEC 27000",
+      "options": {
+        "a": "ISO 9000",
+        "b": "ISO 14001",
+        "c": "ISO/IEC 20000",
+        "d": "ISO/IEC 27000"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 77,
+      "text": "Which of the following examples of the sending of e-mail is inappropriate from the\nstandpoint of the protection of personal information?\na) In responding to an e-mail asking questions about a product, you placed the e-mail\naddresses of multiple customers in the “CC” field as you want these customers to\nread the response.\nb) You created one (1) e-mail message for each of your top 10 customers with the\nlargest amount of mail-order purchases, in order to inform each customer of a\ncorresponding prize.\nc) You sent an e-mail message with information on an alumni meeting, and addressed\nthe message to the e-mail addresses of all members listed in the alumni association\ndirectory that is distributed to all members.\nd) When you were arranging a special spring exhibition, you placed the e-mail\naddresses of selected members in the “BCC” field of an e-mail message and sent\nthe message soliciting exhibits.\n– 30 –",
+      "options": {
+        "a": "In responding to an e-mail asking questions about a product, you placed the e-mail\naddresses of multiple customers in the “CC” field as you want these customers to\nread the response.",
+        "b": "You created one (1) e-mail message for each of your top 10 customers with the\nlargest amount of mail-order purchases, in order to inform each customer of a\ncorresponding prize.",
+        "c": "You sent an e-mail message with information on an alumni meeting, and addressed\nthe message to the e-mail addresses of all members listed in the alumni association\ndirectory that is distributed to all members.",
+        "d": "When you were arranging a special spring exhibition, you placed the e-mail\naddresses of selected members in the “BCC” field of an e-mail message and sent\nthe message soliciting exhibits.\n– 30 –"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 79,
+      "text": "In Company X, the experience and know-how of employees who have managed drainage\ntreatment in the facility over a long period of time is documented and accumulated, and\nthe accumulated experience and know-how is utilized on daily drainage treatment\nactivities and design of new processing equipment. Which of the following is appropriate\nas a concept of this example?\na) ERP b) SFA\nc) Supply chain management d) Knowledge management",
+      "options": {
+        "a": "ERP",
+        "b": "SFA",
+        "c": "Supply chain management",
+        "d": "Knowledge management"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 80,
+      "text": "Which of the following is a technique that analyzes the value of a product or service\nthrough the relationship between functionality and cost, and enhances that value through\nreduction in cost and increase in functionality and quality?\na) Supply chain management b) Knowledge management\nc) Value engineering d) Reverse engineering\n– 31 –",
+      "options": {
+        "a": "Supply chain management",
+        "b": "Knowledge management",
+        "c": "Value engineering",
+        "d": "Reverse engineering\n– 31 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 82,
+      "text": "Which of the following is an appropriate explanation of 3C analysis that is used to\nanalyze a business environment?\na) The analysis is performed from the three (3) perspectives of the customers, the\ncompetitors, and the company.\nb) The analysis is performed from the three (3) perspectives of last purchase date,\npurchase frequency, and purchase amount.\nc) The analysis is performed by decomposition into the three (3) elements of era, age,\nand generation.\nd) The analysis is performed by categorization into three (3) groups in descending\norder of total sales.\n– 32 –",
+      "options": {
+        "a": "The analysis is performed from the three (3) perspectives of the customers, the\ncompetitors, and the company.",
+        "b": "The analysis is performed from the three (3) perspectives of last purchase date,\npurchase frequency, and purchase amount.",
+        "c": "The analysis is performed by decomposition into the three (3) elements of era, age,\nand generation.",
+        "d": "The analysis is performed by categorization into three (3) groups in descending\norder of total sales.\n– 32 –"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 83,
+      "text": "Which of the following is an appropriate description concerning a balanced scorecard\n(BSC)?\na) It is a business management technique that converts a company or organization’s\nvision and strategy into specific actions from four (4) viewpoints (“financial\nviewpoint,” “customer viewpoint,” “business process viewpoint,” and “growth and\nlearning viewpoint”).\nb) It is an approach where the corporate activities of providing a product or service to\ncustomers are viewed as a chain of activities of procurement, development,\nmanufacturing, sales, and service that adds and builds up value and costs in a\nsequential manner and produces the final “value” for the customer.\nc) It is a business analysis technique for a company that produces and sells a wide\nvariety of products and is involved in several businesses to determine the products\nand businesses’ combination that has the most efficient and effective distribution of\nmanagement resources from a strategic perspective.\nd) It is a business strategy technique for use in the evaluation of strengths, weaknesses,\nopportunities, and threats in projects, venture businesses, and other such activities\nby organizations and individuals that perform decision making in order to achieve a\ntarget.",
+      "options": {
+        "a": "It is a business management technique that converts a company or organization’s\nvision and strategy into specific actions from four (4) viewpoints (“financial\nviewpoint,” “customer viewpoint,” “business process viewpoint,” and “growth and\nlearning viewpoint”).",
+        "b": "It is an approach where the corporate activities of providing a product or service to\ncustomers are viewed as a chain of activities of procurement, development,\nmanufacturing, sales, and service that adds and builds up value and costs in a\nsequential manner and produces the final “value” for the customer.",
+        "c": "It is a business analysis technique for a company that produces and sells a wide\nvariety of products and is involved in several businesses to determine the products\nand businesses’ combination that has the most efficient and effective distribution of\nmanagement resources from a strategic perspective.",
+        "d": "It is a business strategy technique for use in the evaluation of strengths, weaknesses,\nopportunities, and threats in projects, venture businesses, and other such activities\nby organizations and individuals that perform decision making in order to achieve a\ntarget."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 84,
+      "text": "Which of the following often uses a chart with relative market share for the horizontal\naxis and market growth rate for the vertical axis, and analyzes the strategic positioning\nof a company’s products or business?\na) ABC analysis b) PPM\nc) SWOT analysis d) Value chain analysis\n– 33 –",
+      "options": {
+        "a": "ABC analysis",
+        "b": "PPM",
+        "c": "SWOT analysis",
+        "d": "Value chain analysis\n– 33 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 85,
+      "text": "Which of the following is an appropriate purpose of Management Of Technology\n(MOT)?\na) To improve the productivity by using mathematics and natural science in business\nadministration and production management\nb) To grow a company by effectively connecting technical innovation with the business\nof the company\nc) To improve the quality of a company by ensuring that the employees put in efforts\nsystematically to improve the quality of products\nd) To improve the business process efficiency by acquiring the necessary techniques\nand knowledge from senior employees through actual business operations at the\nworkplace",
+      "options": {
+        "a": "To improve the productivity by using mathematics and natural science in business\nadministration and production management",
+        "b": "To grow a company by effectively connecting technical innovation with the business\nof the company",
+        "c": "To improve the quality of a company by ensuring that the employees put in efforts\nsystematically to improve the quality of products",
+        "d": "To improve the business process efficiency by acquiring the necessary techniques\nand knowledge from senior employees through actual business operations at the\nworkplace"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 86,
+      "text": "Which of the following is an appropriate case example that corresponds to traceability?\na) Taking advantage of the Internet and web technology for the use of computers in\neducation\nb) Outsourcing all development to an external specialized company without placing\nany development department within one’s own company\nc) Sharing knowledge and information among employees across the entire\norganization, and utilizing it effectively to improve business performance\nd) Being able to check the history from production up to sales on the basis of the labels\npasted on meat and fish products\n– 34 –",
+      "options": {
+        "a": "Taking advantage of the Internet and web technology for the use of computers in\neducation",
+        "b": "Outsourcing all development to an external specialized company without placing\nany development department within one’s own company",
+        "c": "Sharing knowledge and information among employees across the entire\norganization, and utilizing it effectively to improve business performance",
+        "d": "Being able to check the history from production up to sales on the basis of the labels\npasted on meat and fish products\n– 34 –"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 87,
+      "text": "Which of the following is a business objective that becomes possible to achieve with\n“the introduction of a POS system”?\na) Improvement in the work productivity of salespersons and organizational strength\nof the sales department\nb) Reduction in inventory volume of component parts and partly finished goods\nc) Optimization of the series of processes from procurement to manufacturing,\nshipment, and sales\nd) Improvement in the product lineup at each store and streamlining of ordering and\ninventory control",
+      "options": {
+        "a": "Improvement in the work productivity of salespersons and organizational strength\nof the sales department",
+        "b": "Reduction in inventory volume of component parts and partly finished goods",
+        "c": "Optimization of the series of processes from procurement to manufacturing,\nshipment, and sales",
+        "d": "Improvement in the product lineup at each store and streamlining of ordering and\ninventory control"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 88,
+      "text": "Which of the following is the most appropriate example of crowdfunding?\na) A company provides a service that enables use of virtual storage on the Internet.\nb) A company collects investments from a large number of persons over the Internet.\nc) A company provides monetary compensation for losses caused by cloudy and rainy\nweather.\nd) A company develops a technique for discovering desired information from within\nlarge volumes of information, with a high degree of accuracy.",
+      "options": {
+        "a": "A company provides a service that enables use of virtual storage on the Internet.",
+        "b": "A company collects investments from a large number of persons over the Internet.",
+        "c": "A company provides monetary compensation for losses caused by cloudy and rainy\nweather.",
+        "d": "A company develops a technique for discovering desired information from within\nlarge volumes of information, with a high degree of accuracy."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 90,
+      "text": "Which of the following terminologies refers to an initiative to develop unprecedented\nand innovative services by utilizing IT in the field of finance, such as a service provided\nby a bank where AI manages depositors’ assets automatically?\na) FA b) Fintech\nc) OA d) Sharing economy",
+      "options": {
+        "a": "FA",
+        "b": "Fintech",
+        "c": "OA",
+        "d": "Sharing economy"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 91,
+      "text": "Which of the following is one of the technologies used in deep learning, and represents\na mathematical model of the circuits in the human brain?\na) Content delivery network b) Storage area network\nc) Neural network d) Ubiquitous network",
+      "options": {
+        "a": "Content delivery network",
+        "b": "Storage area network",
+        "c": "Neural network",
+        "d": "Ubiquitous network"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 92,
+      "text": "Which of the following is an appropriate effect of CAD?\na) It can identify the required volume of material, and place the optimum order.\nb) It can automate production processes and remove the need for human work.\nc) It can manage the series of production processes in an integrated manner.\nd) It can reuse design data and simplify the streamlining of work.",
+      "options": {
+        "a": "It can identify the required volume of material, and place the optimum order.",
+        "b": "It can automate production processes and remove the need for human work.",
+        "c": "It can manage the series of production processes in an integrated manner.",
+        "d": "It can reuse design data and simplify the streamlining of work."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 93,
+      "text": "Which of the following is an appropriate description of “cloud computing”?\na) A communication protocol of the Internet\nb) A service model for providing computer resources\nc) A method of software development that can flexibly support changes in the\nspecification\nd) A standard of electronic data exchange that is used in electronic commercial\ntransactions\n– 36 –",
+      "options": {
+        "a": "A communication protocol of the Internet",
+        "b": "A service model for providing computer resources",
+        "c": "A method of software development that can flexibly support changes in the\nspecification",
+        "d": "A standard of electronic data exchange that is used in electronic commercial\ntransactions\n– 36 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 94,
+      "text": "Which of the following is the most appropriate term for information in large quantities\nand in diverse forms that has real-timeness and is expected to help obtain knowledge\nuseful for decision-making?\na) Big data b) Diversity\nc) Core competence d) Crowdfunding",
+      "options": {
+        "a": "Big data",
+        "b": "Diversity",
+        "c": "Core competence",
+        "d": "Crowdfunding"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 95,
+      "text": "Attempts are being made to streamline the functions and services of cities and regions\nand make them more advanced with the use of ICT in order to solve regional problems,\nand vitalize regions. Which of the following is the most appropriate term to describe\nsuch a solution for community development?\na) Capacity b) Smart city\nc) Diversity d) University",
+      "options": {
+        "a": "Capacity",
+        "b": "Smart city",
+        "c": "Diversity",
+        "d": "University"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 96,
+      "text": "Which of the following is a term for a model where through a service or mechanism\nmatching users and providers, idle assets, such as vehicles, residences, and clothes, that\nare owned by individuals or companies are lent to others, or services such as providers\ndoing shopping on behalf of another person or giving language lessons in their spare\ntime are provided?\na) Cloud computing b) Sharing economy\nc) Telework d) Work-sharing\n– 37 –",
+      "options": {
+        "a": "Cloud computing",
+        "b": "Sharing economy",
+        "c": "Telework",
+        "d": "Work-sharing\n– 37 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 97,
+      "text": "The table below shows the evaluated scores of the proposals of four (4) vendors from\nthe viewpoints of management, technology, and price. When each score of the\nmanagement viewpoint, technology viewpoint, and price viewpoint is weighted, and the\nvendor with the highest total score is selected as the supplier, which of the following\nvendors is selected?\nEvaluation item Weight Vendor A Vendor B Vendor C Vendor D\nManagement\n2 2 4 3 3\nviewpoint\nTechnology\n3 3 4 2 3\nviewpoint\nPrice viewpoint 5 4 2 4 3\na) Vendor A b) Vendor B\nc) Vendor C d) Vendor D",
+      "options": {
+        "a": "Vendor A",
+        "b": "Vendor B",
+        "c": "Vendor C",
+        "d": "Vendor D"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 98,
+      "text": "When the system life cycle is divided into the planning process, requirements definition\nprocess, development process, and operation/maintenance process, which of the\nfollowing is the appropriate process to clarify the functions of the system for the\nimplementation of business operations?\na) Planning process b) Requirements definition process\nc) Development process d) Operation/maintenance process",
+      "options": {
+        "a": "Planning process",
+        "b": "Requirements definition process",
+        "c": "Development process",
+        "d": "Operation/maintenance process"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 99,
+      "text": "At power companies, the amount of electricity consumed by each household is measured\nremotely by communicating with electrical meters that are connected to the Internet,\ninstead of measured by meter readings by a person. Which of the following is a term that\nrepresents the mechanism where a range of devices are connected to the Internet and\nutilize information in cases such as this?\na) EDI b) IoT c) ISP d) RFID\n– 38 –",
+      "options": {
+        "a": "EDI",
+        "b": "IoT",
+        "c": "ISP",
+        "d": "RFID\n– 38 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 100,
+      "text": "Which of the following are international development targets that are composed of 17\nobjectives set by the United Nations in order to achieve a sustainable world?\na) COP21 b) SDGs c) UNESCO d) WHO\n– 39 –",
+      "options": {
+        "a": "COP21",
+        "b": "SDGs",
+        "c": "UNESCO",
+        "d": "WHO\n– 39 –"
+      },
+      "correct_answer": "b"
+    }
+  ]
+}

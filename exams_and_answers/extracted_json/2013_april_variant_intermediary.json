@@ -1,0 +1,903 @@
+{
+  "metadata": {
+    "exam_name": "2013_april_variant",
+    "year": 2013,
+    "month": "april",
+    "extraction_method": "intermediary",
+    "extraction_date": "2026-02-06",
+    "total_questions_extracted": 81
+  },
+  "questions": [
+    {
+      "q_num": 1,
+      "text": "In the sales campaign for a certain product, a full-page advertisement is run a total of\nthree times in three magazines A, B, and C. When the effects expected from running\na full-page advertisement zero to three times in each of the magazines are as shown in\nthe table below, how many times should the advertisement be run in magazine A to\ngain the largest possible effect? Here, the effects of the advertisements placed in the\nindividual magazines are independent of one another, and the effects from multiple\nmagazines can be calculated by simply adding the individual effects.\nNumber of times that the Zero One Two Three\nfull-page advertisement is run times time times times\nEffect of magazine A 0 2 7 7\nEffect of magazine B 0 1 6 10\nEffect of magazine C 0 5 8 9\na) 0 b) 1 c) 2 d) 3",
+      "options": {
+        "a": "0",
+        "b": "1",
+        "c": "2",
+        "d": "3"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 2,
+      "text": "Which of the following is the appropriate meaning of the units that are shown in the\nspecifications given in brochures or catalogs?\na) “2-Tbyte hard disk” refers to a capacity of 2×1012 bytes.\nb) “9600-dpi printer” refers to a printing precision of 9600 dots/cm2.\nc) “CPU operates at a base clock of 3.3 GHz” refers to operation at a frequency of\n3.3×220 Hz.\nd) “Modem with a transmission speed of 56 kbps” refers to a minimum transmission\nspeed of 5.6×210 bits/second.\n– 2 –",
+      "options": {
+        "a": "“2-Tbyte hard disk” refers to a capacity of 2×1012 bytes.",
+        "b": "“9600-dpi printer” refers to a printing precision of 9600 dots/cm2.",
+        "c": "“CPU operates at a base clock of 3.3 GHz” refers to operation at a frequency of\n3.3×220 Hz.",
+        "d": "“Modem with a transmission speed of 56 kbps” refers to a minimum transmission\nspeed of 5.6×210 bits/secon"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 3,
+      "text": "There is a standard that can represent data in a hierarchical structure by enclosing data\nthat corresponds to attribute N with the tags <N>, which means the start, and </N>,\nwhich means the end, and then linking and nesting these tags. Company A decides to\ncomply with this standard and create a paper by using the structural rules (1) through\n(3) below. Which of the following is the appropriate header of a paper named “New\nDocument Management” that is created by Jack Smith of the Information Systems\nDepartment (I/S Department) in accordance with this standard and these structural\nrules?\n[Structural rules]\n(1) A paper is composed of a header and a body text.\n(2) The header is composed of a title and author information.\n(3) Author information is composed of a name and a department.\na) <header>\n<author info>\n<title>New Document Management\n<name>Jack Smith</name><dept>I/S Department</dept>\n</title>\n</author info>\n</header>\nb) <header>\n<title>New Document Management</title>\n<author info><name>Jack Smith</name></author info>\n<dept>I/S Department</dept>\n</header>\nc) <header>\n<title>New Document Management</title>\n<author info>\n<name>Jack Smith</name><dept>I/S Department</dept>\n</author info>\n</header>\nd) <header>\n<title>New Document Management</title>\n<name>Jack Smith\n<author info><dept>I/S Department</dept></author info>\n</name>\n</header>\n– 3 –",
+      "options": {
+        "a": "<header>\n<author info>\n<title>New Document Management\n<name>Jack Smith</name><dept>I/S Department</dept>\n</title>\n</author info>\n</header>",
+        "b": "<header>\n<title>New Document Management</title>\n<author info><name>Jack Smith</name></author info>\n<dept>I/S Department</dept>\n</header>",
+        "c": "<header>\n<title>New Document Management</title>\n<author info>\n<name>Jack Smith</name><dept>I/S Department</dept>\n</author info>\n</header>",
+        "d": "<header>\n<title>New Document Management</title>\n<name>Jack Smith\n<author info><dept>I/S Department</dept></author info>\n</name>\n</header>\n– 3 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 4,
+      "text": "Which of the following is an appropriate description concerning HTML?\na) It is a markup language that can specify the logical structure and layout of a Web\npage by using tags.\nb) It is a script language that can describe the program or processing steps executed on\na browser.\nc) It is a communication protocol that is used between a browser and a Web server.\nd) It is a markup language that enables users to describe the meaning and structure of\ndata by defining their own unique tags.",
+      "options": {
+        "a": "It is a markup language that can specify the logical structure and layout of a Web\npage by using tags.",
+        "b": "It is a script language that can describe the program or processing steps executed on\na browser.",
+        "c": "It is a communication protocol that is used between a browser and a Web server.",
+        "d": "It is a markup language that enables users to describe the meaning and structure of\ndata by defining their own unique tags."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 5,
+      "text": "Which of the following is an appropriate description concerning an applet?\na) A document file that is transmitted from a Web site and saved onto the user’s PC\nwhen the Web browser accesses the Web site\nb) A language that is used for creating a Web page\nc) A program that is downloaded from a Web server and embedded into a client\nbrowser, and then executed in the browser\nd) A language that is used for database manipulation such as data addition,\nmodification, deletion, and search",
+      "options": {
+        "a": "A document file that is transmitted from a Web site and saved onto the user’s PC\nwhen the Web browser accesses the Web site",
+        "b": "A language that is used for creating a Web page",
+        "c": "A program that is downloaded from a Web server and embedded into a client\nbrowser, and then executed in the browser",
+        "d": "A language that is used for database manipulation such as data addition,\nmodification, deletion, and search"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 7,
+      "text": "Which of the following is a DVD disc in which users can write data, but cannot rewrite\ndata?\na) DVD-R b) DVD-RAM\nc) DVD-ROM d) DVD-RW",
+      "options": {
+        "a": "DVD-R",
+        "b": "DVD-RAM",
+        "c": "DVD-ROM",
+        "d": "DVD-RW"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 8,
+      "text": "Which of the following is an appropriate characteristic of flash memory?\na) It allows high-speed access, so it is used for cache memory.\nb) Data can be written only once, so it is used for program memory.\nc) It is rewritable and nonvolatile, so it is used for USB memory or SD card.\nd) Although refresh cycles are required, it is used for main memory because of the\ncapability of rewriting data any number of times.",
+      "options": {
+        "a": "It allows high-speed access, so it is used for cache memory.",
+        "b": "Data can be written only once, so it is used for program memory.",
+        "c": "It is rewritable and nonvolatile, so it is used for USB memory or SD car",
+        "d": ""
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 9,
+      "text": "Which of the following is the correct comparison of the amount of data?\na) 1 KB < 1 MB < 1 GB < 1 TB\nb) 1 KB < 1 MB < 1 TB < 1 GB\nc) 1 KB < 1 TB < 1 MB < 1 GB\nd) 1 TB < 1 KB < 1 MB < 1 GB",
+      "options": {
+        "a": "1 KB < 1 MB < 1 GB < 1 TB",
+        "b": "1 KB < 1 MB < 1 TB < 1 GB",
+        "c": "1 KB < 1 TB < 1 MB < 1 GB",
+        "d": "1 TB < 1 KB < 1 MB < 1 GB"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 11,
+      "text": "Among the functions of client management tools, which of the following is the most\neffective function for detecting whether or not software unrelated to the business\noperations is installed on client PCs?\na) Inventory collection b) Remote operation\nc) Software distribution d) Lifecycle management",
+      "options": {
+        "a": "Inventory collection",
+        "b": "Remote operation",
+        "c": "Software distribution",
+        "d": "Lifecycle management"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 12,
+      "text": "Which of the following is an appropriate characteristic of a distributed processing\nsystem, in comparison with a centralized processing system?\na) The partial failure of a system often leads to a shutdown of the entire system.\nb) It is difficult to expand the system in line with the expansion of functions or the\nincrease in the volume of work.\nc) It is easy to protect data and ensure security.\nd) From a viewpoint of operations management, it often becomes complex to operate\nthe entire system efficiently.",
+      "options": {
+        "a": "The partial failure of a system often leads to a shutdown of the entire system.",
+        "b": "It is difficult to expand the system in line with the expansion of functions or the\nincrease in the volume of work.",
+        "c": "It is easy to protect data and ensure security.",
+        "d": "From a viewpoint of operations management, it often becomes complex to operate\nthe entire system efficiently."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 13,
+      "text": "Which of the following is the system that receives a processing request from a terminal\nvia a network and sends back the result immediately?\na) Operating system b) Online real-time system\nc) Database system d) Multimedia system\n– 6 –",
+      "options": {
+        "a": "Operating system",
+        "b": "Online real-time system",
+        "c": "Database system",
+        "d": "Multimedia system\n– 6 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 16,
+      "text": "Company A plans to make a backup copy of the data on a server, which is used for\nbusiness operations, in preparation of future hardware failures. Which of the\nfollowing is an appropriate backup plan that satisfies the backup requirements shown\nbelow?\n[Backup requirements]\n• When a server failure occurs, the data is to be restored to the state of business\noperations that were completed on the day before the failure.\n• Although the amount of data updated daily during business operations is very\nsmall in comparison with all data, the amount of retained data is large, which\nmeans that a lot of time is taken for a full backup. Therefore, a full backup\ncannot be taken from Monday through Saturday.\nBackup method Backup file storage location\nNo backup is taken from Monday The backup is transferred to an external\na) through Saturday, and a full backup is medium, which is stored at a specific\ntaken on Sundays. location.\nNo backup is taken from Monday The backup is stored in a folder inside\nb) through Saturday, and a full backup is the server in order to enable speedy\ntaken on Sundays. recovery at the time of a failure.\nA full backup is taken on Sundays, and The backup is transferred to an external\nfrom Monday through Saturday, a medium, which is stored at a specific\nc) differential backup is taken of the data location.\nthat is updated, added, or deleted after\nthe full backup.\nA full backup is taken on Sundays, and The backup is stored in a folder inside\nfrom Monday through Saturday, a the server in order to enable speedy\nd) differential backup is taken of the data recovery at the time of a failure.\nthat is updated, added, or deleted after\nthe full backup.\n– 8 –",
+      "options": {
+        "a": "through Saturday, and a full backup is medium, which is stored at a specific\ntaken on Sundays. location.\nNo backup is taken from Monday The backup is stored in a folder inside",
+        "b": "through Saturday, and a full backup is the server in order to enable speedy\ntaken on Sundays. recovery at the time of a failure.\nA full backup is taken on Sundays, and The backup is transferred to an external\nfrom Monday through Saturday, a medium, which is stored at a specific",
+        "c": "differential backup is taken of the data location.\nthat is updated, added, or deleted after\nthe full backup.\nA full backup is taken on Sundays, and The backup is stored in a folder inside\nfrom Monday through Saturday, a the server in order to enable speedy",
+        "d": "differential backup is taken of the data recovery at the time of a failure.\nthat is updated, added, or deleted after\nthe full backup.\n– 8 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 17,
+      "text": "As shown in the directory structure below, when D3 marked by an asterisk (*) is the\ncurrent directory, which of the following the appropriate directory path that can\ndesignate file A under directory D4 marked by an arrow? Here, a file is designated as\nfollows:\n[Method of file designation]\n(1) A file is referenced as “directory name\\···\\directory name\\file name”, where the\ndirectory names on the path are listed and separated with “\\” in sequence,\nfollowed by the file name.\n(2) The current directory is represented by a period “.”.\n(3) A directory that is one level higher is represented by two periods “..”.\n(4) When the path name string begins with a backslash “\\”, the root directory is\nomitted from the beginning of the string.\n(5) When the path name string does not begin with “\\”, “.”, or “..”, it is assumed\nthat “ .\\” for the current directory is omitted from the beginning of the string.\na) ..\\..\\D2\\D4\\A b) ..\\D2\\D4\\A\nc) D1\\D2\\D4\\A d) D2\\D4\\A",
+      "options": {
+        "a": "..\\..\\D2\\D4\\A",
+        "b": "..\\D2\\D4\\A",
+        "c": "D1\\D2\\D4\\A",
+        "d": "D2\\D4\\A"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 18,
+      "text": "Which of the following is the most appropriate purpose of installing a business\napplication software package instead of self-developed application software?\na) To enhance the environment of development\nb) To reduce the cost of development\nc) To acquire the knowledge of software development methods\nd) To improve the skills of application developers\n– 9 –",
+      "options": {
+        "a": "To enhance the environment of development",
+        "b": "To reduce the cost of development",
+        "c": "To acquire the knowledge of software development methods",
+        "d": "To improve the skills of application developers\n– 9 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 19,
+      "text": "Which of the following is an appropriate description concerning OSS (Open Source\nSoftware)?\na) The program is free to use for a certain trial period, but a fee is required to continue\nusing it.\nb) Modifications and derived works are allowed to be distributed under the same terms\nas the license of the original software.\nc) The copyright is waived, so any modified program can be distributed without\npermission.\nd) The program may be restricted from being used in a business, or from being used for\na specific field.",
+      "options": {
+        "a": "The program is free to use for a certain trial period, but a fee is required to continue\nusing it.",
+        "b": "Modifications and derived works are allowed to be distributed under the same terms\nas the license of the original software.",
+        "c": "The copyright is waived, so any modified program can be distributed without\npermission.",
+        "d": "The program may be restricted from being used in a business, or from being used for\na specific fiel"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 21,
+      "text": "Which of the following is an appropriate type of menu that enables users to make\nmultiple selections on common GUIs as seen in PC operating systems?\na) Check box b) Text box\nc) Pull-down menu d) Radio button\n– 10 –",
+      "options": {
+        "a": "Check box",
+        "b": "Text box",
+        "c": "Pull-down menu",
+        "d": "Radio button\n– 10 –"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 22,
+      "text": "Some sample photos of luxury women’s clothing, which were taken with a digital\ncamera in an uncompressed format, are to be provided on a shared server after image\nprocessing such as color-correction and trimming. In such a situation, which of the\nfollowing is an appropriate compression format that can be used to reduce the amount\nof image data?\na) BMP b) JPEG c) MPEG d) MP3",
+      "options": {
+        "a": "BMP",
+        "b": "JPEG",
+        "c": "MPEG",
+        "d": "MP3"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 24,
+      "text": "Which of the following is an appropriate purpose of normalizing the data of a relational\ndatabase?\na) To improve the compression ratio of data\nb) To retain the consistency of data\nc) To prevent the leakage of data\nd) To enable the simultaneous access of data\n– 12 –",
+      "options": {
+        "a": "To improve the compression ratio of data",
+        "b": "To retain the consistency of data",
+        "c": "To prevent the leakage of data",
+        "d": "To enable the simultaneous access of data\n– 12 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 25,
+      "text": "In a relational database, when (A B) and (A B) are performed on table A and\n \ntable B shown below, which of the following is an appropriate combination of the\nresulting two tables among the three tables P, Q, and R? Here, (A B) shows the\n\nunion of A and B, and (A B) shows the intersection of A and B.\n\nA B\nProduct_code Product_name Set_price Product_code Product_name Set_price\nP001 Printer 120 P003 PC 658\nP003 PC 658 P007 USB hub 628\nP007 USB hub 628 P020 USB memory 30\nP012 OA chair 142\nP019 OA desk 256\nP R\nProduct_code Product_name Set_price Product_code Product_name Set_price\nP003 PC 658 P001 Printer 120\nP007 USB hub 628 P003 PC 658\nP007 USB hub 628\nQ P012 OA chair 142\nProduct_code Product_name Set_price P019 OA desk 256\nP001 Printer 120 P020 USB memory 30\nP012 OA chair 142\nP019 OA desk 256\n(A\n\nB) (A\n\nB)\na) P R\nb) Q R\nc) R P\nd) R Q\n– 13 –",
+      "options": {
+        "a": "P R",
+        "b": "Q R",
+        "c": "R P",
+        "d": "R Q\n– 13 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 26,
+      "text": "A program in operation detected that the sales data exceeded the upper limit. As a\nresult of checking the input form, it was found that sales quantity exceeded the upper\nlimit by two digits. Which of the following is the appropriate action for the\noperations department to take toward this data?\na) Correcting the data with the approval of the head of the operations department\nb) Consulting the systems development department\nc) Discarding the data under the responsibility of the operations department\nd) Asking the requester or requesting department to check the input form",
+      "options": {
+        "a": "Correcting the data with the approval of the head of the operations department",
+        "b": "Consulting the systems development department",
+        "c": "Discarding the data under the responsibility of the operations department",
+        "d": "Asking the requester or requesting department to check the input form"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 27,
+      "text": "Which of the following is the mechanism that determines a correspondence between a\ndomain name and an IP address on the Internet?\na) DNS b) FTP c) SMTP d) Web",
+      "options": {
+        "a": "DNS",
+        "b": "FTP",
+        "c": "SMTP",
+        "d": "Web"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 28,
+      "text": "Which of the following is required to construct a LAN to connect several computers in\na room?\na) Internet b) Splitter\nc) Hub d) Modem",
+      "options": {
+        "a": "Internet",
+        "b": "Splitter",
+        "c": "Hub",
+        "d": "Modem"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 29,
+      "text": "Which of the following is placed between an internal network and an external network\nin order to prevent unauthorized access from the outside to the inside?\na) DHCP server b) Search engine\nc) Switching hub d) Firewall\n– 14 –",
+      "options": {
+        "a": "DHCP server",
+        "b": "Search engine",
+        "c": "Switching hub",
+        "d": "Firewall\n– 14 –"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 31,
+      "text": "When e-mails are sent and received between PCs on the Internet, which of the\nfollowing is an appropriate description concerning the selection of communication\nprotocols that are used between each pair of PCs and mail servers?\na) Each PC uses POP for sending e-mails and SMTP for receiving them.\nb) Each PC uses SMTP for sending e-mails and POP for receiving them.\nc) Each PC uses POP for both sending and receiving e-mails.\nd) Each PC uses SMTP for both sending and receiving e-mails.",
+      "options": {
+        "a": "Each PC uses POP for sending e-mails and SMTP for receiving them.",
+        "b": "Each PC uses SMTP for sending e-mails and POP for receiving them.",
+        "c": "Each PC uses POP for both sending and receiving e-mails.",
+        "d": "Each PC uses SMTP for both sending and receiving e-mails."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 32,
+      "text": "When the maintenance of a database is planned for employee information that includes\npersonnel information, which of the following is an appropriate item to be considered?\na) It is essential to keep employee information up to date, so administrators in each\ndepartment should be responsible for updating staff members’ items.\nb) Employee information is used for deciding personnel affairs, so managers should be\nable to check any information of all employees.\nc) The database includes employees’ private information, so access privileges should\nbe established to limit the range of available information.\nd) When checking employee information for internal projects, any employee of\nrelevant departments should be able to search for all employee information.\n– 15 –",
+      "options": {
+        "a": "It is essential to keep employee information up to date, so administrators in each\ndepartment should be responsible for updating staff members’ items.",
+        "b": "Employee information is used for deciding personnel affairs, so managers should be\nable to check any information of all employees.",
+        "c": "The database includes employees’ private information, so access privileges should\nbe established to limit the range of available information.",
+        "d": "When checking employee information for internal projects, any employee of\nrelevant departments should be able to search for all employee information.\n– 15 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 33,
+      "text": "In the PDCA (Plan, Do, Check, Act) cycle of an information security management\nsystem (ISMS), which of the following is performed during the “Act” phase?\na) Maintenance and improvement of the ISMS\nb) Establishment of the ISMS\nc) Monitoring and review of the ISMS\nd) Installation and operations of the ISMS",
+      "options": {
+        "a": "Maintenance and improvement of the ISMS",
+        "b": "Establishment of the ISMS",
+        "c": "Monitoring and review of the ISMS",
+        "d": "Installation and operations of the ISMS"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 34,
+      "text": "Which of the following is a security attack that is sent to users as a part of a program\nwith a hidden destructive function, or as a program designed to trick users into\nexecuting a malicious function?\na) DoS attack b) Dictionary attack\nc) Trojan horse d) Buffer overflow attack",
+      "options": {
+        "a": "DoS attack",
+        "b": "Dictionary attack",
+        "c": "Trojan horse",
+        "d": "Buffer overflow attack"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 35,
+      "text": "Which of the following is an appropriate description concerning the management of a\nuser ID and password in system operation?\na) A user ID should be unconditionally given to any applicant, and a password should\nbe registered by each applicant.\nb) The log-in operation should be blocked unless the user changes the password during\nperiodic intervals.\nc) Applicants should be instructed to use only passwords with eight or more characters\nlisted in the dictionary.\nd) Even if a user retires from work or moves to another organization, the user’s ID\nshould be left “as is”.",
+      "options": {
+        "a": "A user ID should be unconditionally given to any applicant, and a password should\nbe registered by each applicant.",
+        "b": "The log-in operation should be blocked unless the user changes the password during\nperiodic intervals.",
+        "c": "Applicants should be instructed to use only passwords with eight or more characters\nlisted in the dictionary.",
+        "d": "Even if a user retires from work or moves to another organization, the user’s ID\nshould be left “as is”."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 36,
+      "text": "Which of the following is a biometric authentication technique that uses a vein pattern?\na) Face authentication b) Iris authentication\nc) Voice authentication d) Palm authentication\n– 16 –",
+      "options": {
+        "a": "Face authentication",
+        "b": "Iris authentication",
+        "c": "Voice authentication",
+        "d": "Palm authentication\n– 16 –"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 37,
+      "text": "In the description below of measures against spam mail, which of the following is an\nappropriate combination of words to be inserted into blanks A and B?\nMr. C is tired of receiving spam mail, so he is trying to register the e-mail addresses,\nfrom which he wants to receive e-mails, in a A so that e-mails sent from the\ne-mail addresses registered in the A only can be B .\nA B\na) blacklist permitted\nb) blacklist denied\nc) whitelist permitted\nd) whitelist denied",
+      "options": {
+        "a": "blacklist permitted",
+        "b": "blacklist denied",
+        "c": "whitelist permitted",
+        "d": "whitelist denied"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 38,
+      "text": "Which of the following is an appropriate description concerning antivirus software?\na) A virus signature file for antivirus software is a database that contains the first 16\nbytes or 32 bytes of the code for each virus.\nb) Virus detection with antivirus software using signature files is effective for detecting\nknown viruses and identifying virus names.\nc) If the size of a file infected by a virus is the same as before the infection, the file can\nbe restored to the state before the infection by removing the virus.\nd) The method of detecting a virus by monitoring suspicious behavior identifies the\nvirus name based on the behavioral characteristics of the virus.\n– 17 –\nAnswer questions",
+      "options": {
+        "a": "A virus signature file for antivirus software is a database that contains the first 16\nbytes or 32 bytes of the code for each virus.",
+        "b": "Virus detection with antivirus software using signature files is effective for detecting\nknown viruses and identifying virus names.",
+        "c": "If the size of a file infected by a virus is the same as before the infection, the file can\nbe restored to the state before the infection by removing the virus.",
+        "d": "The method of detecting a virus by monitoring suspicious behavior identifies the\nvirus name based on the behavioral characteristics of the virus.\n– 17 –\nAnswer questions"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 39,
+      "text": "Which of the following is an appropriate test item to be performed by the integration\ntest in the software development process?\na) Connecting several PCs via a LAN cable, and testing to ensure that files can be\nshared\nb) Checking the shape of the connector on the cable that connects PCs and peripheral\ndevices, and testing to ensure that the cable can be smoothly inserted\nc) Testing to ensure that after a contract is signed with an Internet service provider,\nWeb sites can be accessed from the browser\nd) Combining two or more programs after the unit test, and testing to ensure that the\ninterface between the programs is implemented in accordance with the specifications\nand is properly interlocked",
+      "options": {
+        "a": "Connecting several PCs via a LAN cable, and testing to ensure that files can be\nshared",
+        "b": "Checking the shape of the connector on the cable that connects PCs and peripheral\ndevices, and testing to ensure that the cable can be smoothly inserted",
+        "c": "Testing to ensure that after a contract is signed with an Internet service provider,\nWeb sites can be accessed from the browser",
+        "d": "Combining two or more programs after the unit test, and testing to ensure that the\ninterface between the programs is implemented in accordance with the specifications\nand is properly interlocked"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 40,
+      "text": "It is determined that a new system is required to operate 24 hours a day, 365 days a\nyear. Which of the following is a development phase that involves making such a\ndecision?\na) Software acceptance b) Testing\nc) Programming d) Requirements definition\n– 18 –",
+      "options": {
+        "a": "Software acceptance",
+        "b": "Testing",
+        "c": "Programming",
+        "d": "Requirements definition\n– 18 –"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 41,
+      "text": "For software that started full operation on January 1 last year, the number of\nmaintenance activities was added up for each month from January to December, and\nthe result is shown in the graph below. Which of the following is the most\nappropriate set of maintenance activities corresponding to factor A in the graph?\nNumber of activities not corresponding to factor A\nNumber of activities corresponding to factor A\n– 19 –\nseitivitca\necnanetniam\nfo\nrebmuN\nerawtfos\nfo\nyraunaJ yraurbeF hcraM lirpA yaM enuJ yluJ tsuguA rebmetpeS rebotcO rebmevoN rebmeceD\na) Activities concerning a hardware upgrade that was performed in June last year\nb) Activities responding to requests for improvement of software\nc) Activities responding to initial failures of software\nd) Activities concerning data addition that is performed every April",
+      "options": {
+        "a": "Activities concerning a hardware upgrade that was performed in June last year",
+        "b": "Activities responding to requests for improvement of software",
+        "c": "Activities responding to initial failures of software",
+        "d": "Activities concerning data addition that is performed every April"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 43,
+      "text": " When system development is conducted sequentially from upstream to downstream\nprocesses, a significant amount of rework might arise in the test phase that is\nperformed by the system user. For the purpose of preventing such rework, which of\nthe following is the method that is used to create trial models in an early stage and\nclarify user requirements?\na) Object-oriented approach b) Spiral model\nc) Data oriented approach d) Prototyping",
+      "options": {
+        "a": "Object-oriented approach",
+        "b": "Spiral model",
+        "c": "Data oriented approach",
+        "d": "Prototyping"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 44,
+      "text": "The quality characteristics of software are classified into functional suitability, usability,\nperformance efficiency, compatibility, and so on. Which of the following is classified\nas usability?\na) Execution results and operations are provided based on the specifications.\nb) The mean time between failures of the software is long.\nc) The software can be executed in other operating system environments.\nd) It does not take long for users to become familiar with the software.",
+      "options": {
+        "a": "Execution results and operations are provided based on the specifications.",
+        "b": "The mean time between failures of the software is long.",
+        "c": "The software can be executed in other operating system environments.",
+        "d": "It does not take long for users to become familiar with the software."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 45,
+      "text": "A factory requests the development of the production management system to its\ninformation systems department, so the information systems department organizes a\ndevelopment project. Which of the following is the most appropriate relation between\nthe factory, which is the client in this case, and the information systems department?\na) In order to reduce the load of development activities, once the requested items have\nbeen conveyed at the beginning of the project, the factory does not communicate\nwith the information systems department.\nb) When a problem occurs in the development project, the factory participates actively,\nas a client, in solving the problem.\nc) When a specification change is requested to the information systems department, the\nfactory directly communicates the request to the person in charge of development in\nthe information systems department, and gets on-the-spot support.\nd) The information systems department is responsible for the development of the\nproduction management system, so the information systems department does not\nneed to send the progress report and quality report to the factory.\n– 20 –",
+      "options": {
+        "a": "In order to reduce the load of development activities, once the requested items have\nbeen conveyed at the beginning of the project, the factory does not communicate\nwith the information systems department.",
+        "b": "When a problem occurs in the development project, the factory participates actively,\nas a client, in solving the problem.",
+        "c": "When a specification change is requested to the information systems department, the\nfactory directly communicates the request to the person in charge of development in\nthe information systems department, and gets on-the-spot support.",
+        "d": "The information systems department is responsible for the development of the\nproduction management system, so the information systems department does not\nneed to send the progress report and quality report to the factory.\n– 20 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 46,
+      "text": "At the beginning phase of a new personnel system development project, in order to\nclarify the possible risks, the persons in charge of the planning department, personnel\ndepartment, and information systems department, who act as the project team members,\nget together and freely exchange their opinions on the apparent risks concerning the\nproject. What is such a method called?\na) Walk-through b) Critical path method\nc) Simulation d) Brainstorming",
+      "options": {
+        "a": "Walk-through",
+        "b": "Critical path method",
+        "c": "Simulation",
+        "d": "Brainstorming"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 48,
+      "text": "Which of the following is a technique that is used for creating a plan in project\nmanagement and dividing the entire project into detailed activities to represent them in\na hierarchically structured diagram?\na) DFD b) WBS\nc) State transition diagram d) Risk analysis sheet\n– 21 –",
+      "options": {
+        "a": "DFD",
+        "b": "WBS",
+        "c": "State transition diagram",
+        "d": "Risk analysis sheet\n– 21 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 49,
+      "text": "In the arrow diagram shown below, a total of 24 days are required to complete all the\nactivities. When the number of days required for activity C is reduced by three days,\nthe total number of days required for completion of all the activities can be reduced by\none day. How many days are required for activity D?\na) 6 b) 7 c) 8 d) 9",
+      "options": {
+        "a": "6",
+        "b": "7",
+        "c": "8",
+        "d": "9"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 50,
+      "text": "When the progress of a project is managed, which of the following is an appropriate\nitem to be considered?\na) The delay in progress can be corrected based on the judgment of the administrator.\nb) Qualitative items are set in the control items of progress management.\nc) Target values are set for each item in order to evaluate the progress quantitatively.\nd) A radar chart is used to facilitate the understanding of progress.",
+      "options": {
+        "a": "The delay in progress can be corrected based on the judgment of the administrator.",
+        "b": "Qualitative items are set in the control items of progress management.",
+        "c": "Target values are set for each item in order to evaluate the progress quantitatively.",
+        "d": "A radar chart is used to facilitate the understanding of progress."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 51,
+      "text": "Which of the following is the main role of a service desk?\na) Investigating and analyzing the usage status of a system to evaluate the service level\nb) Investigating the cause of a bug to improve the quality of application software\nc) Conducting interviews to collect computerization needs for future system planning\nd) Responding to inquiries, such as system failures, for enhanced user convenience\n– 22 –",
+      "options": {
+        "a": "Investigating and analyzing the usage status of a system to evaluate the service level",
+        "b": "Investigating the cause of a bug to improve the quality of application software",
+        "c": "Conducting interviews to collect computerization needs for future system planning",
+        "d": "Responding to inquiries, such as system failures, for enhanced user convenience\n– 22 –"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 52,
+      "text": "Which of the following is the purpose of an SLA that is an agreement on the service\nlevel between the IT service provider and the customer?\na) To clearly define the scope and quality of the service\nb) To clearly define the procedure for checking the service management periodically\nc) To clearly define the objectives of computerization\nd) To clearly define the education necessary for the staff",
+      "options": {
+        "a": "To clearly define the scope and quality of the service",
+        "b": "To clearly define the procedure for checking the service management periodically",
+        "c": "To clearly define the objectives of computerization",
+        "d": "To clearly define the education necessary for the staff"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 53,
+      "text": "An orientation meeting is held to explain the new functions that are to be added to the\nsystem. Mr. A, systems administrator, recommends that all the people who use the\nsystem should attend the meeting and exchange opinions. Which of the following is\nthe effect that Mr. A hopes for?\na) Verification of the correctness of algorithms\nb) Reduction of the development costs and period\nc) Increase in user awareness of participating in system development\nd) Design of white box test cases",
+      "options": {
+        "a": "Verification of the correctness of algorithms",
+        "b": "Reduction of the development costs and period",
+        "c": "Increase in user awareness of participating in system development",
+        "d": "Design of white box test cases"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 54,
+      "text": "Which of the following is an appropriate description concerning the updating of\napplication systems?\na) It takes time to examine the priority order of change requests, so changes should be\nimplemented in order of arrival.\nb) It is always necessary to record the changes in applications because they are helpful\nin investigating the cause of a failure.\nc) It is difficult to estimate the extent of an impact from changes, so all employees\nshould be informed of modifications at all times.\nd) The release to the operational environment should be conducted late at night so that\nusers are not affected.\n– 23 –",
+      "options": {
+        "a": "It takes time to examine the priority order of change requests, so changes should be\nimplemented in order of arrival.",
+        "b": "It is always necessary to record the changes in applications because they are helpful\nin investigating the cause of a failure.",
+        "c": "It is difficult to estimate the extent of an impact from changes, so all employees\nshould be informed of modifications at all times.",
+        "d": "The release to the operational environment should be conducted late at night so that\nusers are not affecte"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 55,
+      "text": "The process of IT service management consists of various activities such as incident\nmanagement, problem management, and release management. Which of the\nfollowing is the activity of problem management?\na) It was reported by several departments that e-mails were not able to be sent. The\nbackup system was started to resume the service.\nb) There was an inquiry saying that e-mails were not able to be sent. When the user\nwas asked to check the settings of the PC, the e-mail address was found to be wrong\nand the user corrected the address.\nc) A hardware fault of a server caused the mail system to fail. The faulty hardware\ncomponent was replaced, and then a verification test was conducted.\nd) The e-mail system failed. In order to analyze the root cause, the staff members of\nthe information systems department and the vendor engineers who constructed the\nsystem got together and started to collect information.",
+      "options": {
+        "a": "It was reported by several departments that e-mails were not able to be sent. The\nbackup system was started to resume the service.",
+        "b": "There was an inquiry saying that e-mails were not able to be sent. When the user\nwas asked to check the settings of the PC, the e-mail address was found to be wrong\nand the user corrected the address.",
+        "c": "A hardware fault of a server caused the mail system to fail. The faulty hardware\ncomponent was replaced, and then a verification test was conducte",
+        "d": ""
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 56,
+      "text": "In a certain company, multiple PCs are to be used on a 100-volt commercial power\nsupply available in the facility. The PCs and display monitors are connected to a\ndedicated power distribution board, and the maximum capacity of the circuit breaker is\n20 A (amperes). What is the maximum number of PCs that can operate\nsimultaneously? Here, the power consumption is 200 W (watts) per PC and 100 W\nper display monitor. A PC and a display monitor are always used as a pair.\nMoreover, the power consumption stays flat.\na) 4 b) 6 c) 10 d) 12",
+      "options": {
+        "a": "4",
+        "b": "6",
+        "c": "10",
+        "d": "12"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 59,
+      "text": "Which of the following is the process that is used to assess and review the quality of a\ncompany’s internal control performance over time?\na) Benchmarking b) Monitoring\nc) Reengineering d) Restructuring\n– 25 –\nAnswer questions",
+      "options": {
+        "a": "Benchmarking",
+        "b": "Monitoring",
+        "c": "Reengineering",
+        "d": "Restructuring\n– 25 –\nAnswer questions"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 60,
+      "text": "Which of the following is an explanation concerning a public offering of stock?\na) Management is left to management experts rather than the shareholders.\nb) Companies buy and retain each other’s shares.\nc) Through the technique of corporate acquisition, the company’s own shares and the\nshares of the acquired firm are exchanged.\nd) The unlisted shares of one’s company are circulated in the securities market.\n– 26 –",
+      "options": {
+        "a": "Management is left to management experts rather than the shareholders.",
+        "b": "Companies buy and retain each other’s shares.",
+        "c": "Through the technique of corporate acquisition, the company’s own shares and the\nshares of the acquired firm are exchange",
+        "d": ""
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 62,
+      "text": "Which of the following is an appropriate example of how to use diagrams or charts?\na) A cause and effect diagram is used to show the relationship between the cost and\nperformance of CPUs.\nb) A Gantt chart is used to show the order of telephone contacts at the time of a system\nfailure on non-working days.\nc) A scatter diagram is used to understand the cause of product quality deterioration.\nd) A flowchart is used to show the procedure for purchasing goods.",
+      "options": {
+        "a": "A cause and effect diagram is used to show the relationship between the cost and\nperformance of CPUs.",
+        "b": "A Gantt chart is used to show the order of telephone contacts at the time of a system\nfailure on non-working days.",
+        "c": "A scatter diagram is used to understand the cause of product quality deterioration.",
+        "d": "A flowchart is used to show the procedure for purchasing goods."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 64,
+      "text": "A set of PC LAN equipment with a purchase price of 10,000 dollars is to be used on a\nfive-year lease. When the lease rate is 2%, what is the total leasing expense in\ndollars? Here, the lease rate is shown as a proportion of the monthly lease fee to the\npurchase price.\na) 11,200 b) 11,400 c) 12,000 d) 12,400",
+      "options": {
+        "a": "11,200",
+        "b": "11,400",
+        "c": "12,000",
+        "d": "12,400"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 65,
+      "text": "Which of the following can be classified as a trade secret from a viewpoint of\npreventing unfair competition?\na) Information about a personal scandal involving a company executive\nb) Information about technology under development, which is marked as “Strictly\nConfidential” and circulated throughout the company\nc) Information about a production method that is not publicly known, which is marked\nas “Confidential” and stored in a locked cabinet\nd) A commercially available book which describes how to sell a company’s products\neffectively",
+      "options": {
+        "a": "Information about a personal scandal involving a company executive",
+        "b": "Information about technology under development, which is marked as “Strictly\nConfidential” and circulated throughout the company",
+        "c": "Information about a production method that is not publicly known, which is marked\nas “Confidential” and stored in a locked cabinet",
+        "d": "A commercially available book which describes how to sell a company’s products\neffectively"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 66,
+      "text": "Which of the following is an explanation of free software?\na) It can be installed on any number of computers without limitation in a predetermined\nlocation of use.\nb) It requires the users to pay predetermined charges to the developer if it continues to\nbe used after a certain period of free trial.\nc) It is commercially available and permitted to be installed on one or more computers.\nd) It is provided without charge, and can be modified, copied, and distributed without\nrestriction under the license agreement.\n– 29 –",
+      "options": {
+        "a": "It can be installed on any number of computers without limitation in a predetermined\nlocation of use.",
+        "b": "It requires the users to pay predetermined charges to the developer if it continues to\nbe used after a certain period of free trial.",
+        "c": "It is commercially available and permitted to be installed on one or more computers.",
+        "d": "It is provided without charge, and can be modified, copied, and distributed without\nrestriction under the license agreement.\n– 29 –"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 67,
+      "text": "Which of the following is an explanation of a volume license agreement on software?\na) It is an agreement in which a master copy of software is provided to customers,\nincluding companies, who purchase the software in high volume, and the number of\npermitted installations is defined in advance.\nb) It is an agreement in which the location of use is restricted to a specified facility, and\nthe software can be used without limiting the number of computers or users in the\nfacility.\nc) It is an agreement in which the use of software is permitted by accepting the terms\nand conditions of the contract displayed on the screen when the software is\ndownloaded from the Internet.\nd) It is an agreement in which standard licensing conditions are defined and a license\nagreement is automatically considered to be concluded between the right holder and\nthe purchaser when a certain amount of package is unwrapped.",
+      "options": {
+        "a": "It is an agreement in which a master copy of software is provided to customers,\nincluding companies, who purchase the software in high volume, and the number of\npermitted installations is defined in advance.",
+        "b": "It is an agreement in which the location of use is restricted to a specified facility, and\nthe software can be used without limiting the number of computers or users in the\nfacility.",
+        "c": "It is an agreement in which the use of software is permitted by accepting the terms\nand conditions of the contract displayed on the screen when the software is\ndownloaded from the Internet.",
+        "d": "It is an agreement in which standard licensing conditions are defined and a license\nagreement is automatically considered to be concluded between the right holder and\nthe purchaser when a certain amount of package is unwrappe"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 68,
+      "text": "In e-commerce using public key cryptography, which of the following is created by the\nCA (Certification Authority) that is a third-party organization independent from the\nparties involved in the transaction?\na) Digital signature of the parties involved in the transaction\nb) Electronic certificate for private keys of the parties involved in the transaction\nc) Electronic certificate for public keys of the parties involved in the transaction\nd) Passwords for the parties involved in the transaction\n– 30 –",
+      "options": {
+        "a": "Digital signature of the parties involved in the transaction",
+        "b": "Electronic certificate for private keys of the parties involved in the transaction",
+        "c": "Electronic certificate for public keys of the parties involved in the transaction",
+        "d": "Passwords for the parties involved in the transaction\n– 30 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 69,
+      "text": "Company S purchases equipment from Company K by using the procedure shown in\nthe diagram below. In this transaction procedure, which of the following is the point\nat which the sales contract is concluded? Here, once the quotation is provided, the\ncontent of the transaction does not change throughout the procedure.\na) A b) B c) C d) D",
+      "options": {
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "D"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 70,
+      "text": "Which of the following can be classified as “personal information” from a viewpoint of\nthe protection of personal information?\na) Corporate name, telephone number, address, and such other information that can be\nused to identify a specific company\nb) A report summarizing only the responses from questionnaires returned in signed\nforms\nc) A master copy of the customer information file that contains name, date of birth, and\naddress\nd) A table showing both the number of customers grouped by age bracket and the sales\namount in each bracket\n– 31 –",
+      "options": {
+        "a": "Corporate name, telephone number, address, and such other information that can be\nused to identify a specific company",
+        "b": "A report summarizing only the responses from questionnaires returned in signed\nforms",
+        "c": "A master copy of the customer information file that contains name, date of birth, and\naddress",
+        "d": "A table showing both the number of customers grouped by age bracket and the sales\namount in each bracket\n– 31 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 72,
+      "text": "Which of the following is a form of farming out all or most of the information system\ndevelopment, operations, and maintenance work to an external specialized company\nfor the purpose of reducing information system costs?\na) Outsourcing b) System integration\nc) Housing d) Hosting",
+      "options": {
+        "a": "Outsourcing",
+        "b": "System integration",
+        "c": "Housing",
+        "d": "Hosting"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 73,
+      "text": "Cross licensing is a way of using a company’s own patents effectively. Which of the\nfollowing is an appropriate explanation of the right to execute the patent in cross\nlicensing?\na) The company grants an exclusive license of a patent to an authorized party.\nb) An authorized party, who is granted the right to execute the patent, grants it to a third\nparty.\nc) Two patent-holding companies mutually grant the right to execute their patents to\neach other.\nd) Multiple companies centralize the management of their own patents at a single place\nand grant the licenses to the participating companies including those that do not own\na patent.",
+      "options": {
+        "a": "The company grants an exclusive license of a patent to an authorized party.",
+        "b": "An authorized party, who is granted the right to execute the patent, grants it to a third\nparty.",
+        "c": "Two patent-holding companies mutually grant the right to execute their patents to\neach other.",
+        "d": "Multiple companies centralize the management of their own patents at a single place\nand grant the licenses to the participating companies including those that do not own\na patent."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 74,
+      "text": "Among the forms of e-commerce, which of the following is the form in which\nconsumers purchase products from individuals, including transactions conducted at an\nauction site, other than manufacturers and retail stores?\na) B to B b) B to C c) B to G d) C to C\n– 33 –",
+      "options": {
+        "a": "B to B",
+        "b": "B to C",
+        "c": "B to G",
+        "d": "C to C\n– 33 –"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 75,
+      "text": "Among the sales techniques for attracting customers, which of the following is an\nappropriate example of cross selling?\na) Recommending the use of business class to a customer requesting an economy-class\nticket\nb) Recommending the purchase of a new type of car to a customer who needs an\ninspection of the customer’s own car\nc) Recommending the purchase of a single-lens reflex camera to a customer requesting\na compact camera\nd) Recommending the purchase of ski-wear to a customer who buys skis",
+      "options": {
+        "a": "Recommending the use of business class to a customer requesting an economy-class\nticket",
+        "b": "Recommending the purchase of a new type of car to a customer who needs an\ninspection of the customer’s own car",
+        "c": "Recommending the purchase of a single-lens reflex camera to a customer requesting\na compact camera",
+        "d": "Recommending the purchase of ski-wear to a customer who buys skis"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 76,
+      "text": "A company decided to perform an investigation of the items shown in the analysis table\nbelow in comparison with other companies in the same industry handling the same\nkinds of products, and completed the table. There are five evaluation levels, with 5\nbeing the highest. As a result of an overall evaluation, what is this company’s rank\nfrom the top?\nThis Company Company Company\nWeight\ncompany A B C\nPrice 5 4 2 4 5\nProduct quality 2 2 3 5 4\nBrand power 3 3 4 1 3\nSelling power 4 4 5 3 2\nSales cost 1 5 2 2 3\na) 1 b) 2 c) 3 d) 4\n– 34 –",
+      "options": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4\n– 34 –"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 77,
+      "text": "Which of the following is the most appropriate meaning of “de facto standard”?\na) Standards for industrial products defined as national industry standards in each\ncountry\nb) Standards for industrial and scientific technologies defined by the ISO (International\nOrganization for Standardization)\nc) Specifications which were originally adopted by a particular company or group and\nare currently in wide-spread use as practical industry standards\nd) Specifications applied anywhere in the world, rather than standards limited to a\nparticular country, region, or company",
+      "options": {
+        "a": "Standards for industrial products defined as national industry standards in each\ncountry",
+        "b": "Standards for industrial and scientific technologies defined by the ISO (International\nOrganization for Standardization)",
+        "c": "Specifications which were originally adopted by a particular company or group and\nare currently in wide-spread use as practical industry standards",
+        "d": "Specifications applied anywhere in the world, rather than standards limited to a\nparticular country, region, or company"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 80,
+      "text": "Which of the following is a product that can take advantage of the cell production\nsystem where a single worker or a small team of workers has responsibility for\nassembling each product from the beginning to the end?\na) A product which requires mass production to increase productivity\nb) A product whose specifications do not change over the long term\nc) A product which requires wide variation and flexible production\nd) A product which requires the division of labor based on standardization,\nsimplification, or specialization",
+      "options": {
+        "a": "A product which requires mass production to increase productivity",
+        "b": "A product whose specifications do not change over the long term",
+        "c": "A product which requires wide variation and flexible production",
+        "d": "A product which requires the division of labor based on standardization,\nsimplification, or specialization"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 81,
+      "text": "Which of the following is an appropriate description in comparison of how to\nsafeguard IC cards and magnetic cards against forgery?\na) An IC card is more robust against forgery than a magnetic card, because the IC card\nprovides the features of storing and encrypting information in the IC chip.\nb) An IC card is more robust against forgery than a magnetic card, because the IC card\nuses a two-dimensional code for information recording.\nc) A magnetic card is more robust against forgery than an IC card, because the\nmagnetic card stores information on a magnetic stripe and has a more complicated\ndata protection mechanism.\nd) A magnetic card is more robust against forgery than an IC card, because the\nmagnetic card uses a bar code for information recording.\n– 36 –",
+      "options": {
+        "a": "An IC card is more robust against forgery than a magnetic card, because the IC card\nprovides the features of storing and encrypting information in the IC chip.",
+        "b": "An IC card is more robust against forgery than a magnetic card, because the IC card\nuses a two-dimensional code for information recording.",
+        "c": "A magnetic card is more robust against forgery than an IC card, because the\nmagnetic card stores information on a magnetic stripe and has a more complicated\ndata protection mechanism.",
+        "d": "A magnetic card is more robust against forgery than an IC card, because the\nmagnetic card uses a bar code for information recording.\n– 36 –"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 83,
+      "text": "Which of the following is a type of cash card which can be used for real-time settlement\nthat withdraws the transaction amount directly from the customer’s bank account?\na) Credit card b) Debit card\nc) Prepaid card d) Point card",
+      "options": {
+        "a": "Credit card",
+        "b": "Debit card",
+        "c": "Prepaid card",
+        "d": "Point card"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 84,
+      "text": "Which of the following is the system that is housed in home electric appliances, such\nas rice cookers and air conditioners, and is used to implement the specific functions of\nsuch appliances?\na) Expert system b) Enterprise system\nc) Embedded system d) Simplex system\n– 37 –",
+      "options": {
+        "a": "Expert system",
+        "b": "Enterprise system",
+        "c": "Embedded system",
+        "d": "Simplex system\n– 37 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 85,
+      "text": "In the operations of an SFA (Sales Force Automation) system that is aimed at\nsupporting sales activities and strengthening management, which of the following is\nthe most appropriate information that must be managed?\na) Information about the number of visits to each customer, the progress status of\nbusiness talks, and the status of business transactions\nb) Information about the skills, record of attended trainings, and business goals and\nattainment level of each employee\nc) Information about the date and time of sales, sales quantity, and sales amount of\neach product\nd) Information about the production plan, components and required quantity, and\ninventory of each product",
+      "options": {
+        "a": "Information about the number of visits to each customer, the progress status of\nbusiness talks, and the status of business transactions",
+        "b": "Information about the skills, record of attended trainings, and business goals and\nattainment level of each employee",
+        "c": "Information about the date and time of sales, sales quantity, and sales amount of\neach product",
+        "d": "Information about the production plan, components and required quantity, and\ninventory of each product"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 86,
+      "text": "Which of the following is a set of activities that clarifies the target business operations,\ncost, schedule, organizational structure, investment effect, and such other factors of\ndevelopment, based on the information strategy?\na) Operational activities b) Development activities\nc) Planning activities d) Maintenance activities",
+      "options": {
+        "a": "Operational activities",
+        "b": "Development activities",
+        "c": "Planning activities",
+        "d": "Maintenance activities"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 87,
+      "text": "Which of the following is a modeling technique that is used for analyzing business\noperations and system from the viewpoint of the flow of data which is exchanged\nbetween processes?\na) BPR b) DFD c) MRP d) WBS",
+      "options": {
+        "a": "BPR",
+        "b": "DFD",
+        "c": "MRP",
+        "d": "WBS"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 88,
+      "text": "Which of the following is an advantage of outsourcing system operations?\na) The company can decide to resume its own system operations as before at any time.\nb) The company’s information systems department can focus on business operations\nsuch as planning and development.\nc) It becomes easier for the company to recognize problems in information systems.\nd) It becomes easier for the company to take measures against troubles on its own.\n– 38 –\nAnswer questions A through C, each of which has four questions.\nQuestion A Read the following description concerning the method for selecting the\nmodel of an office machine, and then answer the four questions.\nMr. F was instructed by his supervisor to create the study material for selecting the\nmodel of an office machine to be used within the department in accordance with the\nselection requirements shown below.\n[Selection requirements]\n(1) Any one model is selected from four similar models (models A through D).\n(2) There are three evaluation items: price, performance, and service. A weighting\nfactor of 1 through 5 is given in consideration of the importance of each\nevaluation item.\n(3) The evaluated value of each evaluation item is decided for each model. The\nevaluation value is any number from 1 through 9.\n(4) The overall evaluated value is calculated from the weighting factor and evaluated\nvalue of each evaluation item, and the model with the largest overall evaluated\nvalue is selected.\nMr. F carried out his study by creating the evaluation table shown in Table 1. In this\ncase, the overall evaluated value of model A is calculated by the formula shown below.\nThe similar formula is used for models B through D as well.\nOverall evaluated value of model A = w1×a1+w2×a2+w3×a3\nThe meaning of each symbol is as follows:\nw1 through w3: A weighting factor of each evaluation item of price, performance,\nand service\na1 through a3: Each evaluated value of the price, performance, and service of\nmodel A\nTable 1 Evaluation table\nEvaluation Weighting\nModel A Model B Model C Model D\nitem factor\nPrice w1 a1 b1 c1 d1\nPerformance w2 a2 b2 c2 d2\nService w3 a3 b3 c3 d3\n– 39 –\n[Strategy]",
+      "options": {
+        "a": "The company can decide to resume its own system operations as before at any time.",
+        "b": "The company’s information systems department can focus on business operations\nsuch as planning and development.",
+        "c": "It becomes easier for the company to recognize problems in information systems.",
+        "d": "It becomes easier for the company to take measures against troubles on its own.\n– 38 –\nAnswer questions A through C, each of which has four questions.\nQuestion A Read the following description concerning the method for selecting the\nmodel of an office machine, and then answer the four questions.\nMr. F was instructed by his supervisor to create the study material for selecting the\nmodel of an office machine to be used within the department in accordance with the\nselection requirements shown below.\n[Selection requirements]\n(1) Any one model is selected from four similar models (models A through D).\n(2) There are three evaluation items: price, performance, and service. A weighting\nfactor of 1 through 5 is given in consideration of the importance of each\nevaluation item.\n(3) The evaluated value of each evaluation item is decided for each model. The\nevaluation value is any number from 1 through 9.\n(4) The overall evaluated value is calculated from the weighting factor and evaluated\nvalue of each evaluation item, and the model with the largest overall evaluated\nvalue is selecte"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 89,
+      "text": "With respect to the weighting factor of each evaluation item, Mr. F was instructed by\nhis supervisor that the same weighting factor is set to both price and performance and a\nhigher weighting factor than service is set to performance. Based on this instruction,\nMr. F created Table 2 shown below in order to relatively compare the weighting factor\nof each evaluation item. Which of the following is an appropriate combination of the\nsettings for the weighting factor of each evaluation item so that the conditions of Table\n2 can be satisfied?\nTable 2 Relative comparison of the evaluation items\nEvaluation item Comparison Evaluation item\nPrice = Performance\nPrice > Service\nPerformance > Service\nPrice Performance Service\na) 1 1 2\nb) 1 2 2\nc) 3 3 1\nd) 4 3 3\n– 40 –\n[Technology]",
+      "options": {
+        "a": "1 1 2",
+        "b": "1 2 2",
+        "c": "3 3 1",
+        "d": "4 3 3\n– 40 –\n[Technology]"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 90,
+      "text": "Upon receiving the instruction for setting the evaluated value from the supervisor, Mr.\nF compared the relative merits for every two models of the models A through D based\non all combinations, with respect to each evaluation item of price, performance, and\nservice, before determining the evaluated value. The results are shown in Table 3.\nOne row of the table indicates the result of a single comparison. What is the total\nnumber of comparisons required to complete the table?\nTable 3 Relative merits of all combinations of every two models\nfrom models A through D\nEvaluation item Model Comparison Model\nModel A = Model B\nModel A > Model C\nPrice Model A < Model D\nModel B > Model C\n– 41 –\n… … …\nPerformance … … …\nService … … …\na) 6 b) 9 c) 18 d) 32\n[Strategy]",
+      "options": {
+        "a": "6",
+        "b": "9",
+        "c": "18",
+        "d": "32\n[Strategy]"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 92,
+      "text": "Mr. F asked his supervisor to review the evaluated values of the evaluation table\nproposal that he created, and finally created the study material by using the evaluation\ntable shown in Table 6 below. Under these circumstances, which of the following is\nthe model that is selected in accordance with the selection requirements?\nTable 6 Evaluation table\nEvaluation Weighting\nModel A Model B Model C Model D\nitem factor\nPrice 2 7 7 5 5\nPerformance 2 6 3 3 7\nService 1 5 7 8 4\na) Model A b) Model B c) Model C d) Model D\n– 43 –\nQuestion B Read the following description concerning the acceptance test of a system,\nand then answer the four questions.\nIn Company A, a corporate training service company, the development of a training\napplication entry system (hereinafter, training system) with the training service outline\nmentioned below as requirements was outsourced to a software vendor. Company A’s\nadministrative staff member, Mr. B, was in charge of the acceptance test of the training\nsystem. During the acceptance test, as shown in the training service outline, the\ntraining course shown in Table 1 is used as the test data.\n[Training service outline]\n(1) The training applications are handled collectively by the persons in charge of\napplications in the client companies. There are two types of client companies:\nmember companies and non-member companies.\n(2) The training charges differ depending on the training course; that is, there are two\ntypes of courses: one type of course for which in addition to the tuition fee, the\ncost of textbooks is charged, and the other type of course for which the cost of\ntextbooks is not charged.\n(3) On the first business day of the next month of the lecture day, a detailed invoice\nmentioning the tuition fee of the previous month and the cost of the textbooks is\ncreated for each person in charge of applications, and sent to the client company\nas training charges.\n(4) Applicants who were not present on the lecture day without having canceled the\napplication before three business days prior to the lecture day (not including the\nlecture day) are handled as absentees, and the tuition fee is charged without\ncharging the cost of textbooks. However, applicants who canceled the\napplication before three business days prior to the lecture day are handled as\ncanceled applicants, and are charged neither the tuition fee nor the cost of\ntextbooks.\n(5) A discount is applicable to the tuition fee under the conditions (i) through (iii)\nbelow. The discount is not applicable to the cost of textbooks. The discount\nprocess of the tuition fee is performed when the detailed invoice is prepared.\n(i) Member applicants receive a discount of 10% on the tuition fee.\n(ii) If an applicant is charged for several courses opening in the same month, the\napplicant receives a discount of 10% on the tuition fee of each course.\n(iii) When both conditions (i) and (ii) are applicable, a discount of 20% is\noffered on the tuition fee of each course.\n– 44 –\nTable 1 Training course table\nTuition fee Cost of textbooks\nTraining course name Lecture date\n(dollars) (dollars)\nCourse P September 04 100 20\nCourse Q September 17 80 20\nCourse R September 25 200 No charge\nCourse S October 02 150 15\n[Technology]",
+      "options": {
+        "a": "Model A",
+        "b": "Model B",
+        "c": "Model C",
+        "d": "Model D\n– 43 –\nQuestion B Read the following description concerning the acceptance test of a system,\nand then answer the four questions.\nIn Company A, a corporate training service company, the development of a training\napplication entry system (hereinafter, training system) with the training service outline\nmentioned below as requirements was outsourced to a software vendor. Company A’s\nadministrative staff member, Mr. B, was in charge of the acceptance test of the training\nsystem. During the acceptance test, as shown in the training service outline, the\ntraining course shown in Table 1 is used as the test dat"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 93,
+      "text": "In order to prepare the test data concerning the discount application function, Mr. B\nprepared and arranged the discount application table shown in Table 2. Which of the\nfollowing is an appropriate description to be inserted into blank A in the discount\napplication table? Here, the top two rows of the discount application table are the\nconditions for the application of discount. “Y” is described for “Yes,” and “N” is\ndescribed for “No.” The discount rate on the tuition fee, which is applied when the\ntwo conditions in the same column are met together, is described in the third row of the\nsame column.\nTable 2 Discount application table\nIs it a member company? Y Y N N\nAre two or more courses charged in the same month? Y N Y N\nDiscount rate (%) on tuition fee\na) b)\n0 10 10 20 10 10 10 20\nc) d)\n20 10 10 0 20 10 10 10\n– 45 –\n[Management]",
+      "options": {
+        "a": "",
+        "b": "0 10 10 20 10 10 10 20",
+        "c": "",
+        "d": "20 10 10 0 20 10 10 10\n– 45 –\n[Management]"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 95,
+      "text": "In order to ensure that the detailed invoices can be created correctly, Mr. B prepared\ntest data No.1 through No.4 shown in Table 3. Which of the following is an\nappropriate combination of numbers to be inserted into blanks B and C in the\ndescriptions (1) and (2) below as the items that can be checked using the test data?\nTable 3 Test data\nDate of Member/ Billed\nCompany Lecture Registration/ Presence/\nNo. application/ Non administrative Applicant\nname course Cancellation Absence\nDate of change member staff\nHelen\n1 August 04 Company M Member Tom Johnson Course P Registered Present\nMerrill\nPeter\n2 September 02 Company M Member Tom Johnson Course Q Registered Absent\nPotter\nHelen\n3 September 01 Company M Member Tom Johnson Course Q Registered Present\nMerrill\nNon Jack\n4 August 04 Company N Susan Miller Course R Registered Absent\nmember Smith\n(1) If the data of No. 1 and No. B is used, it can be confirmed that a\ndiscount on the tuition fee is applied when a member applicant attends several\nlectures in the same month.\n(2) If the data of No. C is used, it can be confirmed that the cost of\ntextbooks is not charged in the case of absence.\nB C\na) 2 4\nb) 2 3\nc) 3 2\nd) 3 4\n– 47 –\n[Management]",
+      "options": {
+        "a": "2 4",
+        "b": "2 3",
+        "c": "3 2",
+        "d": "3 4\n– 47 –\n[Management]"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 96,
+      "text": "Mr. B tested the charged amount for cancellation of the application and absence.\nWhen the acceptance test cases below were performed, which of the following is the\nappropriate combination of the amount charged to each applicant? Here, Company A\nis working on days other than holidays, and the course is opened on a business day.\nThe calendar for September is as shown in Fig. 1.\nSunday Monday Tuesday Wednesday Thursday Friday Saturday\n1 2 3 4 5 6\n7 8 9 10 11 12 13\n14 15 16 17 18 19 20\n21 22 23 24 25 26 27\n28 29 30\nNote: The shaded days are holidays.\nFig. 1 Calendar for September\n[Acceptance test cases]\n(1) Ms. Angela Wood and Mr. Ted Jones belong to member companies, and Ms.\nBetty Goodwin belongs to a non-member company.\n(2) All three have applied for one course each opening in September.\n(3) Ms. Angela Wood applied for course Q, but canceled it on September 12.\n(4) Ms. Betty Goodwin applied for course R, but canceled it on September 19.\n(5) Mr. Ted Jones applied for course Q, but was absent on the day.\nAngela Wood Betty Goodwin Ted Jones\na) 72 dollars No charge 72 dollars\nb) 92 dollars 200 dollars 100 dollars\nc) 92 dollars No charge 92 dollars\nd) No charge No charge 92 dollars\n– 48 –\nQuestion C Read the following description concerning the creation of a request for\nproposal (hereinafter, RFP), and then answer the four questions.\nA trading company called Company P has its presence in several buildings. In order to\nimprove business efficiency, the office is to be integrated into a single location. In order\nto achieve this, an office integration project was started, and Mr. A was appointed as the\nproject leader of the general affairs department. Under the guidance of Mr. A, a\nsecond-year employee Mr. B was appointed as the responsible person for installation of a\nmeeting room reservation system (hereinafter, reservation system) used for reserving a\nmeeting room from among the several meeting rooms. Mr. B collected the requirements\nfor the reservation of a meeting room.\n[Requirements for the reservation of a meeting room]\n(1) Company P has several departments, such as the sales department, general affairs\ndepartment, accounting department, and information systems department, and a\nmeeting room has been provided for each department until now. After\nintegration, the meeting rooms are shared and used among several departments.\n(2) There are two types of meeting rooms: one type of meeting room for general\npurpose and the other type of meeting room for visitors.\n(3) All employees can reserve a meeting room for general purpose.\n(4) The possibility of reserving the meeting room for visitors is judged based on the\nposition of employees. The judgment criteria are currently undecided.\nThe creation of an RFP for the reservation system is to be taken up under the office\nintegration project. Mr. B was instructed by Mr. A to create this RFP, and was explained\nabout the author of the RFP, the points to be mentioned, and the place of submitting the\nRFP.\n– 49 –\n[Strategy]",
+      "options": {
+        "a": "72 dollars No charge 72 dollars",
+        "b": "92 dollars 200 dollars 100 dollars",
+        "c": "92 dollars No charge 92 dollars",
+        "d": "No charge No charge 92 dollars\n– 48 –\nQuestion C Read the following description concerning the creation of a request for\nproposal (hereinafter, RFP), and then answer the four questions.\nA trading company called Company P has its presence in several buildings. In order to\nimprove business efficiency, the office is to be integrated into a single location. In order\nto achieve this, an office integration project was started, and Mr. A was appointed as the\nproject leader of the general affairs department. Under the guidance of Mr. A, a\nsecond-year employee Mr. B was appointed as the responsible person for installation of a\nmeeting room reservation system (hereinafter, reservation system) used for reserving a\nmeeting room from among the several meeting rooms. Mr. B collected the requirements\nfor the reservation of a meeting room.\n[Requirements for the reservation of a meeting room]\n(1) Company P has several departments, such as the sales department, general affairs\ndepartment, accounting department, and information systems department, and a\nmeeting room has been provided for each department until now. After\nintegration, the meeting rooms are shared and used among several departments.\n(2) There are two types of meeting rooms: one type of meeting room for general\npurpose and the other type of meeting room for visitors.\n(3) All employees can reserve a meeting room for general purpose.\n(4) The possibility of reserving the meeting room for visitors is judged based on the\nposition of employees. The judgment criteria are currently undecide"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 97,
+      "text": "Which of the following is an appropriate explanation concerning the RFP of the\nreservation system?\na) It is a document that is created to exactly describe the preconditions for reservation\noperations so that Company P can receive the most suitable proposal for the\nreservation system.\nb) It is a document that describes the minimum requirements for reservation operations\nso that Company P can receive the most suitable proposal for a workflow of\nreservation operations.\nc) It is a document that is used not only for the reservation of a room necessary for the\nreservation system, but also to derive a proposal for a system that is not requested,\nsuch as the registration of visitors.\nd) It is a document that is used for requesting investigation in order to check if the\ncontents of a proposal for the reservation system satisfy the requirements for\nreservation operations.\n[Strategy]",
+      "options": {
+        "a": "It is a document that is created to exactly describe the preconditions for reservation\noperations so that Company P can receive the most suitable proposal for the\nreservation system.",
+        "b": "It is a document that describes the minimum requirements for reservation operations\nso that Company P can receive the most suitable proposal for a workflow of\nreservation operations.",
+        "c": "It is a document that is used not only for the reservation of a room necessary for the\nreservation system, but also to derive a proposal for a system that is not requested,\nsuch as the registration of visitors.",
+        "d": "It is a document that is used for requesting investigation in order to check if the\ncontents of a proposal for the reservation system satisfy the requirements for\nreservation operations.\n[Strategy]"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 98,
+      "text": "The members of the office integration project are as shown below. Under such\nconditions, which of the following is the most appropriate description concerning the\nauthor of the RFP for the reservation system?\n[Members of the office integration project]\nProject leader of the office integration project: Mr. A\nPerson in charge of installation of the reservation system: Mr. B\nProject members: Messrs. C, D, and E\nAssistant in the information systems department: Mr. F\nConstruction company’s staff in charge of the meeting rooms: Mr. G\na) Mr. B creates the RFP, and Messrs. C, D, E, and F support the creation.\nb) Any one of Messrs. C, D, and E creates the RFP, and Mr. F supports the creation.\nc) Mr. F creates the RFP, and Mr. G supports the creation.\nd) Mr. G creates the RFP.\n– 50 –\n[Management]",
+      "options": {
+        "a": "Mr. B creates the RFP, and Messrs. C, D, E, and F support the creation.",
+        "b": "Any one of Messrs. C, D, and E creates the RFP, and Mr. F supports the creation.",
+        "c": "Mr. F creates the RFP, and Mr. G supports the creation.",
+        "d": "Mr. G creates the RFP.\n– 50 –\n[Management]"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 99,
+      "text": "Which of the following is not an appropriate explanation of the contents to be\ndescribed in the RFP of the reservation system?\na) It is described that a meeting room for general purpose can be reserved by all\nemployees.\nb) It is described that several departments, such as the sales department, general affairs\ndepartment, accounting department, and information systems department, can share\nthe meeting rooms.\nc) The delivery period and the start date of operations for the reservation system are\ndescribed, but the schedule of the interior finishing and delivery of fixtures and\nfurniture for the meeting rooms is not described.\nd) The judgment criteria of the possibility of reserving a meeting room for visitors is\nnot decided, so it is not described that the criteria is different from that of the\nmeeting room for general purpose.\n[Strategy]",
+      "options": {
+        "a": "It is described that a meeting room for general purpose can be reserved by all\nemployees.",
+        "b": "It is described that several departments, such as the sales department, general affairs\ndepartment, accounting department, and information systems department, can share\nthe meeting rooms.",
+        "c": "The delivery period and the start date of operations for the reservation system are\ndescribed, but the schedule of the interior finishing and delivery of fixtures and\nfurniture for the meeting rooms is not describe",
+        "d": ""
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 100,
+      "text": "As a result of Mr. B’s investigation about the technical skills possessed and the past\nresults achieved by several companies that were candidates for presentation of the\nRFP of the reservation system, the companies described below remained behind as the\ncandidates. Which of the following is the most appropriate company or companies\nthat are invited to submit proposals in accordance with the RFP for the project?\n(1) Company X to which system development is outsourced currently by the\ninformation systems department\n(2) Company Y to which system development has been outsourced in the past by\nthe general affairs department\n(3) Company Z that has no experience with developing a similar system but can\nbegin the development project immediately\na) Companies X and Y\nb) Companies X and Z\nc) Companies Y and Z\nd) Company Z\n– 51 –",
+      "options": {
+        "a": "Companies X and Y",
+        "b": "Companies X and Z",
+        "c": "Companies Y and Z",
+        "d": "Company Z\n– 51 –"
+      },
+      "correct_answer": "a"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+Found 20 exam(s) to process.
+
+Processing 2013_april... FAILED (only 58/100 questions extracted)
+Processing 2013_april_variant... FAILED (only 63/100 questions extracted)
+Processing 2014_october... FAILED (only 66/100 questions extracted)
+Processing 2015_april... FAILED (only 70/100 questions extracted)
+Processing 2015_may... FAILED (only 60/100 questions extracted)
+Processing 2016_april... FAILED (only 55/100 questions extracted)
+Processing 2016_october... FAILED (only 52/100 questions extracted)
+Processing 2017_april... FAILED (only 64/100 questions extracted)
+Processing 2017_october... FAILED (only 55/100 questions extracted)
+Processing 2018_april... FAILED (only 59/100 questions extracted)
+Processing 2018_october... FAILED (only 60/100 questions extracted)
+Processing 2019_april... FAILED (only 77/100 questions extracted)
+Processing 2019_october... FAILED (only 59/100 questions extracted)
+Processing 2020_april... FAILED (only 58/100 questions extracted)
+Processing 2021_april... FAILED (only 56/100 questions extracted)
+Processing 2021_october... FAILED (only 62/100 questions extracted)
+Processing 2022_october... FAILED (only 50/100 questions extracted)
+Processing 2023_april... FAILED (only 59/100 questions extracted)
+Processing 2024_october... FAILED (only 53/100 questions extracted)
+Processing 2025_april... FAILED (only 60/100 questions extracted)
+
+============================================================
+SUMMARY
+============================================================
+Total exams: 20
+Successfully processed: 0
+Failed: 20
+JSON files created: 0

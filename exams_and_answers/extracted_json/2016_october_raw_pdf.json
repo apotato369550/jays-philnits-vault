@@ -1,0 +1,881 @@
+{
+  "metadata": {
+    "exam_name": "2016_october",
+    "year": 2016,
+    "month": "october",
+    "extraction_method": "raw_pdf",
+    "extraction_date": "2026-02-06",
+    "total_questions_extracted": 79
+  },
+  "questions": [
+    {
+      "q_num": 1,
+      "text": "Which of the following is an appropriate combination of compression techniques that\nare used for still images, moving images, and audio?\nStill image Moving image Audio\na) GIF MPEG MP3\nb) JPEG MP3 GIF\nc) MP3 JPEG GIF\nd) MPEG GIF MP3",
+      "options": {
+        "a": "GIF MPEG MP3",
+        "b": "JPEG MP3 GIF",
+        "c": "MP3 JPEG GIF",
+        "d": "MPEG GIF MP3"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 2,
+      "text": "Which of the following is the logical operation that is equivalent to the truth table\nbelow?\nInput A Input B Output\n0 0 0\n0 1 0\n1 0 0\n1 1 1\na) AND b) NOT c) OR d) XOR",
+      "options": {
+        "a": "AND",
+        "b": "NOT",
+        "c": "OR",
+        "d": "XOR"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 3,
+      "text": "Which of the following is a standard encoding system that is widely used for handling\nmultilingual text and symbols around the world in a single character set?\na) ASCII b) EBCDIC\nc) EUC d) Unicode\n– 3 –",
+      "options": {
+        "a": "ASCII",
+        "b": "EBCDIC",
+        "c": "EUC",
+        "d": "Unicode\n– 3 –"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 4,
+      "text": "Which of the following describes the relationship that is always true for two (2) sets A\nand B? Here, (X  Y) represents the part that belongs to both X and Y (intersection set),\nand (X  Y) represents the part that belongs to at least one of X or Y (union set).\na) (A  B) is a subset of the complement of (A  B).\nb) (A  B) is a subset of A.\nc) (A  B) is a subset of (A  B).\nd) (A  B) is a subset of the complement of A.",
+      "options": {
+        "a": "(A  B) is a subset of the complement of (A  B).",
+        "b": "(A  B) is a subset of A.",
+        "c": "(A  B) is a subset of (A  B).",
+        "d": "(A  B) is a subset of the complement of A."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 6,
+      "text": "Which of the following is an appropriate description concerning an applet?\na) A document file that is transmitted from a Web site and saved onto the user’s PC\nwhen the Web browser accesses the Web site\nb) A language that is used for creating a Web page\nc) A program that is downloaded from a Web server and embedded into a client\nbrowser, and then executed in the browser\nd) A language that is used for database manipulation such as data addition,\nmodification, deletion, and search",
+      "options": {
+        "a": "A document file that is transmitted from a Web site and saved onto the user’s PC\nwhen the Web browser accesses the Web site",
+        "b": "A language that is used for creating a Web page",
+        "c": "A program that is downloaded from a Web server and embedded into a client\nbrowser, and then executed in the browser",
+        "d": "A language that is used for database manipulation such as data addition,\nmodification, deletion, and search"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 7,
+      "text": "Which of the following is an appropriate description concerning the Java language?\na) It is a general-purpose language developed mainly for business applications.\nb) It is a language developed for scientific and engineering calculations.\nc) It is a markup language used for describing Web pages.\nd) It is an object-oriented language that provides platform-independent portability.\n– 4 –",
+      "options": {
+        "a": "It is a general-purpose language developed mainly for business applications.",
+        "b": "It is a language developed for scientific and engineering calculations.",
+        "c": "It is a markup language used for describing Web pages.",
+        "d": "It is an object-oriented language that provides platform-independent portability.\n– 4 –"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 8,
+      "text": "In a markup language with the purpose of displaying a screen or printing, it is possible\nto directly embed not only the body of a document but specifications of the structure\nand layout of the document, and the font and size of the characters. Which of the\nfollowing is classified as such a markup language?\na) CASL b) HTML c) SQL d) URL",
+      "options": {
+        "a": "CASL",
+        "b": "HTML",
+        "c": "SQL",
+        "d": "URL"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 9,
+      "text": "Which of the following is the correct comparison of the amount of data?\na) 1 KB < 1 MB < 1 GB < 1 TB\nb) 1 KB < 1 MB < 1 TB < 1 GB\nc) 1 KB < 1 TB < 1 MB < 1 GB\nd) 1 TB < 1 KB < 1 MB < 1 GB",
+      "options": {
+        "a": "1 KB < 1 MB < 1 GB < 1 TB",
+        "b": "1 KB < 1 MB < 1 TB < 1 GB",
+        "c": "1 KB < 1 TB < 1 MB < 1 GB",
+        "d": "1 TB < 1 KB < 1 MB < 1 GB"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 11,
+      "text": "Which of the following is designed to improve the processing efficiency of a PC by\neffectively reducing the time for the CPU to access the main memory?\na) SSD b) Virtual memory\nc) Cache memory d) Defragmentation\n– 5 –",
+      "options": {
+        "a": "SSD",
+        "b": "Virtual memory",
+        "c": "Cache memory",
+        "d": "Defragmentation\n– 5 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 12,
+      "text": "Which of the following is appropriate as a description concerning Plug and Play?\na) When a peripheral device is connected to a PC, installation and settings of the device\ndriver are performed automatically.\nb) Software for enhancing the functions of application software is installed at a later\nstage.\nc) Power is supplied from a PC to a peripheral device via a cable connecting them.\nd) A specific program is executed, and the system performance is evaluated on the\nbasis of the time taken for the processing.",
+      "options": {
+        "a": "When a peripheral device is connected to a PC, installation and settings of the device\ndriver are performed automatically.",
+        "b": "Software for enhancing the functions of application software is installed at a later\nstage.",
+        "c": "Power is supplied from a PC to a peripheral device via a cable connecting them.",
+        "d": "A specific program is executed, and the system performance is evaluated on the\nbasis of the time taken for the processing."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 13,
+      "text": "Which of the following is the most appropriate explanation of TCO (Total Cost of\nOwnership), which is a major factor when any purchasing decision is made for a\nsystem?\na) It is the sum of the operation and management costs incurred after the installation of\nthe system.\nb) It is the sum of the costs required to troubleshoot software and hardware faults that\noccur after the installation of the system.\nc) It is the sum of the costs incurred during the installation of the system and the\noperation and management costs incurred after the installation.\nd) It is the sum of the costs incurred during the installation of the system in addition to\nthe planning phase of the system.",
+      "options": {
+        "a": "It is the sum of the operation and management costs incurred after the installation of\nthe system.",
+        "b": "It is the sum of the costs required to troubleshoot software and hardware faults that\noccur after the installation of the system.",
+        "c": "It is the sum of the costs incurred during the installation of the system and the\noperation and management costs incurred after the installation.",
+        "d": "It is the sum of the costs incurred during the installation of the system in addition to\nthe planning phase of the system."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 14,
+      "text": "A total of 60,000 hours have passed since a computer system was put into operation.\nDuring this operation period, a total of 100 failures occurred, and the system was\nrepaired each time. The last repair was completed at the 60,000th hours. If the\nMTTR is 60 hours, how many hours is the MTBF of the system during this period?\na) 480 b) 540 c) 599.4 d) 600\n– 6 –",
+      "options": {
+        "a": "480",
+        "b": "540",
+        "c": "599.4",
+        "d": "600\n– 6 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 15,
+      "text": "Which of the following is an appropriate explanation of multitasking?\na) Several computers connected via a network build a system that work together to\nachieve a high-performance system.\nb) Several processor cores composed of arithmetic circuits and other control circuits\nare implemented in a single CPU.\nc) The CPU processing time is allocated to several processes in turn so that the\nprocesses can be executed simultaneously.\nd) The same processing is performed for multiple data items by executing a single\ninstruction.",
+      "options": {
+        "a": "Several computers connected via a network build a system that work together to\nachieve a high-performance system.",
+        "b": "Several processor cores composed of arithmetic circuits and other control circuits\nare implemented in a single CPU.",
+        "c": "The CPU processing time is allocated to several processes in turn so that the\nprocesses can be executed simultaneously.",
+        "d": "The same processing is performed for multiple data items by executing a single\ninstruction."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 17,
+      "text": "Which of the following is the most appropriate method for restricting the content of\ndatabase to display in accordance with the needs of each user’s business operations?\na) Setting up access rights based on the combination of data and user\nb) Distributing a copy of the database limited to each user\nc) Setting up a set of data items (columns) dedicated to each user\nd) Setting up a password for each record in order to protect data",
+      "options": {
+        "a": "Setting up access rights based on the combination of data and user",
+        "b": "Distributing a copy of the database limited to each user",
+        "c": "Setting up a set of data items (columns) dedicated to each user",
+        "d": "Setting up a password for each record in order to protect data"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 18,
+      "text": "Which of the following is the term for the form of using a PC by itself without\nconnecting it to any network?\na) Thin client b) Single processor\nc) Standalone d) Peer to peer",
+      "options": {
+        "a": "Thin client",
+        "b": "Single processor",
+        "c": "Standalone",
+        "d": "Peer to peer"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 19,
+      "text": "Which of the following is an appropriate explanation of plug-in software?\na) Plug-in software bridges differences between OSs, and provides more advanced and\nspecific functions than the OSs.\nb) Plug-in software does not work as a standalone program, but can be integrated into\napplications, such as a Web browser, to enhance their functions.\nc) Plug-in software is often included in applications such as a spreadsheet, and allows\nthe users to record and replay the series of operations performed.\nd) Plug-in software is provided to replace part of a program for the purpose of\nmodifying functions or fixing bugs.",
+      "options": {
+        "a": "Plug-in software bridges differences between OSs, and provides more advanced and\nspecific functions than the OSs.",
+        "b": "Plug-in software does not work as a standalone program, but can be integrated into\napplications, such as a Web browser, to enhance their functions.",
+        "c": "Plug-in software is often included in applications such as a spreadsheet, and allows\nthe users to record and replay the series of operations performe",
+        "d": ""
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 20,
+      "text": "Which of the following is a unit that is used to represent “resolution”, one of the\nperformance indicators of a display or a printer?\na) bps b) dpi c) fps d) psi\n– 8 –",
+      "options": {
+        "a": "bps",
+        "b": "dpi",
+        "c": "fps",
+        "d": "psi\n– 8 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 21,
+      "text": "Which of the following is an e-mail software that is an OSS (Open Source Software)?\na) Android b) Firefox c) MySQL d) Thunderbird",
+      "options": {
+        "a": "Android",
+        "b": "Firefox",
+        "c": "MySQL",
+        "d": "Thunderbird"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 22,
+      "text": "Which of the following is a typical example of a system operating on a super\ncomputer?\na) A Supply Chain Management system that is required for linkage between enterprises\nb) A global weather change forecast system that requires large-scale scientific and\ntechnical computing\nc) A banking system that requires a high reliability\nd) An engine control system of a vehicle that requires advanced real-time control",
+      "options": {
+        "a": "A Supply Chain Management system that is required for linkage between enterprises",
+        "b": "A global weather change forecast system that requires large-scale scientific and\ntechnical computing",
+        "c": "A banking system that requires a high reliability",
+        "d": "An engine control system of a vehicle that requires advanced real-time control"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 26,
+      "text": "The icon illustrated below, generally called a feed icon, sometimes appears on a web\npage. Which of the following corresponds to what this icon explains?\na) The website provides data in RSS or Atom format, which outlines information of\nupdates or a summary of the page.\nb) The currently displayed web page is a diary-like website operated by a person or a\ngroup.\nc) The currently displayed web page is bookmarked in the browser on the PC in use.\nd) In a blog, when a link has been set up to another blog, the setup of the link has been\nnotified to the link destination.",
+      "options": {
+        "a": "The website provides data in RSS or Atom format, which outlines information of\nupdates or a summary of the page.",
+        "b": "The currently displayed web page is a diary-like website operated by a person or a\ngroup.",
+        "c": "The currently displayed web page is bookmarked in the browser on the PC in use.",
+        "d": "In a blog, when a link has been set up to another blog, the setup of the link has been\nnotified to the link destination."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 27,
+      "text": "Which of the following is a communication network built in a limited area, such as the\ninside of a building?\na) IP-VPN b) LAN\nc) WAN d) Wide-area Ethernet",
+      "options": {
+        "a": "IP-VPN",
+        "b": "LAN",
+        "c": "WAN",
+        "d": "Wide-area Ethernet"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 28,
+      "text": "Which of the following is an appropriate explanation of tethering?\na) A type of virus that replicates itself and spreads infection throughout a network\nb) A function of connecting a PC to the Internet by using a communication terminal\nsuch as a smartphone like a mobile router\nc) A method of detecting a tampering by using a hash function and public key\ncryptography for electronic data\nd) An attack that attempts to illegally manipulate the information in a database by\ndeliberately entering an SQL command in an input field on a web page\n– 11 –",
+      "options": {
+        "a": "A type of virus that replicates itself and spreads infection throughout a network",
+        "b": "A function of connecting a PC to the Internet by using a communication terminal\nsuch as a smartphone like a mobile router",
+        "c": "A method of detecting a tampering by using a hash function and public key\ncryptography for electronic data",
+        "d": "An attack that attempts to illegally manipulate the information in a database by\ndeliberately entering an SQL command in an input field on a web page\n– 11 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 29,
+      "text": "Which of the following is a mechanism by which, if an e-mail is sent to a specific\ne-mail address, in correspondence to the address, the e-mail with the same content is\ndistributed to multiple e-mail addresses that are already registered?\na) Web mail b) Chain mail\nc) Mailing list d) Reply mail",
+      "options": {
+        "a": "Web mail",
+        "b": "Chain mail",
+        "c": "Mailing list",
+        "d": "Reply mail"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 31,
+      "text": "Which of the following is the threat that can be prevented by encrypting data?\na) Deletion of data because of an operational error\nb) Social engineering\nc) Tapping of communication content\nd) DoS attack on the server in which data is stored\n– 12 –",
+      "options": {
+        "a": "Deletion of data because of an operational error",
+        "b": "Social engineering",
+        "c": "Tapping of communication content",
+        "d": "DoS attack on the server in which data is stored\n– 12 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 32,
+      "text": "The authentication technology is classified into three (3) types, namely authentication\nbased on one’s possession, authentication based on physical characteristics, and\nauthentication based on knowledge. Which of the following is the appropriate\nclassifications of the implementation examples (1) through (3)?\n(1) Authentication using an IC card\n(2) Authentication based on an ID and password\n(3) Authentication based on fingerprint\n(1) (2) (3)\na) Authentication based Authentication based on Authentication based on\non one’s possession physical characteristics knowledge\nb) Authentication based Authentication based on Authentication based on\non one’s possession knowledge physical characteristics\nc) Authentication based Authentication based on Authentication based on\non knowledge one’s possession physical characteristics\nd) Authentication based Authentication based on Authentication based on\non knowledge physical characteristics one’s possession",
+      "options": {
+        "a": "Authentication based Authentication based on Authentication based on\non one’s possession physical characteristics knowledge",
+        "b": "Authentication based Authentication based on Authentication based on\non one’s possession knowledge physical characteristics",
+        "c": "Authentication based Authentication based on Authentication based on\non knowledge one’s possession physical characteristics",
+        "d": "Authentication based Authentication based on Authentication based on\non knowledge physical characteristics one’s possession"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 33,
+      "text": "Which of the following is an encryption method of wireless LAN?\na) ESSID b) HTTPS c) POP3 d) WPA2",
+      "options": {
+        "a": "ESSID",
+        "b": "HTTPS",
+        "c": "POP3",
+        "d": "WPA2"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 34,
+      "text": "Which of the following is the most appropriate as a set of documents that\ncomprehensively define the approach to information security of a company or an\norganization, sometimes including information security standards?\na) Information security policy\nb) Information security management system\nc) Social engineering\nd) Risk assessment\n– 13 –",
+      "options": {
+        "a": "Information security policy",
+        "b": "Information security management system",
+        "c": "Social engineering",
+        "d": "Risk assessment\n– 13 –"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 35,
+      "text": "Security risk treatment in ISMS includes risk transfer, risk avoidance, risk acceptance,\nand risk reduction. Which of the following is an example of risk avoidance?\na) A security measure was taken, which lowered the possibility of problems arising.\nb) The company took out insurance in case a problem arises and causes damage.\nc) The risk was confirmed to be small, and it was decided that damage would be borne\nby the company when a problem arises.\nd) The company withdrew from the services that carried high risk.",
+      "options": {
+        "a": "A security measure was taken, which lowered the possibility of problems arising.",
+        "b": "The company took out insurance in case a problem arises and causes damage.",
+        "c": "The risk was confirmed to be small, and it was decided that damage would be borne\nby the company when a problem arises.",
+        "d": "The company withdrew from the services that carried high risk."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 36,
+      "text": "Among the following lists consisting of the information security terms availability,\nintegrity, confidentiality, and vulnerability, which is a complete list of characteristics\nthat are required by ISMS to be maintained for an organization’s information assets?\na) Availability, Integrity b) Availability, Integrity, Confidentiality\nc) Integrity, Confidentiality d) Integrity, Confidentiality, Vulnerability",
+      "options": {
+        "a": "Availability, Integrity",
+        "b": "Availability, Integrity, Confidentiality",
+        "c": "Integrity, Confidentiality",
+        "d": "Integrity, Confidentiality, Vulnerability"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 38,
+      "text": "Which of the following is the most appropriate explanation of the operation that\nspyware is meant to perform?\na) To destabilize the operation of the OS and software\nb) To delete files from the file system without user consent\nc) To hijack the browser and forcefully execute a particular operation\nd) To collect personal information without being noticed by users\n– 14 –",
+      "options": {
+        "a": "To destabilize the operation of the OS and software",
+        "b": "To delete files from the file system without user consent",
+        "c": "To hijack the browser and forcefully execute a particular operation",
+        "d": "To collect personal information without being noticed by users\n– 14 –"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 39,
+      "text": "Which of the following is an appropriate information security measure against harmful\nsoftware in a PC?\na) Using a 64-bit OS\nb) Maintaining the latest version of the virus definition file at all times\nc) Defragmenting the hard disk periodically\nd) Saving files after compressing them",
+      "options": {
+        "a": "Using a 64-bit OS",
+        "b": "Maintaining the latest version of the virus definition file at all times",
+        "c": "Defragmenting the hard disk periodically",
+        "d": "Saving files after compressing them"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 40,
+      "text": "Among the following lists of the Web browsing practices (1) through (3), which is the\nlist that contains all the practices that reduce security risks?\n(1) Storing the ID and the password on the web browser\n(2) Disabling JavaScript\n(3) Logging on to the PC with administrator privileges when using the web browser\na) (1), (2) b) (1), (3) c) (2) d) (2), (3)",
+      "options": {
+        "a": "(1), (2)",
+        "b": "(1), (3)",
+        "c": "(2)",
+        "d": "(2), (3)"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 41,
+      "text": "Which of the following is an appropriate explanation of symmetric key cryptography?\na) In addition to encryption, it is also used in digital signatures.\nb) The decoding speed is generally slower than that of public key cryptography.\nc) The RSA algorithm is a typical algorithm.\nd) A different key is required for each communication partner.\n– 15 –\nAnswer questions",
+      "options": {
+        "a": "In addition to encryption, it is also used in digital signatures.",
+        "b": "The decoding speed is generally slower than that of public key cryptography.",
+        "c": "The RSA algorithm is a typical algorithm.",
+        "d": "A different key is required for each communication partner.\n– 15 –\nAnswer questions"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 43,
+      "text": "Which of the following is the most appropriate objective of introducing SNS in an\nenterprise?\na) To reduce employees’ labor for scheduling, such as setting up meetings\nb) To reduce the cost and time of business trips by having relevant persons at one (1)\nlocation in each office, and conducting a meeting while the meeting attendees and\nmaterial are displayed on a screen\nc) To form human networks, which are beneficial for business, through communities on\nnetwork\nd) To reduce the labor for carrying documents in the procedures involving multiple\nemployees, such as managerial approvals.",
+      "options": {
+        "a": "To reduce employees’ labor for scheduling, such as setting up meetings",
+        "b": "To reduce the cost and time of business trips by having relevant persons at one (1)\nlocation in each office, and conducting a meeting while the meeting attendees and\nmaterial are displayed on a screen",
+        "c": "To form human networks, which are beneficial for business, through communities on\nnetwork",
+        "d": "To reduce the labor for carrying documents in the procedures involving multiple\nemployees, such as managerial approvals."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 44,
+      "text": "Which of the following is an item that is determined when computerization planning is\ncreated on the basis of a company’s information system strategy?\na) Development schedule b) Management objectives\nc) Input and output screen layout d) Hardware configuration",
+      "options": {
+        "a": "Development schedule",
+        "b": "Management objectives",
+        "c": "Input and output screen layout",
+        "d": "Hardware configuration"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 45,
+      "text": "Which of the following is the appropriate procedure for selecting a contractor for\nsystem development?\nA: Issuance of RFP B: Conclusion of contracting agreement\nC: Determination of contractor D: Evaluation of proposals\na) A → C → D → B b) A → D → C → B\nc) C → A → B → D d) C → B → A → D",
+      "options": {
+        "a": "A → C → D → B",
+        "b": "A → D → C → B",
+        "c": "C → A → B → D",
+        "d": "C → B → A → D"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 46,
+      "text": "When the software life cycle is divided into the planning process, requirements definition\nprocess, development process, and operation process, which of the following is an\nappropriate activity in the requirements definition process?\na) Business process and system transition b) Computerization planning\nc) Software detailed design d) Stakeholders’ needs identification\n– 17 –",
+      "options": {
+        "a": "Business process and system transition",
+        "b": "Computerization planning",
+        "c": "Software detailed design",
+        "d": "Stakeholders’ needs identification\n– 17 –"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 47,
+      "text": "Which of the following is the most appropriate purpose of creating an RFP?\na) To provide the estimated outsourcing amount to vendors when development is\noutsourced\nb) To obtain information about the most appropriate advanced technology for future\nsystem development\nc) To standardize procurement procedures, such as in-house production, development\noutsourcing, and product purchase\nd) To request a written proposal to vendors, and appropriately select an outsourcee",
+      "options": {
+        "a": "To provide the estimated outsourcing amount to vendors when development is\noutsourced",
+        "b": "To obtain information about the most appropriate advanced technology for future\nsystem development",
+        "c": "To standardize procurement procedures, such as in-house production, development\noutsourcing, and product purchase",
+        "d": "To request a written proposal to vendors, and appropriately select an outsourcee"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 48,
+      "text": "For software that started full operation on January 1 last year, the number of\nmaintenance activities was added up for each month from January to December, and\nthe result is shown in the graph below. Which of the following is the most\nappropriate set of maintenance activities corresponding to factor A in the graph?\nNumber of activities not corresponding to factor A\nNumber of activities corresponding to factor A\n– 18 –\nseitivitca\necnanetniam\nfo\nrebmuN\nerawtfos\nfo\nyraunaJ yraurbeF hcraM lirpA yaM enuJ yluJ tsuguA rebmetpeS rebotcO rebmevoN rebmeceD\na) Activities concerning a hardware upgrade that was performed in June last year\nb) Activities responding to requests for improvement of software\nc) Activities responding to initial failures of software\nd) Activities concerning data addition that is performed every April",
+      "options": {
+        "a": "Activities concerning a hardware upgrade that was performed in June last year",
+        "b": "Activities responding to requests for improvement of software",
+        "c": "Activities responding to initial failures of software",
+        "d": "Activities concerning data addition that is performed every April"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 49,
+      "text": "In the process of system requirements definition, which of the following is an\nappropriate evaluation criteria for system requirements?\na) Consistency with results of system integration test\nb) Consistency with needs of system users\nc) Appropriateness of the design method used\nd) Coverage of test cases",
+      "options": {
+        "a": "Consistency with results of system integration test",
+        "b": "Consistency with needs of system users",
+        "c": "Appropriateness of the design method used",
+        "d": "Coverage of test cases"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 50,
+      "text": "Mr. A, a participant in system testing, prepares terminal input data and form output data\nfor major transactions in the department for purpose of verification. Which of the\nfollowing is the testing technique that Mr. A is seeking to implement?\na) Inspection b) Walk-through\nc) Black-box testing d) White-box testing",
+      "options": {
+        "a": "Inspection",
+        "b": "Walk-through",
+        "c": "Black-box testing",
+        "d": "White-box testing"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 51,
+      "text": "A company creating an information system for its own use outsourced the development\nof the system. Which of the following is an appropriate description concerning the\nacceptance testing?\na) If the contractor does not report defects in its system testing, the company will\naccept the system, without performing acceptance testing.\nb) The company must ask the contractor to plan and implement acceptance testing.\nc) The company will perform acceptance testing, with support from the contractor.\nd) The company will perform acceptance testing, and the contractor will judge the\npass/failure of the results.\n– 19 –",
+      "options": {
+        "a": "If the contractor does not report defects in its system testing, the company will\naccept the system, without performing acceptance testing.",
+        "b": "The company must ask the contractor to plan and implement acceptance testing.",
+        "c": "The company will perform acceptance testing, with support from the contractor.",
+        "d": "The company will perform acceptance testing, and the contractor will judge the\npass/failure of the results.\n– 19 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 52,
+      "text": "Which of the following is an appropriate description concerning the water fall model\nknown as one of software development models?\na) It is a technique in object oriented development for making improvements through\ntrial and error by repeatedly going back and forth between design and programming.\nb) It is a technique for making improvements by repeating the development process for\neach subsystem while responding to requests from users.\nc) It is a technique that divides the processes of system development into stages, and,\nbased upon the output of previous processes, performs later processes in order.\nd) It is a technique that creates a prototype at an early stage of system development,\nand determines requirements and specifications with input from user comments.",
+      "options": {
+        "a": "It is a technique in object oriented development for making improvements through\ntrial and error by repeatedly going back and forth between design and programming.",
+        "b": "It is a technique for making improvements by repeating the development process for\neach subsystem while responding to requests from users.",
+        "c": "It is a technique that divides the processes of system development into stages, and,\nbased upon the output of previous processes, performs later processes in order.",
+        "d": "It is a technique that creates a prototype at an early stage of system development,\nand determines requirements and specifications with input from user comments."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 53,
+      "text": "Among the following lists of descriptions A through D, which is the list that contains\nall appropriate descriptions concerning quality management in information systems?\nA: Continuous initiatives according to the PDCA cycle are effective in improving\nquality.\nB: Systems with more functions are of higher quality.\nC: The cost of preventing defects is generally less than the cost of correcting bugs when\nthey occur.\nD: Quality can be increased through appropriate design and implementation.\na) A, B, D b) A, C c) A, C, D d) C, D",
+      "options": {
+        "a": "A, B, D",
+        "b": "A, C",
+        "c": "A, C, D",
+        "d": "C, D"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 54,
+      "text": "Which of the following is a diagram that hierarchically breaks down the activities\nexecuted by a project team into elements?\na) DFD b) WBS\nc) Arrow diagram d) Milestone chart\n– 20 –",
+      "options": {
+        "a": "DFD",
+        "b": "WBS",
+        "c": "Arrow diagram",
+        "d": "Milestone chart\n– 20 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 55,
+      "text": "Quality management in system development projects has a quality planning process,\nwhich defines quality requirements and quality standards for deliverables and specifies\nthe methods for achieving them. Which of the following is appropriate to this quality\nplanning process?\na) If deliverables are not exactly the same as those of past system development projects,\npast quality standards cannot be used as reference.\nb) Since schedules have the highest priority in all projects, it is acceptable to shorten\nthe period for reviewing and testing for achieving target quality.\nc) Quality should have the highest priory in all projects, and, to enhance the quality of\ndeliverables, constraints should not be placed on the budget.\nd) The effects by reductions in reworking, improvement in productivity, improvement\nof stakeholder satisfaction, and others brought about by activities to achieve targeted\nquality, and their required costs are to be compared.",
+      "options": {
+        "a": "If deliverables are not exactly the same as those of past system development projects,\npast quality standards cannot be used as reference.",
+        "b": "Since schedules have the highest priority in all projects, it is acceptable to shorten\nthe period for reviewing and testing for achieving target quality.",
+        "c": "Quality should have the highest priory in all projects, and, to enhance the quality of\ndeliverables, constraints should not be placed on the budget.",
+        "d": "The effects by reductions in reworking, improvement in productivity, improvement\nof stakeholder satisfaction, and others brought about by activities to achieve targeted\nquality, and their required costs are to be compare"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 56,
+      "text": "In service level management, continuous improvement for the response time agreed\nupon between the service provider and user is carried out through the processes shown\nin the Figure. Which of the following is done during monitoring?\nAgreement upon\nMonitoring Review Improvement\nservice level\na) Watching response time\nb) Evaluation of the actual response time\nc) Shortening of response time\nd) Setting and changing of objectives of response time\n– 21 –\nAnswer questions",
+      "options": {
+        "a": "Watching response time",
+        "b": "Evaluation of the actual response time",
+        "c": "Shortening of response time",
+        "d": "Setting and changing of objectives of response time\n– 21 –\nAnswer questions"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 59,
+      "text": "A company implements service level management for the operation of a new system.\nWhich of the following is an appropriate description concerning the goals of service\nlevel management?\na) A third party independent from the users and the provider monitors the service to\nprevent degradation of the service level.\nb) The users and the provider agree on the service level, and maintain and improve it.\nc) The quality level of the provided service is raised, on the condition that no additional\ncost is incurred.\nd) The users determine the level to which the provided service contributes to the\nbusiness.\n– 22 –",
+      "options": {
+        "a": "A third party independent from the users and the provider monitors the service to\nprevent degradation of the service level.",
+        "b": "The users and the provider agree on the service level, and maintain and improve it.",
+        "c": "The quality level of the provided service is raised, on the condition that no additional\ncost is incurre",
+        "d": ""
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 60,
+      "text": "In IT service management, which of the following is appropriate as a process for\nresolving the root causes of incidents and preventing their recurrence?\na) Incident management b) Change management\nc) Problem management d) Release management",
+      "options": {
+        "a": "Incident management",
+        "b": "Change management",
+        "c": "Problem management",
+        "d": "Release management"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 61,
+      "text": "Which of the following is the term for the assignment of employees’ role that applies\nmutual restraint among employees for the purpose of reducing the risk of misconduct\nor errors in work from the standpoint of internal control?\na) Delegation of authority b) Segregation of duties\nc) Monitoring d) Diversification of risk",
+      "options": {
+        "a": "Delegation of authority",
+        "b": "Segregation of duties",
+        "c": "Monitoring",
+        "d": "Diversification of risk"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 62,
+      "text": "Which of the following is an appropriate description concerning evaluations in systems\naudit?\na) Areas for which there is no audit evidence are evaluated through inference.\nb) Evaluation must be based on audit evidence.\nc) Evaluation is performed according to the views of the system user department.\nd) Evaluation is performed according to the views of the audited department.",
+      "options": {
+        "a": "Areas for which there is no audit evidence are evaluated through inference.",
+        "b": "Evaluation must be based on audit evidence.",
+        "c": "Evaluation is performed according to the views of the system user department.",
+        "d": "Evaluation is performed according to the views of the audited department."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 63,
+      "text": "Which of the following is the most appropriate as a method for verifying that controls\nfor information system risk are properly implemented and operated?\na) BCP b) ITIL\nc) IT governance d) Systems audit\n– 23 –",
+      "options": {
+        "a": "BCP",
+        "b": "ITIL",
+        "c": "IT governance",
+        "d": "Systems audit\n– 23 –"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 64,
+      "text": "The fixed cost necessary for production and sales of product A is 30 million yen\nannually. When the unit price of product A is 20,000 yen, and the variable cost per\nunit for production and sales is 5,000 yen, what is the sales quantity of product A at the\nbreak-even point?\na) 1,500 b) 2,000 c) 4,000 d) 6,000",
+      "options": {
+        "a": "1,500",
+        "b": "2,000",
+        "c": "4,000",
+        "d": "6,000"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 65,
+      "text": "Which of the following is the list containing all the items that necessitate the decision\nof a stockholders’ meeting?\nA: Election of an auditor\nB: Determination of corporate merger\nC: Enforcement of an enterprise strategy\nD: Election of directors\na) A, B, D b) A, C c) B d) C, D",
+      "options": {
+        "a": "A, B, D",
+        "b": "A, C",
+        "c": "B",
+        "d": "C, D"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 66,
+      "text": "Which of the following is the person who audits the financial documents that are\ncreated by a company?\na) Accounting auditor b) System auditor\nc) Legal profession d) Certified tax accountant",
+      "options": {
+        "a": "Accounting auditor",
+        "b": "System auditor",
+        "c": "Legal profession",
+        "d": "Certified tax accountant"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 67,
+      "text": "Which of the following is a method of education and training by which the techniques\nand knowledge required for working are mastered through daily work experience?\na) CDP b) e-learning c) Off-JT d) OJT\n– 24 –",
+      "options": {
+        "a": "CDP",
+        "b": "e-learning",
+        "c": "Off-JT",
+        "d": "OJT\n– 24 –"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 70,
+      "text": "Which of the following is an explanation of a volume license agreement on software?\na) It is an agreement in which a master copy of software is provided to customers,\nincluding companies, who purchase the software in high volume, and the number of\npermitted installations is defined in advance.\nb) It is an agreement in which the location of use is restricted to a specified facility, and\nthe software can be used without limiting the number of computers or users in the\nfacility.\nc) It is an agreement in which the use of software is permitted by accepting the terms\nand conditions of the contract displayed on the screen when the software is\ndownloaded from the Internet.\nd) It is an agreement in which standard licensing conditions are defined and a license\nagreement is automatically considered to be concluded between the right holder and\nthe purchaser when a certain amount of package is unwrapped.",
+      "options": {
+        "a": "It is an agreement in which a master copy of software is provided to customers,\nincluding companies, who purchase the software in high volume, and the number of\npermitted installations is defined in advance.",
+        "b": "It is an agreement in which the location of use is restricted to a specified facility, and\nthe software can be used without limiting the number of computers or users in the\nfacility.",
+        "c": "It is an agreement in which the use of software is permitted by accepting the terms\nand conditions of the contract displayed on the screen when the software is\ndownloaded from the Internet.",
+        "d": "It is an agreement in which standard licensing conditions are defined and a license\nagreement is automatically considered to be concluded between the right holder and\nthe purchaser when a certain amount of package is unwrappe"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 71,
+      "text": "Which of the following is the coding scheme that can encode a large amount of\ninformation into a small area and has an error correction function that enables the code\nto be read out correctly even when the code cannot be partially read out?\na) ISBN code b) ITF code\nc) QR code d) Unicode\n– 26 –",
+      "options": {
+        "a": "ISBN code",
+        "b": "ITF code",
+        "c": "QR code",
+        "d": "Unicode\n– 26 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 72,
+      "text": "Which of the following is an example of an NDA (Non-Disclosure Agreement)?\na) A contract specifying the service content to be provided, which is agreed between\nthe service provider and the customer before the provision of the IT service\nb) A contract specifying that the vendor of computer equipment bears the responsibility\nof transferring the property right, and that the buyer bears the responsibility of\npaying the price\nc) A contract, specifying the obligation of the outsourcer and outsourcee to maintain\nconfidentiality of the secret information of the other party that become known to the\nother party during system development\nd) A contract specifying that a person to whom the installation of a general-purpose\npackage has been outsourced performs the task at his/her own discretion and\nresponsibility, and receives payment upon the completion of the task",
+      "options": {
+        "a": "A contract specifying the service content to be provided, which is agreed between\nthe service provider and the customer before the provision of the IT service",
+        "b": "A contract specifying that the vendor of computer equipment bears the responsibility\nof transferring the property right, and that the buyer bears the responsibility of\npaying the price",
+        "c": "A contract, specifying the obligation of the outsourcer and outsourcee to maintain\nconfidentiality of the secret information of the other party that become known to the\nother party during system development",
+        "d": "A contract specifying that a person to whom the installation of a general-purpose\npackage has been outsourced performs the task at his/her own discretion and\nresponsibility, and receives payment upon the completion of the task"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 73,
+      "text": "Among the lists of corporate activities A through D, which of the following is the list\nthat contains all activities concerning the establishment of compliance?\nA: Supporting fine art and cultural activities\nB: Training employees in the codes of conduct\nC: Performing activities for prevention of global desertification\nD: Creating a mechanism of internal reporting\na) A, B b) A, C c) B, D d) C, D",
+      "options": {
+        "a": "A, B",
+        "b": "A, C",
+        "c": "B, D",
+        "d": "C, D"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 74,
+      "text": "From the viewpoint of corporate governance, which of the following is the most\nappropriate method of strengthening the functions of monitoring and supervising the\ndecision-making process of the management?\na) Installing a camera for monitoring the entry and exit of the president’s office\nb) Periodically requesting a private detective to investigate the conduct of the\nmanagement\nc) Appointing some outside directors\nd) Employing law school graduates as members of the internal audit department\n– 27 –",
+      "options": {
+        "a": "Installing a camera for monitoring the entry and exit of the president’s office",
+        "b": "Periodically requesting a private detective to investigate the conduct of the\nmanagement",
+        "c": "Appointing some outside directors",
+        "d": "Employing law school graduates as members of the internal audit department\n– 27 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 77,
+      "text": "Which of the following is an appropriate example of basket analysis, which analyzes\ncustomers’ purchasing behavior?\na) Analyzing the relationship between sales promotion expenses and net sales, for each\nproduct sold at a grocery store\nb) Analyzing the products that customers at convenience stores purchase in\ncombination\nc) Analyzing the profitability of each product category sold at a supermarket\nd) Analyzing the store visit frequency and purchase value of supermarket customers\n– 28 –",
+      "options": {
+        "a": "Analyzing the relationship between sales promotion expenses and net sales, for each\nproduct sold at a grocery store",
+        "b": "Analyzing the products that customers at convenience stores purchase in\ncombination",
+        "c": "Analyzing the profitability of each product category sold at a supermarket",
+        "d": "Analyzing the store visit frequency and purchase value of supermarket customers\n– 28 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 78,
+      "text": "In product portfolio management, where products and business to be analyzed are\nclassified into cash cows, stars, dogs, and question marks, which of the following is the\nappropriate combination of indexes used in the vertical axis and horizontal axis?\nA: Customer retention rate B: Market size\nC: Market growth rate D: Market share\na) A, B b) A, C c) B, D d) C, D",
+      "options": {
+        "a": "A, B",
+        "b": "A, C",
+        "c": "B, D",
+        "d": "C, D"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 80,
+      "text": "In Company X, daily drainage treatment activities are handled, and at the same time\nnew processing equipment is designed by documenting and accumulating the\nexperience and know-how of employees who have managed drainage treatment in the\nfactory over a long period of time. Which of the following is appropriate as a concept\nof this example?\na) ERP b) SFA\nc) Supply chain management d) Knowledge management",
+      "options": {
+        "a": "ERP",
+        "b": "SFA",
+        "c": "Supply chain management",
+        "d": "Knowledge management"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 81,
+      "text": "Innovation can broadly be classified into process innovation and product innovation.\nWhich of the following is appropriate as a factor of product innovation?\na) An efficient production system b) Supply chain management\nc) Market needs d) Value chain analysis\n– 29 –",
+      "options": {
+        "a": "An efficient production system",
+        "b": "Supply chain management",
+        "c": "Market needs",
+        "d": "Value chain analysis\n– 29 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 82,
+      "text": "Which of the following is an appropriate general term for computers that are embedded\nin home electric appliances, such as a microwave oven or a rice cooker?\na) Handheld computer b) Micro computer\nc) Mini computer d) Mobile computer",
+      "options": {
+        "a": "Handheld computer",
+        "b": "Micro computer",
+        "c": "Mini computer",
+        "d": "Mobile computer"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 84,
+      "text": "Among the characteristics required for an embedded system, which of the following is\nthe most appropriate terminology used when a certain process must be completed\nwithin a given period of time?\na) Availability b) Reliability\nc) Real-time ability d) Serviceability",
+      "options": {
+        "a": "Availability",
+        "b": "Reliability",
+        "c": "Real-time ability",
+        "d": "Serviceability"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 85,
+      "text": "Which of the following is a form of e-commerce corresponding to an online bookstore\nor an online shopping mall that is constructed for individuals on the Internet?\na) B to B b) B to C c) C to B d) C to C\n– 30 –",
+      "options": {
+        "a": "B to B",
+        "b": "B to C",
+        "c": "C to B",
+        "d": "C to C\n– 30 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 86,
+      "text": "A company wishes to optimize its inventory level of components on the basis of the\ndelivery date and manufacturing volume of final product. Which of the following is the\nmost appropriate policy for achieving this objective?\na) Construction of a CRM system b) Construction of an MRP system\nc) Construction of a POS system d) Construction of an SFA system",
+      "options": {
+        "a": "Construction of a CRM system",
+        "b": "Construction of an MRP system",
+        "c": "Construction of a POS system",
+        "d": "Construction of an SFA system"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 87,
+      "text": "Which of the following is an appropriate explanation of the SEO, which is used in the\nInternet?\na) It is a mechanism of transmitting information on the Internet through encryption in\norder to secure personal information, such as the credit card numbers of customers.\nb) It is a community-type service whose purpose is to enable the participants to\nintroduce their friends and acquaintances to other participants, and establish a social\nconnection on the Internet.\nc) It is a management information system whose purpose is to secure and maintain the\nstrategic superiority of an organization through differentiation and qualitative\nimprovement of business.\nd) It is a method with which, when a user performs a keyword search on the Internet, a\nspecific website is displayed at higher position in the list.",
+      "options": {
+        "a": "It is a mechanism of transmitting information on the Internet through encryption in\norder to secure personal information, such as the credit card numbers of customers.",
+        "b": "It is a community-type service whose purpose is to enable the participants to\nintroduce their friends and acquaintances to other participants, and establish a social\nconnection on the Internet.",
+        "c": "It is a management information system whose purpose is to secure and maintain the\nstrategic superiority of an organization through differentiation and qualitative\nimprovement of business.",
+        "d": "It is a method with which, when a user performs a keyword search on the Internet, a\nspecific website is displayed at higher position in the list."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 89,
+      "text": "If no delay occurs, what is the minimum number of days required to complete the\nsoftware development shown in Figure 1?\na) 35 b) 40 c) 45 d) 65\n[Management]",
+      "options": {
+        "a": "35",
+        "b": "40",
+        "c": "45",
+        "d": "65\n[Management]"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 90,
+      "text": "Mr. A thought that point (5) of [Status of Project Z] could result in failure of the project,\nand decided to take preventive measures before proceeding with the development.\nWhich of the following is one (1) of the appropriate preventive measures?\na) Creating the schedule of the current Project Z by referring to the schedules of\nprojects undertaken in the past\nb) Collecting the design specifications of software that can be used from the current\nproducts\nc) Creating a list that compares the functions of Product Z after improvement and the\nfunctions of similar products of competitors\nd) Educating the software development members with software development\ntechniques they lack\n– 33 –\n[Management]",
+      "options": {
+        "a": "Creating the schedule of the current Project Z by referring to the schedules of\nprojects undertaken in the past",
+        "b": "Collecting the design specifications of software that can be used from the current\nproducts",
+        "c": "Creating a list that compares the functions of Product Z after improvement and the\nfunctions of similar products of competitors",
+        "d": "Educating the software development members with software development\ntechniques they lack\n– 33 –\n[Management]"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 92,
+      "text": "Mr. A is instructed by Mr. B to examine if there are any more risks with a large impact\nother than point (5) of [Status of Project Z]. Which of the points (1) through (4) of\n[Status of Project Z] has a risk with the largest impact?\na) (1) b) (2) c) (3) d) (4)\n– 34 –\nQuestion B Read the following description concerning improvement in the\ntransportation expense reimbursement, and then answer the four questions.\nIn Company A, which is an advertisement agency, transportation expenses incurred by\ncustomer visits are reimbursed by submitting a transportation expense reimbursement\nform (hereinafter, form) to the accounting department.\n[Flow of current transportation expense reimbursement operation]\n(1) The applicant enters his/her name, his/her employee number, expense code,\ncustomer numbers, travel date, description, amount, and the total amount. After it is\nsigned, the form is sent to the office staff member.\n(2) The office staff member checks the application in detail. If there is no mistake,\nhe/she sends the form to the approver. If there is a mistake, the form is returned to\nthe applicant.\n(3) The approver gives the final approval or disapproval. If the content is appropriate, the\nform is approved and sent to the office staff member. If the content is inappropriate,\nthe form is disapproved and returned to the applicant.\n(4) If the form is returned in (2) or (3), the applicant corrects the form and submits it\nagain to the office staff member.\n(5) The office staff member puts together the approved forms of that day that have been\nsent from the approver, assigns reference numbers, and sends them to the accounting\ndepartment.\n(6) The accounting manager settles the payment of the approved forms that have been\nsent from the office staff member.\nIn order to efficiently perform the transportation expense reimbursement, a\ntransportation expense reimbursement system (hereinafter, “reimbursement system”) is\nconstructed. The system uses a database and is based on the functional requirements\nshown below.\n– 35 –\n[Some of the functional requirements of the reimbursement system]\n(1) Logging on is performed by using the employee number. The applicant name is\nidentified in the employee table using the employee number, and the name is set as a\ncommon item on the form screen.\n(2) Customer numbers, travel date, description, and amount are entered as the details to\nthe form screen. The details of several customer visits can be entered in a single\nsubmission. Moreover, the total amount is calculated, the expense code is set, and\nthe reference number is assigned automatically. Here, the transportation expense is\nset automatically as the expense code.\n(3) After the submission, the office staff member checked in detail, and a notification is\nsent automatically to the approver. The approver selects either “Approve” or\n“Disapprove” on the final approval screen.\n(4) On the payment screen, the approved submissions are aggregated for each employee,\nand the payment amount is calculated.\n– 36 –\n[Strategy]",
+      "options": {
+        "a": "(1)",
+        "b": "(2)",
+        "c": "(3)",
+        "d": "(4)\n– 34 –\nQuestion B Read the following description concerning improvement in the\ntransportation expense reimbursement, and then answer the four questions.\nIn Company A, which is an advertisement agency, transportation expenses incurred by\ncustomer visits are reimbursed by submitting a transportation expense reimbursement\nform (hereinafter, form) to the accounting department.\n[Flow of current transportation expense reimbursement operation]\n(1) The applicant enters his/her name, his/her employee number, expense code,\ncustomer numbers, travel date, description, amount, and the total amount. After it is\nsigned, the form is sent to the office staff member.\n(2) The office staff member checks the application in detail. If there is no mistake,\nhe/she sends the form to the approver. If there is a mistake, the form is returned to\nthe applicant.\n(3) The approver gives the final approval or disapproval. If the content is appropriate, the\nform is approved and sent to the office staff member. If the content is inappropriate,\nthe form is disapproved and returned to the applicant.\n(4) If the form is returned in (2) or (3), the applicant corrects the form and submits it\nagain to the office staff member.\n(5) The office staff member puts together the approved forms of that day that have been\nsent from the approver, assigns reference numbers, and sends them to the accounting\ndepartment.\n(6) The accounting manager settles the payment of the approved forms that have been\nsent from the office staff member.\nIn order to efficiently perform the transportation expense reimbursement, a\ntransportation expense reimbursement system (hereinafter, “reimbursement system”) is\nconstructe"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 93,
+      "text": "A diagram has been created to show the flow of the transportation expense\nreimbursement. Which of the following is an appropriate combination of terms or\nphrases to be inserted into blanks A through C in the flowchart?\nApplicant Office staff member Approver Accounting manager\nApplication\nForm\nA\nForm Form\nB\nForm\nC\nForm\nPayment\nNote: The shaded part is not shown.\nA B C\na) Numbering Approval Correction\nb) Correction Approval Numbering\nc) Detailed checking Approval Numbering\nd) Detailed checking Numbering Correction\n– 37 –\n[Strategy]",
+      "options": {
+        "a": "Numbering Approval Correction",
+        "b": "Correction Approval Numbering",
+        "c": "Detailed checking Approval Numbering",
+        "d": "Detailed checking Numbering Correction\n– 37 –\n[Strategy]"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 96,
+      "text": "The work time of each manager is sampled before and after the installation of the\nreimbursement system, the result is shown below. How many hours is the total\nreduction in work time of Company A per one (1) month on the basis of the result?\nHere, the working days of Company A is 20 days per month, and the average number\nof submissions in Company A is 10 times per day.\n[Result of sampling]\n(1) The time required for one (1) submission is reduced from 12 minutes to three (3)\nminutes.\n(2) The total time that office staff members spend for transportation expense\nreimbursement in one (1) day is reduced from 48 minutes to 16 minutes.\n(3) The time required for an approver to approve one application is reduced from 72\nseconds to 12 seconds.\n(4) The total time that accounting managers spend for transportation expense\nreimbursement in one (1) month is reduced from 13 hours to one (1) hour.\na) 29 b) 44 c) 56 d) 152\n– 40 –\nQuestion C Read the following description concerning tabulation of a monitor\nsurvey, and then answer the four questions.\nTo develop a new product, company F hired 100 monitors and conducted a market\nsurvey. For three (3) items of performance, price, and design, the monitors were asked\nwhether or not they attached importance to each of these items and they responded “Yes”\nor “No.”\nResponses received from monitors were registered in the response file in the record\nformat in Figure 1.\nMonitor_name Performance Price Design\nFigure 1 Record format of the response file\nIn the record items “Performance”, “Price”, and “Design”, 1 was recorded if the\nresponse to the question was “Yes”, and 0 was recorded if the response was “No”.\nThe command below can be used to display the number of records in the response file\nthat matches the condition.\nDisplay_number_of_records(condition)\nHere, a complex condition, which is a combination of “and”, “or” and [ ], can be\nspecified for the condition. In the evaluation of the condition, the condition inside the\nbrackets [ ] has priority. In addition, another [ ] can be specified inside [ ].\nTable 1 shows the results of the command with various conditions.\nTable 1 Result of executing the command\nResults of Display_number_of_records\nCondition\ncommand\nPerformance=1 55\nPrice=1 60\nDesign=1 45\n[Performance=1] and [Price=1] 30\n[Price=1] and [Design=1] 25\n– 41 –\n[Technology]",
+      "options": {
+        "a": "29",
+        "b": "44",
+        "c": "56",
+        "d": "152\n– 40 –\nQuestion C Read the following description concerning tabulation of a monitor\nsurvey, and then answer the four questions.\nTo develop a new product, company F hired 100 monitors and conducted a market\nsurvey. For three (3) items of performance, price, and design, the monitors were asked\nwhether or not they attached importance to each of these items and they responded “Yes”\nor “No.”\nResponses received from monitors were registered in the response file in the record\nformat in Figure 1.\nMonitor_name Performance Price Design\nFigure 1 Record format of the response file\nIn the record items “Performance”, “Price”, and “Design”, 1 was recorded if the\nresponse to the question was “Yes”, and 0 was recorded if the response was “No”.\nThe command below can be used to display the number of records in the response file\nthat matches the condition.\nDisplay_number_of_records(condition)\nHere, a complex condition, which is a combination of “and”, “or” and [ ], can be\nspecified for the condition. In the evaluation of the condition, the condition inside the\nbrackets [ ] has priority. In addition, another [ ] can be specified inside [ ].\nTable 1 shows the results of the command with various conditions.\nTable 1 Result of executing the command\nResults of Display_number_of_records\nCondition\ncommand\nPerformance=1 55\nPrice=1 60\nDesign=1 45\n[Performance=1] and [Price=1] 30\n[Price=1] and [Design=1] 25\n– 41 –\n[Technology]"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 97,
+      "text": "Which of the following does the command below display?\nDisplay_number_of_records([Performance=1] and [Design=0])\na) Number of monitors that attach importance to both performance and design\nb) Number of monitors that attach importance to the performance, but not the design\nc) Number of monitors that attach importance to either performance or design\nd) Number of monitors that do not attach importance to neither performance nor design\n[Technology]",
+      "options": {
+        "a": "Number of monitors that attach importance to both performance and design",
+        "b": "Number of monitors that attach importance to the performance, but not the design",
+        "c": "Number of monitors that attach importance to either performance or design",
+        "d": "Number of monitors that do not attach importance to neither performance nor design\n[Technology]"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 98,
+      "text": "The sets of persons who attach importance to performance, price, and design are\nrespectively called the “Performance set”, “Price set”, and “Design set”. They are\nshown with the Venn diagram given in Figure 2. Which of the following are the regions\nin the Venn diagram that match with the condition of the command below?\nDisplay_number_of_records([[Performance=1] or [Price=1]] and [Design=1])\n“Performance set”\nA\nB C\nD\n“Price set” E F G “Design set”\nFigure 2 Venn diagram\na) A, B, E b) A, C, F c) B, D d) C, D, F\n– 42 –\n[Technology]",
+      "options": {
+        "a": "A, B, E",
+        "b": "A, C, F",
+        "c": "B, D",
+        "d": "C, D, F\n– 42 –\n[Technology]"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 99,
+      "text": "From the results of Table 1, which is displayed when the command below is executed?\nDisplay_number_of_records([Performance=1] or [Price=1])\na) 60 b) 70 c) 85 d) 115\n[Technology]",
+      "options": {
+        "a": "60",
+        "b": "70",
+        "c": "85",
+        "d": "115\n[Technology]"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 100,
+      "text": "Which of the following is the command that gives the same result as the result\nobtained with the procedure given below?\n[Procedure]\n(1) Execute Display_number_of_records(Price=1), and let the displayed result be w.\n(2) Execute Display_number_of_records([Performance=1] and [Price=1]), and let the\ndisplayed result be x.\n(3) Execute Display_number_of_records([Price=1] and [Design=1]), and let the\ndisplayed result be y.\n(4) Execute Display_number_of_records([Performance=1] and [Price=1] and\n[Design=1]), and let the displayed result be z.\n(5) Calculate w − x − y + z.\na) Display_number_of_records([Performance=0] and [Price=1] and [Design=0])\nb) Display_number_of_records([Performance=0] or [Price=1] or [Design=0])\nc) Display_number_of_records([Performance=1] and [Price=0] and [Design=1])\nd) Display_number_of_records([Performance=1] or [Price=0] or [Design=1])\n– 43 –",
+      "options": {
+        "a": "Display_number_of_records([Performance=0] and [Price=1] and [Design=0])",
+        "b": "Display_number_of_records([Performance=0] or [Price=1] or [Design=0])",
+        "c": "Display_number_of_records([Performance=1] and [Price=0] and [Design=1])",
+        "d": "Display_number_of_records([Performance=1] or [Price=0] or [Design=1])\n– 43 –"
+      },
+      "correct_answer": "a"
+    }
+  ]
+}

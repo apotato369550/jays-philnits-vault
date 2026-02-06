@@ -1,0 +1,859 @@
+{
+  "metadata": {
+    "exam_name": "2015_may",
+    "year": 2015,
+    "month": "may",
+    "extraction_method": "raw_pdf",
+    "extraction_date": "2026-02-06",
+    "total_questions_extracted": 77
+  },
+  "questions": [
+    {
+      "q_num": 4,
+      "text": "The procedure described below is executed for two variables x and y, in order from\nstep (1) through step (4). When the procedure is completed, what is the resulting\nvalue of x?\n[Procedure]\n(1) Assign 2 to x, and 3 to y.\n(2) Subtract 1 from the value of y, and assign the resulting value to y.\n(3) Add the values of x and y, and assign the resulting value to x.\n(4) If the value of y is 1, terminate the procedure. Otherwise, return to step (2).\na) 4 b) 5 c) 7 d) 8",
+      "options": {
+        "a": "4",
+        "b": "5",
+        "c": "7",
+        "d": "8"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 5,
+      "text": "Which of the following is an appropriate description concerning the Java language?\na) It is a markup language that is used for describing web pages.\nb) It is a language that is developed for scientific and engineering calculations.\nc) It is an object-oriented language that provides platform-independent portability.\nd) It is a language that is developed for business-oriented calculations.",
+      "options": {
+        "a": "It is a markup language that is used for describing web pages.",
+        "b": "It is a language that is developed for scientific and engineering calculations.",
+        "c": "It is an object-oriented language that provides platform-independent portability.",
+        "d": "It is a language that is developed for business-oriented calculations."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 6,
+      "text": "The data is exchanged between variable A and variable B. When variable TMP is used\nto temporarily store data, which of the following is the procedure for exchanging data\ncorrectly? Here, “x←y” indicates that the content of “x” is replaced with the data of\n“y”.\na) b) c) d)\nTMP ← A TMP ← A TMP ← B TMP ← B\nA ← B A ← B A ← B A ← B\nB ← A B ← TMP B ← TMP B ← A\n– 5 –",
+      "options": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": "TMP ← A TMP ← A TMP ← B TMP ← B\nA ← B A ← B A ← B A ← B\nB ← A B ← TMP B ← TMP B ← A\n– 5 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 7,
+      "text": "There is a program that displays text in accordance with the specifications below.\nWhen the original text described below is displayed, in what point size does the\nprogram display the underlined character string? Here, the first character of the\noriginal text is displayed in 10 points.\n[Specifications]\nThe characters between <B> and </B> are displayed one point larger than the\npreceding character.\nThe characters between <S> and </S> are displayed one point smaller than the\npreceding character.\nEach of <B> </B> and <S> </S> must be used as a pair, and both of them can be\nnested with each other.\n[Original text]\nThe system administrator promotes and implements <B>department-level<B> or\n<S>group-level</S> computerization</B> from a user <S>standpoint</S>.</B>\na) 10 b) 11 c) 12 d) 13",
+      "options": {
+        "a": "10",
+        "b": "11",
+        "c": "12",
+        "d": "13"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 8,
+      "text": "Which of the following is an appropriate explanation of HDMI?\na) It is an interface for an audio-visual device that handles the input and output of video,\naudio, and control signals through a single cable.\nb) It is an interface that makes use of the infrared rays used for the exchange of information\nbetween cell phones.\nc) It is a serial interface that connects a peripheral device, such as an external hard disk,\nthrough a cable.\nd) It is a wireless interface that makes use of radio waves and can communicate even when\nthere is a slight shielding.\n– 6 –",
+      "options": {
+        "a": "It is an interface for an audio-visual device that handles the input and output of video,\naudio, and control signals through a single cable.",
+        "b": "It is an interface that makes use of the infrared rays used for the exchange of information\nbetween cell phones.",
+        "c": "It is a serial interface that connects a peripheral device, such as an external hard disk,\nthrough a cable.",
+        "d": "It is a wireless interface that makes use of radio waves and can communicate even when\nthere is a slight shielding.\n– 6 –"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 9,
+      "text": "Which of the following is implemented in a computer system in order to perform the\nrole of transferring data between the CPU and memory, or between the CPU and I/O\ndevices?\na) Bus b) Hub c) Port d) Router",
+      "options": {
+        "a": "Bus",
+        "b": "Hub",
+        "c": "Port",
+        "d": "Router"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 10,
+      "text": "Which of the following is an appropriate description concerning flash memory?\na) It is a type of rewritable memory that can erase all its content with ultraviolet light.\nb) It can read out data at a high speed, and therefore, it is often used as cache memory.\nc) It is a type of non-volatile memory that can erase and rewrite all or part of its content\nelectrically.\nd) It is a type of memory that requires refresh operations and is widely used as main\nmemory.",
+      "options": {
+        "a": "It is a type of rewritable memory that can erase all its content with ultraviolet light.",
+        "b": "It can read out data at a high speed, and therefore, it is often used as cache memory.",
+        "c": "It is a type of non-volatile memory that can erase and rewrite all or part of its content\nelectrically.",
+        "d": "It is a type of memory that requires refresh operations and is widely used as main\nmemory."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 11,
+      "text": "Which of the following is an appropriate explanation of some functional units that\nconstitute a computer system?\na) The arithmetic and logical unit performs calculation processing at the direction of\nthe control unit.\nb) The arithmetic and logical unit exchanges data with the control unit, the input unit,\nand the output unit.\nc) The memory unit requests the arithmetic and logical unit to perform calculation\nprocessing and stores the results.\nd) The memory unit requests the output unit to read out data from the memory unit.\n– 7 –",
+      "options": {
+        "a": "The arithmetic and logical unit performs calculation processing at the direction of\nthe control unit.",
+        "b": "The arithmetic and logical unit exchanges data with the control unit, the input unit,\nand the output unit.",
+        "c": "The memory unit requests the arithmetic and logical unit to perform calculation\nprocessing and stores the results.",
+        "d": "The memory unit requests the output unit to read out data from the memory unit.\n– 7 –"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 12,
+      "text": "Which of the following is an appropriate explanation of the hot standby system?\na) It is a system where a collection of various types of hardware, software, and data on\nthe Internet is provided to the user.\nb) It is a system where a high level of reliability can be obtained by simultaneously\noperating the two sets of equipment and performing the same processing while\ncross-checking the results.\nc) It is a system where a backup machine is always kept on standby in an operable state\nand is immediately switched into operation at the occurrence of a failure.\nd) It is a system where a backup machine is arranged, and at the occurrence of a failure,\nthe operator in charge starts up the backup machine to switch the production\nmachine to the backup machine.",
+      "options": {
+        "a": "It is a system where a collection of various types of hardware, software, and data on\nthe Internet is provided to the user.",
+        "b": "It is a system where a high level of reliability can be obtained by simultaneously\noperating the two sets of equipment and performing the same processing while\ncross-checking the results.",
+        "c": "It is a system where a backup machine is always kept on standby in an operable state\nand is immediately switched into operation at the occurrence of a failure.",
+        "d": "It is a system where a backup machine is arranged, and at the occurrence of a failure,\nthe operator in charge starts up the backup machine to switch the production\nmachine to the backup machine."
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 13,
+      "text": "When MTBF is 600 hours and MTTR is 12 hours, what is the approximate\navailability?\na) 0.02 b) 0.20 c) 0.88 d) 0.98",
+      "options": {
+        "a": "0.02",
+        "b": "0.20",
+        "c": "0.88",
+        "d": "0.98"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 14,
+      "text": "Which of the following is a method or technique that is used to connect multiple\ncomputers over a network such as a LAN or the Internet, and makes these computers\navailable as if they were a single high performance computer?\na) End user computing b) Social computing\nc) Grid computing d) Pervasive computing\n– 8 –",
+      "options": {
+        "a": "End user computing",
+        "b": "Social computing",
+        "c": "Grid computing",
+        "d": "Pervasive computing\n– 8 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 15,
+      "text": "Which of the following is an appropriate description concerning the OS for PCs?\na) Only one type of OS can be installed and executed on one PC.\nb) There is no OS for PCs that are equipped with a 64-bit CPU.\nc) When an OS is upgraded to a new version, any software operating with the old\nversion of the OS can no longer be used.\nd) There exist some OSs for PCs that can be started up by using an external storage\ndevice, such as a CD-ROM and USB memory, other than the hard disk.",
+      "options": {
+        "a": "Only one type of OS can be installed and executed on one PC.",
+        "b": "There is no OS for PCs that are equipped with a 64-bit CPU.",
+        "c": "When an OS is upgraded to a new version, any software operating with the old\nversion of the OS can no longer be use",
+        "d": ""
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 16,
+      "text": "In the hierarchical structure shown in the figure below, when the current directory is\nmarked with an asterisk (*), which of the following is the absolute path of the same\ndirectory as the directory specified by the relative path “..\\..\\B\\B”?\nRoot\nA B\nA B A B\n*\nA B A B A B A B\n[Directory and file specification method]\n(1) A file is referenced as “directory name\\ ··· \\directory name\\file name”, where the\ndirectory names on the path are listed and separated with a backslash “\\” in\nsequence, and after that, followed by a backslash “\\” and the file name.\n(2) The current directory is represented by one period “.”.\n(3) The directory one level above is represented by two periods “..”.\n(4) When a path begins with a backslash “\\”, it is assumed that the root directory has\nbeen omitted from the beginning of the path.\n(5) When a path does not start with “\\”, “.”, or “..”, it is assumed that “.\\” for the\ncurrent directory is omitted from the beginning of the path.\na) \\A\\B\\B b) \\B c) \\B\\B d) \\B\\B\\B\n– 9 –",
+      "options": {
+        "a": "\\A\\B\\B",
+        "b": "\\B",
+        "c": "\\B\\B",
+        "d": "\\B\\B\\B\n– 9 –"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 17,
+      "text": "Which of the following is the image data that is pasted onto the documents or Web\npages created by the word-processing software or presentation software in order to\nimprove the representational power?\na) CSS b) CAPTCHA\nc) Clip art d) Template",
+      "options": {
+        "a": "CSS",
+        "b": "CAPTCHA",
+        "c": "Clip art",
+        "d": "Template"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 18,
+      "text": "In comparison with the program execution method where programs are started and\nexecuted sequentially, which of the following is an appropriate description concerning\ncharacteristics of the method where multiple programs are started and executed\nconcurrently while switching between them in response to events such as input/output\nrequests?\nNumber of programs executed within Amount of time between startup and\na certain amount of time completion of each program\na) Larger Longer\nb) Larger Shorter\nc) Smaller Longer\nd) Smaller Shorter",
+      "options": {
+        "a": "Larger Longer",
+        "b": "Larger Shorter",
+        "c": "Smaller Longer",
+        "d": "Smaller Shorter"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 20,
+      "text": "Which of the following is software that can be used free of charge on a trial basis but\nrequires a usage fee if it continues to be used after the trial period?\na) Groupware b) Shareware\nc) Adware d) Freeware",
+      "options": {
+        "a": "Groupware",
+        "b": "Shareware",
+        "c": "Adware",
+        "d": "Freeware"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 21,
+      "text": "Which of the following is an appropriate explanation of a general purpose computer that\nis also known as a mainframe?\na) It is an ultra-small computer in which the CPU, main memory, and interface circuits\nare embedded in a single chip.\nb) It is a large computer that is used for a wide range of applications from office\nprocessing to technical calculations, including mission-critical business as the main\ntarget.\nc) It is a client-dedicated computer that is equipped only with the minimum functions,\nsuch as data entry and display, in the configuration of a system where resources,\nsuch as the application programs and files, are managed at the server side.\nd) It is a portable information terminal where functions, such as schedule management,\naddress book, and e-mail, are made available in a device that is small enough to fit\ninto the palm of one’s hand.",
+      "options": {
+        "a": "It is an ultra-small computer in which the CPU, main memory, and interface circuits\nare embedded in a single chip.",
+        "b": "It is a large computer that is used for a wide range of applications from office\nprocessing to technical calculations, including mission-critical business as the main\ntarget.",
+        "c": "It is a client-dedicated computer that is equipped only with the minimum functions,\nsuch as data entry and display, in the configuration of a system where resources,\nsuch as the application programs and files, are managed at the server side.",
+        "d": "It is a portable information terminal where functions, such as schedule management,\naddress book, and e-mail, are made available in a device that is small enough to fit\ninto the palm of one’s han"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 22,
+      "text": "Which of the following is the unit that represents the resolution when a photograph or a\npicture is read by a scanner?\na) dpi b) fps c) pixel d) ppm\n– 11 –",
+      "options": {
+        "a": "dpi",
+        "b": "fps",
+        "c": "pixel",
+        "d": "ppm\n– 11 –"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 23,
+      "text": "When a relational database is constructed according to the processes (A through C)\nbelow, which of the following is the appropriate execution sequence?\nA: Identifying the data items to be managed\nB: Analyzing the target business operations\nC: Creating the relational database tables\na) A→ B→ C b) B→ A→ C\nc) B→ C→ A d) C→ A→ B",
+      "options": {
+        "a": "A→ B→ C",
+        "b": "B→ A→ C",
+        "c": "B→ C→ A",
+        "d": "C→ A→ B"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 24,
+      "text": "When the “Department,” “Location,” and “Employee” tables are joined to create Table\nA, which of the following is the “Employee” table that is to be joined? Here, an\nunderline indicates a primary key, and a dotted underline indicates a foreign key.\nDepartment\nDepartment_code Department_name\nLocation\nLocation_code Location_name\nA\nEmployee_number Employee_name Department_name Location_name Age\na) Employee_number Employee_name Age\nb) Employee_number Employee_name Age Location_code\nc) Employee_number Employee_name Age Department_code\nd) Employee_number Employee_name Age Department_code Location_code\n– 12 –",
+      "options": {
+        "a": "Employee_number Employee_name Age",
+        "b": "Employee_number Employee_name Age Location_code",
+        "c": "Employee_number Employee_name Age Department_code",
+        "d": "Employee_number Employee_name Age Department_code Location_code\n– 12 –"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 25,
+      "text": "Which of the following is a service that provides disk space on a server connected to\nthe Internet for storing files and allows a user to read and write data from anywhere\ninside or outside the home?\na) Archive b) Authoring\nc) Online storage d) Flash memory",
+      "options": {
+        "a": "Archive",
+        "b": "Authoring",
+        "c": "Online storage",
+        "d": "Flash memory"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 26,
+      "text": "Which of the following is an appropriate description concerning a wireless LAN?\na) A wireless LAN cannot be used with hardware other than a PC.\nb) A wireless LAN has an operation mode that allows a one-to-one connection without\nany access point.\nc) The encryption standards are unified into one type.\nd) When there are no barriers, communication can be performed regardless of the\ndistance.",
+      "options": {
+        "a": "A wireless LAN cannot be used with hardware other than a PC.",
+        "b": "A wireless LAN has an operation mode that allows a one-to-one connection without\nany access point.",
+        "c": "The encryption standards are unified into one type.",
+        "d": "When there are no barriers, communication can be performed regardless of the\ndistance."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 27,
+      "text": "When a PC is connected to a network, which of the following is the protocol that is\nused for automatically obtaining the IP address?\na) DHCP b) HTTP c) NTP d) SMTP\n– 13 –",
+      "options": {
+        "a": "DHCP",
+        "b": "HTTP",
+        "c": "NTP",
+        "d": "SMTP\n– 13 –"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 28,
+      "text": "Three PCs and an Internet-capable TV (television) set are to be connected to the\nInternet by using a hub and a router that has a firewall function. Which of the\nfollowing is the appropriate connection that enables the firewall function of the router\nto be used for all devices? Here, “FW” in the figure indicates the firewall function.\na)\nRouter\nHub\nLAN side WAN\nside\nFW The Internet\nPC PC PC TV\nb)\nRouter\nPC\nLAN side WAN\nHub\nside The Internet\nPC\nFW\nPC TV\nc)\nRouter\nLAN side WAN Hub\nPC side\nFW The Internet\nPC PC TV\nd)\nHub\nPC Router\nLAN side WAN\nside\nPC\nFW TV\nThe Internet\nPC\n– 14 –",
+      "options": {
+        "a": "Router\nHub\nLAN side WAN\nside\nFW The Internet\nPC PC PC TV",
+        "b": "Router\nPC\nLAN side WAN\nHub\nside The Internet\nPC\nFW\nPC TV",
+        "c": "Router\nLAN side WAN Hub\nPC side\nFW The Internet\nPC PC TV",
+        "d": "Hub\nPC Router\nLAN side WAN\nside\nPC\nFW TV\nThe Internet\nPC\n– 14 –"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 30,
+      "text": "In order to implement communication between applications via a network, a certain\nnumber of protocols are used in a hierarchical structure. Which of the following is\nthe appropriate combination of the protocol names to be inserted into blanks A and B in\nthe description below?\nWhen a web page is viewed on the Internet, the browser and the web server use a\nprotocol called A . Communication based on this A uses a\nprotocol of a lower layer called B and a protocol of a further lower layer\ncalled IP (Internet Protocol).\nA B\na) FTP Ethernet\nb) HTTP TCP\nc) SMTP POP3\nd) WWW HTML",
+      "options": {
+        "a": "FTP Ethernet",
+        "b": "HTTP TCP",
+        "c": "SMTP POP3",
+        "d": "WWW HTML"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 32,
+      "text": "Which of the following is one of critical factors of information security that can be\nimproved by setting the mirroring disks in a RAID system?\na) Availability b) Confidentiality\nc) Authenticity d) Accountability",
+      "options": {
+        "a": "Availability",
+        "b": "Confidentiality",
+        "c": "Authenticity",
+        "d": "Accountability"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 33,
+      "text": "Which of the following is a network area that is logically isolated from both a\ncompany’s internal network and an external network, and is set up to ensure that no\nharm is caused to the internal network even if a server that is installed within the\nnetwork area is accessed from the outside in an unauthorized manner?\na) DMZ b) DNS c) NAT d) SSL",
+      "options": {
+        "a": "DMZ",
+        "b": "DNS",
+        "c": "NAT",
+        "d": "SSL"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 34,
+      "text": "Which of the following is an appropriate explanation of a zero-day attack?\na) In order to search for a vulnerable TCP/IP port that can be used as an entry point for\nunauthorized intrusion, an attacker accesses a server while changing port numbers in\nsequence.\nb) An attacker obtains important security information, such as a password, from the\nsystem administrator or user through skilled conversation or peeping, and then\naccesses the system illegitimately by posing as the user.\nc) When a vulnerability in software is identified, the identified vulnerability is\nexploited to perform an attack before a patch for the software is provided by the\nvendor.\nd) In order to identify the password or crack the encrypted code, an attacker\nsuccessively attempts all character strings that are generated by mixing upper-case\ncharacters and lower-case characters of a term from the dictionary, or adding\nnumeric characters to such a term.\n– 16 –",
+      "options": {
+        "a": "In order to search for a vulnerable TCP/IP port that can be used as an entry point for\nunauthorized intrusion, an attacker accesses a server while changing port numbers in\nsequence.",
+        "b": "An attacker obtains important security information, such as a password, from the\nsystem administrator or user through skilled conversation or peeping, and then\naccesses the system illegitimately by posing as the user.",
+        "c": "When a vulnerability in software is identified, the identified vulnerability is\nexploited to perform an attack before a patch for the software is provided by the\nvendor.",
+        "d": "In order to identify the password or crack the encrypted code, an attacker\nsuccessively attempts all character strings that are generated by mixing upper-case\ncharacters and lower-case characters of a term from the dictionary, or adding\nnumeric characters to such a term.\n– 16 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 37,
+      "text": "Which of the following is an appropriate description concerning software\nmaintenance?\na) Monitoring application program errors\nb) Updating the program to resolve defects or problems in the production environment\nc) Replacing the server to improve system performance\nd) Making data backups on a periodic basis",
+      "options": {
+        "a": "Monitoring application program errors",
+        "b": "Updating the program to resolve defects or problems in the production environment",
+        "c": "Replacing the server to improve system performance",
+        "d": "Making data backups on a periodic basis"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 39,
+      "text": "In system development, which of the following is an appropriate phase or process that\nclarifies the quality (e.g., response time) that should be achieved by the system?\na) Acceptance test b) System requirements definition\nc) Software detailed design d) Programming",
+      "options": {
+        "a": "Acceptance test",
+        "b": "System requirements definition",
+        "c": "Software detailed design",
+        "d": "Programming"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 40,
+      "text": "Which of the following refers to a developer’s activity that provides the correction of\nsoftware errors and faults without any charge, and accepts responsibility for product\nliability claims, when the deficiencies are discovered within a certain period of time\nafter the completion of the acceptance inspection?\na) Warranty against defects b) SLA (Service Level Agreement)\nc) System audit d) Preventive maintenance\n– 18 –",
+      "options": {
+        "a": "Warranty against defects",
+        "b": "SLA (Service Level Agreement)",
+        "c": "System audit",
+        "d": "Preventive maintenance\n– 18 –"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 43,
+      "text": "Which of the following is an appropriate explanation of reverse engineering?\na) A method for conducting efficient experiments with the fewest possible number of\ntrials, in consideration for a better combination of multiple factors that should be\nconfirmed\nb) A method for disassembling and analyzing an existing product in order to uncover\nits structure and acquire technology\nc) A method that transforms work into an ideal form by fundamentally reviewing\nworkflow and work methods without changing the content of work\nd) A method that shortens the time from product development to production, through\nthe parallel execution of multiple activities that can be performed simultaneously\n– 19 –",
+      "options": {
+        "a": "A method for conducting efficient experiments with the fewest possible number of\ntrials, in consideration for a better combination of multiple factors that should be\nconfirmed",
+        "b": "A method for disassembling and analyzing an existing product in order to uncover\nits structure and acquire technology",
+        "c": "A method that transforms work into an ideal form by fundamentally reviewing\nworkflow and work methods without changing the content of work",
+        "d": "A method that shortens the time from product development to production, through\nthe parallel execution of multiple activities that can be performed simultaneously\n– 19 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 44,
+      "text": "In a system development project, a flowchart of the development process is created to\nperform quality management. Which of the following is an appropriate purpose of\nusing such a flowchart?\na) To consider where and what kind of problem is likely to occur in the work processes\nb) To determine whether the usage rate of the system is within the expected range\nc) To identify the relationships between major problems in project execution and latent\ncauses of the problems\nd) To assess the frequency of problem occurrence on a per-cause basis in order to\nresolve the causes of the most problems",
+      "options": {
+        "a": "To consider where and what kind of problem is likely to occur in the work processes",
+        "b": "To determine whether the usage rate of the system is within the expected range",
+        "c": "To identify the relationships between major problems in project execution and latent\ncauses of the problems",
+        "d": "To assess the frequency of problem occurrence on a per-cause basis in order to\nresolve the causes of the most problems"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 45,
+      "text": "Which of the following is an appropriate explanation of decomposition that is\nperformed to create the WBS of a system development project?\na) The cost and time required to create project deliverables can be estimated, and it is\ndesirable that decomposition be performed up to the manageable level.\nb) When system development is outsourced, all decomposition of deliverables should\nbe left to the discretion of the outsourcee that creates the deliverables.\nc) Since a meeting that is held to report the progress of a project is a means of\ncommunication, the meeting is not subject to decomposition.\nd) If there are some experiences in developing similar systems, it is not necessary to\nperform decomposition again.\n– 20 –",
+      "options": {
+        "a": "The cost and time required to create project deliverables can be estimated, and it is\ndesirable that decomposition be performed up to the manageable level.",
+        "b": "When system development is outsourced, all decomposition of deliverables should\nbe left to the discretion of the outsourcee that creates the deliverables.",
+        "c": "Since a meeting that is held to report the progress of a project is a means of\ncommunication, the meeting is not subject to decomposition.",
+        "d": "If there are some experiences in developing similar systems, it is not necessary to\nperform decomposition again.\n– 20 –"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 47,
+      "text": "Which of the following is an appropriate activity that is performed in “project scope\nmanagement” defined in the PMBOK (Project Management Body of Knowledge)\nGuide?\na) Organizing a project team and developing staff members\nb) Defining all activities required for a project without any omissions\nc) Identifying the stakeholders of a project and deciding the communication method\nd) Identifying the project risks and considering appropriate action plans\n– 21 –",
+      "options": {
+        "a": "Organizing a project team and developing staff members",
+        "b": "Defining all activities required for a project without any omissions",
+        "c": "Identifying the stakeholders of a project and deciding the communication method",
+        "d": "Identifying the project risks and considering appropriate action plans\n– 21 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 48,
+      "text": "In a project, each member must perform one-to-one communication for sharing\ninformation. At this time, which of the following is an appropriate description\nconcerning the relationship between the number of project members and the number of\nnecessary communication paths?\na) In the case where the number of members increases by one, the higher the original\nnumber of members, the higher the increase in the number of paths\nb) If the number of members increases by one, the number of paths also increases by\none.\nc) The relationship between the number “x” of members and the number “y” of paths is\nrepresented by y = x!.\nd) The relationship between the number “x” of members and the number “y” of paths is\nrepresented by y = x2.",
+      "options": {
+        "a": "In the case where the number of members increases by one, the higher the original\nnumber of members, the higher the increase in the number of paths",
+        "b": "If the number of members increases by one, the number of paths also increases by\none.",
+        "c": "The relationship between the number “x” of members and the number “y” of paths is\nrepresented by y = x!.",
+        "d": "The relationship between the number “x” of members and the number “y” of paths is\nrepresented by y = x2."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 49,
+      "text": "It takes 10 days for Mr A to complete an activity of program development, and it takes\n15 days for Mr. B to complete the same activity. When Mr. A and Mr. B work\ntogether, how many days are required to complete this activity? Here, their individual\nwork efficiencies remain unchanged even when they work together.\na) 5 b) 6 c) 7.5 d) 12.5\n– 22 –",
+      "options": {
+        "a": "5",
+        "b": "6",
+        "c": "7.5",
+        "d": "12.5\n– 22 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 50,
+      "text": "When the arrow diagram below is created to manage a project that consists of eight\nactivities A through H, which of the following is the critical path of this arrow\ndiagram?\nD\n3 H\nA\n1 4\nC\nF\n3 0\nB G\n5 5 Legend\nE\nActivity\nname\n4\nNumber of\ndays required\na) A → C → E → G b) A→ D → H\nc) B → E → F → H d) B → E → G",
+      "options": {
+        "a": "A → C → E → G",
+        "b": "A→ D → H",
+        "c": "B → E → F → H",
+        "d": "B → E → G"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 51,
+      "text": "Which of the following is an explanation of IT service management?\na) Providing operationally-managed services by an IT-related service company in order\nto satisfy customer requirements effectively\nb) Verifying the feasibility of whether new IT-related products, new services, or new\nschemes can be implemented as business activities\nc) Providing efficient services through utilizing IT by organizing and managing\nknowledge derived from the past accumulated experiences in an organization and by\nsharing it among employees\nd) Depicting graphically the market share and industry growth rate of IT-related\nservices offered by the company, and on the basis of the positioning, developing a\nstrategy with regard to a clear vision of services\n– 23 –",
+      "options": {
+        "a": "Providing operationally-managed services by an IT-related service company in order\nto satisfy customer requirements effectively",
+        "b": "Verifying the feasibility of whether new IT-related products, new services, or new\nschemes can be implemented as business activities",
+        "c": "Providing efficient services through utilizing IT by organizing and managing\nknowledge derived from the past accumulated experiences in an organization and by\nsharing it among employees",
+        "d": "Depicting graphically the market share and industry growth rate of IT-related\nservices offered by the company, and on the basis of the positioning, developing a\nstrategy with regard to a clear vision of services\n– 23 –"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 52,
+      "text": "In order to reduce the risk of unauthorized entry into the server room where a computer\nsystem is operating, the decision is made not to indicate the installation location of the\ncomputers. Which of the following is the appropriate management that corresponds\nto this measure?\na) Supply chain management\nb) Knowledge management\nc) Business continuity management\nd) Facility management",
+      "options": {
+        "a": "Supply chain management",
+        "b": "Knowledge management",
+        "c": "Business continuity management",
+        "d": "Facility management"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 54,
+      "text": "In an IT facility such as a data center, which of the following is used to improve the\nmaintainability and installation efficiency of several types of equipment?\na) Server rack b) Hub\nc) Firewall d) Router\n– 24 –",
+      "options": {
+        "a": "Server rack",
+        "b": "Hub",
+        "c": "Firewall",
+        "d": "Router\n– 24 –"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 55,
+      "text": "There exists a bug in a program on PCs that are used for business operations, and a\nsymptom that a PC becomes unusable is reported to a service desk. From a\nperspective of “incident and service request management” in IT service management,\nwhich of the following is the most appropriate action to be taken at the service desk,\nprior to handover to problem management?\na) Informing users of how to restart a PC and make it usable\nb) Making a plan to distribute a fixed program to the PCs\nc) Testing the fixed program\nd) Fixing the bug in the program",
+      "options": {
+        "a": "Informing users of how to restart a PC and make it usable",
+        "b": "Making a plan to distribute a fixed program to the PCs",
+        "c": "Testing the fixed program",
+        "d": "Fixing the bug in the program"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 56,
+      "text": "Which of the following is an appropriate explanation concerning the resolution\nprocesses of IT service management?\na) The root causes of software faults are identified through problem management.\nb) The necessity of changes in software is decided through release management.\nc) Software versions are managed through incident management.\nd) Software is embedded and its operation is verified through change management.",
+      "options": {
+        "a": "The root causes of software faults are identified through problem management.",
+        "b": "The necessity of changes in software is decided through release management.",
+        "c": "Software versions are managed through incident management.",
+        "d": "Software is embedded and its operation is verified through change management."
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 57,
+      "text": "Among the processes necessary for a system audit, which of the following is performed\nby the system auditor?\na) Preparation of the audit targets such as operational rules\nb) Preliminary assessment of the audit targets\nc) Improvement of vulnerabilities in the audit targets\nd) Acceptance of the system audit report\n– 25 –",
+      "options": {
+        "a": "Preparation of the audit targets such as operational rules",
+        "b": "Preliminary assessment of the audit targets",
+        "c": "Improvement of vulnerabilities in the audit targets",
+        "d": "Acceptance of the system audit report\n– 25 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 60,
+      "text": "The same type of product is manufactured by allocating sets of assembly parts to three\ndifferent factories A, B, and C. The profit of each factory that is based on the\nallocated sets of parts is as shown in the table below. How much (in thousand dollars)\nis the maximum profit that is obtained by allocating a total of four sets of parts to these\nthree factories?\nUnit of profit: thousand dollars\nNumber of allocated sets of parts 0 1 2 3 4\nProfit of factory A 0 2 5 7 8\nProfit of factory B 0 1 3 5 7\nProfit of factory C 0 3 4 6 8\na) 8 b) 9 c) 10 d) 11",
+      "options": {
+        "a": "8",
+        "b": "9",
+        "c": "10",
+        "d": "11"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 61,
+      "text": "Among the senior management positions in a company or such other organization,\nwhich of the following is the highest-ranking person who exercises control over the\ninformation system?\na) CEO b) CFO c) CIO d) COO\n– 27 –",
+      "options": {
+        "a": "CEO",
+        "b": "CFO",
+        "c": "CIO",
+        "d": "COO\n– 27 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 63,
+      "text": "Which of the following is an appropriate diagram or chart that is used for ABC\nanalysis?\na) Control chart b) Scatter diagram\nc) Cause and effect diagram d) Pareto chart\n– 28 –",
+      "options": {
+        "a": "Control chart",
+        "b": "Scatter diagram",
+        "c": "Cause and effect diagram",
+        "d": "Pareto chart\n– 28 –"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 65,
+      "text": "Which of the following is an appropriate characteristic of the QR code?\na) The code can contain only single-byte alphanumeric characters and symbols.\nb) The amount of information that can be stored is equivalent to that of a barcode.\nc) The code can be read from any direction including the top, bottom, left, and right.\nd) The code has a two-dimensional structure in which three barcode layers are stacked.\n– 29 –",
+      "options": {
+        "a": "The code can contain only single-byte alphanumeric characters and symbols.",
+        "b": "The amount of information that can be stored is equivalent to that of a barcode.",
+        "c": "The code can be read from any direction including the top, bottom, left, and right.",
+        "d": "The code has a two-dimensional structure in which three barcode layers are stacke"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 67,
+      "text": "Which of the following is an appropriate description concerning a “volume license\nagreement”?\na) It is an agreement where a master copy is provided to customers, such as companies,\nwho purchase the software in high volume, and the number of permitted installations\nis determined in advance.\nb) It is an agreement where the location of use is restricted to a specified facility, and\nthe software can be used without limiting the number of computers or users in the\nfacility.\nc) It is an agreement where standard licensing conditions are defined and a license\nagreement is automatically considered to be concluded between the right holder and\nthe purchaser when a certain limited number of packages are unwrapped.\nd) It is an agreement where the use of software is permitted by accepting the terms and\nconditions displayed on the screen when the software is downloaded from the\nInternet.\n– 30 –",
+      "options": {
+        "a": "It is an agreement where a master copy is provided to customers, such as companies,\nwho purchase the software in high volume, and the number of permitted installations\nis determined in advance.",
+        "b": "It is an agreement where the location of use is restricted to a specified facility, and\nthe software can be used without limiting the number of computers or users in the\nfacility.",
+        "c": "It is an agreement where standard licensing conditions are defined and a license\nagreement is automatically considered to be concluded between the right holder and\nthe purchaser when a certain limited number of packages are unwrappe",
+        "d": ""
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 68,
+      "text": "According to the ISO 9000 family, quality is defined as the “degree to which a set of\ninherent characteristics fulfills requirements.” When products are evaluated on the\nbasis of this definition, which of the following is most appropriate as a product with\ngood quality?\na) A product having no customer complaints and a high level of customer satisfaction\nb) A product that a company produces in-house without outsourcing\nc) A product designed and manufactured using CAD and CAM\nd) A product utilizing materials and components of high quality",
+      "options": {
+        "a": "A product having no customer complaints and a high level of customer satisfaction",
+        "b": "A product that a company produces in-house without outsourcing",
+        "c": "A product designed and manufactured using CAD and CAM",
+        "d": "A product utilizing materials and components of high quality"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 69,
+      "text": "According to the WTO’s Agreement on Trade-Related Aspects of Intellectual Property\nRights (TRIPS), which of the following is a case example of copyright violation among\nactivities concerning the development or creation of a computer program?\na) Creating another web page by using the source of HTML that was downloaded from\nthe Internet\nb) Creating a program based on an idea that was discussed on a bulletin board on the\nInternet\nc) Creating a program to increase a company’s operational efficiency by using a\nprogram that was created during one’s school days\nd) Creating a program based on a flowchart that was shown in a purchased book",
+      "options": {
+        "a": "Creating another web page by using the source of HTML that was downloaded from\nthe Internet",
+        "b": "Creating a program based on an idea that was discussed on a bulletin board on the\nInternet",
+        "c": "Creating a program to increase a company’s operational efficiency by using a\nprogram that was created during one’s school days",
+        "d": "Creating a program based on a flowchart that was shown in a purchased book"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 70,
+      "text": "An e-mail with a subject of “Caution: New computer virus” was received from the\nexternal network. The sender is not a well-known person, and the content may or\nmay not be true. However, the e-mail describes the characteristics of the virus, and\ninstructs that the e-mail must be forwarded to as many people as possible. Which of\nthe following is an appropriate course of action to be taken in response to this e-mail?\na) Forwarding the e-mail to acquaintances\nb) Forwarding the e-mail to all employees\nc) Not forwarding the e-mail to anyone\nd) Writing the sender an e-mail asking for a measure against the virus\n– 31 –",
+      "options": {
+        "a": "Forwarding the e-mail to acquaintances",
+        "b": "Forwarding the e-mail to all employees",
+        "c": "Not forwarding the e-mail to anyone",
+        "d": "Writing the sender an e-mail asking for a measure against the virus\n– 31 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 71,
+      "text": "Which of the following is a case example that contains a potential “threat” that is one\nof the four perspectives used in a SWOT analysis?\na) Company A (consumer electronics manufacturer): There is a decrease in the number\nof cases of new product development because of a decline in technical capabilities.\nb) Company B (automobile distributor): The motivation of the sales staff seems to be\nlower than before.\nc) Company C (brand shop): The brand reputation has declined.\nd) Company D (export enterprise): The exchange rate is changing because of the\nappreciation of the local currency.",
+      "options": {
+        "a": "Company A (consumer electronics manufacturer): There is a decrease in the number\nof cases of new product development because of a decline in technical capabilities.",
+        "b": "Company B (automobile distributor): The motivation of the sales staff seems to be\nlower than before.",
+        "c": "Company C (brand shop): The brand reputation has decline",
+        "d": ""
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 72,
+      "text": "Which of the following is an appropriate purpose of CRM?\na) To increase profits by building an excellent relationship with the customer from a\nlong-term perspective\nb) To optimize the delivery time and cost by improving the series of processes from\nprocurement to manufacturing, distribution, and sales across several companies\nc) To use management resources effectively by integrating and managing the\ninformation that is independently controlled in each department\nd) To determine when and how much of materials required for manufacturing products\nis to be purchased on the basis of a bill of materials and inventory information",
+      "options": {
+        "a": "To increase profits by building an excellent relationship with the customer from a\nlong-term perspective",
+        "b": "To optimize the delivery time and cost by improving the series of processes from\nprocurement to manufacturing, distribution, and sales across several companies",
+        "c": "To use management resources effectively by integrating and managing the\ninformation that is independently controlled in each department",
+        "d": "To determine when and how much of materials required for manufacturing products\nis to be purchased on the basis of a bill of materials and inventory information"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 73,
+      "text": "Which of the following is the type of retailing where the headquarters provides the\nbusiness right, the right to use the trademark, and know-how about opening and\nrunning stores, on the basis of contracts with member stores, and collects royalties in\nreturn?\na) Outlet store b) Antenna shop\nc) Franchise chain d) Voluntary chain\n– 32 –",
+      "options": {
+        "a": "Outlet store",
+        "b": "Antenna shop",
+        "c": "Franchise chain",
+        "d": "Voluntary chain\n– 32 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 74,
+      "text": "In the planning of the business strategy of a retail business, “retention of loyal\ncustomers” is set as the CSF (Critical Success Factor). Which of the following is the\nmost appropriate analysis that is used for evaluating the achievement level of this CSF?\na) RFM analysis by customer\nb) Demographic analysis of new customers\nc) POS analysis of new products\nd) ABC analysis of the total sales amount by store and by product",
+      "options": {
+        "a": "RFM analysis by customer",
+        "b": "Demographic analysis of new customers",
+        "c": "POS analysis of new products",
+        "d": "ABC analysis of the total sales amount by store and by product"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 75,
+      "text": "In advertisements using the Internet, which of the following is an advertisement that\nuses a method where the prior consent of a recipient is acquired and advertisements\nrelating to the field of interest of the recipient are sent by e-mail?\na) Affiliate advertisement b) Overlay advertisement\nc) Opt-out e-mail advertisement d) Opt-in e-mail advertisement",
+      "options": {
+        "a": "Affiliate advertisement",
+        "b": "Overlay advertisement",
+        "c": "Opt-out e-mail advertisement",
+        "d": "Opt-in e-mail advertisement"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 76,
+      "text": "Which of the following is an approach of mutually granting the right to execute the\npatents owned by each company as a way of introducing external technologies?\na) Alliance b) Cross license\nc) Joint venture d) Royalty\n– 33 –",
+      "options": {
+        "a": "Alliance",
+        "b": "Cross license",
+        "c": "Joint venture",
+        "d": "Royalty\n– 33 –"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 78,
+      "text": "Which of the following is an appropriate case example that corresponds to traceability?\na) Computers are applied to education through the use of the Internet and web\ntechnology.\nb) All development activities are outsourced to an external specialized company\nwithout placing the development department within one’s own company.\nc) Business performance is improved by sharing and using personal knowledge and\ninformation effectively across the entire organization.\nd) The record from production up to sales can be confirmed on the basis of the food labels\npasted on meat and fish products.",
+      "options": {
+        "a": "Computers are applied to education through the use of the Internet and web\ntechnology.",
+        "b": "All development activities are outsourced to an external specialized company\nwithout placing the development department within one’s own company.",
+        "c": "Business performance is improved by sharing and using personal knowledge and\ninformation effectively across the entire organization.",
+        "d": "The record from production up to sales can be confirmed on the basis of the food labels\npasted on meat and fish products."
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 79,
+      "text": "Which of the following is the most appropriate explanation of ERP (Enterprise\nResource Planning)?\na) It is the technique and concept to improve management efficiency by planning the\ncompany-wide management resources in an effective and integrated way.\nb) It is the technique and concept to perform commercial transactions for consumers\nand between companies by using electronic networks, such as the Internet.\nc) It is the technique and concept to introduce IT into business activities with the aim of\nimproving not only efficiency and quality but also customer satisfaction.\nd) It is the technique and concept where wholesalers and manufacturers support the\nbusiness activities of retail stores for increased turnover.\n– 34 –",
+      "options": {
+        "a": "It is the technique and concept to improve management efficiency by planning the\ncompany-wide management resources in an effective and integrated way.",
+        "b": "It is the technique and concept to perform commercial transactions for consumers\nand between companies by using electronic networks, such as the Internet.",
+        "c": "It is the technique and concept to introduce IT into business activities with the aim of\nimproving not only efficiency and quality but also customer satisfaction.",
+        "d": "It is the technique and concept where wholesalers and manufacturers support the\nbusiness activities of retail stores for increased turnover.\n– 34 –"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 80,
+      "text": "Which of the following is the most appropriate purpose of using the OS for PCs as the\nOS for intelligent home appliances?\na) Reducing the memory necessary for operation\nb) Lowering the risk of being attacked from an outside source\nc) Improving the processing speed\nd) Shortening the development period of software",
+      "options": {
+        "a": "Reducing the memory necessary for operation",
+        "b": "Lowering the risk of being attacked from an outside source",
+        "c": "Improving the processing speed",
+        "d": "Shortening the development period of software"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 81,
+      "text": "Which of the following is a socio-economic disparity or inequality that is caused by the\ndifferences in skills or opportunities to use ICT (Information and Communication\nTechnologies), such as a PC and the Internet?\na) Accessibility b) Diversity\nc) Digital divide d) Digital democracy",
+      "options": {
+        "a": "Accessibility",
+        "b": "Diversity",
+        "c": "Digital divide",
+        "d": "Digital democracy"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 82,
+      "text": "In online electronic commerce, retail stores and customers are vulnerable to threats,\nsuch as falsification, spoofing, and repudiation, during order processing. Which of\nthe following is a security technique that is applicable to prevent these three threats?\na) Virus check b) Junk mail filtering\nc) Digital signature d) Packet filtering\n– 35 –",
+      "options": {
+        "a": "Virus check",
+        "b": "Junk mail filtering",
+        "c": "Digital signature",
+        "d": "Packet filtering\n– 35 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 83,
+      "text": "Training on how to use a sales forecast system is planned for the persons in charge of\nbusiness operations across the country. Which of the following is the merit that is\nobtained by using “e-learning” in training?\na) The persons in charge of business operations can be directly lectured about the\ncontent of the system from the system designer, and can also ask questions on site.\nb) The persons in charge of business operations can use their own free time and\nundergo training at any suitable time.\nc) Several persons in charge of business operations can participate together and\nexchange their opinions on how to use the system.\nd) The persons in charge of business operations can take a class all together by\nassembling in a classroom.",
+      "options": {
+        "a": "The persons in charge of business operations can be directly lectured about the\ncontent of the system from the system designer, and can also ask questions on site.",
+        "b": "The persons in charge of business operations can use their own free time and\nundergo training at any suitable time.",
+        "c": "Several persons in charge of business operations can participate together and\nexchange their opinions on how to use the system.",
+        "d": "The persons in charge of business operations can take a class all together by\nassembling in a classroom."
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 85,
+      "text": "In the software life cycle, which of the following is the process that prepares and creates\nthe scheme of a computerization project?\na) Operation b) Development\nc) Planning d) Requirements definition\n– 36 –",
+      "options": {
+        "a": "Operation",
+        "b": "Development",
+        "c": "Planning",
+        "d": "Requirements definition\n– 36 –"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 86,
+      "text": "Which of the following is an appropriate E-R diagram that shows which department an\nemployee belongs to?\na)\nEmployee Department\nBelongs to\nb)\nEmployee\nBelongs to Department\nc)\nBelongs to Department\nEmployee\nd)\nBelongs to\nEmployee Department\n– 37 –",
+      "options": {
+        "a": "Employee Department\nBelongs to",
+        "b": "Employee\nBelongs to Department",
+        "c": "Belongs to Department\nEmployee",
+        "d": "Belongs to\nEmployee Department\n– 37 –"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 88,
+      "text": "Which of the following is an appropriate purpose of defining business requirements in\nsystem development?\na) To use and control the management resources of the company in an effective and\nintegrated way\nb) To fundamentally review and reconstruct the workflow, organization, and system of\nthe company\nc) To create a policy and implementation plan for computerization in order to achieve\nbusiness objectives\nd) To get the mutual consent of interested parties by clarifying and specifying the scope\nand functions of computerization\n– 38 –\nAnswer questions A through C, each of which has four questions.\nQuestion A\nRead the following description concerning a management approval system, and then\nanswer the four questions.\nThe general affairs department of Company F decides to develop a system for\nemployees (including executive officers) to request of approval for things such as\npurchase transactions and contract documents, and to approve such requests (hereinafter\nreferred to as a management approval system). Mr. G of the general affairs department\nstudies the application screen of the management approval system and the flow of\napplication.\nTable 1 shows the input items on the application screen.\nTable 1 Input items on the application screen\nInput item Description\nSubject Title of management approval request\nPlan, purchase, contract, other\nType\n(Select one from these four types.)\nApplication date Date on which the application is made\nDescription of\nmanagement approval Details\nrequest\nAmount requested for approval when the type is purchase\nApproval amount\nor contract\nName of employee(s) whose consent is required before the\nPerson(s) giving\napproval\nconsent\n(There are one or more persons whose consent is required.)\nApprover Name of the employee who gives final approval\nName of employee(s) viewing the management approval\nViewer(s)\nrequest after the request is approved\nAttachments Attachments deemed necessary by the applicant\n– 39 –\nThe flow of application by the management approval system is as follows:\n(1) The applicant enters the required items on the application screen. It is possible\nto temporarily save the management approval request before the application.\n(2) The application for a management approval request is made after the required\nitems are all entered.\n(3) Persons who give their consent can reference the management approval request\nfor which there has been submitted.\n(4) Persons who give their consent agree to the request if there are no issues with the\nmanagement approval request. If there are any issues, the request is returned.\n(5) After all persons who give their consent agree to the request, an approver can\nperform the approval process for the management approval request that has been\nsubmitted.\n(6) The approver approves the management approval request if there are no issues.\nIf there are any issues, the request is returned.\nIn the management approval system, the process is performed by pressing the “Run”\nbutton, which is displayed on each screen for submitting, agreeing, returning, and\napproving. At the same time input items, date, and time are saved as history.\nHowever, input information before the application is not saved as history. If a\nmanagement approval request has been returned, the applicant can edit and submit it for\napproval again.\n[Technology]",
+      "options": {
+        "a": "To use and control the management resources of the company in an effective and\nintegrated way",
+        "b": "To fundamentally review and reconstruct the workflow, organization, and system of\nthe company",
+        "c": "To create a policy and implementation plan for computerization in order to achieve\nbusiness objectives",
+        "d": "To get the mutual consent of interested parties by clarifying and specifying the scope\nand functions of computerization\n– 38 –\nAnswer questions A through C, each of which has four questions.\nQuestion A\nRead the following description concerning a management approval system, and then\nanswer the four questions.\nThe general affairs department of Company F decides to develop a system for\nemployees (including executive officers) to request of approval for things such as\npurchase transactions and contract documents, and to approve such requests (hereinafter\nreferred to as a management approval system). Mr. G of the general affairs department\nstudies the application screen of the management approval system and the flow of\napplication.\nTable 1 shows the input items on the application screen.\nTable 1 Input items on the application screen\nInput item Description\nSubject Title of management approval request\nPlan, purchase, contract, other\nType\n(Select one from these four types.)\nApplication date Date on which the application is made\nDescription of\nmanagement approval Details\nrequest\nAmount requested for approval when the type is purchase\nApproval amount\nor contract\nName of employee(s) whose consent is required before the\nPerson(s) giving\napproval\nconsent\n(There are one or more persons whose consent is require"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 89,
+      "text": "Which of the following is an appropriate GUI (Graphical User Interface) component\nthat is used for entering the input item “Type”?\na) Scroll bar b) Check box\nc) Text box d) Radio button\n– 40 –\n[Technology]",
+      "options": {
+        "a": "Scroll bar",
+        "b": "Check box",
+        "c": "Text box",
+        "d": "Radio button\n– 40 –\n[Technology]"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 90,
+      "text": "Which of the following is a basic error check that can be performed by the system in\norder to prevent input errors between multiple input items on the application screen?\na) Check if the Approval amount is entered for Type that requires the input of Approval\namount.\nb) Check if the Approval amount is appropriate for the Subject.\nc) Check if the Description of management approval request is filled in appropriately to\nthe Subject.\nd) Check if there exists the required attachment for the Description of management\napproval request.\n[Technology]",
+      "options": {
+        "a": "Check if the Approval amount is entered for Type that requires the input of Approval\namount.",
+        "b": "Check if the Approval amount is appropriate for the Subject.",
+        "c": "Check if the Description of management approval request is filled in appropriately to\nthe Subject.",
+        "d": "Check if there exists the required attachment for the Description of management\napproval request.\n[Technology]"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 91,
+      "text": "The flow of application by the management approval system is normally in the\nsequence (1) through (6). However, there are some cases where the flow branches.\nWhich of the following is the process where the flow branches?\na) Process where the applicant temporarily saves the management approval request\nbefore the application is submitted\nb) Process where the person(s) giving consent can reference the management approval\nrequest after the applicant has submitted the approval request\nc) Process where the approver can approve the management approval request after all\npersons who give consent have agreed\nd) Process where the approval request is returned if there are any issues\n[Management]",
+      "options": {
+        "a": "Process where the applicant temporarily saves the management approval request\nbefore the application is submitted",
+        "b": "Process where the person(s) giving consent can reference the management approval\nrequest after the applicant has submitted the approval request",
+        "c": "Process where the approver can approve the management approval request after all\npersons who give consent have agreed",
+        "d": "Process where the approval request is returned if there are any issues\n[Management]"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "q_num": 92,
+      "text": "Which of the following is an item that cannot be confirmed from the content that is\nsaved as history by the management approval system?\na) Date and time when each of application, agreement, return, and approval is executed\nb) Time that is taken from the submission of an application until its approval\nc) Number of times of correction before an application is submitted\nd) Number of times that an application is returned\n– 41 –\nQuestion B\nRead the following description concerning product sales data analysis, and then answer\nthe four questions.\nThe sales department of Company N is developing a sales strategy for this fiscal year by\nanalyzing product sales records of the previous fiscal year from the perspective of gross\nprofit margin, inventory turnover, and sales composition. Here, inventory turnover is\ncalculated by dividing the sales amount for a certain period of time by the average\ninventory quantity.\nFor this analysis, spreadsheet software is used to create the worksheet below, on the\nbasis of sales records of the previous year. Here, the range of cells A2 through H11 are\nsorted on the basis of column B as a key in descending order, and then the expressions\nof columns I and J are entered.\nA B C D E F G H I J\nGross Average Cumulative\nAmount Cost of Gross Inventory Sales\nProduct profit inventory sales\n1 of sales sales profit turnover composition Rank\nname margin amount composition\n(dollars) (dollars) (dollars) (times) (%)\n(%) (dollars) (%)\nProduct\n2 1,730 30.8 120 14.4 14.8\nA\nProduct\n3 410 23.4 50 8.2 3.5\nB\nProduct\n4 2,630 22.7 220 12.0 22.5\nC\nProduct\n5 3,360 30.7 364 9.2 28.8\nD\nProduct\n6 310 25.2 29 10.7 2.7\nE\nProduct\n7 210 21.0 30 7.0 1.8\nF\nProduct\n8 860 28.6 97 8.9 7.4\nG\nProduct\n9 610 28.2 40 15.3 5.2\nH\nProduct\n10 300 18.7 35 8.6 2.6\nI\nProduct\n11 1,260 22.1 90 14.0 10.8\nJ\n12 Total 11,680\nNOTE: The shaded cells are intentionally left blank.\nFig. Worksheet of sales analysis by product\n– 42 –\n[Strategy]",
+      "options": {
+        "a": "Date and time when each of application, agreement, return, and approval is executed",
+        "b": "Time that is taken from the submission of an application until its approval",
+        "c": "Number of times of correction before an application is submitted",
+        "d": "Number of times that an application is returned\n– 41 –\nQuestion B\nRead the following description concerning product sales data analysis, and then answer\nthe four questions.\nThe sales department of Company N is developing a sales strategy for this fiscal year by\nanalyzing product sales records of the previous fiscal year from the perspective of gross\nprofit margin, inventory turnover, and sales composition. Here, inventory turnover is\ncalculated by dividing the sales amount for a certain period of time by the average\ninventory quantity.\nFor this analysis, spreadsheet software is used to create the worksheet below, on the\nbasis of sales records of the previous year. Here, the range of cells A2 through H11 are\nsorted on the basis of column B as a key in descending order, and then the expressions\nof columns I and J are entere"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 93,
+      "text": "Which of the following is the appropriate expression to be inserted into cell E2? Here,\nthe expression does not perform the percentile operation and rounding, and the display\nof percentage is controlled by the display format of the cell.\na) C2/B2 b) D2/B2\nc) D12/B12*B2 d) D2/D12\n– 43 –\n[Strategy]",
+      "options": {
+        "a": "C2/B2",
+        "b": "D2/B2",
+        "c": "D12/B12*B2",
+        "d": "D2/D12\n– 43 –\n[Strategy]"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "q_num": 94,
+      "text": "When sales are analyzed, a product with both high gross profit margin and high\ninventory turnover is regarded as an excellent product with high sales efficiency and\nhigh profitability. In order to visualize the sales efficiency indicator and sales amount,\nthe bubble chart below can be created to show the relationship between sales amount,\ngross profit margin, and inventory turnover of each product. Which of the following\nis an appropriate description of the analysis results based on the chart?\n17\nProduct H\n16\nProduct J\n15\n14\n13\n12\nt 11\nu Product D\nr\nn 10\no\nv\ne 9\nr\nn I 8\nv\nn e 7\no t Product F\nr 6\ny\n5\n15.0 20.0 25.0 30.0 35.0\nGross profit margin (%)\na) “Product D” is a low-margin high-turnover product. In order to maintain profit,\ncareful product management is required so as not to run out of inventory.\nb) “Product F” exhibits a small sales amount and the highest sales efficiency. No\nspecial action is required for this product.\nc) “Product H” exhibits moderate sales amount, less excess inventory, and large profits.\nIf proper action to increase sales is taken, growth in profit can be expected.\nd) “Product J” is a luxury product that exhibits small sales quantity and high price. It\nplays an important role to maintain a broad customer base.\n– 44 –\n[Strategy]",
+      "options": {
+        "a": "“Product D” is a low-margin high-turnover product. In order to maintain profit,\ncareful product management is required so as not to run out of inventory.",
+        "b": "“Product F” exhibits a small sales amount and the highest sales efficiency. No\nspecial action is required for this product.",
+        "c": "“Product H” exhibits moderate sales amount, less excess inventory, and large profits.\nIf proper action to increase sales is taken, growth in profit can be expecte",
+        "d": ""
+      },
+      "correct_answer": "c"
+    },
+    {
+      "q_num": 95,
+      "text": "In Company N, the products are ranked on the basis of the sales composition. The\ncompany makes purchases and prioritizes sales management according to product rank.\nWhen a rank is assigned to each product by using the “worksheet of sales analysis by\nproduct” shown in the figure above, on the basis of the conditions shown below, which\nof the following is the expression to be inserted in cell J2?\n[Conditions]\n(1) Sort the range of cells A2 through H11 on the basis of column B as a key in\ndescending order.\n(2) Enter an expression into cell I2 that copies the value of cell H2 to cell I2.\n(3) Enter the expression “I2+H3\" into cell I3, and then copy it to cells I4 through\nI11.\n(4) The ranking criteria are shown in the table below.\nRank Classification based on cumulative sales composition\nA A product within the top 70%\nB A product not ranked as A, but within the top 90%\nC A product ranked neither as A nor B\na) IF(I2≤0.7,‘A’,IF(I2≤0.9,‘B’,‘C’))\nb) IF(I2≤0.9,‘C’,IF(I2≤0.7,‘A’,‘B’))\nc) IF(I2≥0.7,‘A’,IF(I2≥0.9,‘B’,‘C’))\nd) IF(I2≥0.9,‘C’,IF(I2≥0.7,‘A’,‘B’))\n– 45 –\n[Strategy]",
+      "options": {
+        "a": "IF(I2≤0.7,‘A’,IF(I2≤0.9,‘B’,‘C’))",
+        "b": "IF(I2≤0.9,‘C’,IF(I2≤0.7,‘A’,‘B’))",
+        "c": "IF(I2≥0.7,‘A’,IF(I2≥0.9,‘B’,‘C’))",
+        "d": "IF(I2≥0.9,‘C’,IF(I2≥0.7,‘A’,‘B’))\n– 45 –\n[Strategy]"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 96,
+      "text": "In developing a sales strategy for this fiscal year, the company is to extract products for\nwhich “cumulative sales composition” summed up from the top selling product\ndownwards is less than or equal to 70%, and for which “inventory turnover” is less\nthan or equal to 10 times. These products are designated as high-priority target\nproducts to improve inventory turnover. How many products are extracted as such\ntarget products?\na) 1 b) 2 c) 3 d) 4\n– 46 –\nQuestion C\nRead the following description concerning a library system, and then answer the four\nquestions.\nIn Library A, lending and return operations for books are performed with a library\nsystem that makes use of bar codes.\n[Lending and return operations for books]\n(1) The person in charge of book-lending operation reads the user number of the user\ncard and the ID number that is assigned to each book with a bar code reader, and\nregisters the lending information.\n(2) The person in charge of book-return operation reads the ID number of the book\nwith the bar code reader, and registers the return information.\nAt present, with the aim of improving convenience for the user in addition to the\nefficiency of service, the installation of a system (hereinafter, new system) in\nwhich the bar code of the current library system is changed to RFID (Radio\nFrequency Identification) is being investigated. The comparison between the\ncharacteristics of the bar code used in the library system and RFID is shown in Table 1.\nTable 1 Comparison between the characteristics of the bar code used in the\nlibrary system and RFID\nBar code RFID\nA few centimeters to a few A few centimeters to a few\nReading distance\ntens of centimeters tens of centimeters\nRead rate One at a time Two or more at a time\nAmount of Approximately ten and Several hundred to several\ninformation read some characters at a time thousand characters at a time\nReading by using\nReading method Optical reading\nelectromagnetic waves\nThe librarian Mr. B studies the feasibility of implementing the requirements of users and\nlibrarians in the new system.\n– 47 –\n[Requirements]\n(1) The user number on a user card and the ID number of a book are read individually\nby the bar code reader. Therefore, during the time period when lending is at its\npeak, users may have no option but to queue at the lending counter. The person in\ncharge of book-lending operations wants the service to be done quickly.\n(2) Books that are taken out from the bookshelf are sometimes not placed back on\ntheir original shelves by the user. Although this is corrected periodically while\nthe shelves and books are checked, the time that is taken for this operation needs\nto be shortened.\n(3) The person in charge of book-return operations keeps aside the books that are\nreserved for lending, and informs the user who has reserved the book by telephone.\nSometimes, contact cannot be established even after several calls are made, and\ntherefore, the effort that is required to establish contact needs to be reduced.\n(4) The return of books is also accepted through the return box that is set up at the\nentrance of the library. When book-return operations are delayed, the time\nperiod for which books have been lent out on the library system increases. In\norder to improve convenience for the user, the books in the return box need to be\nascertained.\n[Strategy]",
+      "options": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4\n– 46 –\nQuestion C\nRead the following description concerning a library system, and then answer the four\nquestions.\nIn Library A, lending and return operations for books are performed with a library\nsystem that makes use of bar codes.\n[Lending and return operations for books]\n(1) The person in charge of book-lending operation reads the user number of the user\ncard and the ID number that is assigned to each book with a bar code reader, and\nregisters the lending information.\n(2) The person in charge of book-return operation reads the ID number of the book\nwith the bar code reader, and registers the return information.\nAt present, with the aim of improving convenience for the user in addition to the\nefficiency of service, the installation of a system (hereinafter, new system) in\nwhich the bar code of the current library system is changed to RFID (Radio\nFrequency Identification) is being investigate"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 97,
+      "text": "Mr. B makes a study of providing each user with a user card that contains a built-in\nRFID, pasting sheet-shaped RFIDs on the books, installing an RFID reader at the\ncounter, and using such equipment at the time of the lending and return operations.\nWhich of the following is the appropriate item of [Requirements] that can be improved\nwith this change?\na) (1) b) (2) c) (3) d) (4)\n– 48 –\n[Management]",
+      "options": {
+        "a": "(1)",
+        "b": "(2)",
+        "c": "(3)",
+        "d": "(4)\n– 48 –\n[Management]"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "q_num": 99,
+      "text": "In order to implement the [Requirements], Mr. B investigates systems that use\ncommercial RFIDs, and considers the solution plan described below.\n(i) Prepare a user card that contains a built-in RFID, stick a sheet-shaped RFID onto\na book, and then install the new RFID reader to be used at the counter for the\nlending and return operations\n(ii) Install RFID readers in the shelf panel of all book shelves, and implement a\nsystem for checking the books and book shelves\n(iii) Install an RFID reader in the return box\nMr. B considers the effects of options (i) through (iii), and as a result, he notices that\nthere is a requirement that cannot be fulfilled with them. Which of the following is\nthe item of [Requirements] that cannot be fulfilled?\na) (1) b) (2) c) (3) d) (4)\n– 50 –\n[Strategy]",
+      "options": {
+        "a": "(1)",
+        "b": "(2)",
+        "c": "(3)",
+        "d": "(4)\n– 50 –\n[Strategy]"
+      },
+      "correct_answer": "c"
+    }
+  ]
+}
