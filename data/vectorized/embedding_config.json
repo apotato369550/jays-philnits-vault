@@ -1,0 +1,7 @@
+{
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_dimension": 384,
+  "total_questions": 1472,
+  "total_exams": 20,
+  "vectorization_timestamp": "2026-02-08T23:39:02.699196"
+}

@@ -682,9 +682,13 @@ class ExamPatternAnalyzer:
         samples = []
         for idx in sample_indices:
             meta = self.metadata[idx]
+            q_num = meta.get("q_num")
+            # Convert numpy types to Python native types for JSON serialization
+            if hasattr(q_num, 'item'):
+                q_num = q_num.item()
             samples.append(
                 {
-                    "q_num": meta.get("q_num"),
+                    "q_num": q_num,
                     "exam": meta.get("exam"),
                     "text": meta.get("question_text", "")[:100] + "...",
                 }
@@ -737,8 +741,20 @@ class ExamPatternAnalyzer:
     def save_agent_analysis(self, data: Dict) -> None:
         """Save agent analysis to JSON."""
         output_file = self.output_dir / "exam_analysis_agent.json"
+
+        # Custom encoder to handle NumPy types
+        class NumpyEncoder(json.JSONEncoder):
+            def default(self, obj):
+                if isinstance(obj, (np.integer, np.int32, np.int64)):
+                    return int(obj)
+                elif isinstance(obj, (np.floating, np.float32, np.float64)):
+                    return float(obj)
+                elif isinstance(obj, np.ndarray):
+                    return obj.tolist()
+                return super().default(obj)
+
         with open(output_file, "w", encoding="utf-8") as f:
-            json.dump(data, f, indent=2, ensure_ascii=False)
+            json.dump(data, f, indent=2, ensure_ascii=False, cls=NumpyEncoder)
         self.logger.info(f"Saved agent analysis to {output_file}")
 
     def generate_user_guide(self) -> str:
