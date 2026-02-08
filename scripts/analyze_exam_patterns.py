@@ -376,30 +376,46 @@ class ExamPatternAnalyzer:
 
     def extract_keywords(self, top_n: int = 10) -> None:
         """
-        Extract top technical keywords per cluster using domain-aware filtering.
+        Extract distinctive technical keywords per cluster using hybrid approach:
+        1. Domain keywords (from DOMAIN_KEYWORDS) ranked by frequency in cluster
+        2. Rare n-grams (2-3 words) that appear frequently in cluster but rarely in corpus
 
         Args:
             top_n: Number of top keywords to extract per cluster
         """
         self.logger.info(f"Extracting keywords (top {top_n} per cluster)...")
 
-        # Exam-specific stopwords (boilerplate language)
-        exam_stopwords = [
-            "following", "appropriate", "explanation", "company", "represents",
-            "information", "management", "number", "correct", "diagram", "figure",
-            "shown", "illustrated", "best", "described", "option", "choose",
-            "select", "statement", "question", "answer", "result", "output",
-            "example", "case", "situation", "scenario", "used", "using",
-        ]
-
-        # Combine with English stopwords
-        from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
-        all_stopwords = list(ENGLISH_STOP_WORDS) + exam_stopwords
-
         # Build domain keyword lookup (all technical terms across domains)
-        all_domain_keywords = set()
-        for keywords in self.DOMAIN_KEYWORDS.values():
-            all_domain_keywords.update(kw.lower() for kw in keywords)
+        all_domain_keywords = {}
+        for domain, keywords in self.DOMAIN_KEYWORDS.items():
+            for kw in keywords:
+                all_domain_keywords[kw.lower()] = domain
+
+        # Build corpus-wide n-gram frequency map
+        all_texts = [meta.get("question_text", "") for meta in self.metadata]
+        corpus_ngram_counts = Counter()
+
+        # Extract all n-grams from corpus for rarity filtering
+        from sklearn.feature_extraction.text import CountVectorizer
+        ngram_vectorizer = CountVectorizer(
+            ngram_range=(2, 3),
+            lowercase=True,
+            max_features=5000,
+        )
+        try:
+            ngram_vectorizer.fit(all_texts)
+            corpus_ngrams = ngram_vectorizer.get_feature_names_out()
+
+            # Count n-gram occurrences across corpus
+            for text in all_texts:
+                text_lower = text.lower()
+                for ngram in corpus_ngrams:
+                    if ngram in text_lower:
+                        corpus_ngram_counts[ngram] += 1
+        except:
+            corpus_ngrams = []
+
+        total_questions = len(all_texts)
 
         for cluster_id in range(self.n_clusters):
             # Get question indices for this cluster
@@ -416,70 +432,73 @@ class ExamPatternAnalyzer:
                 self.cluster_keywords[cluster_id] = []
                 continue
 
-            # Apply TF-IDF with enhanced stopwords
-            try:
-                tfidf = TfidfVectorizer(
-                    max_features=200,
-                    stop_words=all_stopwords,
-                    ngram_range=(1, 3),  # Include 3-grams for technical phrases
-                    lowercase=True,
-                    min_df=2,  # Must appear in at least 2 documents
-                )
-                tfidf_matrix = tfidf.fit_transform(cluster_texts)
-                feature_names = tfidf.get_feature_names_out()
+            cluster_size = len(cluster_texts)
 
-                # Get top keywords
-                mean_tfidf = tfidf_matrix.mean(axis=0).A1
-                top_indices = np.argsort(mean_tfidf)[::-1]  # All sorted descending
+            # PHASE 1: Count domain keywords in this cluster
+            domain_keyword_counts = Counter()
+            for text in cluster_texts:
+                text_lower = text.lower()
+                for keyword, domain in all_domain_keywords.items():
+                    # Whole word matching
+                    import re
+                    pattern = r'\b' + re.escape(keyword) + r'\b'
+                    if re.search(pattern, text_lower):
+                        domain_keyword_counts[keyword] += 1
 
-                keywords = []
-                domain_matched = 0
+            # PHASE 2: Extract rare n-grams (frequent in cluster, rare in corpus)
+            rare_ngrams = Counter()
+            for text in cluster_texts:
+                text_lower = text.lower()
+                for ngram in corpus_ngrams:
+                    if ngram in text_lower:
+                        rare_ngrams[ngram] += 1
 
-                # Prioritize domain keywords, then fall back to high TF-IDF
-                for idx in top_indices:
-                    word = feature_names[idx]
-                    tf_idf_score = float(mean_tfidf[idx])
+            # Filter: must appear in >=3 questions in cluster AND <10% of corpus
+            distinctive_ngrams = {}
+            for ngram, cluster_freq in rare_ngrams.items():
+                corpus_freq = corpus_ngram_counts[ngram]
+                corpus_prevalence = corpus_freq / total_questions
 
-                    # Skip if very low TF-IDF (noise)
-                    if tf_idf_score < 0.01:
-                        continue
+                # Distinctive if: appears 3+ times in cluster, <10% corpus prevalence
+                if cluster_freq >= 3 and corpus_prevalence < 0.10:
+                    # Check it's not already covered by domain keywords
+                    is_domain_covered = any(
+                        kw in ngram for kw in domain_keyword_counts.keys()
+                    )
+                    if not is_domain_covered:
+                        distinctive_ngrams[ngram] = cluster_freq
 
-                    # Case-sensitive frequency for acronyms
-                    freq = sum(1 for text in cluster_texts if word in text.lower())
+            # PHASE 3: Combine and rank
+            keywords = []
 
-                    # Check if this matches a domain keyword
-                    is_domain_keyword = word.lower() in all_domain_keywords
+            # Add domain keywords (prioritized)
+            for keyword, freq in domain_keyword_counts.most_common():
+                keywords.append({
+                    "word": keyword,
+                    "frequency": freq,
+                    "prevalence": round(freq / cluster_size, 3),
+                    "type": "domain_keyword",
+                })
 
-                    # Prioritize domain keywords
-                    if is_domain_keyword:
-                        keywords.append({
-                            "word": word,
-                            "tf_idf": round(tf_idf_score, 4),
-                            "frequency": freq,
-                            "domain_term": True,
-                        })
-                        domain_matched += 1
-                    elif len(keywords) < top_n:
-                        # Fill remaining slots with high TF-IDF non-domain terms
-                        keywords.append({
-                            "word": word,
-                            "tf_idf": round(tf_idf_score, 4),
-                            "frequency": freq,
-                            "domain_term": False,
-                        })
+            # Add distinctive n-grams
+            for ngram, freq in sorted(distinctive_ngrams.items(), key=lambda x: x[1], reverse=True):
+                keywords.append({
+                    "word": ngram,
+                    "frequency": freq,
+                    "prevalence": round(freq / cluster_size, 3),
+                    "type": "distinctive_ngram",
+                })
 
-                    if len(keywords) >= top_n:
-                        break
+            # Limit to top_n
+            self.cluster_keywords[cluster_id] = keywords[:top_n]
 
-                self.cluster_keywords[cluster_id] = keywords
-                self.logger.info(
-                    f"Cluster {cluster_id}: extracted {len(keywords)} keywords "
-                    f"({domain_matched} domain-matched)"
-                )
+            domain_count = sum(1 for kw in self.cluster_keywords[cluster_id] if kw["type"] == "domain_keyword")
+            ngram_count = sum(1 for kw in self.cluster_keywords[cluster_id] if kw["type"] == "distinctive_ngram")
 
-            except Exception as e:
-                self.logger.error(f"Error extracting keywords for cluster {cluster_id}: {e}")
-                self.cluster_keywords[cluster_id] = []
+            self.logger.info(
+                f"Cluster {cluster_id}: extracted {len(self.cluster_keywords[cluster_id])} keywords "
+                f"({domain_count} domain, {ngram_count} distinctive n-grams)"
+            )
 
     def classify_question_types(self) -> None:
         """Classify questions by type using regex patterns."""
