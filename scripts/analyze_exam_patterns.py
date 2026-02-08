@@ -376,12 +376,30 @@ class ExamPatternAnalyzer:
 
     def extract_keywords(self, top_n: int = 10) -> None:
         """
-        Extract top TF-IDF keywords per cluster.
+        Extract top technical keywords per cluster using domain-aware filtering.
 
         Args:
             top_n: Number of top keywords to extract per cluster
         """
         self.logger.info(f"Extracting keywords (top {top_n} per cluster)...")
+
+        # Exam-specific stopwords (boilerplate language)
+        exam_stopwords = [
+            "following", "appropriate", "explanation", "company", "represents",
+            "information", "management", "number", "correct", "diagram", "figure",
+            "shown", "illustrated", "best", "described", "option", "choose",
+            "select", "statement", "question", "answer", "result", "output",
+            "example", "case", "situation", "scenario", "used", "using",
+        ]
+
+        # Combine with English stopwords
+        from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
+        all_stopwords = list(ENGLISH_STOP_WORDS) + exam_stopwords
+
+        # Build domain keyword lookup (all technical terms across domains)
+        all_domain_keywords = set()
+        for keywords in self.DOMAIN_KEYWORDS.values():
+            all_domain_keywords.update(kw.lower() for kw in keywords)
 
         for cluster_id in range(self.n_clusters):
             # Get question indices for this cluster
@@ -398,41 +416,65 @@ class ExamPatternAnalyzer:
                 self.cluster_keywords[cluster_id] = []
                 continue
 
-            # Apply TF-IDF
+            # Apply TF-IDF with enhanced stopwords
             try:
                 tfidf = TfidfVectorizer(
-                    max_features=100,
-                    stop_words="english",
-                    ngram_range=(1, 2),
+                    max_features=200,
+                    stop_words=all_stopwords,
+                    ngram_range=(1, 3),  # Include 3-grams for technical phrases
                     lowercase=True,
+                    min_df=2,  # Must appear in at least 2 documents
                 )
                 tfidf_matrix = tfidf.fit_transform(cluster_texts)
                 feature_names = tfidf.get_feature_names_out()
 
                 # Get top keywords
                 mean_tfidf = tfidf_matrix.mean(axis=0).A1
-                top_indices = np.argsort(mean_tfidf)[-top_n:][::-1]
+                top_indices = np.argsort(mean_tfidf)[::-1]  # All sorted descending
 
                 keywords = []
+                domain_matched = 0
+
+                # Prioritize domain keywords, then fall back to high TF-IDF
                 for idx in top_indices:
                     word = feature_names[idx]
                     tf_idf_score = float(mean_tfidf[idx])
-                    freq = sum(
-                        1
-                        for text in cluster_texts
-                        if word.lower() in text.lower()
-                    )
-                    keywords.append(
-                        {
+
+                    # Skip if very low TF-IDF (noise)
+                    if tf_idf_score < 0.01:
+                        continue
+
+                    # Case-sensitive frequency for acronyms
+                    freq = sum(1 for text in cluster_texts if word in text.lower())
+
+                    # Check if this matches a domain keyword
+                    is_domain_keyword = word.lower() in all_domain_keywords
+
+                    # Prioritize domain keywords
+                    if is_domain_keyword:
+                        keywords.append({
                             "word": word,
                             "tf_idf": round(tf_idf_score, 4),
                             "frequency": freq,
-                        }
-                    )
+                            "domain_term": True,
+                        })
+                        domain_matched += 1
+                    elif len(keywords) < top_n:
+                        # Fill remaining slots with high TF-IDF non-domain terms
+                        keywords.append({
+                            "word": word,
+                            "tf_idf": round(tf_idf_score, 4),
+                            "frequency": freq,
+                            "domain_term": False,
+                        })
+
+                    if len(keywords) >= top_n:
+                        break
 
                 self.cluster_keywords[cluster_id] = keywords
                 self.logger.info(
-                    f"Cluster {cluster_id}: extracted {len(keywords)} keywords"
+                    f"Cluster {cluster_id}: extracted {len(keywords)} keywords "
+                    f"({domain_matched} domain-matched)"
                 )
 
             except Exception as e:
@@ -530,6 +572,7 @@ class ExamPatternAnalyzer:
         Scan all question texts for industry-specific vocabulary.
 
         Categorizes as FOUNDATIONAL or ADVANCED.
+        Uses case-sensitive matching for acronyms (all-caps terms).
         """
         self.logger.info("Extracting industry vocabulary...")
 
@@ -544,13 +587,22 @@ class ExamPatternAnalyzer:
 
         for idx, metadata_item in enumerate(self.metadata):
             cluster_id = self.clusters[idx]
-            text = metadata_item.get("question_text", "").lower()
+            text = metadata_item.get("question_text", "")
 
             for term in all_vocab.keys():
-                # Case-insensitive search
-                if term.lower() in text:
-                    term_counts[term] += 1
-                    term_clusters[term].add(cluster_id)
+                # Case-sensitive for acronyms (all uppercase), case-insensitive otherwise
+                if term.isupper() and len(term) <= 6:
+                    # Acronym: exact case match with word boundaries
+                    import re
+                    pattern = r'\b' + re.escape(term) + r'\b'
+                    if re.search(pattern, text):
+                        term_counts[term] += 1
+                        term_clusters[term].add(cluster_id)
+                else:
+                    # Regular term: case-insensitive
+                    if term.lower() in text.lower():
+                        term_counts[term] += 1
+                        term_clusters[term].add(cluster_id)
 
         # Organize by category
         for term, definition in self.INDUSTRY_VOCAB_FOUNDATIONAL.items():
